@@ -8,7 +8,7 @@ This workflow governs how brand-provided colors become durable design-system art
 2. Preserve all source swatches, labels, usage scopes, and channel restrictions in the intake and preview artifacts.
 3. Reuse existing universal tokens first, especially `universal/white` and `universal/black`.
 4. Add brand families only for materially distinct brand hues or contractually important neutrals.
-5. Keep raw brand families in `_Global: Color` and keep them on the shared `50-950` scale.
+5. Keep raw brand families in `_Global: Color` and keep them on the shared `100-900` scale.
 6. If a brand family is acting as a neutral system color, especially for backgrounds or system surfaces, map it to the semantic neutral role set instead of a brand accent lane.
 7. Generate ramps in `OKLCH` and validate contrast before proposing a write.
 8. Produce a preview artifact before any write is proposed or executed.

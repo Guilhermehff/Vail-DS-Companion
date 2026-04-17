@@ -60,7 +60,7 @@ Source basis: The user-provided Mount Sunapee color-usage page gives a stacked d
 
 ### Family: sunapee_neutral
 
-Source anchors: `100_source / 400_source / 800_source`
+Source anchors: `200_source / 400_source / 800_source`
 
 <div>
   <span title="100 #fbfaf6" style="display:inline-block;width:32px;height:32px;background:#fbfaf6;border:1px solid #d1d5db;"></span>

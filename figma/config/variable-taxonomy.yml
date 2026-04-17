@@ -1,5 +1,5 @@
-version: 13
-updated: 2026-04-01
+version: 14
+updated: 2026-04-16
 owner: vail_resorts
 scope:
   purpose: Token naming and structure rules for the Vail Resorts Design System
@@ -73,7 +73,7 @@ token_levels:
       - Semantic typography at this layer includes family and weight by default. Typography size is published directly from `Global: Typography` unless an accepted decision approves a channel-scoped semantic size recipe.
     ladder_examples:
       - "universal/slate/300 -> color/surface/neutral/default -> background/module/default"
-      - "universal/green/700 -> color/surface/positive/strong -> background/status/positive"
+      - "universal/green/700 -> color/surface/brand_secondary/strong -> background/promo/default"
       - "universal/slate/900 -> color/foreground/default -> text/body/default"
       - "vail/digital_blue/800 -> color/surface/brand/default -> background/action/default"
       - "vail/family/01 -> typography/family/heading -> typography/heading/display"
@@ -91,7 +91,7 @@ token_levels:
       examples:
         - color/surface/neutral/default
         - color/on_surface/brand/default
-        - color/foreground/critical
+        - color/foreground/brand_secondary
         - color/border/brand_secondary
         - typography/family/heading
         - typography/family/body_safe
@@ -304,7 +304,7 @@ semantic_theme_color_aliases:
     base_collection: "Semantic: Theme"
     base_mode: Default
     brand_extension_format: "<Brand>"
-    brand_extension_rule: The base collection defines shared neutral, expressive, status, inverse, and asset role sets. Brand extensions override only the neutral, brand, and brand_secondary role groups that materially differ from the shared universal baseline, including their `_inverse` companions, plus `variables/assets/logo` when that base token is present. Do not persist an override when it resolves to the same alias target or the same literal value as the base semantic token. A third brand family stays global-only until another accepted decision promotes it into semantic.
+    brand_extension_rule: The base collection defines shared neutral, expressive, inverse, and asset role sets. Brand extensions override only the neutral, brand, and brand_secondary role groups that materially differ from the shared universal baseline, including their `_inverse` companions, plus `variables/assets/logo` when that base token is present. Do not persist an override when it resolves to the same alias target or the same literal value as the base semantic token. A third brand family stays global-only until another accepted decision promotes it into semantic.
   neutral_role_set:
     surfaces:
       - canvas
@@ -330,21 +330,6 @@ semantic_theme_color_aliases:
       - Every expressive semantic token has a governed `_inverse` companion using the same role path plus the `_inverse` suffix.
       - Expressive `color/on_surface/*` tokens are contrast-derived from `universal/black` or `universal/white`; they are not hue-tinted by the expressive family.
       - If a brand has a third approved family, keep it global-only until another accepted decision promotes a new semantic lane.
-  status_role_sets:
-    lanes:
-      - positive
-      - warning
-      - critical
-    surface_steps:
-      - muted
-      - subtle
-      - default
-      - strong
-      - emphasis
-    notes:
-      - Shared status roles remain on the base collection and are not brand-specific unless another accepted decision explicitly allows it.
-      - Every status semantic token has a governed `_inverse` companion using the same role path plus the `_inverse` suffix.
-      - Status `color/on_surface/*` tokens are contrast-derived from `universal/black` or `universal/white`; they are not lane-tinted.
   foreground_tokens:
     - color/foreground/default
     - color/foreground/default_inverse
@@ -354,12 +339,6 @@ semantic_theme_color_aliases:
     - color/foreground/brand_inverse
     - color/foreground/brand_secondary
     - color/foreground/brand_secondary_inverse
-    - color/foreground/positive
-    - color/foreground/positive_inverse
-    - color/foreground/warning
-    - color/foreground/warning_inverse
-    - color/foreground/critical
-    - color/foreground/critical_inverse
   asset_tokens:
     - variables/assets/logo
   border_tokens:
@@ -371,12 +350,6 @@ semantic_theme_color_aliases:
     - color/border/brand_inverse
     - color/border/brand_secondary
     - color/border/brand_secondary_inverse
-    - color/border/positive
-    - color/border/positive_inverse
-    - color/border/warning
-    - color/border/warning_inverse
-    - color/border/critical
-    - color/border/critical_inverse
   examples:
     - color/surface/neutral/default
     - color/surface/neutral/default_inverse
@@ -384,8 +357,8 @@ semantic_theme_color_aliases:
     - color/surface/brand/strong_inverse
     - color/on_surface/brand_secondary/subtle
     - color/on_surface/brand_secondary/subtle_inverse
-    - color/surface/critical/default
-    - color/surface/critical/default_inverse
+    - color/surface/brand_secondary/default
+    - color/surface/brand_secondary/default_inverse
     - color/foreground/brand
     - color/foreground/brand_inverse
     - color/border/subtle
@@ -615,9 +588,9 @@ review_checks:
   - Flag variables that repeat the collection category in their path.
   - Flag writes performed without confirming the target file.
   - Flag brand-specific duplicates of universal/white or universal/black.
-  - Flag brand color families that do not use the standard 50 to 950 scale.
+  - Flag brand color families that do not use the standard 100 to 900 scale.
   - Flag brand color artifacts that omit the documented source anchor step.
-  - Flag 900 or 950 brand color steps that do not meet the white-contrast requirement.
+  - Flag 900 brand color steps that do not meet the white-contrast requirement.
   - Flag brand color proposals that do not include a preview artifact before write.
   - Flag brand color artifacts that do not preserve the original source swatches in both intake and preview.
   - Flag brand color artifacts that omit source usage scopes or review guidance needed for later page, email, or ad review.

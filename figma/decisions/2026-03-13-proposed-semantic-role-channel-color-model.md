@@ -11,6 +11,7 @@
   - figma/decisions/2026-03-11-initial-semantic-color-family-model.md
   - figma/decisions/2026-03-11-semantic-feedback-color-family-naming.md
 - Superseded by:
+  - figma/decisions/2026-04-16-remove-shared-status-color-lanes.md
 
 ## Context
 
