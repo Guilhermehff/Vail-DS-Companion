@@ -58,7 +58,7 @@ Source anchor: `400_source`
 
 ### Family: snow_gun
 
-Source anchor: `900_source`
+Source anchor: `700_source`
 
 <div>
   <span title="100 #fbfaf9" style="display:inline-block;width:32px;height:32px;background:#fbfaf9;border:1px solid #d1d5db;"></span>
@@ -66,11 +66,12 @@ Source anchor: `900_source`
   <span title="300 #c3bab3" style="display:inline-block;width:32px;height:32px;background:#c3bab3;border:1px solid #d1d5db;"></span>
   <span title="400 #a69a90" style="display:inline-block;width:32px;height:32px;background:#a69a90;border:1px solid #d1d5db;"></span>
   <span title="500 #897c72" style="display:inline-block;width:32px;height:32px;background:#897c72;border:1px solid #d1d5db;"></span>
-  <span title="600 #71655d" style="display:inline-block;width:32px;height:32px;background:#71655d;border:1px solid #d1d5db;"></span>
-  <span title="700 #5b524c" style="display:inline-block;width:32px;height:32px;background:#5b524c;border:1px solid #d1d5db;"></span>
-  <span title="800 #4c443f" style="display:inline-block;width:32px;height:32px;background:#4c443f;border:1px solid #d1d5db;"></span>
-  <span title="900 #413c37" style="display:inline-block;width:32px;height:32px;background:#413c37;border:1px solid #d1d5db;"></span>
+  <span title="600 #60554b" style="display:inline-block;width:32px;height:32px;background:#60554b;border:1px solid #d1d5db;"></span>
+  <span title="700 #413c37" style="display:inline-block;width:32px;height:32px;background:#413c37;border:1px solid #d1d5db;"></span>
+  <span title="800 #2b2826" style="display:inline-block;width:32px;height:32px;background:#2b2826;border:1px solid #d1d5db;"></span>
+  <span title="900 #161514" style="display:inline-block;width:32px;height:32px;background:#161514;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Review Notes
 

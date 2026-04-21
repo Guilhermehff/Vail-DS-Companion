@@ -1,6 +1,7 @@
-date: '2026-03-31'
+date: '2026-04-21'
 brand: hunter
-source_reference: User-provided images in chat showing the Hunter color palette and usage guidance
+source_reference: User-provided images in chat showing the Hunter color palette and
+  usage guidance
 source_type: image
 figma_url: https://www.figma.com/design/70O01X6MWNKMpsLqIke99Q/Foundations?node-id=1-3
 status: active
@@ -10,70 +11,78 @@ preview:
   status: written_in_figma
 source_swatches:
 - source_name: Mountain Blue
-  provided_value: "#222233"
+  provided_value: '#222233'
   source_usage_scope: primary brand palette and foundational type/background color
   channel_restrictions: not specified in source
   notes: Source image lists RGB 34 34 51 and CMYK 82 77 52 61.
 - source_name: Sunrise Orange
-  provided_value: "#ea3410"
+  provided_value: '#ea3410'
   source_usage_scope: primary brand palette
   channel_restrictions: not specified in source
   notes: Source image lists RGB 234 52 16 and CMYK 0 78 93 8.
 - source_name: Flurry White
-  provided_value: "#faf9f3"
+  provided_value: '#faf9f3'
   source_usage_scope: primary brand palette
   channel_restrictions: not specified in source
   notes: Source image lists RGB 250 249 243 and CMYK 1 1 4 0.
 - source_name: Snow Blue
-  provided_value: "#e7f1ff"
+  provided_value: '#e7f1ff'
   source_usage_scope: secondary brand palette
-  channel_restrictions: source says secondary colors should be used as accent colors to highlight or compliment the primary colors in a campaign
+  channel_restrictions: source says secondary colors should be used as accent colors
+    to highlight or compliment the primary colors in a campaign
   notes: Source image lists RGB 231 241 255 and CMYK 7 2 0 0.
 - source_name: Forest Green
-  provided_value: "#2b5d4c"
+  provided_value: '#2b5d4c'
   source_usage_scope: secondary brand palette
-  channel_restrictions: source says secondary colors should be used as accent colors to highlight or compliment the primary colors in a campaign
+  channel_restrictions: source says secondary colors should be used as accent colors
+    to highlight or compliment the primary colors in a campaign
   notes: Source image lists RGB 43 93 76 and CMYK 82 42 71 32.
 - source_name: City Grey
-  provided_value: "#808080"
+  provided_value: '#808080'
   source_usage_scope: secondary brand palette
-  channel_restrictions: source says secondary colors should be used as accent colors to highlight or compliment the primary colors in a campaign
+  channel_restrictions: source says secondary colors should be used as accent colors
+    to highlight or compliment the primary colors in a campaign
   notes: Source image lists RGB 128 128 128 and CMYK 52 43 43 0.
 universal_reuse:
   reuse_universal: []
   new_brand_families:
   - family: hunter_neutral
     source_name: Flurry White
-    provided_value: "#faf9f3"
-    rationale: Approved live write. Flurry White and City Grey stage as one branded structural neutral family for warm canvas, quiet neutral support, and derived dark readable foregrounds.
+    provided_value: '#faf9f3'
+    rationale: Approved live write. Flurry White and City Grey stage as one branded
+      structural neutral family for warm canvas, quiet neutral support, and derived
+      dark readable foregrounds.
     anchor_step: 50
     anchor_label: 100_source
     source_anchors:
     - source_name: City Grey
-      provided_value: "#808080"
+      provided_value: '#808080'
       anchor_step: 500
       anchor_label: 500_source
   - family: mountain_blue
     source_name: Snow Blue
-    provided_value: "#e7f1ff"
-    rationale: Approved live write. Snow Blue and Mountain Blue now form the primary expressive Hunter blue ramp.
+    provided_value: '#e7f1ff'
+    rationale: Approved live write. Snow Blue and Mountain Blue now form the primary
+      expressive Hunter blue ramp.
     anchor_step: 100
     anchor_label: 100_source
     source_anchors:
     - source_name: Mountain Blue
-      provided_value: "#222233"
+      provided_value: '#222233'
       anchor_step: 950
       anchor_label: 900_source
   - family: sunrise_orange
     source_name: Sunrise Orange
-    provided_value: "#ea3410"
-    rationale: Approved live write. Sunrise Orange drives the supporting expressive semantic lane.
+    provided_value: '#ea3410'
+    rationale: Approved live write. Sunrise Orange drives the supporting expressive
+      semantic lane.
     anchor_step: 500
     anchor_label: 500_source
   - family: forest_green
     source_name: Forest Green
-    provided_value: "#2b5d4c"
-    rationale: Approved live write. Forest Green is preserved as a governed global-only family in the first pass.
+    provided_value: '#2b5d4c'
+    rationale: Approved live write. Forest Green is preserved as a governed global-only
+      family in the first pass.
     anchor_step: 700
     anchor_label: 700_source
   hold_for_review: []
@@ -100,138 +109,142 @@ scale_spec:
 family_scales:
 - family: hunter_neutral
   source_name: Flurry White and City Grey
-  source_value: "#faf9f3 / #808080"
+  source_value: '#faf9f3 / #808080'
   source_anchor: 100_source / 500_source
   tokens:
   - name: hunter/hunter_neutral/100
-    value: "#faf9f3"
+    value: '#faf9f3'
     source_anchor: true
   - name: hunter/hunter_neutral/200
-    value: "#f0efea"
+    value: '#f0efea'
     source_anchor: false
   - name: hunter/hunter_neutral/300
-    value: "#c7c7c4"
+    value: '#c7c7c4'
     source_anchor: false
   - name: hunter/hunter_neutral/400
-    value: "#acacaa"
+    value: '#acacaa'
     source_anchor: false
   - name: hunter/hunter_neutral/500
-    value: "#808080"
+    value: '#808080'
     source_anchor: true
   - name: hunter/hunter_neutral/600
-    value: "#707071"
+    value: '#707071'
     source_anchor: false
   - name: hunter/hunter_neutral/700
-    value: "#555658"
+    value: '#555658'
     source_anchor: false
   - name: hunter/hunter_neutral/800
-    value: "#3d3e41"
+    value: '#3d3e41'
     source_anchor: false
   - name: hunter/hunter_neutral/900
-    value: "#15171b"
+    value: '#15171b'
     source_anchor: false
 - family: mountain_blue
   source_name: Snow Blue and Mountain Blue
-  source_value: "#e7f1ff / #222233"
-  source_anchor: 100_source / 900_source
+  source_value: '#e7f1ff / #222233'
+  source_anchor: 100_source / 700_source
   tokens:
   - name: hunter/mountain_blue/100
-    value: "#f2fcff"
-    source_anchor: false
-  - name: hunter/mountain_blue/200
-    value: "#e7f1ff"
+    value: '#e7f1ff'
     source_anchor: true
+  - name: hunter/mountain_blue/200
+    value: '#ccd3e2'
+    source_anchor: false
   - name: hunter/mountain_blue/300
-    value: "#bfc7d7"
+    value: '#aab4c8'
     source_anchor: false
   - name: hunter/mountain_blue/400
-    value: "#a5acbd"
+    value: '#8894ae'
     source_anchor: false
   - name: hunter/mountain_blue/500
-    value: "#878d9e"
+    value: '#677493'
     source_anchor: false
   - name: hunter/mountain_blue/600
-    value: "#6b7081"
+    value: '#4a5575'
     source_anchor: false
   - name: hunter/mountain_blue/700
-    value: "#525567"
-    source_anchor: false
+    value: '#222233'
+    source_anchor: true
   - name: hunter/mountain_blue/800
-    value: "#3b3d4e"
+    value: '#1a1a29'
     source_anchor: false
   - name: hunter/mountain_blue/900
-    value: "#222233"
-    source_anchor: true
+    value: '#12121f'
+    source_anchor: false
 - family: sunrise_orange
   source_name: Sunrise Orange
-  source_value: "#ea3410"
+  source_value: '#ea3410'
   source_anchor: 500_source
   tokens:
   - name: hunter/sunrise_orange/100
-    value: "#ffece0"
+    value: '#ffece0'
     source_anchor: false
   - name: hunter/sunrise_orange/200
-    value: "#ffddcf"
+    value: '#ffddcf'
     source_anchor: false
   - name: hunter/sunrise_orange/300
-    value: "#ffa58c"
+    value: '#ffa58c'
     source_anchor: false
   - name: hunter/sunrise_orange/400
-    value: "#ff7c60"
+    value: '#ff7c60'
     source_anchor: false
   - name: hunter/sunrise_orange/500
-    value: "#ea3410"
+    value: '#ea3410'
     source_anchor: true
   - name: hunter/sunrise_orange/600
-    value: "#cc3013"
+    value: '#cc3013'
     source_anchor: false
   - name: hunter/sunrise_orange/700
-    value: "#a21c01"
+    value: '#a21c01'
     source_anchor: false
   - name: hunter/sunrise_orange/800
-    value: "#7b0800"
+    value: '#7b0800'
     source_anchor: false
   - name: hunter/sunrise_orange/900
-    value: "#3a0000"
+    value: '#3a0000'
     source_anchor: false
 - family: forest_green
   source_name: Forest Green
-  source_value: "#2b5d4c"
+  source_value: '#2b5d4c'
   source_anchor: 700_source
   tokens:
   - name: hunter/forest_green/100
-    value: "#f0fef8"
+    value: '#f0fef8'
     source_anchor: false
   - name: hunter/forest_green/200
-    value: "#e4f5ee"
+    value: '#e4f5ee'
     source_anchor: false
   - name: hunter/forest_green/300
-    value: "#b7d4c8"
+    value: '#b7d4c8'
     source_anchor: false
   - name: hunter/forest_green/400
-    value: "#98baac"
+    value: '#98baac'
     source_anchor: false
   - name: hunter/forest_green/500
-    value: "#749b8c"
+    value: '#749b8c'
     source_anchor: false
   - name: hunter/forest_green/600
-    value: "#527e6d"
+    value: '#527e6d'
     source_anchor: false
   - name: hunter/forest_green/700
-    value: "#2b5d4c"
+    value: '#2b5d4c'
     source_anchor: true
   - name: hunter/forest_green/800
-    value: "#22483b"
+    value: '#22483b'
     source_anchor: false
   - name: hunter/forest_green/900
-    value: "#061a14"
+    value: '#061a14'
     source_anchor: false
 color_proportion_guidance:
   status: active
-  source_basis: User-provided Hunter brand guidance defines primary versus secondary palette behavior in prose but does not publish numeric percentages.
+  source_basis: User-provided Hunter brand guidance defines primary versus secondary
+    palette behavior in prose but does not publish numeric percentages.
   contexts:
   - name: campaign_work
-    intent: Mountain Blue, Sunrise Orange, and Flurry White form the core Hunter palette for primary branding pieces, backgrounds, and type. Snow Blue, Forest Green, and City Grey remain accent colors that highlight or complement the primary palette.
+    intent: Mountain Blue, Sunrise Orange, and Flurry White form the core Hunter palette
+      for primary branding pieces, backgrounds, and type. Snow Blue, Forest Green,
+      and City Grey remain accent colors that highlight or complement the primary
+      palette.
     dominant_palette:
     - source_color: Mountain Blue
       token: hunter/mountain_blue/900
@@ -247,14 +260,23 @@ color_proportion_guidance:
     - source_color: City Grey
       token: hunter/hunter_neutral/500
     notes:
-    - The source says the primary colors are used for primary branding pieces, backgrounds, type, and other foundational brand moments.
-    - The source says the secondary colors should be used as accents to highlight or complement the primary colors in a campaign.
+    - The source says the primary colors are used for primary branding pieces, backgrounds,
+      type, and other foundational brand moments.
+    - The source says the secondary colors should be used as accents to highlight
+      or complement the primary colors in a campaign.
 validation:
   perceptual_consistency_notes:
-  - User-approved live write. Flurry White and City Grey now stage as the structural neutral family, keeping the neutral lane separate from the expressive Hunter blue ramp.
-  - User-approved live write. Snow Blue and Mountain Blue now land together as the expressive `mountain_blue` family, preserving the Hunter blue identity from pale tint through dark navy emphasis.
-  - User-approved live write. Sunrise Orange stages as the supporting expressive lane, while Forest Green remains a governed global-only family in the first pass.
-  - The live semantic brand lane stages on `mountain_blue/600`, `700`, and `800`, and the live supporting expressive lane stages on `sunrise_orange/600`, `700`, and `800` so white on-surface text remains readable.
+  - User-approved live write. Flurry White and City Grey now stage as the structural
+    neutral family, keeping the neutral lane separate from the expressive Hunter blue
+    ramp.
+  - User-approved live write. Snow Blue and Mountain Blue now land together as the
+    expressive `mountain_blue` family, preserving the Hunter blue identity from pale
+    tint through dark navy emphasis.
+  - User-approved live write. Sunrise Orange stages as the supporting expressive lane,
+    while Forest Green remains a governed global-only family in the first pass.
+  - The live semantic brand lane stages on `mountain_blue/600`, `700`, and `800`,
+    and the live supporting expressive lane stages on `sunrise_orange/600`, `700`,
+    and `800` so white on-surface text remains readable.
   contrast_checks:
   - token: hunter/hunter_neutral/800
     foreground: white
@@ -288,7 +310,9 @@ semantic_recommendations:
   role_sets:
   - scope: neutral
     source_family: hunter/hunter_neutral
-    rationale: Approved live write. Flurry White and City Grey now form the structural neutral family, keeping the neutral lane separate from the expressive Hunter blue ramp.
+    rationale: Approved live write. Flurry White and City Grey now form the structural
+      neutral family, keeping the neutral lane separate from the expressive Hunter
+      blue ramp.
     targets:
     - color/surface/neutral/*
     - color/on_surface/neutral/*
@@ -298,7 +322,9 @@ semantic_recommendations:
     - color/border/subtle
   - scope: brand
     source_family: hunter/mountain_blue
-    rationale: Approved live write. Snow Blue and Mountain Blue now form the primary expressive semantic brand lane, with semantic `default/strong/emphasis` staging on `600/700/800`.
+    rationale: Approved live write. Snow Blue and Mountain Blue now form the primary
+      expressive semantic brand lane, with semantic `default/strong/emphasis` staging
+      on `600/700/800`.
     targets:
     - color/surface/brand/*
     - color/on_surface/brand/*
@@ -306,7 +332,8 @@ semantic_recommendations:
     - color/border/brand
   - scope: brand_secondary
     source_family: hunter/sunrise_orange
-    rationale: Approved live write. Sunrise Orange now drives the supporting expressive semantic lane, with semantic `default/strong/emphasis` staging on `600/700/800`.
+    rationale: Approved live write. Sunrise Orange now drives the supporting expressive
+      semantic lane, with semantic `default/strong/emphasis` staging on `600/700/800`.
     targets:
     - color/surface/brand_secondary/*
     - color/on_surface/brand_secondary/*
@@ -314,7 +341,8 @@ semantic_recommendations:
     - color/border/brand_secondary
   global_only_families:
   - family: forest_green
-    rationale: Approved live write. Forest Green remains available as a governed raw family but is intentionally excluded from the first semantic pass.
+    rationale: Approved live write. Forest Green remains available as a governed raw
+      family but is intentionally excluded from the first semantic pass.
   role_exceptions: []
 review_readiness:
   intended_review_channels:
@@ -327,13 +355,16 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Keep Flurry White and City Grey in the neutral lane while Snow Blue and Mountain Blue move together into the expressive blue family.
+    rule: Keep Flurry White and City Grey in the neutral lane while Snow Blue and
+      Mountain Blue move together into the expressive blue family.
     source_basis: User-approved live write decision in chat.
   - subject: Hunter expressive lane order
     channels:
     - web
     - email
     - ads
-    rule: Use the blue `mountain_blue` ramp as the primary expressive lane, Sunrise Orange as the supporting expressive lane, and preserve Forest Green as global-only in the first pass.
+    rule: Use the blue `mountain_blue` ramp as the primary expressive lane, Sunrise
+      Orange as the supporting expressive lane, and preserve Forest Green as global-only
+      in the first pass.
     source_basis: User-approved live write decision in chat.
 open_questions: []

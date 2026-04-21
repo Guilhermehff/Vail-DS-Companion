@@ -60,7 +60,7 @@ Review state: written in figma. Verify live write state in `figma/brands/seven_s
 Source anchors: `300_source / 600_source`
 
 <div>
-  <span title="100 #f0fff6" style="display:inline-block;width:32px;height:32px;background:#f0fff6;border:1px solid #d1d5db;"></span>
+  <span title="100 #f6fff7" style="display:inline-block;width:32px;height:32px;background:#f6fff7;border:1px solid #d1d5db;"></span>
   <span title="200 #d9fbea" style="display:inline-block;width:32px;height:32px;background:#d9fbea;border:1px solid #d1d5db;"></span>
   <span title="300 #89ebad" style="display:inline-block;width:32px;height:32px;background:#89ebad;border:1px solid #d1d5db;"></span>
   <span title="400 #5fd89a" style="display:inline-block;width:32px;height:32px;background:#5fd89a;border:1px solid #d1d5db;"></span>
@@ -71,21 +71,23 @@ Source anchors: `300_source / 600_source`
   <span title="900 #003021" style="display:inline-block;width:32px;height:32px;background:#003021;border:1px solid #d1d5db;"></span>
 </div>
 
+
 ### Family: tupelo
 
-Source anchor: `900_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #f1fbf6" style="display:inline-block;width:32px;height:32px;background:#f1fbf6;border:1px solid #d1d5db;"></span>
-  <span title="200 #dcf4ea" style="display:inline-block;width:32px;height:32px;background:#dcf4ea;border:1px solid #d1d5db;"></span>
-  <span title="300 #93d7bc" style="display:inline-block;width:32px;height:32px;background:#93d7bc;border:1px solid #d1d5db;"></span>
-  <span title="400 #5fc29d" style="display:inline-block;width:32px;height:32px;background:#5fc29d;border:1px solid #d1d5db;"></span>
-  <span title="500 #2fa87f" style="display:inline-block;width:32px;height:32px;background:#2fa87f;border:1px solid #d1d5db;"></span>
-  <span title="600 #1e8a68" style="display:inline-block;width:32px;height:32px;background:#1e8a68;border:1px solid #d1d5db;"></span>
-  <span title="700 #166f54" style="display:inline-block;width:32px;height:32px;background:#166f54;border:1px solid #d1d5db;"></span>
-  <span title="800 #0f5742" style="display:inline-block;width:32px;height:32px;background:#0f5742;border:1px solid #d1d5db;"></span>
-  <span title="900 #002e1c" style="display:inline-block;width:32px;height:32px;background:#002e1c;border:1px solid #d1d5db;"></span>
+  <span title="100 #f2fbf7" style="display:inline-block;width:32px;height:32px;background:#f2fbf7;border:1px solid #d1d5db;"></span>
+  <span title="200 #e0f4ec" style="display:inline-block;width:32px;height:32px;background:#e0f4ec;border:1px solid #d1d5db;"></span>
+  <span title="300 #bee6d6" style="display:inline-block;width:32px;height:32px;background:#bee6d6;border:1px solid #d1d5db;"></span>
+  <span title="400 #8fd0b8" style="display:inline-block;width:32px;height:32px;background:#8fd0b8;border:1px solid #d1d5db;"></span>
+  <span title="500 #5faf93" style="display:inline-block;width:32px;height:32px;background:#5faf93;border:1px solid #d1d5db;"></span>
+  <span title="600 #3f8f74" style="display:inline-block;width:32px;height:32px;background:#3f8f74;border:1px solid #d1d5db;"></span>
+  <span title="700 #002e1c" style="display:inline-block;width:32px;height:32px;background:#002e1c;border:1px solid #d1d5db;"></span>
+  <span title="800 #002618" style="display:inline-block;width:32px;height:32px;background:#002618;border:1px solid #d1d5db;"></span>
+  <span title="900 #001e13" style="display:inline-block;width:32px;height:32px;background:#001e13;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: springs_neutral
 

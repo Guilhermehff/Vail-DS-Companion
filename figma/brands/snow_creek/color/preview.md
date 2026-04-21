@@ -23,7 +23,7 @@ Review state: written in figma. Verify live write state in `figma/brands/snow_cr
 
 ### Family: creek_blue
 
-Source anchor: `900_source`
+Source anchor: `700_source`
 
 <div>
   <span title="100 #f2f8fa" style="display:inline-block;width:32px;height:32px;background:#f2f8fa;border:1px solid #d1d5db;"></span>
@@ -32,26 +32,28 @@ Source anchor: `900_source`
   <span title="400 #75adbe" style="display:inline-block;width:32px;height:32px;background:#75adbe;border:1px solid #d1d5db;"></span>
   <span title="500 #4f93a6" style="display:inline-block;width:32px;height:32px;background:#4f93a6;border:1px solid #d1d5db;"></span>
   <span title="600 #3b7688" style="display:inline-block;width:32px;height:32px;background:#3b7688;border:1px solid #d1d5db;"></span>
-  <span title="700 #2a5b69" style="display:inline-block;width:32px;height:32px;background:#2a5b69;border:1px solid #d1d5db;"></span>
-  <span title="800 #1c424d" style="display:inline-block;width:32px;height:32px;background:#1c424d;border:1px solid #d1d5db;"></span>
-  <span title="900 #00303e" style="display:inline-block;width:32px;height:32px;background:#00303e;border:1px solid #d1d5db;"></span>
+  <span title="700 #00303e" style="display:inline-block;width:32px;height:32px;background:#00303e;border:1px solid #d1d5db;"></span>
+  <span title="800 #002733" style="display:inline-block;width:32px;height:32px;background:#002733;border:1px solid #d1d5db;"></span>
+  <span title="900 #001e27" style="display:inline-block;width:32px;height:32px;background:#001e27;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: tagline_gold
 
-Source anchor: `300_source`
+Source anchor: `500_source`
 
 <div>
-  <span title="100 #fdf4d6" style="display:inline-block;width:32px;height:32px;background:#fdf4d6;border:1px solid #d1d5db;"></span>
-  <span title="200 #f6e6b0" style="display:inline-block;width:32px;height:32px;background:#f6e6b0;border:1px solid #d1d5db;"></span>
-  <span title="300 #dbae27" style="display:inline-block;width:32px;height:32px;background:#dbae27;border:1px solid #d1d5db;"></span>
-  <span title="400 #c79a22" style="display:inline-block;width:32px;height:32px;background:#c79a22;border:1px solid #d1d5db;"></span>
-  <span title="500 #ad831c" style="display:inline-block;width:32px;height:32px;background:#ad831c;border:1px solid #d1d5db;"></span>
-  <span title="600 #8f6b17" style="display:inline-block;width:32px;height:32px;background:#8f6b17;border:1px solid #d1d5db;"></span>
-  <span title="700 #725513" style="display:inline-block;width:32px;height:32px;background:#725513;border:1px solid #d1d5db;"></span>
-  <span title="800 #57400f" style="display:inline-block;width:32px;height:32px;background:#57400f;border:1px solid #d1d5db;"></span>
+  <span title="100 #fdf6dd" style="display:inline-block;width:32px;height:32px;background:#fdf6dd;border:1px solid #d1d5db;"></span>
+  <span title="200 #f7e8b5" style="display:inline-block;width:32px;height:32px;background:#f7e8b5;border:1px solid #d1d5db;"></span>
+  <span title="300 #f0d37a" style="display:inline-block;width:32px;height:32px;background:#f0d37a;border:1px solid #d1d5db;"></span>
+  <span title="400 #e6bf45" style="display:inline-block;width:32px;height:32px;background:#e6bf45;border:1px solid #d1d5db;"></span>
+  <span title="500 #dbae27" style="display:inline-block;width:32px;height:32px;background:#dbae27;border:1px solid #d1d5db;"></span>
+  <span title="600 #b89320" style="display:inline-block;width:32px;height:32px;background:#b89320;border:1px solid #d1d5db;"></span>
+  <span title="700 #93741a" style="display:inline-block;width:32px;height:32px;background:#93741a;border:1px solid #d1d5db;"></span>
+  <span title="800 #6f5714" style="display:inline-block;width:32px;height:32px;background:#6f5714;border:1px solid #d1d5db;"></span>
   <span title="900 #2c2308" style="display:inline-block;width:32px;height:32px;background:#2c2308;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: snow_white
 

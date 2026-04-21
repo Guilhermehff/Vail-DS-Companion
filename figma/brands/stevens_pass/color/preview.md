@@ -46,21 +46,38 @@ Review state: written in figma. Verify live write state in `figma/brands/stevens
 
 ## Proposed Families
 
+### Family: neutral
+
+Source anchors: `100_source / 900_source`
+
+<div>
+  <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
+  <span title="200 #e6e6e6" style="display:inline-block;width:32px;height:32px;background:#e6e6e6;border:1px solid #d1d5db;"></span>
+  <span title="300 #cccccc" style="display:inline-block;width:32px;height:32px;background:#cccccc;border:1px solid #d1d5db;"></span>
+  <span title="400 #a6a6a6" style="display:inline-block;width:32px;height:32px;background:#a6a6a6;border:1px solid #d1d5db;"></span>
+  <span title="500 #808080" style="display:inline-block;width:32px;height:32px;background:#808080;border:1px solid #d1d5db;"></span>
+  <span title="600 #595959" style="display:inline-block;width:32px;height:32px;background:#595959;border:1px solid #d1d5db;"></span>
+  <span title="700 #404040" style="display:inline-block;width:32px;height:32px;background:#404040;border:1px solid #d1d5db;"></span>
+  <span title="800 #262626" style="display:inline-block;width:32px;height:32px;background:#262626;border:1px solid #d1d5db;"></span>
+  <span title="900 #000000" style="display:inline-block;width:32px;height:32px;background:#000000;border:1px solid #d1d5db;"></span>
+</div>
+
 ### Family: stevens_blue
 
-Source anchor: `700_source`
+Source anchor: `600_source`
 
 <div>
   <span title="100 #f2fbff" style="display:inline-block;width:32px;height:32px;background:#f2fbff;border:1px solid #d1d5db;"></span>
   <span title="200 #def3ff" style="display:inline-block;width:32px;height:32px;background:#def3ff;border:1px solid #d1d5db;"></span>
   <span title="300 #a9d1f6" style="display:inline-block;width:32px;height:32px;background:#a9d1f6;border:1px solid #d1d5db;"></span>
-  <span title="400 #86b7e3" style="display:inline-block;width:32px;height:32px;background:#86b7e3;border:1px solid #d1d5db;"></span>
-  <span title="500 #5d96c9" style="display:inline-block;width:32px;height:32px;background:#5d96c9;border:1px solid #d1d5db;"></span>
-  <span title="600 #3378b1" style="display:inline-block;width:32px;height:32px;background:#3378b1;border:1px solid #d1d5db;"></span>
-  <span title="700 #0264a3" style="display:inline-block;width:32px;height:32px;background:#0264a3;border:1px solid #d1d5db;"></span>
-  <span title="800 #004274" style="display:inline-block;width:32px;height:32px;background:#004274;border:1px solid #d1d5db;"></span>
-  <span title="900 #001733" style="display:inline-block;width:32px;height:32px;background:#001733;border:1px solid #d1d5db;"></span>
+  <span title="400 #7fb7e6" style="display:inline-block;width:32px;height:32px;background:#7fb7e6;border:1px solid #d1d5db;"></span>
+  <span title="500 #4f97cf" style="display:inline-block;width:32px;height:32px;background:#4f97cf;border:1px solid #d1d5db;"></span>
+  <span title="600 #0264a3" style="display:inline-block;width:32px;height:32px;background:#0264a3;border:1px solid #d1d5db;"></span>
+  <span title="700 #025386" style="display:inline-block;width:32px;height:32px;background:#025386;border:1px solid #d1d5db;"></span>
+  <span title="800 #013e63" style="display:inline-block;width:32px;height:32px;background:#013e63;border:1px solid #d1d5db;"></span>
+  <span title="900 #012a45" style="display:inline-block;width:32px;height:32px;background:#012a45;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: secondary_blue
 
@@ -99,7 +116,16 @@ Source anchor: `600_source`
 - Stevens Blue lands at `700` because the supplied swatch is already a dark, high-contrast primary brand blue.
 - Secondary Blue lands at `800` because the supplied swatch is materially darker than Stevens Blue and behaves as a strong secondary dark lane.
 - Mossy Green lands at `600` because the supplied swatch reads as a mid-dark accent rather than a neutral.
-- Exact black and white should remain shared through `universal/black` and `universal/white`.
+- Live Figma now also carries `stevens_pass/neutral/*` even though the exact source black and white still match the shared universal primitives.
+
+## Live Semantic Mapping
+
+- `color/surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `stevens_pass/stevens_blue`
+  The primary expressive lane remains Stevens Blue, with live default surfaces now staging on `stevens_blue/600`.
+- `color/surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `stevens_pass/neutral`
+  The live secondary expressive lane now resolves through the Stevens Pass neutral ramp rather than `secondary_blue`.
+- `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `inherited_base`
+  Shared semantic neutral roles remain inherited from the base collection.
 
 ## Review Readiness
 

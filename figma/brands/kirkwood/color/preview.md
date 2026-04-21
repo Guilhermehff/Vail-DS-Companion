@@ -76,7 +76,7 @@ Source basis: The supplied Kirkwood visual-guidelines page states that black, wh
   `Black C` -> `universal/black`
 - Supporting palette:
   `Orange 021 C` -> `kirkwood/orange_021_c/500`
-  `648 C` -> `kirkwood/blue_648_c/800`
+  `648 C` -> `kirkwood/blue_648_c/700`
   `633 C` -> `kirkwood/teal_633_c/600`
   `642 C` -> `kirkwood/cool_gray/200`
 - Notes:
@@ -103,19 +103,20 @@ Source anchor: `500_source`
 
 ### Family: blue_648_c
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
   <span title="100 #f2fafe" style="display:inline-block;width:32px;height:32px;background:#f2fafe;border:1px solid #d1d5db;"></span>
-  <span title="200 #e2f1fa" style="display:inline-block;width:32px;height:32px;background:#e2f1fa;border:1px solid #d1d5db;"></span>
-  <span title="300 #abd1e6" style="display:inline-block;width:32px;height:32px;background:#abd1e6;border:1px solid #d1d5db;"></span>
-  <span title="400 #87b9d4" style="display:inline-block;width:32px;height:32px;background:#87b9d4;border:1px solid #d1d5db;"></span>
-  <span title="500 #67a1bf" style="display:inline-block;width:32px;height:32px;background:#67a1bf;border:1px solid #d1d5db;"></span>
-  <span title="600 #4689ab" style="display:inline-block;width:32px;height:32px;background:#4689ab;border:1px solid #d1d5db;"></span>
-  <span title="700 #277194" style="display:inline-block;width:32px;height:32px;background:#277194;border:1px solid #d1d5db;"></span>
-  <span title="800 #004c69" style="display:inline-block;width:32px;height:32px;background:#004c69;border:1px solid #d1d5db;"></span>
-  <span title="900 #011925" style="display:inline-block;width:32px;height:32px;background:#011925;border:1px solid #d1d5db;"></span>
+  <span title="200 #dceef7" style="display:inline-block;width:32px;height:32px;background:#dceef7;border:1px solid #d1d5db;"></span>
+  <span title="300 #b8dbea" style="display:inline-block;width:32px;height:32px;background:#b8dbea;border:1px solid #d1d5db;"></span>
+  <span title="400 #8fc4db" style="display:inline-block;width:32px;height:32px;background:#8fc4db;border:1px solid #d1d5db;"></span>
+  <span title="500 #66abc9" style="display:inline-block;width:32px;height:32px;background:#66abc9;border:1px solid #d1d5db;"></span>
+  <span title="600 #3f8fb4" style="display:inline-block;width:32px;height:32px;background:#3f8fb4;border:1px solid #d1d5db;"></span>
+  <span title="700 #004c69" style="display:inline-block;width:32px;height:32px;background:#004c69;border:1px solid #d1d5db;"></span>
+  <span title="800 #003c55" style="display:inline-block;width:32px;height:32px;background:#003c55;border:1px solid #d1d5db;"></span>
+  <span title="900 #002d40" style="display:inline-block;width:32px;height:32px;background:#002d40;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: teal_633_c
 
@@ -135,19 +136,20 @@ Source anchor: `600_source`
 
 ### Family: cool_gray
 
-Source anchor: `300_source`
+Source anchors: `100_source / 200_source / 300_source`
 
 <div>
   <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
   <span title="200 #f1f1f2" style="display:inline-block;width:32px;height:32px;background:#f1f1f2;border:1px solid #d1d5db;"></span>
   <span title="300 #d0e2e9" style="display:inline-block;width:32px;height:32px;background:#d0e2e9;border:1px solid #d1d5db;"></span>
-  <span title="400 #b6c4c9" style="display:inline-block;width:32px;height:32px;background:#b6c4c9;border:1px solid #d1d5db;"></span>
-  <span title="500 #9da6ab" style="display:inline-block;width:32px;height:32px;background:#9da6ab;border:1px solid #d1d5db;"></span>
-  <span title="600 #858a8d" style="display:inline-block;width:32px;height:32px;background:#858a8d;border:1px solid #d1d5db;"></span>
-  <span title="700 #6d6e70" style="display:inline-block;width:32px;height:32px;background:#6d6e70;border:1px solid #d1d5db;"></span>
-  <span title="800 #48494b" style="display:inline-block;width:32px;height:32px;background:#48494b;border:1px solid #d1d5db;"></span>
-  <span title="900 #000000" style="display:inline-block;width:32px;height:32px;background:#000000;border:1px solid #d1d5db;"></span>
+  <span title="400 #b9ced6" style="display:inline-block;width:32px;height:32px;background:#b9ced6;border:1px solid #d1d5db;"></span>
+  <span title="500 #91acb6" style="display:inline-block;width:32px;height:32px;background:#91acb6;border:1px solid #d1d5db;"></span>
+  <span title="600 #4d585c" style="display:inline-block;width:32px;height:32px;background:#4d585c;border:1px solid #d1d5db;"></span>
+  <span title="700 #2f2f2f" style="display:inline-block;width:32px;height:32px;background:#2f2f2f;border:1px solid #d1d5db;"></span>
+  <span title="800 #171717" style="display:inline-block;width:32px;height:32px;background:#171717;border:1px solid #d1d5db;"></span>
+  <span title="900 #141313" style="display:inline-block;width:32px;height:32px;background:#141313;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Review Notes
 

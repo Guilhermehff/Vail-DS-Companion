@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-04-02'
+updated: '2026-04-21'
 brand_id: stevens_pass
 display_name: Stevens Pass
 status: active
@@ -28,6 +28,7 @@ artifacts:
     decision_artifacts:
     - figma/decisions/2026-03-18-stevens-pass-foundations-written-to-figma.md
     - figma/decisions/2026-03-31-universal-100-900-color-ramp-normalization.md
+    - figma/decisions/2026-04-21-stevens-pass-neutral-secondary-remap.md
   typography:
     intake_artifact: figma/brands/stevens_pass/typography/intake.yml
     preview_artifact: figma/brands/stevens_pass/typography/preview.md
@@ -49,7 +50,7 @@ semantic_overrides:
         - color/border/brand
         - color/border/brand_inverse
       - scope: brand_secondary
-        source_family: stevens_pass/secondary_blue
+        source_family: stevens_pass/neutral
         targets:
         - color/surface/brand_secondary/*
         - color/surface/brand_secondary/*_inverse
@@ -102,9 +103,9 @@ semantic_overrides:
       - color/border/critical_inverse
       notes:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
-      - Exact black and white remain inherited through the shared neutral role recipes because the supplied palette matches `universal/black` and `universal/white`.
-      - '`stevens_blue` drives the primary expressive semantic lane, while `secondary_blue` drives the secondary expressive lane.'
-      - '`mossy_green` remains a governed global-only family for special-case use after the first semantic pass.'
+      - Exact black and white still match the shared universal primitives, but live Figma now also carries `stevens_pass/neutral/*` in `_Global: Color`.
+      - '`stevens_blue` continues to drive the primary expressive semantic lane.'
+      - '`stevens_pass/neutral/*` now drives the secondary expressive semantic lane, while `secondary_blue` and `mossy_green` remain governed raw families outside that current semantic mapping.'
       - '`variables/assets/logo` is overridden to the string `Stevens Pass` in the semantic theme extension.'
     typography:
       override_scopes:
@@ -134,4 +135,4 @@ semantic_overrides:
       - The source body variants and italics remain documented in the intake and preview artifacts rather than becoming separate semantic lanes.
       - Brand-safe typography aliases now stage on `stevens_pass/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:
-- Stevens Pass is live in the Foundations file with three raw color families, one raw typography family primitive, a semantic theme logo-name override, and Stevens Pass semantic theme extension.
+- Stevens Pass is live in the Foundations file with four raw color families, one raw typography family primitive, a semantic theme logo-name override, and Stevens Pass semantic theme extension.

@@ -42,7 +42,7 @@ Source basis: Approximate ratios inferred from the relative bar widths in the us
 
 - Intent: `Navy is the dominant brand field, red is the secondary expressive lane, white provides open space, and dark_gray remains a restrained supporting neutral.`
 - Proportions:
-  `Breckenridge Navy` -> `breckenridge/navy/800` (`35%`) Longest bar in the source image and the primary brand color.
+  `Breckenridge Navy` -> `breckenridge/navy/700` (`35%`) Longest bar in the source image and the primary brand color.
   `Breckenridge Red` -> `breckenridge/red/600` (`30%`) Second-longest bar in the source image and the key secondary expressive color.
   `Breckenridge White` -> `universal/white` (`20%`) Third bar in the source image and the primary open-space carrier.
   `Breckenridge Dark Gray` -> `breckenridge/dark_gray/800` (`15%`) Shortest bar in the source image and a supporting neutral rather than a leading brand lane.
@@ -54,7 +54,7 @@ Source basis: Approximate ratios inferred from the relative bar widths in the us
 
 ### Family: navy
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
   <span title="100 #f0fcff" style="display:inline-block;width:32px;height:32px;background:#f0fcff;border:1px solid #d1d5db;"></span>
@@ -63,10 +63,11 @@ Source anchor: `800_source`
   <span title="400 #8cb6de" style="display:inline-block;width:32px;height:32px;background:#8cb6de;border:1px solid #d1d5db;"></span>
   <span title="500 #6396c4" style="display:inline-block;width:32px;height:32px;background:#6396c4;border:1px solid #d1d5db;"></span>
   <span title="600 #3c77ac" style="display:inline-block;width:32px;height:32px;background:#3c77ac;border:1px solid #d1d5db;"></span>
-  <span title="700 #195b91" style="display:inline-block;width:32px;height:32px;background:#195b91;border:1px solid #d1d5db;"></span>
-  <span title="800 #004c80" style="display:inline-block;width:32px;height:32px;background:#004c80;border:1px solid #d1d5db;"></span>
-  <span title="900 #001730" style="display:inline-block;width:32px;height:32px;background:#001730;border:1px solid #d1d5db;"></span>
+  <span title="700 #004c80" style="display:inline-block;width:32px;height:32px;background:#004c80;border:1px solid #d1d5db;"></span>
+  <span title="800 #003b63" style="display:inline-block;width:32px;height:32px;background:#003b63;border:1px solid #d1d5db;"></span>
+  <span title="900 #002138" style="display:inline-block;width:32px;height:32px;background:#002138;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: red
 

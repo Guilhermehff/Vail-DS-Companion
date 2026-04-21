@@ -27,25 +27,24 @@ Review state: written in figma. Verify live write state in `figma/brands/whiteta
 
 ### Family: two_top_green
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #f2f8f6" style="display:inline-block;width:32px;height:32px;background:#f2f8f6;border:1px solid #d1d5db;"></span>
+  <span title="100 #f3f9f7" style="display:inline-block;width:32px;height:32px;background:#f3f9f7;border:1px solid #d1d5db;"></span>
   <span title="200 #e3f1ec" style="display:inline-block;width:32px;height:32px;background:#e3f1ec;border:1px solid #d1d5db;"></span>
-  <span title="300 #a9d2c4" style="display:inline-block;width:32px;height:32px;background:#a9d2c4;border:1px solid #d1d5db;"></span>
-  <span title="400 #82bba8" style="display:inline-block;width:32px;height:32px;background:#82bba8;border:1px solid #d1d5db;"></span>
-  <span title="500 #5fa28d" style="display:inline-block;width:32px;height:32px;background:#5fa28d;border:1px solid #d1d5db;"></span>
-  <span title="600 #3f7f6c" style="display:inline-block;width:32px;height:32px;background:#3f7f6c;border:1px solid #d1d5db;"></span>
-  <span title="700 #397260" style="display:inline-block;width:32px;height:32px;background:#397260;border:1px solid #d1d5db;"></span>
-  <span title="800 #233d34" style="display:inline-block;width:32px;height:32px;background:#233d34;border:1px solid #d1d5db;"></span>
-  <span title="900 #11211c" style="display:inline-block;width:32px;height:32px;background:#11211c;border:1px solid #d1d5db;"></span>
+  <span title="300 #c7e3da" style="display:inline-block;width:32px;height:32px;background:#c7e3da;border:1px solid #d1d5db;"></span>
+  <span title="400 #9fd0c2" style="display:inline-block;width:32px;height:32px;background:#9fd0c2;border:1px solid #d1d5db;"></span>
+  <span title="500 #74b7a5" style="display:inline-block;width:32px;height:32px;background:#74b7a5;border:1px solid #d1d5db;"></span>
+  <span title="600 #4f9a87" style="display:inline-block;width:32px;height:32px;background:#4f9a87;border:1px solid #d1d5db;"></span>
+  <span title="700 #233d34" style="display:inline-block;width:32px;height:32px;background:#233d34;border:1px solid #d1d5db;"></span>
+  <span title="800 #1b2f28" style="display:inline-block;width:32px;height:32px;background:#1b2f28;border:1px solid #d1d5db;"></span>
+  <span title="900 #0f1f1a" style="display:inline-block;width:32px;height:32px;background:#0f1f1a;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: neutral
 
 Source anchor: `500_source`
-
-- Live Figma review introduced a raw-only neutral support ramp that remains separate from the inherited semantic neutral lane.
 
 <div>
   <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
@@ -56,8 +55,9 @@ Source anchor: `500_source`
   <span title="600 #55565c" style="display:inline-block;width:32px;height:32px;background:#55565c;border:1px solid #d1d5db;"></span>
   <span title="700 #333333" style="display:inline-block;width:32px;height:32px;background:#333333;border:1px solid #d1d5db;"></span>
   <span title="800 #2b2a2b" style="display:inline-block;width:32px;height:32px;background:#2b2a2b;border:1px solid #d1d5db;"></span>
-  <span title="900 #1a1718" style="display:inline-block;width:32px;height:32px;background:#1a1718;border:1px solid #d1d5db;"></span>
+  <span title="900 #231f20" style="display:inline-block;width:32px;height:32px;background:#231f20;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Live Semantic Mapping
 

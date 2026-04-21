@@ -129,19 +129,20 @@ Source anchor: `600_source`
 
 ### Family: navy
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #f8fafd" style="display:inline-block;width:32px;height:32px;background:#f8fafd;border:1px solid #d1d5db;"></span>
-  <span title="200 #edf0f4" style="display:inline-block;width:32px;height:32px;background:#edf0f4;border:1px solid #d1d5db;"></span>
-  <span title="300 #c4cdd8" style="display:inline-block;width:32px;height:32px;background:#c4cdd8;border:1px solid #d1d5db;"></span>
-  <span title="400 #a4b3c5" style="display:inline-block;width:32px;height:32px;background:#a4b3c5;border:1px solid #d1d5db;"></span>
-  <span title="500 #7a93b2" style="display:inline-block;width:32px;height:32px;background:#7a93b2;border:1px solid #d1d5db;"></span>
-  <span title="600 #5275a1" style="display:inline-block;width:32px;height:32px;background:#5275a1;border:1px solid #d1d5db;"></span>
-  <span title="700 #2f598c" style="display:inline-block;width:32px;height:32px;background:#2f598c;border:1px solid #d1d5db;"></span>
-  <span title="800 #144276" style="display:inline-block;width:32px;height:32px;background:#144276;border:1px solid #d1d5db;"></span>
+  <span title="100 #f6fafd" style="display:inline-block;width:32px;height:32px;background:#f6fafd;border:1px solid #d1d5db;"></span>
+  <span title="200 #e7f0f6" style="display:inline-block;width:32px;height:32px;background:#e7f0f6;border:1px solid #d1d5db;"></span>
+  <span title="300 #c7d8e6" style="display:inline-block;width:32px;height:32px;background:#c7d8e6;border:1px solid #d1d5db;"></span>
+  <span title="400 #a2bdd2" style="display:inline-block;width:32px;height:32px;background:#a2bdd2;border:1px solid #d1d5db;"></span>
+  <span title="500 #7fa3bf" style="display:inline-block;width:32px;height:32px;background:#7fa3bf;border:1px solid #d1d5db;"></span>
+  <span title="600 #5d86a8" style="display:inline-block;width:32px;height:32px;background:#5d86a8;border:1px solid #d1d5db;"></span>
+  <span title="700 #144276" style="display:inline-block;width:32px;height:32px;background:#144276;border:1px solid #d1d5db;"></span>
+  <span title="800 #0d2c53" style="display:inline-block;width:32px;height:32px;background:#0d2c53;border:1px solid #d1d5db;"></span>
   <span title="900 #021630" style="display:inline-block;width:32px;height:32px;background:#021630;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: yellow
 

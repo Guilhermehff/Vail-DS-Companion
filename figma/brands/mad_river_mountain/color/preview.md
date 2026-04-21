@@ -43,16 +43,17 @@ Source anchor: `500_source`
 Source anchor: `500_source`
 
 <div>
-  <span title="100 #e6f5de" style="display:inline-block;width:32px;height:32px;background:#e6f5de;border:1px solid #d1d5db;"></span>
-  <span title="200 #d7eec9" style="display:inline-block;width:32px;height:32px;background:#d7eec9;border:1px solid #d1d5db;"></span>
-  <span title="300 #b5e19d" style="display:inline-block;width:32px;height:32px;background:#b5e19d;border:1px solid #d1d5db;"></span>
-  <span title="400 #a4d985" style="display:inline-block;width:32px;height:32px;background:#a4d985;border:1px solid #d1d5db;"></span>
+  <span title="100 #f2f9f3" style="display:inline-block;width:32px;height:32px;background:#f2f9f3;border:1px solid #d1d5db;"></span>
+  <span title="200 #e0f1e3" style="display:inline-block;width:32px;height:32px;background:#e0f1e3;border:1px solid #d1d5db;"></span>
+  <span title="300 #bfe3c6" style="display:inline-block;width:32px;height:32px;background:#bfe3c6;border:1px solid #d1d5db;"></span>
+  <span title="400 #a6d88f" style="display:inline-block;width:32px;height:32px;background:#a6d88f;border:1px solid #d1d5db;"></span>
   <span title="500 #8fd16a" style="display:inline-block;width:32px;height:32px;background:#8fd16a;border:1px solid #d1d5db;"></span>
-  <span title="600 #70a453" style="display:inline-block;width:32px;height:32px;background:#70a453;border:1px solid #d1d5db;"></span>
-  <span title="700 #557d3f" style="display:inline-block;width:32px;height:32px;background:#557d3f;border:1px solid #d1d5db;"></span>
-  <span title="800 #3c582c" style="display:inline-block;width:32px;height:32px;background:#3c582c;border:1px solid #d1d5db;"></span>
-  <span title="900 #23341a" style="display:inline-block;width:32px;height:32px;background:#23341a;border:1px solid #d1d5db;"></span>
+  <span title="600 #4f9a6e" style="display:inline-block;width:32px;height:32px;background:#4f9a6e;border:1px solid #d1d5db;"></span>
+  <span title="700 #044e37" style="display:inline-block;width:32px;height:32px;background:#044e37;border:1px solid #d1d5db;"></span>
+  <span title="800 #033a2b" style="display:inline-block;width:32px;height:32px;background:#033a2b;border:1px solid #d1d5db;"></span>
+  <span title="900 #01261c" style="display:inline-block;width:32px;height:32px;background:#01261c;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Live Semantic Mapping
 

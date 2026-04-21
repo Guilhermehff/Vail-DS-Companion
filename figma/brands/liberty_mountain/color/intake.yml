@@ -1,4 +1,4 @@
-date: '2026-03-31'
+date: '2026-04-21'
 brand: liberty_mountain
 source_reference: User-provided images in chat showing the Liberty Mountain color palette, with the Tundra source value corrected by the user on 2026-03-30
 source_type: image
@@ -51,9 +51,9 @@ source_swatches:
   notes: Source image lists Pantone Warm Grey 1 at 50 percent, RGB 236 232 228, and CMYK 6 7 8 0.
 - source_name: Sunrise
   provided_value: "#ff5a34"
-  source_usage_scope: source palette swatch approved as the primary expressive lane
+  source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
-  notes: Source image lists Pantone 171C, RGB 255 92 57, and CMYK 0 61 72 0.
+  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 - source_name: Sunset
   provided_value: "#e18431"
   source_usage_scope: source palette swatch
@@ -63,42 +63,48 @@ source_swatches:
   provided_value: "#6a1f45"
   source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
-  notes: Source image lists Pantone 229C, RGB 103 33 69, and CMYK 26 100 19 61.
+  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 - source_name: Spring
   provided_value: "#b8bf09"
-  source_usage_scope: source palette swatch approved as the supporting expressive lane
+  source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
-  notes: Source image lists Pantone 583C, RGB 183 191 22, and CMYK 26 1 100 10.
+  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 - source_name: Copper
   provided_value: "#9d5f15"
   source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
-  notes: Source image lists Pantone 876C metallic, RGB 156 95 21, and CMYK 30 63 100 19.
+  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 universal_reuse:
   reuse_universal: []
   new_brand_families:
   - family: cool_neutral
     source_name: Summit, Twilight, and Tundra
     provided_value: "#748693 / #3f5364 / #3a4959"
-    rationale: User-approved cleanup. These cool source swatches stay visible in the original palette and now consolidate into one governed raw-only neutral ramp.
+    rationale: Live Figma keeps one grouped cool-neutral family for the darker Liberty structural and expressive work.
     anchor_step: 400
     anchor_label: 400_source / 500_source / 600_source
   - family: warm_neutral
     source_name: Limestone, Mineral, and Sand
     provided_value: "#ebe7e3 / #d7d2cb / #b8b09b"
-    rationale: User-approved live write. These three warm neutrals are intentionally combined into one branded structural neutral ramp.
-    anchor_step: 100
-    anchor_label: 100_source / 300_source / 400_source
-  - family: sunrise
-    source_name: Sunrise
-    provided_value: "#ff5a34"
-    rationale: User-approved live write. Sunrise drives the primary expressive semantic lane.
+    rationale: Live Figma keeps one grouped warm-neutral family for the lighter Liberty secondary surfaces and supporting palette.
+    anchor_step: 200
+    anchor_label: 200_source / 300_source / 400_source
+  - family: shale
+    source_name: Shale
+    provided_value: "#51879f"
+    rationale: Live Figma preserves Shale as a governed raw family outside the current semantic lane mapping.
     anchor_step: 500
     anchor_label: 500_source
-  - family: spring
-    source_name: Spring
-    provided_value: "#b8bf09"
-    rationale: User-approved live write. Spring drives the supporting expressive semantic lane.
+  - family: stone
+    source_name: Stone
+    provided_value: "#4e5758"
+    rationale: Live Figma preserves Stone as a governed raw family outside the current semantic lane mapping.
+    anchor_step: 500
+    anchor_label: 500_source
+  - family: sunset
+    source_name: Sunset
+    provided_value: "#e18431"
+    rationale: Live Figma preserves Sunset as a governed raw family outside the current semantic lane mapping.
     anchor_step: 500
     anchor_label: 500_source
   hold_for_review: []
@@ -123,14 +129,50 @@ scale_spec:
       '200': 7:1 required
       '300': 4.5:1 required
 family_scales:
+- family: cool_neutral
+  source_name: Summit, Twilight, and Tundra
+  source_value: "#748693 / #3f5364 / #3a4959"
+  source_anchor: 400_source / 500_source / 600_source
+  notes:
+  - Summit anchors the lighter cool neutral bridge.
+  - Twilight anchors the middle cool neutral source value.
+  - Tundra anchors the darker cool neutral bridge using the corrected source value approved on 2026-03-30.
+  tokens:
+  - name: liberty_mountain/cool_neutral/100
+    value: "#f4f8fb"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/200
+    value: "#e4ebf2"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/300
+    value: "#c9d4de"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/400
+    value: "#a7b6c3"
+    source_anchor: true
+  - name: liberty_mountain/cool_neutral/500
+    value: "#8396a6"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/600
+    value: "#617587"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/700
+    value: "#273848"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/800
+    value: "#18232e"
+    source_anchor: false
+  - name: liberty_mountain/cool_neutral/900
+    value: "#000007"
+    source_anchor: false
 - family: warm_neutral
   source_name: Limestone, Mineral, and Sand
   source_value: "#ebe7e3 / #d7d2cb / #b8b09b"
-  source_anchor: 100_source / 300_source / 400_source
+  source_anchor: 200_source / 300_source / 400_source
   notes:
-  - Limestone anchors the light end of the structural neutral lane.
+  - Limestone anchors the light end of the warm neutral lane.
   - Mineral supplies the middle light neutral bridge.
-  - Sand supplies the darker warm neutral bridge before derived deeper tones continue the ladder.
+  - Sand supplies the darker warm neutral bridge.
   tokens:
   - name: liberty_mountain/warm_neutral/100
     value: "#f0efed"
@@ -158,106 +200,6 @@ family_scales:
     source_anchor: false
   - name: liberty_mountain/warm_neutral/900
     value: "#020100"
-    source_anchor: false
-- family: cool_neutral
-  source_name: Summit, Twilight, and Tundra
-  source_value: "#748693 / #3f5364 / #3a4959"
-  source_anchor: 400_source / 500_source / 600_source
-  notes:
-  - Summit anchors the lighter cool neutral bridge.
-  - Twilight anchors the middle cool neutral source value.
-  - Tundra anchors the darker cool neutral bridge using the corrected source value approved on 2026-03-30.
-  tokens:
-  - name: liberty_mountain/cool_neutral/100
-    value: "#f3f7fa"
-    source_anchor: false
-  - name: liberty_mountain/cool_neutral/200
-    value: "#dbe2e7"
-    source_anchor: false
-  - name: liberty_mountain/cool_neutral/300
-    value: "#8a99a5"
-    source_anchor: false
-  - name: liberty_mountain/cool_neutral/400
-    value: "#748693"
-    source_anchor: true
-  - name: liberty_mountain/cool_neutral/500
-    value: "#3f5364"
-    source_anchor: true
-  - name: liberty_mountain/cool_neutral/600
-    value: "#3a4959"
-    source_anchor: true
-  - name: liberty_mountain/cool_neutral/700
-    value: "#263a4a"
-    source_anchor: false
-  - name: liberty_mountain/cool_neutral/800
-    value: "#0f2332"
-    source_anchor: false
-  - name: liberty_mountain/cool_neutral/900
-    value: "#000007"
-    source_anchor: false
-- family: sunrise
-  source_name: Sunrise
-  source_value: "#ff5a34"
-  source_anchor: 500_source
-  tokens:
-  - name: liberty_mountain/sunrise/100
-    value: "#ffeee5"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/200
-    value: "#ffd5c7"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/300
-    value: "#ff9d83"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/400
-    value: "#ff7959"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/500
-    value: "#ff5a34"
-    source_anchor: true
-  - name: liberty_mountain/sunrise/600
-    value: "#c81500"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/700
-    value: "#920000"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/800
-    value: "#620000"
-    source_anchor: false
-  - name: liberty_mountain/sunrise/900
-    value: "#220000"
-    source_anchor: false
-- family: spring
-  source_name: Spring
-  source_value: "#b8bf09"
-  source_anchor: 500_source
-  tokens:
-  - name: liberty_mountain/spring/100
-    value: "#f7fae0"
-    source_anchor: false
-  - name: liberty_mountain/spring/200
-    value: "#ebefc3"
-    source_anchor: false
-  - name: liberty_mountain/spring/300
-    value: "#d1d87f"
-    source_anchor: false
-  - name: liberty_mountain/spring/400
-    value: "#c3ca4e"
-    source_anchor: false
-  - name: liberty_mountain/spring/500
-    value: "#b8bf09"
-    source_anchor: true
-  - name: liberty_mountain/spring/600
-    value: "#828700"
-    source_anchor: false
-  - name: liberty_mountain/spring/700
-    value: "#6a6f00"
-    source_anchor: false
-  - name: liberty_mountain/spring/800
-    value: "#545800"
-    source_anchor: false
-  - name: liberty_mountain/spring/900
-    value: "#2b2d00"
     source_anchor: false
 - family: shale
   source_name: Shale
@@ -355,88 +297,25 @@ family_scales:
   - name: liberty_mountain/sunset/900
     value: "#140000"
     source_anchor: false
-- family: flora
-  source_name: Flora
-  source_value: "#6a1f45"
-  source_anchor: 500_source
-  tokens:
-  - name: liberty_mountain/flora/100
-    value: "#fff1f8"
-    source_anchor: false
-  - name: liberty_mountain/flora/200
-    value: "#e9c9d5"
-    source_anchor: false
-  - name: liberty_mountain/flora/300
-    value: "#ac748b"
-    source_anchor: false
-  - name: liberty_mountain/flora/400
-    value: "#864462"
-    source_anchor: false
-  - name: liberty_mountain/flora/500
-    value: "#6a1f45"
-    source_anchor: true
-  - name: liberty_mountain/flora/600
-    value: "#530331"
-    source_anchor: false
-  - name: liberty_mountain/flora/700
-    value: "#3c001e"
-    source_anchor: false
-  - name: liberty_mountain/flora/800
-    value: "#28000f"
-    source_anchor: false
-  - name: liberty_mountain/flora/900
-    value: "#0e0002"
-    source_anchor: false
-- family: copper
-  source_name: Copper
-  source_value: "#9d5f15"
-  source_anchor: 500_source
-  tokens:
-  - name: liberty_mountain/copper/100
-    value: "#fff4e7"
-    source_anchor: false
-  - name: liberty_mountain/copper/200
-    value: "#f0d8c3"
-    source_anchor: false
-  - name: liberty_mountain/copper/300
-    value: "#c89c73"
-    source_anchor: false
-  - name: liberty_mountain/copper/400
-    value: "#b07943"
-    source_anchor: false
-  - name: liberty_mountain/copper/500
-    value: "#9d5f15"
-    source_anchor: true
-  - name: liberty_mountain/copper/600
-    value: "#783c00"
-    source_anchor: false
-  - name: liberty_mountain/copper/700
-    value: "#541900"
-    source_anchor: false
-  - name: liberty_mountain/copper/800
-    value: "#350000"
-    source_anchor: false
-  - name: liberty_mountain/copper/900
-    value: "#0e0000"
-    source_anchor: false
 validation:
   perceptual_consistency_notes:
-  - 'The live write preserves original palette swatches in documentation as alias anchors while consolidating them into two governed neutral ramps: `warm_neutral` and `cool_neutral`.'
-  - The 2026-03-30 cleanup removes duplicate standalone raw families for `Twilight`, `Summit`, `Tundra`, `Sand`, `Mineral`, and `Limestone` in favor of the grouped neutral ramps.
+  - Live Figma now carries five Liberty Mountain raw color families instead of the earlier nine-family repo snapshot.
+  - '`sunrise`, `spring`, `flora`, and `copper` are preserved as source provenance only and are no longer live raw families.'
+  - The shared semantic neutral role set remains inherited from the base collection.
   contrast_checks:
-  - token: liberty_mountain/sunrise/800
+  - token: liberty_mountain/cool_neutral/700
     foreground: universal/white
-    ratio: generated_for_write
+    ratio: live_figma_verified
     result: pass
-  - token: liberty_mountain/spring/800
-    foreground: universal/white
-    ratio: generated_for_write
+  - token: liberty_mountain/warm_neutral/300
+    foreground: universal/black
+    ratio: live_figma_verified
     result: pass
 semantic_recommendations:
   role_sets:
   - scope: neutral
-    source_family: liberty_mountain/warm_neutral
-    rationale: User-approved live write. The neutral lane should behave as one warm structural ramp rather than three disconnected raw swatches.
+    source_family: inherited_base
+    rationale: The live semantic neutral role set remains inherited from the base collection.
     targets:
     - color/surface/neutral/*
     - color/on_surface/neutral/*
@@ -445,57 +324,50 @@ semantic_recommendations:
     - color/border/default
     - color/border/subtle
   - scope: brand
-    source_family: liberty_mountain/sunrise
-    rationale: User-approved live write. Sunrise is the primary expressive lane.
+    source_family: liberty_mountain/cool_neutral
+    rationale: The live expressive brand lane now resolves through the cool neutral family.
     targets:
     - color/surface/brand/*
     - color/on_surface/brand/*
     - color/foreground/brand
     - color/border/brand
   - scope: brand_secondary
-    source_family: liberty_mountain/spring
-    rationale: User-approved live write. Spring is the supporting expressive lane.
+    source_family: liberty_mountain/warm_neutral
+    rationale: The live expressive secondary lane now resolves through the warm neutral family.
     targets:
     - color/surface/brand_secondary/*
     - color/on_surface/brand_secondary/*
     - color/foreground/brand_secondary
     - color/border/brand_secondary
   global_only_families:
-  - family: liberty_mountain/cool_neutral
-    rationale: Preserved as a grouped raw source family only. The original Twilight, Summit, and Tundra swatches stay visible in documentation as alias anchors.
   - family: liberty_mountain/shale
-    rationale: Preserved as a raw source family only.
+    rationale: Preserved as a live raw family outside the current semantic mapping.
   - family: liberty_mountain/stone
-    rationale: Preserved as a raw source family only.
+    rationale: Preserved as a live raw family outside the current semantic mapping.
   - family: liberty_mountain/sunset
-    rationale: Preserved as a raw source family only.
-  - family: liberty_mountain/flora
-    rationale: Preserved as a raw source family only.
-  - family: liberty_mountain/copper
-    rationale: Preserved as a raw source family only.
+    rationale: Preserved as a live raw family outside the current semantic mapping.
   role_exceptions:
   - target: variables/assets/logo
     source_token: Liberty Mountain
-    rationale: The live semantic color extension should resolve the logo-name string to the brand display name.
+    rationale: The live semantic extension resolves the logo-name string to the brand display name.
 review_readiness:
   intended_review_channels:
   - web
   - email
   - ads
   review_rules:
-  - subject: Liberty Mountain expressive lane order
+  - subject: Liberty Mountain live lane mapping
     channels:
     - web
     - email
     - ads
-    rule: Sunrise must stage as the primary expressive semantic lane and Spring must stage as the secondary expressive semantic lane.
-    source_basis: User instruction in chat
-  - subject: Liberty Mountain neutral composition
+    rule: 'Treat `cool_neutral` as the live expressive brand lane and `warm_neutral` as the live expressive secondary lane until a newer governance decision changes the semantic mapping.'
+    source_basis: Live Figma semantic extension state.
+  - subject: Liberty Mountain removed raw families
     channels:
     - web
     - email
     - ads
-    rule: Limestone, Mineral, and Sand should behave as one structural neutral ramp in the semantic layer, while Summit, Twilight, and corrected Tundra should stay documented as original swatches but consolidate into the raw-only `cool_neutral` ramp.
-    source_basis: User instruction in chat
-open_questions:
-- The source page does not provide a CTA-specific color rule, so the live write keeps action color meaning in the shared channel layer rather than inventing a new semantic slot.
+    rule: 'Do not treat `sunrise`, `spring`, `flora`, or `copper` as live `_Global: Color` families.'
+    source_basis: 'Live Figma `_Global: Color` inventory.'
+open_questions: []

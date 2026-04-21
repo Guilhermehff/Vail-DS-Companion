@@ -1,4 +1,4 @@
-date: '2026-03-31'
+date: '2026-04-21'
 brand: attitash
 source_reference: User-provided exported Attitash brand sheet image in chat
 source_type: image
@@ -10,43 +10,43 @@ preview:
   status: written_in_figma
 source_swatches:
 - source_name: Attitash Blue
-  provided_value: "#2a51a3"
+  provided_value: '#2a51a3'
   source_usage_scope: core brand color
   notes: Source image lists PMS 2728C, RGB 42 81 163, and CMYK 93 78 0 0.
 - source_name: Daybreak
-  provided_value: "#ffc629"
+  provided_value: '#ffc629'
   source_usage_scope: core brand color
   notes: Source image lists PMS 1235C, RGB 255 198 41, and CMYK 0 23 91 0.
 - source_name: Pure White
-  provided_value: "#ffffff"
+  provided_value: '#ffffff'
   source_usage_scope: accent sub-palette
   notes: Exact shared white.
 - source_name: Mogul Shadow
-  provided_value: "#c6c8c8"
+  provided_value: '#c6c8c8'
   source_usage_scope: accent sub-palette
   notes: Source image lists PMS 420.
 - source_name: Mogul Shadow 20%
-  provided_value: "#f2f2f2"
+  provided_value: '#f2f2f2'
   source_usage_scope: accent sub-palette
   notes: Source image explicitly labels the tint as 20%.
 - source_name: Sharp Edge Grey
-  provided_value: "#3d4347"
+  provided_value: '#3d4347'
   source_usage_scope: accent sub-palette
   notes: Source image lists PMS 423C.
 universal_reuse:
   reuse_universal:
   - source_name: Pure White
-    provided_value: "#ffffff"
+    provided_value: '#ffffff'
     existing_token: universal/white
     rationale: Exact shared white.
   new_brand_families:
   - family: attitash_blue
     source_name: Attitash Blue
-    provided_value: "#2a51a3"
+    provided_value: '#2a51a3'
     rationale: Primary expressive brand lane.
   - family: daybreak
     source_name: Daybreak
-    provided_value: "#ffc629"
+    provided_value: '#ffc629'
     rationale: Supporting expressive brand lane.
   - family: attitash_neutral
     source_name: Pure White + Mogul Shadow + Sharp Edge Grey
@@ -76,67 +76,67 @@ scale_spec:
 family_scales:
 - family: attitash_blue
   source_name: Attitash Blue
-  source_value: "#2a51a3"
+  source_value: '#2a51a3'
   source_anchor: 500_source
   tokens:
   - name: attitash/attitash_blue/100
-    value: "#f2f6ff"
+    value: '#f2f6ff'
     source_anchor: false
   - name: attitash/attitash_blue/200
-    value: "#e3ecff"
+    value: '#e3ecff'
     source_anchor: false
   - name: attitash/attitash_blue/300
-    value: "#9fb8f5"
+    value: '#9fb8f5'
     source_anchor: false
   - name: attitash/attitash_blue/400
-    value: "#6f95d6"
+    value: '#6f95d6'
     source_anchor: false
   - name: attitash/attitash_blue/500
-    value: "#2a51a3"
+    value: '#2a51a3'
     source_anchor: true
   - name: attitash/attitash_blue/600
-    value: "#14398b"
+    value: '#14398b'
     source_anchor: false
   - name: attitash/attitash_blue/700
-    value: "#012173"
+    value: '#012173'
     source_anchor: false
   - name: attitash/attitash_blue/800
-    value: "#00035c"
+    value: '#00035c'
     source_anchor: false
   - name: attitash/attitash_blue/900
-    value: "#09002f"
+    value: '#09002f'
     source_anchor: false
 - family: daybreak
   source_name: Daybreak
-  source_value: "#ffc629"
+  source_value: '#ffc629'
   source_anchor: 500_source
   tokens:
   - name: attitash/daybreak/100
-    value: "#ede2ca"
+    value: '#ede2ca'
     source_anchor: false
   - name: attitash/daybreak/200
-    value: "#f1ddb2"
+    value: '#f1ddb2'
     source_anchor: false
   - name: attitash/daybreak/300
-    value: "#f8d27c"
+    value: '#f8d27c'
     source_anchor: false
   - name: attitash/daybreak/400
-    value: "#fccc5b"
+    value: '#fccc5b'
     source_anchor: false
   - name: attitash/daybreak/500
-    value: "#ffc629"
+    value: '#ffc629'
     source_anchor: true
   - name: attitash/daybreak/600
-    value: "#cb9300"
+    value: '#cb9300'
     source_anchor: false
   - name: attitash/daybreak/700
-    value: "#996200"
+    value: '#996200'
     source_anchor: false
   - name: attitash/daybreak/800
-    value: "#693200"
+    value: '#693200'
     source_anchor: false
   - name: attitash/daybreak/900
-    value: "#0a0200"
+    value: '#341900'
     source_anchor: false
 - family: attitash_neutral
   source_name: Pure White + Mogul Shadow + Mogul Shadow 20% + Sharp Edge Grey
@@ -144,31 +144,31 @@ family_scales:
   source_anchor: 100_source / 100_source / 300_source / 800_source
   tokens:
   - name: attitash/attitash_neutral/100
-    value: "#ffffff"
+    value: '#ffffff'
     source_anchor: true
   - name: attitash/attitash_neutral/200
-    value: "#f2f2f2"
+    value: '#f2f2f2'
     source_anchor: true
   - name: attitash/attitash_neutral/300
-    value: "#c6c8c8"
+    value: '#c6c8c8'
     source_anchor: true
   - name: attitash/attitash_neutral/400
-    value: "#a8acac"
+    value: '#a8acac'
     source_anchor: false
   - name: attitash/attitash_neutral/500
-    value: "#8c9091"
+    value: '#8c9091'
     source_anchor: false
   - name: attitash/attitash_neutral/600
-    value: "#707577"
+    value: '#707577'
     source_anchor: false
   - name: attitash/attitash_neutral/700
-    value: "#565c5f"
+    value: '#565c5f'
     source_anchor: false
   - name: attitash/attitash_neutral/800
-    value: "#3d4347"
+    value: '#3d4347'
     source_anchor: true
   - name: attitash/attitash_neutral/900
-    value: "#000102"
+    value: '#000102'
     source_anchor: false
 semantic_recommendations:
   role_sets:
@@ -207,9 +207,12 @@ live_figma_write:
   - attitash/daybreak/*
   - attitash/attitash_neutral/*
   notes:
-  - Live semantic mapping uses `attitash_blue` for the primary expressive lane and `daybreak` for the supporting expressive lane.
-  - "`attitash_neutral` preserves the `Mogul Shadow 20%`, `Mogul Shadow`, and `Sharp Edge Grey` source anchors directly."
-  - The duplicate raw-only grey ramps were removed because they introduced no additional governed values beyond `attitash_neutral`.
+  - Live semantic mapping uses `attitash_blue` for the primary expressive lane and
+    `daybreak` for the supporting expressive lane.
+  - '`attitash_neutral` preserves the `Mogul Shadow 20%`, `Mogul Shadow`, and `Sharp
+    Edge Grey` source anchors directly.'
+  - The duplicate raw-only grey ramps were removed because they introduced no additional
+    governed values beyond `attitash_neutral`.
 review_readiness:
   intended_review_channels:
   - web
@@ -221,6 +224,8 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Keep `attitash_neutral` as the single grey family because it already preserves the accent-sheet grey anchors.
-    source_basis: "`Mogul Shadow 20%`, `Mogul Shadow`, and `Sharp Edge Grey` all land exactly on existing `attitash_neutral` steps."
+    rule: Keep `attitash_neutral` as the single grey family because it already preserves
+      the accent-sheet grey anchors.
+    source_basis: '`Mogul Shadow 20%`, `Mogul Shadow`, and `Sharp Edge Grey` all land
+      exactly on existing `attitash_neutral` steps.'
 open_questions: []

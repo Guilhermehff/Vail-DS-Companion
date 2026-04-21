@@ -30,19 +30,20 @@ Review state: written in figma. Verify live write state in `figma/brands/paoli_p
 
 ### Family: paoli_blue
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #f3f6fb" style="display:inline-block;width:32px;height:32px;background:#f3f6fb;border:1px solid #d1d5db;"></span>
+  <span title="100 #f3f7fb" style="display:inline-block;width:32px;height:32px;background:#f3f7fb;border:1px solid #d1d5db;"></span>
   <span title="200 #e3eaf4" style="display:inline-block;width:32px;height:32px;background:#e3eaf4;border:1px solid #d1d5db;"></span>
-  <span title="300 #a4b6cf" style="display:inline-block;width:32px;height:32px;background:#a4b6cf;border:1px solid #d1d5db;"></span>
-  <span title="400 #7f97b5" style="display:inline-block;width:32px;height:32px;background:#7f97b5;border:1px solid #d1d5db;"></span>
-  <span title="500 #617a9c" style="display:inline-block;width:32px;height:32px;background:#617a9c;border:1px solid #d1d5db;"></span>
-  <span title="600 #4a6283" style="display:inline-block;width:32px;height:32px;background:#4a6283;border:1px solid #d1d5db;"></span>
-  <span title="700 #334a6a" style="display:inline-block;width:32px;height:32px;background:#334a6a;border:1px solid #d1d5db;"></span>
-  <span title="800 #192957" style="display:inline-block;width:32px;height:32px;background:#192957;border:1px solid #d1d5db;"></span>
+  <span title="300 #c7d3e6" style="display:inline-block;width:32px;height:32px;background:#c7d3e6;border:1px solid #d1d5db;"></span>
+  <span title="400 #a4b6cf" style="display:inline-block;width:32px;height:32px;background:#a4b6cf;border:1px solid #d1d5db;"></span>
+  <span title="500 #7f9fc3" style="display:inline-block;width:32px;height:32px;background:#7f9fc3;border:1px solid #d1d5db;"></span>
+  <span title="600 #5c83aa" style="display:inline-block;width:32px;height:32px;background:#5c83aa;border:1px solid #d1d5db;"></span>
+  <span title="700 #192957" style="display:inline-block;width:32px;height:32px;background:#192957;border:1px solid #d1d5db;"></span>
+  <span title="800 #14224a" style="display:inline-block;width:32px;height:32px;background:#14224a;border:1px solid #d1d5db;"></span>
   <span title="900 #0e1a3a" style="display:inline-block;width:32px;height:32px;background:#0e1a3a;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: peaks_peak
 
@@ -62,19 +63,20 @@ Source anchor: `300_source`
 
 ### Family: peaks_valley
 
-Source anchor: `500_source`
+Source anchor: `600_source`
 
 <div>
-  <span title="100 #f2f8fb" style="display:inline-block;width:32px;height:32px;background:#f2f8fb;border:1px solid #d1d5db;"></span>
-  <span title="200 #e2f0f5" style="display:inline-block;width:32px;height:32px;background:#e2f0f5;border:1px solid #d1d5db;"></span>
-  <span title="300 #9fd0dd" style="display:inline-block;width:32px;height:32px;background:#9fd0dd;border:1px solid #d1d5db;"></span>
-  <span title="400 #6ea8bd" style="display:inline-block;width:32px;height:32px;background:#6ea8bd;border:1px solid #d1d5db;"></span>
-  <span title="500 #4f8fa6" style="display:inline-block;width:32px;height:32px;background:#4f8fa6;border:1px solid #d1d5db;"></span>
-  <span title="600 #3c7489" style="display:inline-block;width:32px;height:32px;background:#3c7489;border:1px solid #d1d5db;"></span>
-  <span title="700 #2c596a" style="display:inline-block;width:32px;height:32px;background:#2c596a;border:1px solid #d1d5db;"></span>
-  <span title="800 #1f404c" style="display:inline-block;width:32px;height:32px;background:#1f404c;border:1px solid #d1d5db;"></span>
-  <span title="900 #142a33" style="display:inline-block;width:32px;height:32px;background:#142a33;border:1px solid #d1d5db;"></span>
+  <span title="100 #f2f9fb" style="display:inline-block;width:32px;height:32px;background:#f2f9fb;border:1px solid #d1d5db;"></span>
+  <span title="200 #e1f1f5" style="display:inline-block;width:32px;height:32px;background:#e1f1f5;border:1px solid #d1d5db;"></span>
+  <span title="300 #bfe3ea" style="display:inline-block;width:32px;height:32px;background:#bfe3ea;border:1px solid #d1d5db;"></span>
+  <span title="400 #8fced8" style="display:inline-block;width:32px;height:32px;background:#8fced8;border:1px solid #d1d5db;"></span>
+  <span title="500 #50a5bc" style="display:inline-block;width:32px;height:32px;background:#50a5bc;border:1px solid #d1d5db;"></span>
+  <span title="600 #3f8fa3" style="display:inline-block;width:32px;height:32px;background:#3f8fa3;border:1px solid #d1d5db;"></span>
+  <span title="700 #2f7383" style="display:inline-block;width:32px;height:32px;background:#2f7383;border:1px solid #d1d5db;"></span>
+  <span title="800 #215764" style="display:inline-block;width:32px;height:32px;background:#215764;border:1px solid #d1d5db;"></span>
+  <span title="900 #153b45" style="display:inline-block;width:32px;height:32px;background:#153b45;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Live Semantic Mapping
 

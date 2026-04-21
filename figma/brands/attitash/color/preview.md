@@ -71,8 +71,9 @@ Source anchor: `500_source`
   <span title="600 #cb9300" style="display:inline-block;width:32px;height:32px;background:#cb9300;border:1px solid #d1d5db;"></span>
   <span title="700 #996200" style="display:inline-block;width:32px;height:32px;background:#996200;border:1px solid #d1d5db;"></span>
   <span title="800 #693200" style="display:inline-block;width:32px;height:32px;background:#693200;border:1px solid #d1d5db;"></span>
-  <span title="900 #0a0200" style="display:inline-block;width:32px;height:32px;background:#0a0200;border:1px solid #d1d5db;"></span>
+  <span title="900 #341900" style="display:inline-block;width:32px;height:32px;background:#341900;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: attitash_neutral
 

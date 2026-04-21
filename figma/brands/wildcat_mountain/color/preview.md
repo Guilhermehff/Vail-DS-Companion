@@ -30,35 +30,37 @@ Review state: written in figma. Verify live write state in `figma/brands/wildcat
 
 ### Family: wildcat_green
 
-Source anchor: `800_source`
+Source anchor: `600_source`
 
 <div>
-  <span title="100 #d3e6e5" style="display:inline-block;width:32px;height:32px;background:#d3e6e5;border:1px solid #d1d5db;"></span>
-  <span title="200 #bbd9d7" style="display:inline-block;width:32px;height:32px;background:#bbd9d7;border:1px solid #d1d5db;"></span>
-  <span title="300 #8abeb9" style="display:inline-block;width:32px;height:32px;background:#8abeb9;border:1px solid #d1d5db;"></span>
-  <span title="400 #71afaa" style="display:inline-block;width:32px;height:32px;background:#71afaa;border:1px solid #d1d5db;"></span>
-  <span title="500 #57a19b" style="display:inline-block;width:32px;height:32px;background:#57a19b;border:1px solid #d1d5db;"></span>
-  <span title="600 #3d928b" style="display:inline-block;width:32px;height:32px;background:#3d928b;border:1px solid #d1d5db;"></span>
-  <span title="700 #20827a" style="display:inline-block;width:32px;height:32px;background:#20827a;border:1px solid #d1d5db;"></span>
-  <span title="800 #007067" style="display:inline-block;width:32px;height:32px;background:#007067;border:1px solid #d1d5db;"></span>
-  <span title="900 #003934" style="display:inline-block;width:32px;height:32px;background:#003934;border:1px solid #d1d5db;"></span>
+  <span title="100 #eaf6f4" style="display:inline-block;width:32px;height:32px;background:#eaf6f4;border:1px solid #d1d5db;"></span>
+  <span title="200 #d3ece8" style="display:inline-block;width:32px;height:32px;background:#d3ece8;border:1px solid #d1d5db;"></span>
+  <span title="300 #a9d9d2" style="display:inline-block;width:32px;height:32px;background:#a9d9d2;border:1px solid #d1d5db;"></span>
+  <span title="400 #7fc2b8" style="display:inline-block;width:32px;height:32px;background:#7fc2b8;border:1px solid #d1d5db;"></span>
+  <span title="500 #4fa79c" style="display:inline-block;width:32px;height:32px;background:#4fa79c;border:1px solid #d1d5db;"></span>
+  <span title="600 #007067" style="display:inline-block;width:32px;height:32px;background:#007067;border:1px solid #d1d5db;"></span>
+  <span title="700 #005a54" style="display:inline-block;width:32px;height:32px;background:#005a54;border:1px solid #d1d5db;"></span>
+  <span title="800 #00443f" style="display:inline-block;width:32px;height:32px;background:#00443f;border:1px solid #d1d5db;"></span>
+  <span title="900 #002e2b" style="display:inline-block;width:32px;height:32px;background:#002e2b;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: wildcat_tan
 
-Source anchor: `300_source`
+Source anchor: `400_source`
 
 <div>
-  <span title="100 #f7f4e8" style="display:inline-block;width:32px;height:32px;background:#f7f4e8;border:1px solid #d1d5db;"></span>
-  <span title="200 #f0ebd4" style="display:inline-block;width:32px;height:32px;background:#f0ebd4;border:1px solid #d1d5db;"></span>
-  <span title="300 #e8e1be" style="display:inline-block;width:32px;height:32px;background:#e8e1be;border:1px solid #d1d5db;"></span>
-  <span title="400 #aba68c" style="display:inline-block;width:32px;height:32px;background:#aba68c;border:1px solid #d1d5db;"></span>
-  <span title="500 #908b76" style="display:inline-block;width:32px;height:32px;background:#908b76;border:1px solid #d1d5db;"></span>
-  <span title="600 #767260" style="display:inline-block;width:32px;height:32px;background:#767260;border:1px solid #d1d5db;"></span>
-  <span title="700 #5c594b" style="display:inline-block;width:32px;height:32px;background:#5c594b;border:1px solid #d1d5db;"></span>
-  <span title="800 #434137" style="display:inline-block;width:32px;height:32px;background:#434137;border:1px solid #d1d5db;"></span>
-  <span title="900 #2b2923" style="display:inline-block;width:32px;height:32px;background:#2b2923;border:1px solid #d1d5db;"></span>
+  <span title="100 #fbf8ee" style="display:inline-block;width:32px;height:32px;background:#fbf8ee;border:1px solid #d1d5db;"></span>
+  <span title="200 #f3ecd9" style="display:inline-block;width:32px;height:32px;background:#f3ecd9;border:1px solid #d1d5db;"></span>
+  <span title="300 #e6d8b5" style="display:inline-block;width:32px;height:32px;background:#e6d8b5;border:1px solid #d1d5db;"></span>
+  <span title="400 #e8e1be" style="display:inline-block;width:32px;height:32px;background:#e8e1be;border:1px solid #d1d5db;"></span>
+  <span title="500 #c9b892" style="display:inline-block;width:32px;height:32px;background:#c9b892;border:1px solid #d1d5db;"></span>
+  <span title="600 #a79573" style="display:inline-block;width:32px;height:32px;background:#a79573;border:1px solid #d1d5db;"></span>
+  <span title="700 #85755a" style="display:inline-block;width:32px;height:32px;background:#85755a;border:1px solid #d1d5db;"></span>
+  <span title="800 #5e5240" style="display:inline-block;width:32px;height:32px;background:#5e5240;border:1px solid #d1d5db;"></span>
+  <span title="900 #3f372b" style="display:inline-block;width:32px;height:32px;background:#3f372b;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: wildcat_teal
 

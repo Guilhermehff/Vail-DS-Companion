@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-04-06'
+updated: '2026-04-21'
 brand_id: liberty_mountain
 display_name: Liberty Mountain
 status: active
@@ -29,6 +29,7 @@ artifacts:
     - figma/decisions/2026-03-19-liberty-mountain-foundations-written-to-figma.md
     - figma/decisions/2026-03-30-liberty-mountain-ramp-consolidation.md
     - figma/decisions/2026-03-31-universal-100-900-color-ramp-normalization.md
+    - figma/decisions/2026-04-21-liberty-mountain-live-color-realignment.md
   typography:
     intake_artifact: figma/brands/liberty_mountain/typography/intake.yml
     preview_artifact: figma/brands/liberty_mountain/typography/preview.md
@@ -42,7 +43,7 @@ semantic_overrides:
     color:
       override_scopes:
       - scope: brand
-        source_family: liberty_mountain/sunrise
+        source_family: liberty_mountain/cool_neutral
         targets:
         - color/surface/brand/*
         - color/surface/brand/*_inverse
@@ -51,7 +52,7 @@ semantic_overrides:
         - color/border/brand
         - color/border/brand_inverse
       - scope: brand_secondary
-        source_family: liberty_mountain/spring
+        source_family: liberty_mountain/warm_neutral
         targets:
         - color/surface/brand_secondary/*
         - color/surface/brand_secondary/*_inverse
@@ -104,12 +105,12 @@ semantic_overrides:
       - color/border/critical_inverse
       notes:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
-      - Liberty Mountain is live in the Foundations file with `warm_neutral` as the structural neutral lane, `sunrise` as the primary expressive lane, and `spring` as the supporting expressive lane.
-      - User-approved 2026-03-30 cleanup. `Limestone`, `Mineral`, and `Sand` stay documented as original palette swatches and now consolidate into the composite raw family `warm_neutral`.
-      - User-approved 2026-03-30 cleanup. `Summit`, `Twilight`, and corrected `Tundra` stay documented as original palette swatches and now consolidate into the raw-only family `cool_neutral`.
-      - 'User-approved 2026-03-30 cleanup. Remaining source swatches stay as raw global-only families in `_Global: Color`: `shale`, `stone`, `sunset`, `flora`, and `copper`.'
-      - User-approved live write. `color/surface/brand/default`, `color/surface/brand/strong`, and `color/surface/brand/emphasis` stage on `liberty_mountain/sunrise/600`, `700`, and `800` because that is the lightest readable set that holds the shared white on-surface contract.
-      - User-approved live write. `color/surface/brand_secondary/default`, `color/surface/brand_secondary/strong`, and `color/surface/brand_secondary/emphasis` stage on `liberty_mountain/spring/700`, `800`, and `900` because the brighter Spring hue needed a darker set to hold the shared white on-surface contract.
+      - 'Liberty Mountain is now live in Figma with five raw color families: `cool_neutral`, `warm_neutral`, `shale`, `stone`, and `sunset`.'
+      - '`sunrise`, `spring`, `flora`, and `copper` are no longer present in the live `_Global: Color` collection.'
+      - The live semantic neutral role set remains inherited from the shared base collection.
+      - 'The live expressive `brand/*` lane now resolves through `liberty_mountain/cool_neutral/*`, with default and strong surfaces on `cool_neutral/700` and `cool_neutral/800`.'
+      - 'The live expressive `brand_secondary/*` lane now resolves through `liberty_mountain/warm_neutral/*`, with default and strong surfaces on `warm_neutral/300` and `warm_neutral/500`.'
+      - '`color/foreground/brand_secondary` and `color/border/brand_secondary` now resolve through `liberty_mountain/cool_neutral/700` and `cool_neutral/500` in the live semantic extension.'
       - '`variables/assets/logo` resolves to the string `Liberty Mountain` in the semantic theme extension.'
     typography:
       override_scopes:
@@ -137,7 +138,7 @@ semantic_overrides:
         alias_of: liberty_mountain/family_safe/01
       inherited_from_base: []
       notes:
-      - Liberty Mountain is live as a Brown-led typography system with `typography/family/heading`, `typography/family/body`, and `typography/family/action` all mapped to `liberty_mountain/family/01`.
+      - 'Liberty Mountain is live as a Brown-led typography system with `typography/family/heading`, `typography/family/body`, and `typography/family/action` all mapped to `liberty_mountain/family/01`.'
       - User-approved live write by source interpretation. The source says Brown is the primary Liberty Mountain font for print and web materials, so the first semantic pass also routes the action family through Brown rather than inheriting the shared default family.
       - '`Sentinel` is preserved as the raw primitive `liberty_mountain/family/02`, with the source-specific `Sentinel Book` style retained in the intake notes, but it remains raw-only because the current shared semantic theme typography schema has no alternate serif lane.'
       - '`typography/weight/heading/strong` and `typography/weight/action/base` both override to `universal/weight/normal` so Liberty Mountain does not inherit the shared black default that the source never specifies.'
@@ -145,4 +146,4 @@ semantic_overrides:
       - Brand-safe typography aliases now stage on `liberty_mountain/family_safe/*` from Vail Resorts Guidelines.pdf.
       - Ads heading size now stages on the 1.125x row in the approved row-order mapping.
 notes:
-- Liberty Mountain is live in the Foundations file with nine raw color families, two raw typography family primitives, a semantic theme logo-name override, and Liberty Mountain semantic theme extension.
+- Liberty Mountain is live in the Foundations file with five raw color families, two raw typography family primitives, a semantic theme logo-name override, and Liberty Mountain semantic theme extension.

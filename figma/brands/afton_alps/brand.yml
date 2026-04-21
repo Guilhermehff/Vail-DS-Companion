@@ -1,5 +1,5 @@
 version: 1
-updated: '2026-04-06'
+updated: '2026-04-21'
 brand_id: afton_alps
 display_name: Afton Alps
 status: active
@@ -46,7 +46,7 @@ semantic_overrides:
         - color/foreground/brand
         - color/border/brand
       - scope: brand_secondary
-        source_family: afton_alps/yellow
+        source_family: afton_alps/meadow_yellow
         targets:
         - color/surface/brand_secondary/*
         - color/surface/brand_secondary/*_inverse
@@ -102,8 +102,9 @@ semantic_overrides:
       notes:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - No Afton Alps neutral swatch was supplied, so neutral roles remain inherited from the shared semantic base.
-      - The exact source blue anchors the raw ladder at `900`, while the live primary default surface stages on `blue/800` so the source `blue/900` remains the stronger branded text and dark-surface step.
-      - The bright yellow secondary lane uses black on lighter surfaces and reserves white for the darker emphasis step.
+      - The earlier repo source for the Afton blue lane was incorrect. Live Figma now reflects the corrected source set supplied on 2026-04-21.
+      - '`St. Croix Blue` now lands at `afton_alps/blue/700`, with `Valley Violet` at `afton_alps/blue/300` and the darker `800` and `900` steps rebuilt around that corrected source.'
+      - The live secondary expressive lane now resolves through `afton_alps/meadow_yellow/*`, with `Meadow Yellow` preserved at `meadow_yellow/400`.
       - '`variables/assets/logo` is overridden to the string `Afton Alps` in the semantic theme extension.'
     typography:
       override_scopes:

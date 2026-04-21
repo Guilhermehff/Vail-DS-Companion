@@ -53,7 +53,7 @@ Source basis: User-provided JFBB usage page defines primary and secondary palett
 - Intent: `Snow Day, Last Chair, and Early Sunrise should carry most brand work. Frost, Bluebird, and Night Ski are accent-only support colors.`
 - Dominant palette:
   `Snow Day` -> `jfbb/snow_day/100`
-  `Last Chair` -> `jfbb/last_chair/900`
+  `Last Chair` -> `jfbb/last_chair/700`
   `Early Sunrise` -> `jfbb/early_sunrise/400`
 - Supporting palette:
   `Frost` -> `jfbb/frost/400`
@@ -84,19 +84,20 @@ Source anchor: `400_source`
 
 ### Family: last_chair
 
-Source anchor: `900_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #f7faff" style="display:inline-block;width:32px;height:32px;background:#f7faff;border:1px solid #d1d5db;"></span>
-  <span title="200 #e9f1fd" style="display:inline-block;width:32px;height:32px;background:#e9f1fd;border:1px solid #d1d5db;"></span>
-  <span title="300 #c2cde0" style="display:inline-block;width:32px;height:32px;background:#c2cde0;border:1px solid #d1d5db;"></span>
-  <span title="400 #a5b2c8" style="display:inline-block;width:32px;height:32px;background:#a5b2c8;border:1px solid #d1d5db;"></span>
-  <span title="500 #8391aa" style="display:inline-block;width:32px;height:32px;background:#8391aa;border:1px solid #d1d5db;"></span>
-  <span title="600 #64738e" style="display:inline-block;width:32px;height:32px;background:#64738e;border:1px solid #d1d5db;"></span>
-  <span title="700 #485875" style="display:inline-block;width:32px;height:32px;background:#485875;border:1px solid #d1d5db;"></span>
-  <span title="800 #2f405f" style="display:inline-block;width:32px;height:32px;background:#2f405f;border:1px solid #d1d5db;"></span>
-  <span title="900 #07183a" style="display:inline-block;width:32px;height:32px;background:#07183a;border:1px solid #d1d5db;"></span>
+  <span title="100 #f4f8ff" style="display:inline-block;width:32px;height:32px;background:#f4f8ff;border:1px solid #d1d5db;"></span>
+  <span title="200 #dbdfe9" style="display:inline-block;width:32px;height:32px;background:#dbdfe9;border:1px solid #d1d5db;"></span>
+  <span title="300 #9baac8" style="display:inline-block;width:32px;height:32px;background:#9baac8;border:1px solid #d1d5db;"></span>
+  <span title="400 #5f78ab" style="display:inline-block;width:32px;height:32px;background:#5f78ab;border:1px solid #d1d5db;"></span>
+  <span title="500 #35538f" style="display:inline-block;width:32px;height:32px;background:#35538f;border:1px solid #d1d5db;"></span>
+  <span title="600 #142e63" style="display:inline-block;width:32px;height:32px;background:#142e63;border:1px solid #d1d5db;"></span>
+  <span title="700 #07183a" style="display:inline-block;width:32px;height:32px;background:#07183a;border:1px solid #d1d5db;"></span>
+  <span title="800 #040f25" style="display:inline-block;width:32px;height:32px;background:#040f25;border:1px solid #d1d5db;"></span>
+  <span title="900 #010c1f" style="display:inline-block;width:32px;height:32px;background:#010c1f;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: snow_day
 
@@ -176,9 +177,9 @@ Source anchor: `900_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `jfbb/bluebird`
   Bluebird is the cleanest supporting expressive lane and preserves a balanced warm/cool pairing with Early Sunrise.
 - Global-only families: `jfbb/frost`, `jfbb/night_ski`
-- `color/on_surface/neutral/*` -> `jfbb/last_chair/900`
+- `color/on_surface/neutral/*` -> `jfbb/last_chair/700`
   Readable neutral copy follows the supplied dark navy rather than the very light Snow Day surface ladder.
-- `color/foreground/default` -> `jfbb/last_chair/900`
+- `color/foreground/default` -> `jfbb/last_chair/700`
   Default foreground needs the same brand navy used across the supplied hierarchy sheet.
 - `color/foreground/subtle` -> `jfbb/last_chair/800`
   Subtle neutral foreground keeps a softer navy tone without leaving the brand palette.

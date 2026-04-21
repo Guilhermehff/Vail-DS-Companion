@@ -69,7 +69,7 @@ Source basis: User-provided Beaver Creek palette guidance describes hierarchy in
 
 ### Family: silver
 
-Source anchors: `100_source / 300_source / 500_source / 700_source / 900_source`
+Source anchors: `200_source / 300_source / 500_source / 700_source`
 
 <div>
   <span title="100 #eef1f4" style="display:inline-block;width:32px;height:32px;background:#eef1f4;border:1px solid #d1d5db;"></span>
@@ -79,9 +79,10 @@ Source anchors: `100_source / 300_source / 500_source / 700_source / 900_source`
   <span title="500 #80a1b6" style="display:inline-block;width:32px;height:32px;background:#80a1b6;border:1px solid #d1d5db;"></span>
   <span title="600 #6e8898" style="display:inline-block;width:32px;height:32px;background:#6e8898;border:1px solid #d1d5db;"></span>
   <span title="700 #5c6f7c" style="display:inline-block;width:32px;height:32px;background:#5c6f7c;border:1px solid #d1d5db;"></span>
-  <span title="800 #3a4e5c" style="display:inline-block;width:32px;height:32px;background:#3a4e5c;border:1px solid #d1d5db;"></span>
-  <span title="900 #0a2030" style="display:inline-block;width:32px;height:32px;background:#0a2030;border:1px solid #d1d5db;"></span>
+  <span title="800 #2a3e4d" style="display:inline-block;width:32px;height:32px;background:#2a3e4d;border:1px solid #d1d5db;"></span>
+  <span title="900 #0a0203" style="display:inline-block;width:32px;height:32px;background:#0a0203;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Review Notes
 

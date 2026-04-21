@@ -1,6 +1,7 @@
-date: '2026-03-31'
+date: '2026-04-21'
 brand: snow_creek
-source_reference: User-provided image in chat showing the Snow Creek logo and color guidelines
+source_reference: User-provided image in chat showing the Snow Creek logo and color
+  guidelines
 source_type: image
 figma_url: https://www.figma.com/design/70O01X6MWNKMpsLqIke99Q/Foundations?node-id=1-3
 status: active
@@ -10,28 +11,28 @@ preview:
   status: written_in_figma
 source_swatches:
 - source_name: Creek Blue
-  provided_value: "#00303e"
+  provided_value: '#00303e'
 - source_name: Tagline Gold
-  provided_value: "#dbae27"
+  provided_value: '#dbae27'
 - source_name: Snow White
-  provided_value: "#f5f5f0"
+  provided_value: '#f5f5f0'
 universal_reuse:
   reuse_universal:
   - source_name: Black logo variation
-    provided_value: "#000000"
+    provided_value: '#000000'
     existing_token: universal/black
     rationale: Exact black remains inherited through the shared neutral baseline.
   new_brand_families:
   - family: creek_blue
-    provided_value: "#00303e"
+    provided_value: '#00303e'
     anchor_step: 950
     anchor_label: 900_source
   - family: tagline_gold
-    provided_value: "#dbae27"
+    provided_value: '#dbae27'
     anchor_step: 300
     anchor_label: 300_source
   - family: snow_white
-    provided_value: "#f5f5f0"
+    provided_value: '#f5f5f0'
     anchor_step: 100
     anchor_label: 100_source
 scale_spec:
@@ -57,105 +58,106 @@ scale_spec:
 family_scales:
 - family: creek_blue
   source_name: Creek Blue
-  source_value: "#00303e"
-  source_anchor: 900_source
+  source_value: '#00303e'
+  source_anchor: 700_source
   tokens:
   - name: snow_creek/creek_blue/100
-    value: "#f2f8fa"
+    value: '#f2f8fa'
     source_anchor: false
   - name: snow_creek/creek_blue/200
-    value: "#e1eff3"
+    value: '#e1eff3'
     source_anchor: false
   - name: snow_creek/creek_blue/300
-    value: "#9ec7d3"
+    value: '#9ec7d3'
     source_anchor: false
   - name: snow_creek/creek_blue/400
-    value: "#75adbe"
+    value: '#75adbe'
     source_anchor: false
   - name: snow_creek/creek_blue/500
-    value: "#4f93a6"
+    value: '#4f93a6'
     source_anchor: false
   - name: snow_creek/creek_blue/600
-    value: "#3b7688"
+    value: '#3b7688'
     source_anchor: false
   - name: snow_creek/creek_blue/700
-    value: "#2a5b69"
-    source_anchor: false
+    value: '#00303e'
+    source_anchor: true
   - name: snow_creek/creek_blue/800
-    value: "#1c424d"
+    value: '#002733'
     source_anchor: false
   - name: snow_creek/creek_blue/900
-    value: "#00303e"
-    source_anchor: true
+    value: '#001e27'
+    source_anchor: false
 - family: tagline_gold
   source_name: Tagline Gold
-  source_value: "#dbae27"
-  source_anchor: 300_source
+  source_value: '#dbae27'
+  source_anchor: 500_source
   tokens:
   - name: snow_creek/tagline_gold/100
-    value: "#fdf4d6"
+    value: '#fdf6dd'
     source_anchor: false
   - name: snow_creek/tagline_gold/200
-    value: "#f6e6b0"
+    value: '#f7e8b5'
     source_anchor: false
   - name: snow_creek/tagline_gold/300
-    value: "#dbae27"
-    source_anchor: true
+    value: '#f0d37a'
+    source_anchor: false
   - name: snow_creek/tagline_gold/400
-    value: "#c79a22"
+    value: '#e6bf45'
     source_anchor: false
   - name: snow_creek/tagline_gold/500
-    value: "#ad831c"
-    source_anchor: false
+    value: '#dbae27'
+    source_anchor: true
   - name: snow_creek/tagline_gold/600
-    value: "#8f6b17"
+    value: '#b89320'
     source_anchor: false
   - name: snow_creek/tagline_gold/700
-    value: "#725513"
+    value: '#93741a'
     source_anchor: false
   - name: snow_creek/tagline_gold/800
-    value: "#57400f"
+    value: '#6f5714'
     source_anchor: false
   - name: snow_creek/tagline_gold/900
-    value: "#2c2308"
+    value: '#2c2308'
     source_anchor: false
 - family: snow_white
   source_name: Snow White
-  source_value: "#f5f5f0"
+  source_value: '#f5f5f0'
   source_anchor: 100_source
   tokens:
   - name: snow_creek/snow_white/100
-    value: "#fafaf7"
+    value: '#fafaf7'
     source_anchor: false
   - name: snow_creek/snow_white/200
-    value: "#f5f5f0"
+    value: '#f5f5f0'
     source_anchor: true
   - name: snow_creek/snow_white/300
-    value: "#bbbbb7"
+    value: '#bbbbb7'
     source_anchor: false
   - name: snow_creek/snow_white/400
-    value: "#a1a19e"
+    value: '#a1a19e'
     source_anchor: false
   - name: snow_creek/snow_white/500
-    value: "#888886"
+    value: '#888886'
     source_anchor: false
   - name: snow_creek/snow_white/600
-    value: "#70706e"
+    value: '#70706e'
     source_anchor: false
   - name: snow_creek/snow_white/700
-    value: "#595957"
+    value: '#595957'
     source_anchor: false
   - name: snow_creek/snow_white/800
-    value: "#414140"
+    value: '#414140'
     source_anchor: false
   - name: snow_creek/snow_white/900
-    value: "#141413"
+    value: '#141413'
     source_anchor: false
 semantic_recommendations:
   role_sets:
   - scope: neutral
     source_family: inherited_base
-    rationale: The first pass keeps neutral roles inherited instead of promoting `snow_white` into the neutral ladder.
+    rationale: The first pass keeps neutral roles inherited instead of promoting `snow_white`
+      into the neutral ladder.
   - scope: brand
     source_family: snow_creek/creek_blue
     rationale: Creek Blue drives the primary expressive lane.
@@ -172,5 +174,6 @@ review_readiness:
   - subject: Snow Creek expressive mapping
     rule: Use `creek_blue` for `brand/*` and `tagline_gold` for `brand_secondary/*`.
   - subject: Snow Creek neutral treatment
-    rule: Keep `snow_white` raw-only in the first pass rather than promoting it into the neutral semantic ladder.
+    rule: Keep `snow_white` raw-only in the first pass rather than promoting it into
+      the neutral semantic ladder.
 open_questions: []

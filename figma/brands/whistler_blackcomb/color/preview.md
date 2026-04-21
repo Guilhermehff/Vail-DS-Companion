@@ -49,6 +49,22 @@ Source basis: The official Whistler Blackcomb guide explicitly calls for an even
 
 ## Proposed Families
 
+### Family: neutral
+
+Source anchors: `100_source / 900_source`
+
+<div>
+  <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
+  <span title="200 #e6e6e6" style="display:inline-block;width:32px;height:32px;background:#e6e6e6;border:1px solid #d1d5db;"></span>
+  <span title="300 #cccccc" style="display:inline-block;width:32px;height:32px;background:#cccccc;border:1px solid #d1d5db;"></span>
+  <span title="400 #a6a6a6" style="display:inline-block;width:32px;height:32px;background:#a6a6a6;border:1px solid #d1d5db;"></span>
+  <span title="500 #808080" style="display:inline-block;width:32px;height:32px;background:#808080;border:1px solid #d1d5db;"></span>
+  <span title="600 #595959" style="display:inline-block;width:32px;height:32px;background:#595959;border:1px solid #d1d5db;"></span>
+  <span title="700 #404040" style="display:inline-block;width:32px;height:32px;background:#404040;border:1px solid #d1d5db;"></span>
+  <span title="800 #262626" style="display:inline-block;width:32px;height:32px;background:#262626;border:1px solid #d1d5db;"></span>
+  <span title="900 #000000" style="display:inline-block;width:32px;height:32px;background:#000000;border:1px solid #d1d5db;"></span>
+</div>
+
 ### Family: red
 
 Source anchor: `600_source`
@@ -69,7 +85,7 @@ Source anchor: `600_source`
 
 - Whistler Blackcomb Red lands at `600` because the supplied swatch is darker than pure digital red but still sits above the deepest accent range.
 - Exact black and white should remain shared through `universal/black` and `universal/white`.
-- The official guidance calls for an even ratio of red, black, and white, but only red becomes a new raw family because black and white are already governed universal primitives.
+- Live Figma now also carries `whistler_blackcomb/neutral/*` while the original exact black and white source matches still remain documented against the shared universal primitives.
 
 ## Live Semantic Mapping
 
@@ -77,8 +93,8 @@ Source anchor: `600_source`
   The supplied black and white are exact universal matches, so the shared neutral role set remains inherited from the semantic base collection.
 - `color/surface/brand/*`, `color/on_surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `whistler_blackcomb/red`
   Red is the primary Whistler Blackcomb expressive lane.
-- `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `whistler_blackcomb/red`
-  The live schema still requires a secondary expressive lane, and the accepted semantic color family model allows brands with one expressive hue to map `brand_secondary/*` back to the same raw family used by `brand/*`.
+- `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `whistler_blackcomb/neutral`
+  The live secondary expressive lane now resolves through the Whistler Blackcomb neutral family.
 - `variables/assets/logo` -> `Whistler Blackcomb`
   The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.
 

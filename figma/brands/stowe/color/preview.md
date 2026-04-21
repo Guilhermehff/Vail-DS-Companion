@@ -45,7 +45,7 @@ Source basis: Approximate ratios inferred from the relative field widths in the 
   `Powder White` -> `universal/white` (`50%`) Largest field in the composition and the main whitespace carrier.
   `Stowe Red` -> `stowe/stowe_red/600` (`20%`) Largest non-white block and the clearest brand-identifying color.
   `Ice Blue` -> `stowe/stowe_blue/500` (`18%`) Wider of the two blue-gray support blocks in the recommended ratio strip.
-  `Winter Blue` -> `stowe/stowe_blue/800` (`12%`) Narrowest support block and the darkest contrast lane in the source strip.
+  `Winter Blue` -> `stowe/stowe_blue/700` (`12%`) Narrowest support block and the darkest contrast lane in the source strip.
 - Notes:
   These percentages are approximate documentation guidance inferred from the displayed ratio fields rather than exact published source values.
   Ice Blue and Winter Blue are governed inside one raw family even though the usage page shows them as separate visual shares.
@@ -70,19 +70,20 @@ Source anchor: `600_source`
 
 ### Family: stowe_blue
 
-Source anchors: `500_source / 800_source`
+Source anchors: `500_source / 700_source`
 
 <div>
-  <span title="100 #f7fbfe" style="display:inline-block;width:32px;height:32px;background:#f7fbfe;border:1px solid #d1d5db;"></span>
-  <span title="200 #e7edf1" style="display:inline-block;width:32px;height:32px;background:#e7edf1;border:1px solid #d1d5db;"></span>
-  <span title="300 #acb7be" style="display:inline-block;width:32px;height:32px;background:#acb7be;border:1px solid #d1d5db;"></span>
-  <span title="400 #8f9ca6" style="display:inline-block;width:32px;height:32px;background:#8f9ca6;border:1px solid #d1d5db;"></span>
+  <span title="100 #f4f8fb" style="display:inline-block;width:32px;height:32px;background:#f4f8fb;border:1px solid #d1d5db;"></span>
+  <span title="200 #e3ebf1" style="display:inline-block;width:32px;height:32px;background:#e3ebf1;border:1px solid #d1d5db;"></span>
+  <span title="300 #c7d4de" style="display:inline-block;width:32px;height:32px;background:#c7d4de;border:1px solid #d1d5db;"></span>
+  <span title="400 #a4b6c4" style="display:inline-block;width:32px;height:32px;background:#a4b6c4;border:1px solid #d1d5db;"></span>
   <span title="500 #74838e" style="display:inline-block;width:32px;height:32px;background:#74838e;border:1px solid #d1d5db;"></span>
-  <span title="600 #5f6f79" style="display:inline-block;width:32px;height:32px;background:#5f6f79;border:1px solid #d1d5db;"></span>
-  <span title="700 #4b5b65" style="display:inline-block;width:32px;height:32px;background:#4b5b65;border:1px solid #d1d5db;"></span>
-  <span title="800 #384851" style="display:inline-block;width:32px;height:32px;background:#384851;border:1px solid #d1d5db;"></span>
-  <span title="900 #12181c" style="display:inline-block;width:32px;height:32px;background:#12181c;border:1px solid #d1d5db;"></span>
+  <span title="600 #586975" style="display:inline-block;width:32px;height:32px;background:#586975;border:1px solid #d1d5db;"></span>
+  <span title="700 #384851" style="display:inline-block;width:32px;height:32px;background:#384851;border:1px solid #d1d5db;"></span>
+  <span title="800 #2a383f" style="display:inline-block;width:32px;height:32px;background:#2a383f;border:1px solid #d1d5db;"></span>
+  <span title="900 #1c262b" style="display:inline-block;width:32px;height:32px;background:#1c262b;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ## Review Notes
 

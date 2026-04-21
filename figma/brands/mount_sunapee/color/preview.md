@@ -47,7 +47,7 @@ Source basis: The user-provided Mount Sunapee color-usage page gives a stacked d
 - Intent: `White space leads. Lake Sunapee and Cold Wax carry the main brand presence. Golden Hour, Snow Gun, and Verde Slate remain accent-level support and should not dominate on their own.`
 - Proportions:
   `White Space` -> `universal/white` (`45%`) Largest field in the distribution graphic and explicitly called out as the leading emphasis.
-  `Lake Sunapee` -> `mount_sunapee/sunapee_neutral/800` (`25%`) Strongest non-white structural block in the distribution graphic.
+  `Lake Sunapee` -> `mount_sunapee/sunapee_neutral/700` (`25%`) Strongest non-white structural block in the distribution graphic.
   `Cold Wax` -> `mount_sunapee/cold_wax/500` (`15%`) Most prominent saturated primary brand color after the structural white and dark field.
   `Golden Hour` -> `mount_sunapee/golden_hour/300` (`8%`) Warm accent strip in the guidance graphic.
   `Snow Gun` -> `mount_sunapee/sunapee_neutral/200` (`4%`) Light secondary accent strip in the source graphic.
@@ -60,19 +60,20 @@ Source basis: The user-provided Mount Sunapee color-usage page gives a stacked d
 
 ### Family: sunapee_neutral
 
-Source anchors: `200_source / 400_source / 800_source`
+Source anchor: `700_source`
 
 <div>
-  <span title="100 #fbfaf6" style="display:inline-block;width:32px;height:32px;background:#fbfaf6;border:1px solid #d1d5db;"></span>
-  <span title="200 #f2f0e5" style="display:inline-block;width:32px;height:32px;background:#f2f0e5;border:1px solid #d1d5db;"></span>
-  <span title="300 #adc0b6" style="display:inline-block;width:32px;height:32px;background:#adc0b6;border:1px solid #d1d5db;"></span>
-  <span title="400 #8ca7a7" style="display:inline-block;width:32px;height:32px;background:#8ca7a7;border:1px solid #d1d5db;"></span>
-  <span title="500 #6f898d" style="display:inline-block;width:32px;height:32px;background:#6f898d;border:1px solid #d1d5db;"></span>
-  <span title="600 #546c74" style="display:inline-block;width:32px;height:32px;background:#546c74;border:1px solid #d1d5db;"></span>
-  <span title="700 #3b505b" style="display:inline-block;width:32px;height:32px;background:#3b505b;border:1px solid #d1d5db;"></span>
-  <span title="800 #253542" style="display:inline-block;width:32px;height:32px;background:#253542;border:1px solid #d1d5db;"></span>
+  <span title="100 #f7f9f8" style="display:inline-block;width:32px;height:32px;background:#f7f9f8;border:1px solid #d1d5db;"></span>
+  <span title="200 #e8eeec" style="display:inline-block;width:32px;height:32px;background:#e8eeec;border:1px solid #d1d5db;"></span>
+  <span title="300 #c9d6d2" style="display:inline-block;width:32px;height:32px;background:#c9d6d2;border:1px solid #d1d5db;"></span>
+  <span title="400 #a7b4b8" style="display:inline-block;width:32px;height:32px;background:#a7b4b8;border:1px solid #d1d5db;"></span>
+  <span title="500 #88989e" style="display:inline-block;width:32px;height:32px;background:#88989e;border:1px solid #d1d5db;"></span>
+  <span title="600 #66797f" style="display:inline-block;width:32px;height:32px;background:#66797f;border:1px solid #d1d5db;"></span>
+  <span title="700 #253542" style="display:inline-block;width:32px;height:32px;background:#253542;border:1px solid #d1d5db;"></span>
+  <span title="800 #1c2a34" style="display:inline-block;width:32px;height:32px;background:#1c2a34;border:1px solid #d1d5db;"></span>
   <span title="900 #0a131a" style="display:inline-block;width:32px;height:32px;background:#0a131a;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: cold_wax
 

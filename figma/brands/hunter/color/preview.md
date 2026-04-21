@@ -52,11 +52,11 @@ Source basis: User-provided Hunter brand guidance defines primary versus seconda
 
 - Intent: `Mountain Blue, Sunrise Orange, and Flurry White form the core Hunter palette for primary branding pieces, backgrounds, and type. Snow Blue, Forest Green, and City Grey remain accent colors that highlight or complement the primary palette.`
 - Dominant palette:
-  `Mountain Blue` -> `hunter/mountain_blue/900`
+  `Mountain Blue` -> `hunter/mountain_blue/700`
   `Sunrise Orange` -> `hunter/sunrise_orange/500`
   `Flurry White` -> `hunter/hunter_neutral/200`
 - Supporting palette:
-  `Snow Blue` -> `hunter/mountain_blue/200`
+  `Snow Blue` -> `hunter/mountain_blue/100`
   `Forest Green` -> `hunter/forest_green/700`
   `City Grey` -> `hunter/hunter_neutral/500`
 - Notes:
@@ -83,19 +83,20 @@ Source anchors: `100_source / 500_source`
 
 ### Family: mountain_blue
 
-Source anchors: `100_source / 900_source`
+Source anchors: `100_source / 700_source`
 
 <div>
-  <span title="100 #f2fcff" style="display:inline-block;width:32px;height:32px;background:#f2fcff;border:1px solid #d1d5db;"></span>
-  <span title="200 #e7f1ff" style="display:inline-block;width:32px;height:32px;background:#e7f1ff;border:1px solid #d1d5db;"></span>
-  <span title="300 #bfc7d7" style="display:inline-block;width:32px;height:32px;background:#bfc7d7;border:1px solid #d1d5db;"></span>
-  <span title="400 #a5acbd" style="display:inline-block;width:32px;height:32px;background:#a5acbd;border:1px solid #d1d5db;"></span>
-  <span title="500 #878d9e" style="display:inline-block;width:32px;height:32px;background:#878d9e;border:1px solid #d1d5db;"></span>
-  <span title="600 #6b7081" style="display:inline-block;width:32px;height:32px;background:#6b7081;border:1px solid #d1d5db;"></span>
-  <span title="700 #525567" style="display:inline-block;width:32px;height:32px;background:#525567;border:1px solid #d1d5db;"></span>
-  <span title="800 #3b3d4e" style="display:inline-block;width:32px;height:32px;background:#3b3d4e;border:1px solid #d1d5db;"></span>
-  <span title="900 #222233" style="display:inline-block;width:32px;height:32px;background:#222233;border:1px solid #d1d5db;"></span>
+  <span title="100 #e7f1ff" style="display:inline-block;width:32px;height:32px;background:#e7f1ff;border:1px solid #d1d5db;"></span>
+  <span title="200 #ccd3e2" style="display:inline-block;width:32px;height:32px;background:#ccd3e2;border:1px solid #d1d5db;"></span>
+  <span title="300 #aab4c8" style="display:inline-block;width:32px;height:32px;background:#aab4c8;border:1px solid #d1d5db;"></span>
+  <span title="400 #8894ae" style="display:inline-block;width:32px;height:32px;background:#8894ae;border:1px solid #d1d5db;"></span>
+  <span title="500 #677493" style="display:inline-block;width:32px;height:32px;background:#677493;border:1px solid #d1d5db;"></span>
+  <span title="600 #4a5575" style="display:inline-block;width:32px;height:32px;background:#4a5575;border:1px solid #d1d5db;"></span>
+  <span title="700 #222233" style="display:inline-block;width:32px;height:32px;background:#222233;border:1px solid #d1d5db;"></span>
+  <span title="800 #1a1a29" style="display:inline-block;width:32px;height:32px;background:#1a1a29;border:1px solid #d1d5db;"></span>
+  <span title="900 #12121f" style="display:inline-block;width:32px;height:32px;background:#12121f;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: sunrise_orange
 
