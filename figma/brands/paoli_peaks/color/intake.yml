@@ -17,7 +17,7 @@ source_swatches:
 - source_name: Peak's Peak
   provided_value: '#d8dfe1'
 - source_name: Peak's Valley
-  provided_value: '#8fd16a'
+  provided_value: '#67a2b9'
 universal_reuse:
   reuse_universal:
   - source_name: Black logo variation
@@ -38,9 +38,9 @@ universal_reuse:
     anchor_step: 200
     anchor_label: 300_source
   - family: peaks_valley
-    provided_value: '#4f8fa6'
-    anchor_step: 500
-    anchor_label: 500_source
+    provided_value: '#67a2b9'
+    anchor_step: 400
+    anchor_label: 400_source
 scale_spec:
   working_space: OKLCH
   steps:
@@ -128,8 +128,8 @@ family_scales:
     source_anchor: false
 - family: peaks_valley
   source_name: Peak's Valley
-  source_value: '#4f8fa6'
-  source_anchor: 600_source
+  source_value: '#67a2b9'
+  source_anchor: 400_source
   tokens:
   - name: paoli_peaks/peaks_valley/100
     value: '#f2f9fb'
@@ -141,14 +141,14 @@ family_scales:
     value: '#bfe3ea'
     source_anchor: false
   - name: paoli_peaks/peaks_valley/400
-    value: '#8fced8'
-    source_anchor: false
+    value: '#67a2b9'
+    source_anchor: true
   - name: paoli_peaks/peaks_valley/500
     value: '#50a5bc'
     source_anchor: false
   - name: paoli_peaks/peaks_valley/600
     value: '#3f8fa3'
-    source_anchor: true
+    source_anchor: false
   - name: paoli_peaks/peaks_valley/700
     value: '#2f7383'
     source_anchor: false

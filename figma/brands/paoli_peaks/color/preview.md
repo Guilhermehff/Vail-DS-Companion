@@ -14,7 +14,7 @@ Review state: written in figma. Verify live write state in `figma/brands/paoli_p
   Provided value: `#d8dfe1`
 
 - Source color: `Peak's Valley`
-  Provided value: `#8fd16a`
+  Provided value: `#67a2b9`
 
 ## Universal Reuse
 
@@ -63,13 +63,13 @@ Source anchor: `300_source`
 
 ### Family: peaks_valley
 
-Source anchor: `600_source`
+Source anchor: `400_source`
 
 <div>
   <span title="100 #f2f9fb" style="display:inline-block;width:32px;height:32px;background:#f2f9fb;border:1px solid #d1d5db;"></span>
   <span title="200 #e1f1f5" style="display:inline-block;width:32px;height:32px;background:#e1f1f5;border:1px solid #d1d5db;"></span>
   <span title="300 #bfe3ea" style="display:inline-block;width:32px;height:32px;background:#bfe3ea;border:1px solid #d1d5db;"></span>
-  <span title="400 #8fced8" style="display:inline-block;width:32px;height:32px;background:#8fced8;border:1px solid #d1d5db;"></span>
+  <span title="400 #67a2b9" style="display:inline-block;width:32px;height:32px;background:#67a2b9;border:1px solid #d1d5db;"></span>
   <span title="500 #50a5bc" style="display:inline-block;width:32px;height:32px;background:#50a5bc;border:1px solid #d1d5db;"></span>
   <span title="600 #3f8fa3" style="display:inline-block;width:32px;height:32px;background:#3f8fa3;border:1px solid #d1d5db;"></span>
   <span title="700 #2f7383" style="display:inline-block;width:32px;height:32px;background:#2f7383;border:1px solid #d1d5db;"></span>
