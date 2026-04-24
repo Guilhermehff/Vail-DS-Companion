@@ -25,10 +25,6 @@ source_swatches:
   provided_value: '#c6c8c8'
   source_usage_scope: accent sub-palette
   notes: Source image lists PMS 420.
-- source_name: Mogul Shadow 20%
-  provided_value: '#f2f2f2'
-  source_usage_scope: accent sub-palette
-  notes: Source image explicitly labels the tint as 20%.
 - source_name: Sharp Edge Grey
   provided_value: '#3d4347'
   source_usage_scope: accent sub-palette

@@ -66,8 +66,8 @@ universal_reuse:
     provided_value: '#002e1c'
     rationale: Approved live write. Tupelo remains its own dark green family as the
       separate secondary expressive lane.
-    anchor_step: 950
-    anchor_label: 900_source
+    anchor_step: 700
+    anchor_label: 700_source
   - family: springs_neutral
     source_name: Grandma's Axe
     provided_value: '#141418'
@@ -79,7 +79,7 @@ universal_reuse:
     source_anchors:
     - source_name: Mashed Potatoes
       provided_value: '#f6fff7'
-      anchor_step: 50
+      anchor_step: 100
       anchor_label: 100_source
   - family: wildin_yellow
     source_name: Wildin' Yellow
@@ -249,10 +249,10 @@ validation:
   - Springs Green lands at `600` and Mini Golf Green at `300`, keeping the primary
     Seven Springs green ladder aligned to the supplied lighter and mid-dark brand
     greens.
-  - User-approved interpretation. Tupelo lands at `900` on its own dark-green ladder
+  - User-approved interpretation. Tupelo lands at `700` on its own dark-green ladder
     so the secondary expressive lane stays distinct from the primary Springs Green
     family.
-  - Mashed Potatoes and Grandma's Axe land cleanly at `50` and `950`, so they can
+  - Mashed Potatoes and Grandma's Axe land cleanly at `100` and `900`, so they can
     support a branded neutral surface and foreground system without inventing extra
     neutral swatches.
   - User-approved exception. `Wildin' Yellow` is promoted into its own raw family

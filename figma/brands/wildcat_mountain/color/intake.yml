@@ -16,8 +16,6 @@ source_swatches:
   provided_value: '#e8e1be'
 - source_name: Wildcat Teal
   provided_value: '#008a7e'
-- source_name: Wedding Blue
-  provided_value: '#53c0c4'
 universal_reuse:
   reuse_universal:
   - source_name: Black logo variation
@@ -41,10 +39,6 @@ universal_reuse:
     provided_value: '#008a7e'
     anchor_step: 700
     anchor_label: 700_source
-  - family: wedding_blue
-    provided_value: '#53c0c4'
-    anchor_step: 400
-    anchor_label: 400_source
 scale_spec:
   working_space: OKLCH
   steps:
@@ -162,38 +156,6 @@ family_scales:
   - name: wildcat_mountain/wildcat_teal/900
     value: '#00322e'
     source_anchor: false
-- family: wedding_blue
-  source_name: Wedding Blue
-  source_value: '#53c0c4'
-  source_anchor: 400_source
-  tokens:
-  - name: wildcat_mountain/wedding_blue/100
-    value: '#d4eff0'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/200
-    value: '#b7e5e6'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/300
-    value: '#78ced1'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/400
-    value: '#53c0c4'
-    source_anchor: true
-  - name: wildcat_mountain/wedding_blue/500
-    value: '#449da0'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/600
-    value: '#377e81'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/700
-    value: '#2a6163'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/800
-    value: '#1e4547'
-    source_anchor: false
-  - name: wildcat_mountain/wedding_blue/900
-    value: '#122a2b'
-    source_anchor: false
 semantic_recommendations:
   role_sets:
   - scope: neutral
@@ -209,7 +171,6 @@ semantic_recommendations:
       expressive lane.
   global_only_families:
   - wildcat_mountain/wildcat_tan
-  - wildcat_mountain/wedding_blue
   role_exceptions:
   - target: variables/assets/logo
     source_token: Wildcat Mountain

@@ -22,6 +22,16 @@ source_swatches:
   channel_restrictions: not specified in source
   notes: Source image lists PMS 418C and 419U, CMYK 63 61 65 52, web RGB 65 60 55,
     and HEX
+- source_name: Purple
+  provided_value: '#763c70'
+  source_usage_scope: primary color system plus sub-brand system
+  channel_restrictions: not specified in source
+  notes: Added to match the current original palette documentation in Foundations.
+- source_name: Blue
+  provided_value: '#3d76ae'
+  source_usage_scope: primary color system plus sub-brand system
+  channel_restrictions: not specified in source
+  notes: Added to match the current original palette documentation in Foundations.
 - source_name: Black
   provided_value: '#000000'
   source_usage_scope: rich black when applicable

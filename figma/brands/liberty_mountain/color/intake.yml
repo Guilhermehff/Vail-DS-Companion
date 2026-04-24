@@ -49,31 +49,11 @@ source_swatches:
   source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
   notes: Source image lists Pantone Warm Grey 1 at 50 percent, RGB 236 232 228, and CMYK 6 7 8 0.
-- source_name: Sunrise
-  provided_value: "#ff5a34"
-  source_usage_scope: source palette swatch
-  channel_restrictions: not specified in source
-  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 - source_name: Sunset
   provided_value: "#e18431"
   source_usage_scope: source palette swatch
   channel_restrictions: not specified in source
   notes: Source image lists Pantone 144C, RGB 237 131 48, and CMYK 0 51 100 0.
-- source_name: Flora
-  provided_value: "#6a1f45"
-  source_usage_scope: source palette swatch
-  channel_restrictions: not specified in source
-  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
-- source_name: Spring
-  provided_value: "#b8bf09"
-  source_usage_scope: source palette swatch
-  channel_restrictions: not specified in source
-  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
-- source_name: Copper
-  provided_value: "#9d5f15"
-  source_usage_scope: source palette swatch
-  channel_restrictions: not specified in source
-  notes: 'Preserved as source provenance only. This family is no longer present in the live `_Global: Color` collection.'
 universal_reuse:
   reuse_universal: []
   new_brand_families:
@@ -139,28 +119,28 @@ family_scales:
   - Tundra anchors the darker cool neutral bridge using the corrected source value approved on 2026-03-30.
   tokens:
   - name: liberty_mountain/cool_neutral/100
-    value: "#f4f8fb"
+    value: "#f3f7fa"
     source_anchor: false
   - name: liberty_mountain/cool_neutral/200
-    value: "#e4ebf2"
+    value: "#dbe2e7"
     source_anchor: false
   - name: liberty_mountain/cool_neutral/300
-    value: "#c9d4de"
+    value: "#8a99a5"
     source_anchor: false
   - name: liberty_mountain/cool_neutral/400
-    value: "#a7b6c3"
+    value: "#748693"
     source_anchor: true
   - name: liberty_mountain/cool_neutral/500
-    value: "#8396a6"
-    source_anchor: false
+    value: "#3f5364"
+    source_anchor: true
   - name: liberty_mountain/cool_neutral/600
-    value: "#617587"
-    source_anchor: false
+    value: "#3a4959"
+    source_anchor: true
   - name: liberty_mountain/cool_neutral/700
-    value: "#273848"
+    value: "#263a4a"
     source_anchor: false
   - name: liberty_mountain/cool_neutral/800
-    value: "#18232e"
+    value: "#0f2332"
     source_anchor: false
   - name: liberty_mountain/cool_neutral/900
     value: "#000007"
