@@ -15,10 +15,23 @@ Review state: written in figma. Verify live write state in `figma/brands/boston_
   Proposed token: `universal/black`
   Notes: Exact match.
 
-## Live Raw Family
+## Proposed Families
 
-- Raw family: `boston_mills/neutral/*`
-  Notes: `neutral/700` preserves `Snowgun Grey` and `neutral/900` preserves exact black.
+### Family: neutral
+
+Source anchors: `700_source / 900_source`
+
+<div>
+  <span title="100 #f5f7f7" style="display:inline-block;width:32px;height:32px;background:#f5f7f7;border:1px solid #d1d5db;"></span>
+  <span title="200 #e3e7e8" style="display:inline-block;width:32px;height:32px;background:#e3e7e8;border:1px solid #d1d5db;"></span>
+  <span title="300 #c7ced1" style="display:inline-block;width:32px;height:32px;background:#c7ced1;border:1px solid #d1d5db;"></span>
+  <span title="400 #a6b0b4" style="display:inline-block;width:32px;height:32px;background:#a6b0b4;border:1px solid #d1d5db;"></span>
+  <span title="500 #828e93" style="display:inline-block;width:32px;height:32px;background:#828e93;border:1px solid #d1d5db;"></span>
+  <span title="600 #657379" style="display:inline-block;width:32px;height:32px;background:#657379;border:1px solid #d1d5db;"></span>
+  <span title="700 #474e50" style="display:inline-block;width:32px;height:32px;background:#474e50;border:1px solid #d1d5db;"></span>
+  <span title="800 #2e3335" style="display:inline-block;width:32px;height:32px;background:#2e3335;border:1px solid #d1d5db;"></span>
+  <span title="900 #000000" style="display:inline-block;width:32px;height:32px;background:#000000;border:1px solid #d1d5db;"></span>
+</div>
 
 ## Live Semantic Mapping
 

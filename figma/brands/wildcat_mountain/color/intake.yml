@@ -16,6 +16,9 @@ source_swatches:
   provided_value: '#e8e1be'
 - source_name: Wildcat Teal
   provided_value: '#008a7e'
+- source_name: Wedding Blue
+  provided_value: '#53c0c4'
+  notes: Preserved as source provenance only. Not a live raw family in Figma.
 universal_reuse:
   reuse_universal:
   - source_name: Black logo variation
@@ -179,6 +182,6 @@ review_readiness:
   - subject: Wildcat Mountain expressive mapping
     rule: Use `wildcat_green` for `brand/*` and `wildcat_teal` for `brand_secondary/*`.
   - subject: Wildcat Mountain extra families
-    rule: Keep `wildcat_tan` and `wedding_blue` as governed raw-only families in the
-      first pass.
+    rule: Keep `wildcat_tan` as a governed raw-only family in the first pass; preserve
+      Wedding Blue as source provenance only.
 open_questions: []

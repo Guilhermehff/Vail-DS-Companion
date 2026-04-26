@@ -104,6 +104,7 @@ semantic_overrides:
       - No Afton Alps neutral swatch was supplied, so neutral roles remain inherited from the shared semantic base.
       - The earlier repo source for the Afton blue lane was incorrect. Live Figma now reflects the corrected source set supplied on 2026-04-21.
       - '`St. Croix Blue` now lands at `afton_alps/blue/700`, with `Valley Violet` at `afton_alps/blue/300` and the darker `800` and `900` steps rebuilt around that corrected source.'
+      - '`Bluff Gray` is live as the global-only family `afton_alps/bluff_gray/*`, anchored at `700`.'
       - The live secondary expressive lane now resolves through `afton_alps/meadow_yellow/*`, with `Meadow Yellow` preserved at `meadow_yellow/400`.
       - '`variables/assets/logo` is overridden to the string `Afton Alps` in the semantic theme extension.'
     typography:
@@ -138,4 +139,4 @@ semantic_overrides:
       - Brand-safe typography aliases now stage on `afton_alps/family_safe/*` from Vail Resorts Guidelines.pdf.
       - Ads heading size now stages on the 0.75x row in the approved row-order mapping.
 notes:
-- Afton Alps is live in the Foundations file with two raw color families, two raw typography family primitives, a semantic theme logo-name override, and Afton Alps semantic theme extension.
+- Afton Alps is live in the Foundations file with three raw color families, two raw typography family primitives, a semantic theme logo-name override, and Afton Alps semantic theme extension.

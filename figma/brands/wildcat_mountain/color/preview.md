@@ -15,6 +15,7 @@ Review state: written in figma. Verify live write state in `figma/brands/wildcat
 
 - Source color: `Wedding Blue`
   Provided value: `#53c0c4`
+  Notes: Preserved as source provenance only. Not a live raw family in Figma.
 
 ## Universal Reuse
 
@@ -78,22 +79,6 @@ Source anchor: `700_source`
   <span title="900 #00322e" style="display:inline-block;width:32px;height:32px;background:#00322e;border:1px solid #d1d5db;"></span>
 </div>
 
-### Family: wedding_blue
-
-Source anchor: `400_source`
-
-<div>
-  <span title="100 #d4eff0" style="display:inline-block;width:32px;height:32px;background:#d4eff0;border:1px solid #d1d5db;"></span>
-  <span title="200 #b7e5e6" style="display:inline-block;width:32px;height:32px;background:#b7e5e6;border:1px solid #d1d5db;"></span>
-  <span title="300 #78ced1" style="display:inline-block;width:32px;height:32px;background:#78ced1;border:1px solid #d1d5db;"></span>
-  <span title="400 #53c0c4" style="display:inline-block;width:32px;height:32px;background:#53c0c4;border:1px solid #d1d5db;"></span>
-  <span title="500 #449da0" style="display:inline-block;width:32px;height:32px;background:#449da0;border:1px solid #d1d5db;"></span>
-  <span title="600 #377e81" style="display:inline-block;width:32px;height:32px;background:#377e81;border:1px solid #d1d5db;"></span>
-  <span title="700 #2a6163" style="display:inline-block;width:32px;height:32px;background:#2a6163;border:1px solid #d1d5db;"></span>
-  <span title="800 #1e4547" style="display:inline-block;width:32px;height:32px;background:#1e4547;border:1px solid #d1d5db;"></span>
-  <span title="900 #122a2b" style="display:inline-block;width:32px;height:32px;background:#122a2b;border:1px solid #d1d5db;"></span>
-</div>
-
 ## Live Semantic Mapping
 
 - Scope: `neutral` -> `inherited_base`
@@ -102,7 +87,7 @@ Source anchor: `400_source`
   Wildcat Green is the primary all-season brand color and drives the first expressive lane.
 - Scope: `brand_secondary` -> `wildcat_mountain/wildcat_teal`
   Wildcat Teal is the most reusable supporting accent for the second expressive lane.
-- Global-only families: `wildcat_mountain/wildcat_tan`, `wildcat_mountain/wedding_blue`
+- Global-only family: `wildcat_mountain/wildcat_tan`
 - `variables/assets/logo` -> `Wildcat Mountain`
 
 ## Review Readiness
@@ -111,4 +96,4 @@ Source anchor: `400_source`
   Rule: Use `wildcat_green` for `brand/*` and `wildcat_teal` for `brand_secondary/*`.
 
 - Subject: `Wildcat Mountain extra families`
-  Rule: Keep `wildcat_tan` and `wedding_blue` as governed raw-only families in the first pass.
+  Rule: Keep `wildcat_tan` as a governed raw-only family in the first pass; preserve Wedding Blue as source provenance only.

@@ -35,12 +35,6 @@ universal_reuse:
     existing_token: universal/white
     rationale: Exact match to the shared universal white primitive.
   new_brand_families:
-  - family: neutral
-    source_name: White and Black
-    provided_value: "#ffffff / #000000"
-    rationale: Live Figma now carries a Whistler Blackcomb neutral family alongside the existing exact universal matches.
-    anchor_step: 100
-    anchor_label: 100_source / 900_source
   - family: red
     source_name: Red
     provided_value: "#cc0000"
@@ -69,40 +63,6 @@ scale_spec:
       '200': 7:1 required
       '300': 4.5:1 required
 family_scales:
-- family: neutral
-  source_name: White and Black
-  source_value: "#ffffff / #000000"
-  source_anchor: 100_source / 900_source
-  notes:
-  - Live Figma now includes a Whistler Blackcomb neutral ramp with exact white and exact black preserved on-ramp.
-  tokens:
-  - name: whistler_blackcomb/neutral/100
-    value: "#ffffff"
-    source_anchor: true
-  - name: whistler_blackcomb/neutral/200
-    value: "#e6e6e6"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/300
-    value: "#cccccc"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/400
-    value: "#a6a6a6"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/500
-    value: "#808080"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/600
-    value: "#595959"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/700
-    value: "#404040"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/800
-    value: "#262626"
-    source_anchor: false
-  - name: whistler_blackcomb/neutral/900
-    value: "#000000"
-    source_anchor: true
 - family: red
   source_name: Red
   source_value: "#cc0000"
@@ -161,7 +121,7 @@ validation:
   perceptual_consistency_notes:
   - Whistler Blackcomb Red lands at `600` because the supplied swatch is darker than pure digital red but still sits above the deepest accent range.
   - Exact black and white should remain shared through `universal/black` and `universal/white`.
-  - Live Figma now also carries `whistler_blackcomb/neutral/*` while the original exact black and white source matches still remain documented against the shared universal primitives.
+  - No `whistler_blackcomb/neutral/*` raw family is governed in the repo.
   contrast_checks:
   - token: whistler_blackcomb/red/600
     foreground: white
@@ -188,8 +148,8 @@ semantic_recommendations:
     - color/foreground/brand
     - color/border/brand
   - scope: brand_secondary
-    source_family: whistler_blackcomb/neutral
-    rationale: The live secondary expressive lane now resolves through the Whistler Blackcomb neutral family.
+    source_family: whistler_blackcomb/red
+    rationale: The secondary expressive lane reuses the red family because the official palette supplies no second expressive hue.
     targets:
     - color/surface/brand_secondary/*
     - color/on_surface/brand_secondary/*

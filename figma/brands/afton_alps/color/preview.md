@@ -75,7 +75,7 @@ Source anchor: `400_source`
 
 ### Family: bluff_gray
 
-Source anchor: `800_source`
+Source anchor: `700_source`
 
 <div>
   <span title="100 #f8f5f4" style="display:inline-block;width:32px;height:32px;background:#f8f5f4;border:1px solid #d1d5db;"></span>
@@ -84,8 +84,8 @@ Source anchor: `800_source`
   <span title="400 #b0a09d" style="display:inline-block;width:32px;height:32px;background:#b0a09d;border:1px solid #d1d5db;"></span>
   <span title="500 #917f7b" style="display:inline-block;width:32px;height:32px;background:#917f7b;border:1px solid #d1d5db;"></span>
   <span title="600 #73605c" style="display:inline-block;width:32px;height:32px;background:#73605c;border:1px solid #d1d5db;"></span>
-  <span title="700 #52413e" style="display:inline-block;width:32px;height:32px;background:#52413e;border:1px solid #d1d5db;"></span>
-  <span title="800 #2d2828" style="display:inline-block;width:32px;height:32px;background:#2d2828;border:1px solid #d1d5db;"></span>
+  <span title="700 #2d2828" style="display:inline-block;width:32px;height:32px;background:#2d2828;border:1px solid #d1d5db;"></span>
+  <span title="800 #221d1d" style="display:inline-block;width:32px;height:32px;background:#221d1d;border:1px solid #d1d5db;"></span>
   <span title="900 #141010" style="display:inline-block;width:32px;height:32px;background:#141010;border:1px solid #d1d5db;"></span>
 </div>
 
@@ -96,7 +96,7 @@ Source anchor: `800_source`
 - `St. Croix Blue` now lands at `afton_alps/blue/700`, and the darker `800` and `900` values were rebuilt around that corrected source anchor.
 - `Valley Violet` now lands at `afton_alps/blue/300` inside the live blue family.
 - Live Figma preserves `Meadow Yellow` at `afton_alps/meadow_yellow/400`.
-- The repo now also carries a proposed `afton_alps/bluff_gray/*` raw family anchored on `bluff_gray/800` for governance review only.
+- Live Figma carries `afton_alps/bluff_gray/*` with Bluff Gray anchored on `bluff_gray/700`.
 - The first semantic pass inherits the shared neutral role set because no branded neutral swatch was supplied.
 - The primary blue semantic lane uses the rebuilt blue family, with the corrected source no longer treated as a `900` anchor.
 
@@ -109,7 +109,7 @@ Source anchor: `800_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `afton_alps/meadow_yellow`
   The live secondary expressive lane resolves through `meadow_yellow`.
 - Global-only family: `afton_alps/bluff_gray`
-  Repo-only proposed raw family. This is not currently part of the live Figma semantic mapping.
+  This family is live in Figma but is not currently part of the live semantic mapping.
 - `variables/assets/logo` -> `Afton Alps`
   The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.
 

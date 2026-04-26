@@ -71,21 +71,21 @@ Source basis: The supplied Kirkwood visual-guidelines page states that black, wh
 - Intent: `Foundational neutrals dominate. Orange 021 C stays as the main highlight color. The blue accents should usually arrive through photography or smaller supporting moments rather than as the leading solid field.`
 - Dominant palette:
   `White` -> `universal/white`
-  `Cool Grey 1` -> `kirkwood/cool_gray/300`
+  `Cool Grey 1` -> `kirkwood/cool_gray/200`
   `Cool Grey 9` -> `kirkwood/cool_gray/700`
   `Black C` -> `universal/black`
 - Supporting palette:
-  `Orange 021 C` -> `kirkwood/orange_021_c/500`
-  `648 C` -> `kirkwood/blue_648_c/700`
-  `633 C` -> `kirkwood/teal_633_c/600`
-  `642 C` -> `kirkwood/cool_gray/200`
+  `Orange 021 C` -> `kirkwood/orange/500`
+  `642 C` -> `kirkwood/blue/300`
+  `633 C` -> `kirkwood/blue/600`
+  `648 C` -> `kirkwood/blue/700`
 - Notes:
   The source explicitly says orange is used as the highlight.
   The source explicitly says the palette blues often occur naturally in outdoor photography.
 
 ## Proposed Families
 
-### Family: orange_021_c
+### Family: orange
 
 Source anchor: `500_source`
 
@@ -101,71 +101,54 @@ Source anchor: `500_source`
   <span title="900 #2e1109" style="display:inline-block;width:32px;height:32px;background:#2e1109;border:1px solid #d1d5db;"></span>
 </div>
 
-### Family: blue_648_c
+### Family: blue
 
-Source anchor: `700_source`
-
-<div>
-  <span title="100 #f2fafe" style="display:inline-block;width:32px;height:32px;background:#f2fafe;border:1px solid #d1d5db;"></span>
-  <span title="200 #dceef7" style="display:inline-block;width:32px;height:32px;background:#dceef7;border:1px solid #d1d5db;"></span>
-  <span title="300 #b8dbea" style="display:inline-block;width:32px;height:32px;background:#b8dbea;border:1px solid #d1d5db;"></span>
-  <span title="400 #8fc4db" style="display:inline-block;width:32px;height:32px;background:#8fc4db;border:1px solid #d1d5db;"></span>
-  <span title="500 #66abc9" style="display:inline-block;width:32px;height:32px;background:#66abc9;border:1px solid #d1d5db;"></span>
-  <span title="600 #3f8fb4" style="display:inline-block;width:32px;height:32px;background:#3f8fb4;border:1px solid #d1d5db;"></span>
-  <span title="700 #004c69" style="display:inline-block;width:32px;height:32px;background:#004c69;border:1px solid #d1d5db;"></span>
-  <span title="800 #003c55" style="display:inline-block;width:32px;height:32px;background:#003c55;border:1px solid #d1d5db;"></span>
-  <span title="900 #002d40" style="display:inline-block;width:32px;height:32px;background:#002d40;border:1px solid #d1d5db;"></span>
-</div>
-
-
-### Family: teal_633_c
-
-Source anchor: `600_source`
+Source anchors: `300_source / 600_source / 700_source`
 
 <div>
-  <span title="100 #eefbff" style="display:inline-block;width:32px;height:32px;background:#eefbff;border:1px solid #d1d5db;"></span>
-  <span title="200 #d5f5fe" style="display:inline-block;width:32px;height:32px;background:#d5f5fe;border:1px solid #d1d5db;"></span>
-  <span title="300 #83d9f1" style="display:inline-block;width:32px;height:32px;background:#83d9f1;border:1px solid #d1d5db;"></span>
-  <span title="400 #4fc2df" style="display:inline-block;width:32px;height:32px;background:#4fc2df;border:1px solid #d1d5db;"></span>
-  <span title="500 #01a6c6" style="display:inline-block;width:32px;height:32px;background:#01a6c6;border:1px solid #d1d5db;"></span>
+  <span title="100 #eef9fd" style="display:inline-block;width:32px;height:32px;background:#eef9fd;border:1px solid #d1d5db;"></span>
+  <span title="200 #d9eef5" style="display:inline-block;width:32px;height:32px;background:#d9eef5;border:1px solid #d1d5db;"></span>
+  <span title="300 #d0e2e9" style="display:inline-block;width:32px;height:32px;background:#d0e2e9;border:1px solid #d1d5db;"></span>
+  <span title="400 #9fcdda" style="display:inline-block;width:32px;height:32px;background:#9fcdda;border:1px solid #d1d5db;"></span>
+  <span title="500 #5fb0c2" style="display:inline-block;width:32px;height:32px;background:#5fb0c2;border:1px solid #d1d5db;"></span>
   <span title="600 #0f758b" style="display:inline-block;width:32px;height:32px;background:#0f758b;border:1px solid #d1d5db;"></span>
-  <span title="700 #00617a" style="display:inline-block;width:32px;height:32px;background:#00617a;border:1px solid #d1d5db;"></span>
-  <span title="800 #004659" style="display:inline-block;width:32px;height:32px;background:#004659;border:1px solid #d1d5db;"></span>
-  <span title="900 #001a22" style="display:inline-block;width:32px;height:32px;background:#001a22;border:1px solid #d1d5db;"></span>
+  <span title="700 #004c69" style="display:inline-block;width:32px;height:32px;background:#004c69;border:1px solid #d1d5db;"></span>
+  <span title="800 #00364b" style="display:inline-block;width:32px;height:32px;background:#00364b;border:1px solid #d1d5db;"></span>
+  <span title="900 #00202e" style="display:inline-block;width:32px;height:32px;background:#00202e;border:1px solid #d1d5db;"></span>
 </div>
+
 
 ### Family: cool_gray
 
-Source anchors: `100_source / 200_source / 300_source`
+Source anchors: `200_source / 700_source`
 
 <div>
-  <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
+  <span title="100 #f7f7f7" style="display:inline-block;width:32px;height:32px;background:#f7f7f7;border:1px solid #d1d5db;"></span>
   <span title="200 #f1f1f2" style="display:inline-block;width:32px;height:32px;background:#f1f1f2;border:1px solid #d1d5db;"></span>
-  <span title="300 #d0e2e9" style="display:inline-block;width:32px;height:32px;background:#d0e2e9;border:1px solid #d1d5db;"></span>
-  <span title="400 #b9ced6" style="display:inline-block;width:32px;height:32px;background:#b9ced6;border:1px solid #d1d5db;"></span>
-  <span title="500 #91acb6" style="display:inline-block;width:32px;height:32px;background:#91acb6;border:1px solid #d1d5db;"></span>
-  <span title="600 #4d585c" style="display:inline-block;width:32px;height:32px;background:#4d585c;border:1px solid #d1d5db;"></span>
-  <span title="700 #2f2f2f" style="display:inline-block;width:32px;height:32px;background:#2f2f2f;border:1px solid #d1d5db;"></span>
-  <span title="800 #171717" style="display:inline-block;width:32px;height:32px;background:#171717;border:1px solid #d1d5db;"></span>
-  <span title="900 #141313" style="display:inline-block;width:32px;height:32px;background:#141313;border:1px solid #d1d5db;"></span>
+  <span title="300 #d9dcde" style="display:inline-block;width:32px;height:32px;background:#d9dcde;border:1px solid #d1d5db;"></span>
+  <span title="400 #bec4c7" style="display:inline-block;width:32px;height:32px;background:#bec4c7;border:1px solid #d1d5db;"></span>
+  <span title="500 #a3abaf" style="display:inline-block;width:32px;height:32px;background:#a3abaf;border:1px solid #d1d5db;"></span>
+  <span title="600 #889296" style="display:inline-block;width:32px;height:32px;background:#889296;border:1px solid #d1d5db;"></span>
+  <span title="700 #6d6e70" style="display:inline-block;width:32px;height:32px;background:#6d6e70;border:1px solid #d1d5db;"></span>
+  <span title="800 #4b4b4d" style="display:inline-block;width:32px;height:32px;background:#4b4b4d;border:1px solid #d1d5db;"></span>
+  <span title="900 #2e2e2f" style="display:inline-block;width:32px;height:32px;background:#2e2e2f;border:1px solid #d1d5db;"></span>
 </div>
 
 
 ## Review Notes
 
 - Orange 021 C lands at `500` because the supplied swatch behaves as a vivid mid-tone highlight rather than a dark foundation color.
-- `648 C` lands at `800` because the supplied swatch is already a deep, high-contrast accent in the source palette.
-- `633 C` lands at `600` because it reads as a darker mid-tone support accent rather than a pale highlight.
-- The approved Kirkwood neutral family absorbs `642 C` at `300` and keeps exact source anchors at `50`, `100`, `300`, `700`, and `950`.
+- `blue` is a composite live family that preserves `642 C` at `300`, `633 C` at `600`, and `648 C` at `700`.
+- `cool_gray` follows the live Figma ramp, with `Cool Grey 1` at `200` and `Cool Grey 9` at `700`.
 
 ## Review Readiness
 
 - Subject: `Kirkwood branded neutral ladder`
   Channels: `web, email, ads`
-  Rule: Treat `642 C` as a neutral-support source value inside `kirkwood/cool_gray/*`, not as a fourth semantic accent family.
+  Rule: Treat `Cool Grey 1` and `Cool Grey 9` as the source anchors inside `kirkwood/cool_gray/*`.
   Source basis: User approval in chat plus the foundational palette image.
 
 - Subject: `Kirkwood accent slot mapping`
   Channels: `web, email, ads`
-  Rule: Use Orange 021 C as `brand/*`, 648 C as `brand_secondary/*`, and keep 633 C as a global-only family.
+  Rule: Use Orange 021 C as `brand/*` and the consolidated blue family as the supporting accent family.
   Source basis: The supplied palette image and approved semantic mapping choice.

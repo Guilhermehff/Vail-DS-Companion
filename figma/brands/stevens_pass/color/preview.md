@@ -46,22 +46,6 @@ Review state: written in figma. Verify live write state in `figma/brands/stevens
 
 ## Proposed Families
 
-### Family: neutral
-
-Source anchors: `100_source / 900_source`
-
-<div>
-  <span title="100 #ffffff" style="display:inline-block;width:32px;height:32px;background:#ffffff;border:1px solid #d1d5db;"></span>
-  <span title="200 #e6e6e6" style="display:inline-block;width:32px;height:32px;background:#e6e6e6;border:1px solid #d1d5db;"></span>
-  <span title="300 #cccccc" style="display:inline-block;width:32px;height:32px;background:#cccccc;border:1px solid #d1d5db;"></span>
-  <span title="400 #a6a6a6" style="display:inline-block;width:32px;height:32px;background:#a6a6a6;border:1px solid #d1d5db;"></span>
-  <span title="500 #808080" style="display:inline-block;width:32px;height:32px;background:#808080;border:1px solid #d1d5db;"></span>
-  <span title="600 #595959" style="display:inline-block;width:32px;height:32px;background:#595959;border:1px solid #d1d5db;"></span>
-  <span title="700 #404040" style="display:inline-block;width:32px;height:32px;background:#404040;border:1px solid #d1d5db;"></span>
-  <span title="800 #262626" style="display:inline-block;width:32px;height:32px;background:#262626;border:1px solid #d1d5db;"></span>
-  <span title="900 #000000" style="display:inline-block;width:32px;height:32px;background:#000000;border:1px solid #d1d5db;"></span>
-</div>
-
 ### Family: stevens_blue
 
 Source anchor: `600_source`
@@ -113,17 +97,17 @@ Source anchor: `600_source`
 
 ## Review Notes
 
-- Stevens Blue lands at `700` because the supplied swatch is already a dark, high-contrast primary brand blue.
+- Stevens Blue lands at `600` in live Figma.
 - Secondary Blue lands at `800` because the supplied swatch is materially darker than Stevens Blue and behaves as a strong secondary dark lane.
 - Mossy Green lands at `600` because the supplied swatch reads as a mid-dark accent rather than a neutral.
-- Live Figma now also carries `stevens_pass/neutral/*` even though the exact source black and white still match the shared universal primitives.
+- Exact black and white remain shared through `universal/black` and `universal/white`; no `stevens_pass/neutral/*` raw family is governed in the repo.
 
 ## Live Semantic Mapping
 
 - `color/surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `stevens_pass/stevens_blue`
   The primary expressive lane remains Stevens Blue, with live default surfaces now staging on `stevens_blue/600`.
-- `color/surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `stevens_pass/neutral`
-  The live secondary expressive lane now resolves through the Stevens Pass neutral ramp rather than `secondary_blue`.
+- `color/surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `stevens_pass/secondary_blue`
+  Secondary Blue remains the governed secondary expressive lane in the repo.
 - `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `inherited_base`
   Shared semantic neutral roles remain inherited from the base collection.
 

@@ -36,12 +36,10 @@ source_swatches:
   channel_restrictions: not specified in source
   notes: Exact match to the shared universal white primitive.
 - source_name: Beaver Creek Black
-  provided_value: '#0a2030'
+  provided_value: '#0a0203'
   source_usage_scope: neutral_brand_palette
   channel_restrictions: not specified in source
-  notes: Source image lists RGB 10 3 3, but the displayed HEX is `#0a2030`. Governance
-    preserves the displayed HEX as the canonical source value until the source artifact
-    is corrected.
+  notes: Live Figma documentation uses `#0A0203` as the governed original-palette value.
 universal_reuse:
   reuse_universal:
   - source_name: Beaver Creek White
@@ -53,7 +51,7 @@ universal_reuse:
   - family: silver
     source_name: Beaver Creek Light Silver 25% Tint, Beaver Creek Light Silver, Beaver
       Creek Medium Silver, Beaver Creek Primary Silver, and Beaver Creek Black
-    provided_value: '#dee3e9 / #b9c7d4 / #80a1b6 / #5c6f7c / #0a2030'
+    provided_value: '#dee3e9 / #b9c7d4 / #80a1b6 / #5c6f7c / #0a0203'
     rationale: Beaver Creek supplies one cohesive silver-to-near-black system rather
       than separate expressive and neutral families, so one silver ladder can carry
       both the branded neutral system and the approved expressive semantic lanes.
@@ -84,7 +82,7 @@ family_scales:
 - family: silver
   source_name: Beaver Creek Light Silver 25% Tint, Beaver Creek Light Silver, Beaver
     Creek Medium Silver, Beaver Creek Primary Silver, and Beaver Creek Black
-  source_value: '#dee3e9 / #b9c7d4 / #80a1b6 / #5c6f7c / #0a2030'
+  source_value: '#dee3e9 / #b9c7d4 / #80a1b6 / #5c6f7c / #0a0203'
   source_anchor: 200_source / 300_source / 500_source / 700_source
   tokens:
   - name: beaver_creek/silver/100

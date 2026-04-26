@@ -102,6 +102,7 @@ semantic_overrides:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - Exact black and white remain inherited through the shared neutral role recipes because the supplied palette matches `universal/black` and `universal/white`.
       - '`rocket_fuel` drives the primary expressive semantic lane, while `snow_gun` drives the secondary expressive lane.'
+      - '`blue` and `purple` are governed global-only raw color families.'
       - '`variables/assets/logo` is overridden to the string `Crotched` in the semantic theme extension even though the source logo guide also shows `Crotched Mountain` and `CrotchedMTN` lockups.'
     typography:
       override_scopes:
@@ -125,4 +126,4 @@ semantic_overrides:
       - 'Typography size continues to bind directly from published `Global: Typography`.'
       - Brand-safe typography aliases now stage on `crotched/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:
-- Crotched is live in the Foundations file with two raw color families, no brand-specific raw typography families, a semantic theme logo-name override, and Crotched semantic theme extension.
+- Crotched is live in the Foundations file with four raw color families, no brand-specific raw typography families, a semantic theme logo-name override, and Crotched semantic theme extension.

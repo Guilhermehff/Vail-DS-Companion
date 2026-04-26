@@ -16,6 +16,18 @@ Review state: written in figma. Verify live write state in `figma/brands/crotche
   Channel restrictions: `not specified in source`
   Notes: Source image lists PMS 418C and 419U, CMYK 63 61 65 52, web RGB 65 60 55, and HEX
 
+- Source color: `Blue`
+  Provided value: `#3d76ae`
+  Usage scope: `sub-brand system`
+  Channel restrictions: `not specified in source`
+  Notes: Live Figma carries this as `crotched/blue/500`.
+
+- Source color: `Purple`
+  Provided value: `#763c70`
+  Usage scope: `sub-brand system`
+  Channel restrictions: `not specified in source`
+  Notes: Live Figma carries this as `crotched/purple/700`.
+
 - Source color: `Black`
   Provided value: `#000000`
   Usage scope: `rich black when applicable`
@@ -72,12 +84,45 @@ Source anchor: `700_source`
   <span title="900 #161514" style="display:inline-block;width:32px;height:32px;background:#161514;border:1px solid #d1d5db;"></span>
 </div>
 
+### Family: blue
+
+Source anchor: `500_source`
+
+<div>
+  <span title="100 #d7e3f9" style="display:inline-block;width:32px;height:32px;background:#d7e3f9;border:1px solid #d1d5db;"></span>
+  <span title="200 #adc8f3" style="display:inline-block;width:32px;height:32px;background:#adc8f3;border:1px solid #d1d5db;"></span>
+  <span title="300 #7eaeed" style="display:inline-block;width:32px;height:32px;background:#7eaeed;border:1px solid #d1d5db;"></span>
+  <span title="400 #4f94de" style="display:inline-block;width:32px;height:32px;background:#4f94de;border:1px solid #d1d5db;"></span>
+  <span title="500 #3d76ae" style="display:inline-block;width:32px;height:32px;background:#3d76ae;border:1px solid #d1d5db;"></span>
+  <span title="600 #316193" style="display:inline-block;width:32px;height:32px;background:#316193;border:1px solid #d1d5db;"></span>
+  <span title="700 #234970" style="display:inline-block;width:32px;height:32px;background:#234970;border:1px solid #d1d5db;"></span>
+  <span title="800 #16324e" style="display:inline-block;width:32px;height:32px;background:#16324e;border:1px solid #d1d5db;"></span>
+  <span title="900 #0a1d2f" style="display:inline-block;width:32px;height:32px;background:#0a1d2f;border:1px solid #d1d5db;"></span>
+</div>
+
+### Family: purple
+
+Source anchor: `700_source`
+
+<div>
+  <span title="100 #f3e0f0" style="display:inline-block;width:32px;height:32px;background:#f3e0f0;border:1px solid #d1d5db;"></span>
+  <span title="200 #e6bce1" style="display:inline-block;width:32px;height:32px;background:#e6bce1;border:1px solid #d1d5db;"></span>
+  <span title="300 #dc9cd4" style="display:inline-block;width:32px;height:32px;background:#dc9cd4;border:1px solid #d1d5db;"></span>
+  <span title="400 #d07ac7" style="display:inline-block;width:32px;height:32px;background:#d07ac7;border:1px solid #d1d5db;"></span>
+  <span title="500 #b55fac" style="display:inline-block;width:32px;height:32px;background:#b55fac;border:1px solid #d1d5db;"></span>
+  <span title="600 #964e8e" style="display:inline-block;width:32px;height:32px;background:#964e8e;border:1px solid #d1d5db;"></span>
+  <span title="700 #763c70" style="display:inline-block;width:32px;height:32px;background:#763c70;border:1px solid #d1d5db;"></span>
+  <span title="800 #52284d" style="display:inline-block;width:32px;height:32px;background:#52284d;border:1px solid #d1d5db;"></span>
+  <span title="900 #31152e" style="display:inline-block;width:32px;height:32px;background:#31152e;border:1px solid #d1d5db;"></span>
+</div>
+
 
 ## Review Notes
 
-- Exact black and white remain shared through the universal neutral primitives, so Crotched only adds the two branded expressive families supplied by the source.
+- Exact black and white remain shared through the universal neutral primitives.
 - `rocket_fuel` stays bright at the source step and darkens quickly enough to support accessible branded surfaces.
 - `snow_gun` remains a deep brown-charcoal family distinct from exact black while preserving the supplied source swatch as the stronger secondary step.
+- `blue` and `purple` are live global-only Crotched families in Figma, with source anchors at `500` and `700`.
 
 ## Live Semantic Mapping
 
@@ -87,6 +132,7 @@ Source anchor: `700_source`
   Rocket Fuel is the signature bright brand color and should drive the primary expressive semantic lane.
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `crotched/snow_gun`
   Snow Gun is the dark supporting brand color and should drive the secondary expressive lane.
+- Global-only families: `crotched/blue`, `crotched/purple`
 - `variables/assets/logo` -> `Crotched`
   The live semantic color schema stores the governed brand display label in `variables/assets/logo`; the source image shows longer logo lockups, but the user requested the brand be added as Crotched.
 

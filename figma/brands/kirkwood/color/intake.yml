@@ -60,33 +60,25 @@ universal_reuse:
     existing_token: universal/black
     reason: Exact match to the existing universal black primitive.
   new_brand_families:
-  - family: orange_021_c
+  - family: orange
     source_name: Orange 021 C
     provided_value: '#f15a2b'
     rationale: Primary Kirkwood highlight color used in the source as the clearest
       accent and CTA lane.
     anchor_step: 500
     anchor_label: 500_source
-  - family: blue_648_c
-    source_name: 648 C
-    provided_value: '#004c69'
-    rationale: Deep blue-green support ladder used as the darkest branded accent.
-    anchor_step: 800
-    anchor_label: 800_source
-  - family: teal_633_c
-    source_name: 633 C
-    provided_value: '#0f758b'
-    rationale: Mid-tone teal support ladder used as the brighter branded accent beside
-      648 C.
-    anchor_step: 600
-    anchor_label: 600_source
+  - family: blue
+    source_name: 642 C, 633 C, and 648 C
+    provided_value: '#d0e2e9 / #0f758b / #004c69'
+    rationale: Consolidated live blue ladder carrying all three supplied blue source swatches.
+    anchor_step: 700
+    anchor_label: 300_source / 600_source / 700_source
   - family: cool_gray
-    source_name: White, Cool Grey 1, 642 C, Cool Grey 9, and Black C
-    provided_value: '#ffffff / #f1f1f2 / #d0e2e9 / #6d6e70 / #000000'
-    rationale: Approved review decision maps `642 C` into a branded neutral-support
-      ladder rather than a fourth semantic accent family.
-    anchor_step: 300
-    anchor_label: 300_source
+    source_name: Cool Grey 1 and Cool Grey 9
+    provided_value: '#f1f1f2 / #6d6e70'
+    rationale: Live Figma neutral ladder preserves the two supplied cool grey source swatches.
+    anchor_step: 200
+    anchor_label: 200_source / 700_source
   hold_for_review: []
 scale_spec:
   working_space: OKLCH
@@ -109,133 +101,105 @@ scale_spec:
       '200': 7:1 required
       '300': 4.5:1 required
 family_scales:
-- family: orange_021_c
+- family: orange
   source_name: Orange 021 C
   source_value: '#f15a2b'
   source_anchor: 500_source
   tokens:
-  - name: kirkwood/orange_021_c/100
+  - name: kirkwood/orange/100
     value: '#fff4ef'
     source_anchor: false
-  - name: kirkwood/orange_021_c/200
+  - name: kirkwood/orange/200
     value: '#ffe4d7'
     source_anchor: false
-  - name: kirkwood/orange_021_c/300
+  - name: kirkwood/orange/300
     value: '#ffae92'
     source_anchor: false
-  - name: kirkwood/orange_021_c/400
+  - name: kirkwood/orange/400
     value: '#ff8561'
     source_anchor: false
-  - name: kirkwood/orange_021_c/500
+  - name: kirkwood/orange/500
     value: '#f15a2b'
     source_anchor: true
-  - name: kirkwood/orange_021_c/600
+  - name: kirkwood/orange/600
     value: '#c34c28'
     source_anchor: false
-  - name: kirkwood/orange_021_c/700
+  - name: kirkwood/orange/700
     value: '#9c381a'
     source_anchor: false
-  - name: kirkwood/orange_021_c/800
+  - name: kirkwood/orange/800
     value: '#742a13'
     source_anchor: false
-  - name: kirkwood/orange_021_c/900
+  - name: kirkwood/orange/900
     value: '#2e1109'
     source_anchor: false
-- family: blue_648_c
-  source_name: 648 C
-  source_value: '#004c69'
-  source_anchor: 700_source
+- family: blue
+  source_name: 642 C, 633 C, and 648 C
+  source_value: '#d0e2e9 / #0f758b / #004c69'
+  source_anchor: 300_source / 600_source / 700_source
   tokens:
-  - name: kirkwood/blue_648_c/100
+  - name: kirkwood/blue/100
     value: '#f2fafe'
     source_anchor: false
-  - name: kirkwood/blue_648_c/200
+  - name: kirkwood/blue/200
     value: '#dceef7'
     source_anchor: false
-  - name: kirkwood/blue_648_c/300
-    value: '#b8dbea'
-    source_anchor: false
-  - name: kirkwood/blue_648_c/400
+  - name: kirkwood/blue/300
+    value: '#d0e2e9'
+    source_anchor: true
+  - name: kirkwood/blue/400
     value: '#8fc4db'
     source_anchor: false
-  - name: kirkwood/blue_648_c/500
+  - name: kirkwood/blue/500
     value: '#66abc9'
     source_anchor: false
-  - name: kirkwood/blue_648_c/600
-    value: '#3f8fb4'
-    source_anchor: false
-  - name: kirkwood/blue_648_c/700
-    value: '#004c69'
-    source_anchor: true
-  - name: kirkwood/blue_648_c/800
-    value: '#003c55'
-    source_anchor: false
-  - name: kirkwood/blue_648_c/900
-    value: '#002d40'
-    source_anchor: false
-- family: teal_633_c
-  source_name: 633 C
-  source_value: '#0f758b'
-  source_anchor: 600_source
-  tokens:
-  - name: kirkwood/teal_633_c/100
-    value: '#eefbff'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/200
-    value: '#d5f5fe'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/300
-    value: '#83d9f1'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/400
-    value: '#4fc2df'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/500
-    value: '#01a6c6'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/600
+  - name: kirkwood/blue/600
     value: '#0f758b'
     source_anchor: true
-  - name: kirkwood/teal_633_c/700
-    value: '#00617a'
+  - name: kirkwood/blue/700
+    value: '#004c69'
+    source_anchor: true
+  - name: kirkwood/blue/800
+    value: '#003c55'
     source_anchor: false
-  - name: kirkwood/teal_633_c/800
-    value: '#004659'
-    source_anchor: false
-  - name: kirkwood/teal_633_c/900
-    value: '#001a22'
+  - name: kirkwood/blue/900
+    value: '#002d40'
     source_anchor: false
 - family: cool_gray
-  source_name: White, Cool Grey 1, 642 C, Cool Grey 9, and Black C
-  source_value: '#ffffff / #f1f1f2 / #d0e2e9 / #6d6e70 / #000000'
-  source_anchor: 100_source / 200_source / 300_source
+  source_name: Cool Grey 1 and Cool Grey 9
+  source_value: '#f1f1f2 / #6d6e70'
+  source_anchor: 200_source / 700_source
+  notes:
+  - The working neutral ramp intentionally avoids pure white and pure black.
+  - Cool Grey 1 remains the light source anchor and Cool Grey 9 remains the dark source anchor.
+  - The outer steps are softened away from the literal Black C and White source swatches for a more usable neutral ladder.
   tokens:
   - name: kirkwood/cool_gray/100
-    value: '#ffffff'
-    source_anchor: true
+    value: '#f7f7f7'
+    source_anchor: false
   - name: kirkwood/cool_gray/200
     value: '#f1f1f2'
     source_anchor: true
   - name: kirkwood/cool_gray/300
-    value: '#d0e2e9'
-    source_anchor: true
+    value: '#d9dcde'
+    source_anchor: false
   - name: kirkwood/cool_gray/400
-    value: '#b9ced6'
+    value: '#bec4c7'
     source_anchor: false
   - name: kirkwood/cool_gray/500
-    value: '#91acb6'
+    value: '#a3abaf'
     source_anchor: false
   - name: kirkwood/cool_gray/600
-    value: '#4d585c'
+    value: '#889296'
     source_anchor: false
   - name: kirkwood/cool_gray/700
-    value: '#2f2f2f'
-    source_anchor: false
+    value: '#6d6e70'
+    source_anchor: true
   - name: kirkwood/cool_gray/800
-    value: '#171717'
+    value: '#4b4b4d'
     source_anchor: false
   - name: kirkwood/cool_gray/900
-    value: '#141313'
+    value: '#2e2e2f'
     source_anchor: false
 color_proportion_guidance:
   status: active
@@ -253,20 +217,20 @@ color_proportion_guidance:
     - source_color: White
       token: universal/white
     - source_color: Cool Grey 1
-      token: kirkwood/cool_gray/300
+      token: kirkwood/cool_gray/200
     - source_color: Cool Grey 9
       token: kirkwood/cool_gray/700
     - source_color: Black C
       token: universal/black
     supporting_palette:
     - source_color: Orange 021 C
-      token: kirkwood/orange_021_c/500
-    - source_color: 648 C
-      token: kirkwood/blue_648_c/800
-    - source_color: 633 C
-      token: kirkwood/teal_633_c/600
+      token: kirkwood/orange/500
     - source_color: 642 C
-      token: kirkwood/cool_gray/200
+      token: kirkwood/blue/300
+    - source_color: 633 C
+      token: kirkwood/blue/600
+    - source_color: 648 C
+      token: kirkwood/blue/700
     notes:
     - The source explicitly says orange is used as the highlight.
     - The source explicitly says the palette blues often occur naturally in outdoor
@@ -275,22 +239,21 @@ validation:
   perceptual_consistency_notes:
   - Orange 021 C lands at `500` because the supplied swatch behaves as a vivid mid-tone
     highlight rather than a dark foundation color.
-  - '`648 C` lands at `800` because the supplied swatch is already a deep, high-contrast
-    accent in the source palette.'
-  - '`633 C` lands at `600` because it reads as a darker mid-tone support accent rather
-    than a pale highlight.'
-  - The approved Kirkwood neutral family absorbs `642 C` at `300` and keeps exact
-    source anchors at `50`, `100`, `300`, `700`, and `950`.
+  - '`633 C` now anchors `600` and `648 C` now anchors `700`, with the surrounding
+    Kirkwood blue accent steps recalculated from those approved source positions.'
+  - The approved Kirkwood neutral family uses a softened working ladder with exact
+    source anchors at `200` for Cool Grey 1 and `700` for Cool Grey 9, while intentionally
+    avoiding pure white and pure black at the outer steps.
   contrast_checks:
-  - token: kirkwood/orange_021_c/500
+  - token: kirkwood/orange/500
     foreground: black
     ratio: 6.24:1
     result: pass
-  - token: kirkwood/blue_648_c/800
+  - token: kirkwood/blue/700
     foreground: white
     ratio: 9.38:1
     result: pass
-  - token: kirkwood/teal_633_c/600
+  - token: kirkwood/blue/600
     foreground: white
     ratio: 5.33:1
     result: pass
@@ -305,15 +268,13 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Treat `642 C` as a neutral-support source value inside `kirkwood/cool_gray/*`,
-      not as a fourth semantic accent family.
+    rule: Treat `Cool Grey 1` and `Cool Grey 9` as source anchors inside `kirkwood/cool_gray/*`.
     source_basis: User approval in chat plus the foundational palette image.
   - subject: Kirkwood accent slot mapping
     channels:
     - web
     - email
     - ads
-    rule: Use Orange 021 C as `brand/*`, 648 C as `brand_secondary/*`, and keep 633
-      C as a global-only family.
+    rule: Use Orange 021 C as `brand/*` and the consolidated blue family as the supporting accent family.
     source_basis: The supplied palette image and approved semantic mapping choice.
 open_questions: []

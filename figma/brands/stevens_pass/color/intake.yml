@@ -47,13 +47,6 @@ universal_reuse:
     existing_token: universal/white
     rationale: Exact match to the shared universal white primitive.
   new_brand_families:
-  - family: neutral
-    source_name: Black and Powder White
-    provided_value: '#000000 / #ffffff'
-    rationale: Live Figma now carries a Stevens Pass neutral family even though the
-      source exact black and white also remain governed universal primitives.
-    anchor_step: 100
-    anchor_label: 100_source / 900_source
   - family: stevens_blue
     source_name: Stevens Blue
     provided_value: '#0264a3'
@@ -97,41 +90,6 @@ scale_spec:
       '200': 7:1 required
       '300': 4.5:1 required
 family_scales:
-- family: neutral
-  source_name: Powder White and Black
-  source_value: '#ffffff / #000000'
-  source_anchor: 100_source / 900_source
-  notes:
-  - Live Figma now includes a Stevens Pass neutral ramp with exact white and exact
-    black preserved on-ramp.
-  tokens:
-  - name: stevens_pass/neutral/100
-    value: '#ffffff'
-    source_anchor: true
-  - name: stevens_pass/neutral/200
-    value: '#e6e6e6'
-    source_anchor: false
-  - name: stevens_pass/neutral/300
-    value: '#cccccc'
-    source_anchor: false
-  - name: stevens_pass/neutral/400
-    value: '#a6a6a6'
-    source_anchor: false
-  - name: stevens_pass/neutral/500
-    value: '#808080'
-    source_anchor: false
-  - name: stevens_pass/neutral/600
-    value: '#595959'
-    source_anchor: false
-  - name: stevens_pass/neutral/700
-    value: '#404040'
-    source_anchor: false
-  - name: stevens_pass/neutral/800
-    value: '#262626'
-    source_anchor: false
-  - name: stevens_pass/neutral/900
-    value: '#000000'
-    source_anchor: true
 - family: stevens_blue
   source_name: Stevens Blue
   source_value: '#0264a3'
@@ -230,14 +188,13 @@ family_scales:
     source_anchor: false
 validation:
   perceptual_consistency_notes:
-  - Stevens Blue lands at `700` because the supplied swatch is already a dark, high-contrast
-    primary brand blue.
+  - Stevens Blue lands at `600` in live Figma.
   - Secondary Blue lands at `800` because the supplied swatch is materially darker
     than Stevens Blue and behaves as a strong secondary dark lane.
   - Mossy Green lands at `600` because the supplied swatch reads as a mid-dark accent
     rather than a neutral.
-  - Live Figma now also carries `stevens_pass/neutral/*` even though the exact source
-    black and white still match the shared universal primitives.
+  - Exact black and white remain shared through `universal/black` and `universal/white`;
+    no `stevens_pass/neutral/*` raw family is governed in the repo.
   contrast_checks:
   - token: stevens_pass/stevens_blue/700
     foreground: white

@@ -153,10 +153,10 @@ family_scales:
 - family: bluff_gray
   source_name: Bluff Gray
   source_value: '#2d2828'
-  source_anchor: 800_source
+  source_anchor: 700_source
   notes:
-  - Repo-only proposed raw family based on the corrected Afton source image.
-  - This family is intentionally not part of the current live Figma raw inventory or semantic mapping.
+  - Live Figma carries this raw family based on the corrected Afton source image.
+  - This family is intentionally not part of the current semantic mapping.
   tokens:
   - name: afton_alps/bluff_gray/100
     value: '#f8f5f4'
@@ -177,11 +177,11 @@ family_scales:
     value: '#73605c'
     source_anchor: false
   - name: afton_alps/bluff_gray/700
-    value: '#52413e'
-    source_anchor: false
-  - name: afton_alps/bluff_gray/800
     value: '#2d2828'
     source_anchor: true
+  - name: afton_alps/bluff_gray/800
+    value: '#221d1d'
+    source_anchor: false
   - name: afton_alps/bluff_gray/900
     value: '#141010'
     source_anchor: false
@@ -191,7 +191,7 @@ validation:
   - St. Croix Blue now lands at `afton_alps/blue/700`, with the darker `800` and `900` values rebuilt around that corrected source anchor.
   - Valley Violet now lands at `afton_alps/blue/300` inside the live blue family.
   - Live Figma preserves Meadow Yellow at `afton_alps/meadow_yellow/400`.
-  - The repo now also carries a proposed `afton_alps/bluff_gray/*` raw family anchored on `bluff_gray/800` for governance review only.
+  - Live Figma carries `afton_alps/bluff_gray/*` with Bluff Gray anchored on `bluff_gray/700`.
   - The first semantic pass inherits the shared neutral role set because no branded
     neutral swatch was supplied.
   - The primary blue semantic lane uses the rebuilt blue family, with the corrected source no longer treated as a `900` anchor.

@@ -47,13 +47,13 @@ Source anchor: `700_source`
 
 ### Family: peaks_peak
 
-Source anchor: `300_source`
+Source anchor: `200_source`
 
 <div>
-  <span title="100 #f1f3f4" style="display:inline-block;width:32px;height:32px;background:#f1f3f4;border:1px solid #d1d5db;"></span>
-  <span title="200 #e5eaeb" style="display:inline-block;width:32px;height:32px;background:#e5eaeb;border:1px solid #d1d5db;"></span>
-  <span title="300 #d8dfe1" style="display:inline-block;width:32px;height:32px;background:#d8dfe1;border:1px solid #d1d5db;"></span>
-  <span title="400 #9fa4a6" style="display:inline-block;width:32px;height:32px;background:#9fa4a6;border:1px solid #d1d5db;"></span>
+  <span title="100 #f3f6f7" style="display:inline-block;width:32px;height:32px;background:#f3f6f7;border:1px solid #d1d5db;"></span>
+  <span title="200 #d8dfe1" style="display:inline-block;width:32px;height:32px;background:#d8dfe1;border:1px solid #d1d5db;"></span>
+  <span title="300 #bfc9cc" style="display:inline-block;width:32px;height:32px;background:#bfc9cc;border:1px solid #d1d5db;"></span>
+  <span title="400 #9faaae" style="display:inline-block;width:32px;height:32px;background:#9faaae;border:1px solid #d1d5db;"></span>
   <span title="500 #868a8b" style="display:inline-block;width:32px;height:32px;background:#868a8b;border:1px solid #d1d5db;"></span>
   <span title="600 #6e7172" style="display:inline-block;width:32px;height:32px;background:#6e7172;border:1px solid #d1d5db;"></span>
   <span title="700 #565959" style="display:inline-block;width:32px;height:32px;background:#565959;border:1px solid #d1d5db;"></span>
@@ -70,7 +70,7 @@ Source anchor: `400_source`
   <span title="200 #e1f1f5" style="display:inline-block;width:32px;height:32px;background:#e1f1f5;border:1px solid #d1d5db;"></span>
   <span title="300 #bfe3ea" style="display:inline-block;width:32px;height:32px;background:#bfe3ea;border:1px solid #d1d5db;"></span>
   <span title="400 #67a2b9" style="display:inline-block;width:32px;height:32px;background:#67a2b9;border:1px solid #d1d5db;"></span>
-  <span title="500 #50a5bc" style="display:inline-block;width:32px;height:32px;background:#50a5bc;border:1px solid #d1d5db;"></span>
+  <span title="500 #4f8fa6" style="display:inline-block;width:32px;height:32px;background:#4f8fa6;border:1px solid #d1d5db;"></span>
   <span title="600 #3f8fa3" style="display:inline-block;width:32px;height:32px;background:#3f8fa3;border:1px solid #d1d5db;"></span>
   <span title="700 #2f7383" style="display:inline-block;width:32px;height:32px;background:#2f7383;border:1px solid #d1d5db;"></span>
   <span title="800 #215764" style="display:inline-block;width:32px;height:32px;background:#215764;border:1px solid #d1d5db;"></span>

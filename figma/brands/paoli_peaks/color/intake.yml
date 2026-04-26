@@ -12,8 +12,6 @@ preview:
 source_swatches:
 - source_name: Paoli Blue
   provided_value: '#192957'
-- source_name: Peak's Gradient
-  provided_value: documented_gradient
 - source_name: Peak's Peak
   provided_value: '#d8dfe1'
 - source_name: Peak's Valley
@@ -36,7 +34,7 @@ universal_reuse:
   - family: peaks_peak
     provided_value: '#d8dfe1'
     anchor_step: 200
-    anchor_label: 300_source
+    anchor_label: 200_source
   - family: peaks_valley
     provided_value: '#67a2b9'
     anchor_step: 400
@@ -97,19 +95,19 @@ family_scales:
 - family: peaks_peak
   source_name: Peak's Peak
   source_value: '#d8dfe1'
-  source_anchor: 300_source
+  source_anchor: 200_source
   tokens:
   - name: paoli_peaks/peaks_peak/100
-    value: '#f1f3f4'
+    value: '#f3f6f7'
     source_anchor: false
   - name: paoli_peaks/peaks_peak/200
-    value: '#e5eaeb'
-    source_anchor: false
-  - name: paoli_peaks/peaks_peak/300
     value: '#d8dfe1'
     source_anchor: true
+  - name: paoli_peaks/peaks_peak/300
+    value: '#bfc9cc'
+    source_anchor: false
   - name: paoli_peaks/peaks_peak/400
-    value: '#9fa4a6'
+    value: '#9faaae'
     source_anchor: false
   - name: paoli_peaks/peaks_peak/500
     value: '#868a8b'
@@ -144,7 +142,7 @@ family_scales:
     value: '#67a2b9'
     source_anchor: true
   - name: paoli_peaks/peaks_valley/500
-    value: '#50a5bc'
+    value: '#4f8fa6'
     source_anchor: false
   - name: paoli_peaks/peaks_valley/600
     value: '#3f8fa3'

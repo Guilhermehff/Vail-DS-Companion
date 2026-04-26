@@ -66,8 +66,20 @@ universal_reuse:
     provided_value: '#413c37'
     rationale: Dark supporting brand color that should drive the secondary expressive
       lane without collapsing into exact shared black.
-    anchor_step: 900
-    anchor_label: 900_source
+    anchor_step: 700
+    anchor_label: 700_source
+  - family: blue
+    source_name: Blue
+    provided_value: '#3d76ae'
+    rationale: Live global-only Crotched support family.
+    anchor_step: 500
+    anchor_label: 500_source
+  - family: purple
+    source_name: Purple
+    provided_value: '#763c70'
+    rationale: Live global-only Crotched support family.
+    anchor_step: 700
+    anchor_label: 700_source
   hold_for_review: []
 scale_spec:
   working_space: OKLCH
@@ -154,14 +166,78 @@ family_scales:
   - name: crotched/snow_gun/900
     value: '#161514'
     source_anchor: false
+- family: blue
+  source_name: Blue
+  source_value: '#3d76ae'
+  source_anchor: 500_source
+  tokens:
+  - name: crotched/blue/100
+    value: '#d7e3f9'
+    source_anchor: false
+  - name: crotched/blue/200
+    value: '#adc8f3'
+    source_anchor: false
+  - name: crotched/blue/300
+    value: '#7eaeed'
+    source_anchor: false
+  - name: crotched/blue/400
+    value: '#4f94de'
+    source_anchor: false
+  - name: crotched/blue/500
+    value: '#3d76ae'
+    source_anchor: true
+  - name: crotched/blue/600
+    value: '#316193'
+    source_anchor: false
+  - name: crotched/blue/700
+    value: '#234970'
+    source_anchor: false
+  - name: crotched/blue/800
+    value: '#16324e'
+    source_anchor: false
+  - name: crotched/blue/900
+    value: '#0a1d2f'
+    source_anchor: false
+- family: purple
+  source_name: Purple
+  source_value: '#763c70'
+  source_anchor: 700_source
+  tokens:
+  - name: crotched/purple/100
+    value: '#f3e0f0'
+    source_anchor: false
+  - name: crotched/purple/200
+    value: '#e6bce1'
+    source_anchor: false
+  - name: crotched/purple/300
+    value: '#dc9cd4'
+    source_anchor: false
+  - name: crotched/purple/400
+    value: '#d07ac7'
+    source_anchor: false
+  - name: crotched/purple/500
+    value: '#b55fac'
+    source_anchor: false
+  - name: crotched/purple/600
+    value: '#964e8e'
+    source_anchor: false
+  - name: crotched/purple/700
+    value: '#763c70'
+    source_anchor: true
+  - name: crotched/purple/800
+    value: '#52284d'
+    source_anchor: false
+  - name: crotched/purple/900
+    value: '#31152e'
+    source_anchor: false
 validation:
   perceptual_consistency_notes:
-  - Exact black and white remain shared through the universal neutral primitives,
-    so Crotched only adds the two branded expressive families supplied by the source.
+  - Exact black and white remain shared through the universal neutral primitives.
   - '`rocket_fuel` stays bright at the source step and darkens quickly enough to support
     accessible branded surfaces.'
   - '`snow_gun` remains a deep brown-charcoal family distinct from exact black while
     preserving the supplied source swatch as the stronger secondary step.'
+  - '`blue` and `purple` are live global-only Crotched families in Figma, with source anchors at `500` and `700`.'
   contrast_checks:
   - token: crotched/rocket_fuel/700
     foreground: white
@@ -210,7 +286,9 @@ semantic_recommendations:
     - color/on_surface/brand_secondary/*
     - color/foreground/brand_secondary
     - color/border/brand_secondary
-  global_only_families: []
+  global_only_families:
+  - crotched/blue
+  - crotched/purple
   role_exceptions:
   - target: variables/assets/logo
     source_token: Crotched
