@@ -103,7 +103,7 @@ family_scales:
   - name: heavenly/snow_flower_red/500
     value: "#e33f54"
     source_anchor: false
-  - name: heavenly/snow_flower_red/600
+  - name: heavenly/snow_flower_red/600_source
     value: "#cb1f30"
     source_anchor: true
   - name: heavenly/snow_flower_red/700
@@ -138,7 +138,7 @@ family_scales:
   - name: heavenly/deep_water_blue/600
     value: "#3c74cb"
     source_anchor: false
-  - name: heavenly/deep_water_blue/700
+  - name: heavenly/deep_water_blue/700_source
     value: "#1e5eb9"
     source_anchor: true
   - name: heavenly/deep_water_blue/800
@@ -158,7 +158,7 @@ family_scales:
   - name: heavenly/shore_blue/200
     value: "#ddf7ff"
     source_anchor: false
-  - name: heavenly/shore_blue/300
+  - name: heavenly/shore_blue/300_source
     value: "#54c3f2"
     source_anchor: true
   - name: heavenly/shore_blue/400
@@ -191,12 +191,12 @@ color_proportion_guidance:
     - source_color: Mountain Shadow Black
       token: universal/black
     - source_color: Snow Flower Red
-      token: heavenly/snow_flower_red/600
+      token: heavenly/snow_flower_red/600_source
     supporting_palette:
     - source_color: Deep Water Blue
-      token: heavenly/deep_water_blue/700
+      token: heavenly/deep_water_blue/700_source
     - source_color: Shore Blue
-      token: heavenly/shore_blue/300
+      token: heavenly/shore_blue/300_source
     notes:
     - The source says Mountain Shadow Black should be used for text and only very sparingly as a high-contrast logo color or minimal separating block.
     - The source frames the blues as supporting lake-derived colors rather than primary brand fields.
@@ -211,7 +211,7 @@ validation:
     foreground: white
     ratio: 7.60:1
     result: pass
-  - token: heavenly/deep_water_blue/700
+  - token: heavenly/deep_water_blue/700_source
     foreground: white
     ratio: 6.35:1
     result: pass

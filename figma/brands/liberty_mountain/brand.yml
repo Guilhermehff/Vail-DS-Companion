@@ -138,12 +138,12 @@ semantic_overrides:
         alias_of: liberty_mountain/family_safe/01
       inherited_from_base: []
       notes:
-      - 'Liberty Mountain is live as a Brown-led typography system with `typography/family/heading`, `typography/family/body`, and `typography/family/action` all mapped to `liberty_mountain/family/01`.'
-      - User-approved live write by source interpretation. The source says Brown is the primary Liberty Mountain font for print and web materials, so the first semantic pass also routes the action family through Brown rather than inheriting the shared default family.
-      - '`Sentinel` is preserved as the raw primitive `liberty_mountain/family/02`, with the source-specific `Sentinel Book` style retained in the intake notes, but it remains raw-only because the current shared semantic theme typography schema has no alternate serif lane.'
+      - 'Liberty Mountain is live as a Brown LL-led typography system with `typography/family/heading`, `typography/family/body`, and `typography/family/action` all mapped to `liberty_mountain/family/01`.'
+      - User-approved live write by source interpretation. The source says Brown LL is the primary Liberty Mountain font for print and web materials, so the first semantic pass also routes the action family through Brown LL rather than inheriting the shared default family.
+      - '`Sentinel` has been removed from live `Global: Typography`; Liberty Mountain now has one governed raw brand family primitive, `liberty_mountain/family/01`.'
       - '`typography/weight/heading/strong` and `typography/weight/action/base` both override to `universal/weight/normal` so Liberty Mountain does not inherit the shared black default that the source never specifies.'
       - '`typography/weight/body/base = universal/weight/light` and `typography/weight/body/strong = universal/weight/normal` stage the Brown Light and Brown Regular reading hierarchy through the current semantic ladder.'
       - Brand-safe typography aliases now stage on `liberty_mountain/family_safe/*` from Vail Resorts Guidelines.pdf.
       - Ads heading size now stages on the 1.125x row in the approved row-order mapping.
 notes:
-- Liberty Mountain is live in the Foundations file with five raw color families, two raw typography family primitives, a semantic theme logo-name override, and Liberty Mountain semantic theme extension.
+- Liberty Mountain is live in the Foundations file with five raw color families, one raw typography family primitive, a semantic theme logo-name override, and Liberty Mountain semantic theme extension.

@@ -80,7 +80,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
 
 Proposed family token: `keystone/family/01`
 
-Safe family token: `keystone/family_safe/01`
+Safe family token: `keystone/family_safe/02`
 
 Proposed weight token: `universal/weight/bold`
 
@@ -99,7 +99,7 @@ Recipe notes:
 
 Proposed family token: `keystone/family/02`
 
-Safe family token: `keystone/family_safe/01`
+Safe family token: `keystone/family_safe/02`
 
 Proposed weight token: `universal/weight/medium`
 

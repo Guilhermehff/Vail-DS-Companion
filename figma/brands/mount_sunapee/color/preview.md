@@ -47,9 +47,9 @@ Source basis: The user-provided Mount Sunapee color-usage page gives a stacked d
 - Intent: `White space leads. Lake Sunapee and Cold Wax carry the main brand presence. Golden Hour, Snow Gun, and Verde Slate remain accent-level support and should not dominate on their own.`
 - Proportions:
   `White Space` -> `universal/white` (`45%`) Largest field in the distribution graphic and explicitly called out as the leading emphasis.
-  `Lake Sunapee` -> `mount_sunapee/sunapee_neutral/700` (`25%`) Strongest non-white structural block in the distribution graphic.
-  `Cold Wax` -> `mount_sunapee/cold_wax/500` (`15%`) Most prominent saturated primary brand color after the structural white and dark field.
-  `Golden Hour` -> `mount_sunapee/golden_hour/300` (`8%`) Warm accent strip in the guidance graphic.
+  `Lake Sunapee` -> `mount_sunapee/sunapee_neutral/700_source` (`25%`) Strongest non-white structural block in the distribution graphic.
+  `Cold Wax` -> `mount_sunapee/cold_wax/500_source` (`15%`) Most prominent saturated primary brand color after the structural white and dark field.
+  `Golden Hour` -> `mount_sunapee/golden_hour/300_source` (`8%`) Warm accent strip in the guidance graphic.
   `Snow Gun` -> `mount_sunapee/sunapee_neutral/200` (`4%`) Light secondary accent strip in the source graphic.
   `Verde Slate` -> `mount_sunapee/sunapee_neutral/400` (`3%`) Smallest muted support strip in the source graphic.
 - Notes:

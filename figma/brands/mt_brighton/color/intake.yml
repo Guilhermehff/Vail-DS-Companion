@@ -75,7 +75,7 @@ family_scales:
   - name: mt_brighton/brighton_purple/400
     value: "#8f6dbb"
     source_anchor: false
-  - name: mt_brighton/brighton_purple/500
+  - name: mt_brighton/brighton_purple/500_source
     value: "#4f2683"
     source_anchor: true
   - name: mt_brighton/brighton_purple/600
@@ -107,7 +107,7 @@ family_scales:
   - name: mt_brighton/brighton_purple_alt/400
     value: "#9a79b2"
     source_anchor: false
-  - name: mt_brighton/brighton_purple_alt/500
+  - name: mt_brighton/brighton_purple_alt/500_source
     value: "#735488"
     source_anchor: true
   - name: mt_brighton/brighton_purple_alt/600
@@ -139,7 +139,7 @@ family_scales:
   - name: mt_brighton/brighton_grey/400
     value: "#838891"
     source_anchor: false
-  - name: mt_brighton/brighton_grey/500
+  - name: mt_brighton/brighton_grey/500_source
     value: "#58595b"
     source_anchor: true
   - name: mt_brighton/brighton_grey/600

@@ -94,7 +94,7 @@ family_scales:
   - name: roundtop_mountain/green/400
     value: "#8ecc67"
     source_anchor: false
-  - name: roundtop_mountain/green/500
+  - name: roundtop_mountain/green/500_source
     value: "#75c045"
     source_anchor: true
   - name: roundtop_mountain/green/600
@@ -129,7 +129,7 @@ family_scales:
   - name: roundtop_mountain/blue/500
     value: "#2993ba"
     source_anchor: false
-  - name: roundtop_mountain/blue/600
+  - name: roundtop_mountain/blue/600_source
     value: "#007fad"
     source_anchor: true
   - name: roundtop_mountain/blue/700
@@ -152,7 +152,7 @@ family_scales:
   - name: roundtop_mountain/yellow/200
     value: "#fae29f"
     source_anchor: false
-  - name: roundtop_mountain/yellow/300
+  - name: roundtop_mountain/yellow/300_source
     value: "#f6c542"
     source_anchor: true
   - name: roundtop_mountain/yellow/400
@@ -184,7 +184,7 @@ family_scales:
   - name: roundtop_mountain/orange/200
     value: "#fcd1a7"
     source_anchor: false
-  - name: roundtop_mountain/orange/300
+  - name: roundtop_mountain/orange/300_source
     value: "#faa552"
     source_anchor: true
   - name: roundtop_mountain/orange/400
@@ -219,7 +219,7 @@ family_scales:
   - name: roundtop_mountain/red/300
     value: "#e87f7f"
     source_anchor: false
-  - name: roundtop_mountain/red/400
+  - name: roundtop_mountain/red/400_source
     value: "#e25c5c"
     source_anchor: true
   - name: roundtop_mountain/red/500
@@ -248,7 +248,7 @@ family_scales:
   - name: roundtop_mountain/cyan/200
     value: "#c8e7e8"
     source_anchor: false
-  - name: roundtop_mountain/cyan/300
+  - name: roundtop_mountain/cyan/300_source
     value: "#93cfd2"
     source_anchor: true
   - name: roundtop_mountain/cyan/400

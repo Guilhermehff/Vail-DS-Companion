@@ -19,7 +19,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Notes: The source says to use Futura Bold in all caps as well as title case and to keep leading around 120 percent of font height.
 
 - Source role: `headline`
-  Family: `Trade Gothic Condensed No. 20`
+  Family: `Trade Gothic LT Std`
   Safe family: `Futura`
   Style: `Trade Gothic Bold Condensed No. 20`
   Weight label: `Bold`
@@ -47,9 +47,9 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Notes: The source says to use Avenir Next Regular in sentence case only, with loose leading at 150 percent and a max size of 16 pt.
 
 - Source role: `limited_space_emphasis`
-  Family: `Trade Gothic Condensed No. 18`
+  Family: `Trade Gothic LT Std`
   Safe family: `Futura`
-  Style: `Trade Gothic Condensed No. 18`
+  Style: `Trade Gothic LT Std`
   Weight label: `Regular`
   Usage scope: `limited-space emphasis or short supporting phrases`
   Case: `not specified in source`

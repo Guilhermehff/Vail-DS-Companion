@@ -83,7 +83,7 @@ family_scales:
   - name: wildcat_mountain/wildcat_green/500
     value: '#4fa79c'
     source_anchor: false
-  - name: wildcat_mountain/wildcat_green/600
+  - name: wildcat_mountain/wildcat_green/600_source
     value: '#007067'
     source_anchor: true
   - name: wildcat_mountain/wildcat_green/700
@@ -109,7 +109,7 @@ family_scales:
   - name: wildcat_mountain/wildcat_tan/300
     value: '#e6d8b5'
     source_anchor: false
-  - name: wildcat_mountain/wildcat_tan/400
+  - name: wildcat_mountain/wildcat_tan/400_source
     value: '#e8e1be'
     source_anchor: true
   - name: wildcat_mountain/wildcat_tan/500
@@ -150,7 +150,7 @@ family_scales:
   - name: wildcat_mountain/wildcat_teal/600
     value: '#249b90'
     source_anchor: false
-  - name: wildcat_mountain/wildcat_teal/700
+  - name: wildcat_mountain/wildcat_teal/700_source
     value: '#008a7e'
     source_anchor: true
   - name: wildcat_mountain/wildcat_teal/800

@@ -103,7 +103,7 @@ semantic_overrides:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - No Afton Alps neutral swatch was supplied, so neutral roles remain inherited from the shared semantic base.
       - The earlier repo source for the Afton blue lane was incorrect. Live Figma now reflects the corrected source set supplied on 2026-04-21.
-      - '`St. Croix Blue` now lands at `afton_alps/blue/700`, with `Valley Violet` at `afton_alps/blue/300` and the darker `800` and `900` steps rebuilt around that corrected source.'
+      - '`St. Croix Blue` now lands at `afton_alps/blue/700_source`, with `Valley Violet` at `afton_alps/blue/300` and the darker `800` and `900` steps rebuilt around that corrected source.'
       - '`Bluff Gray` is live as the global-only family `afton_alps/bluff_gray/*`, anchored at `700`.'
       - The live secondary expressive lane now resolves through `afton_alps/meadow_yellow/*`, with `Meadow Yellow` preserved at `meadow_yellow/400`.
       - '`variables/assets/logo` is overridden to the string `Afton Alps` in the semantic theme extension.'

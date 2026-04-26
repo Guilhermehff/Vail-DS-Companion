@@ -26,7 +26,7 @@ source_roles:
   source_safe_family_name: Futura
   source_safe_reference_column: headline_font
 - source_role: headline
-  source_family_name: Trade Gothic Condensed No. 20
+  source_family_name: Trade Gothic LT Std
   source_style_name: Bold Condensed No. 20
   source_weight_label: Bold
   source_usage_scope: primary_display_headline
@@ -56,8 +56,8 @@ source_roles:
   source_safe_family_name: Open Sans
   source_safe_reference_column: body_font
 - source_role: limited_space_emphasis
-  source_family_name: Trade Gothic Condensed No. 18
-  source_style_name: Trade Gothic Condensed No. 18
+  source_family_name: Trade Gothic LT Std
+  source_style_name: Trade Gothic LT Std
   source_weight_label: Regular
   source_usage_scope: limited-space emphasis or short supporting phrases
   text_case: not specified in source
@@ -108,7 +108,7 @@ primitive_recommendations:
   proposed_primitives:
     families:
     - token_name: kirkwood/family/01
-      source_family_name: Trade Gothic Condensed No. 20
+      source_family_name: Trade Gothic LT Std
       source_style_reference: headline system
       rationale: Primary condensed headline family for the Kirkwood brand expression.
       safe_family_token: kirkwood/family_safe/01
@@ -128,7 +128,7 @@ primitive_recommendations:
       safe_family_note: Use the role-level safe mappings below when a direct safe-family companion is
         required.
     - token_name: kirkwood/family/04
-      source_family_name: Trade Gothic Condensed No. 18
+      source_family_name: Trade Gothic LT Std
       source_style_reference: limited-space emphasis system
       rationale: Preserved as a raw utility family until the semantic theme typography schema gains a
         dedicated fourth family slot.
@@ -145,7 +145,7 @@ primitive_recommendations:
       source_role_reference: body
       rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the body lane.
   hold_for_review:
-  - item: semantic slot for Trade Gothic Condensed No. 18
+  - item: semantic slot for Trade Gothic LT Std
     reason: The current semantic theme typography schema exposes only heading, body, and action family
       lanes.
 semantic_recommendations:
@@ -158,7 +158,7 @@ semantic_recommendations:
     - web
     - email
     - ads
-    notes: Kirkwood display headlines use Trade Gothic Condensed No. 20. Safe mapping is staged from
+    notes: Kirkwood display headlines use Trade Gothic LT Std. Safe mapping is staged from
       Vail Resorts Guidelines.pdf.
   - semantic_token: typography/family/body
     global_token: kirkwood/family/02
@@ -247,7 +247,7 @@ role_recipes:
   notes: Reading copy remains on the shared base body step.
   safe_family_token: kirkwood/family_safe/02
 - role_name: limited_space_emphasis
-  source_role: Limited Space | Trade Gothic Condensed No. 18
+  source_role: Limited Space | Trade Gothic LT Std
   proposed_family_token: kirkwood/family/04
   proposed_weight_token: universal/weight/normal
   proposed_size_token: universal/size/core/300
@@ -257,7 +257,7 @@ role_recipes:
   leading_rule: 150 percent of font height
   size_rule: short emphasized copy only
   punctuation_rule: not specified in source
-  sample_copy: Trade Gothic Condensed No. 18
+  sample_copy: Trade Gothic LT Std
   notes: Raw-only utility recipe pending a future semantic slot decision.
   safe_family_token: kirkwood/family_safe/01
 validation:
@@ -269,7 +269,7 @@ validation:
   governance_notes:
   - Futura Bold is staged into `typography/family/action` because it best fits short emphatic copy that can appear
     in title case or all caps.
-  - Trade Gothic Condensed No. 18 is preserved as a raw primitive only, avoiding a silent semantic schema
+  - Trade Gothic LT Std is preserved as a raw primitive only, avoiding a silent semantic schema
     expansion.
   - Brand-safe typography aliases now stage on `kirkwood/family_safe/*` from Vail Resorts Guidelines.pdf.
 review_readiness:
@@ -298,7 +298,7 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Stage Futura Bold as the semantic action family and preserve Trade Gothic Condensed No. 18 as
+    rule: Stage Futura Bold as the semantic action family and preserve Trade Gothic LT Std as
       a raw utility family until a fourth semantic lane is approved.
     source_basis: Kirkwood typography image and current semantic schema limits.
 open_questions: []

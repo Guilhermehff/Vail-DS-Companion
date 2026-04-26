@@ -59,6 +59,12 @@ primitive_recommendations:
       rationale: One-family system for the first governed pass.
       safe_family_token: paoli_peaks/family_safe/01
       safe_family_note: Approved safe-family companion from Vail Resorts Guidelines.pdf.
+    - token_name: paoli_peaks/family/02
+      source_family_name: Prompt
+      source_style_reference: live Figma source of truth
+      rationale: 'Live Global: Typography contains this Paoli Peaks secondary brand family primitive.'
+      safe_family_token: paoli_peaks/family_safe/02
+      safe_family_note: Approved safe-family companion from Vail Resorts Guidelines.pdf.
     weights: []
     safe_families:
     - token_name: paoli_peaks/family_safe/01

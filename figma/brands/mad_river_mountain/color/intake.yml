@@ -100,7 +100,7 @@ family_scales:
   - name: mad_river_mountain/mad_black/600
     value: '#51484a'
     source_anchor: false
-  - name: mad_river_mountain/mad_black/700
+  - name: mad_river_mountain/mad_black/700_source
     value: '#231f20'
     source_anchor: true
   - name: mad_river_mountain/mad_black/800
@@ -135,7 +135,7 @@ family_scales:
   - name: mad_river_mountain/mountain_green/600
     value: '#4d7a68'
     source_anchor: false
-  - name: mad_river_mountain/mountain_green/700
+  - name: mad_river_mountain/mountain_green/700_source
     value: '#014e37'
     source_anchor: true
   - name: mad_river_mountain/mountain_green/800
@@ -171,7 +171,7 @@ family_scales:
   - name: mad_river_mountain/nav_grey/600
     value: '#636f73'
     source_anchor: false
-  - name: mad_river_mountain/nav_grey/700
+  - name: mad_river_mountain/nav_grey/700_source
     value: '#464e51'
     source_anchor: true
   - name: mad_river_mountain/nav_grey/800
@@ -192,11 +192,11 @@ validation:
     foreground: white
     ratio: 19.32:1
     result: pass
-  - token: mad_river_mountain/mountain_green/700
+  - token: mad_river_mountain/mountain_green/700_source
     foreground: white
     ratio: 9.78:1
     result: pass
-  - token: mad_river_mountain/nav_grey/700
+  - token: mad_river_mountain/nav_grey/700_source
     foreground: white
     ratio: 8.51:1
     result: pass

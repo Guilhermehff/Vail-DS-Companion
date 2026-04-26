@@ -84,7 +84,7 @@ family_scales:
   - name: wilmot/wilmot_red/500
     value: "#c73f4a"
     source_anchor: false
-  - name: wilmot/wilmot_red/600
+  - name: wilmot/wilmot_red/600_source
     value: "#a42036"
     source_anchor: true
   - name: wilmot/wilmot_red/700
@@ -116,7 +116,7 @@ family_scales:
   - name: wilmot/wilmot_rose/500
     value: "#b24e58"
     source_anchor: false
-  - name: wilmot/wilmot_rose/600
+  - name: wilmot/wilmot_rose/600_source
     value: "#a5565f"
     source_anchor: true
   - name: wilmot/wilmot_rose/700
@@ -145,7 +145,7 @@ family_scales:
   - name: wilmot/wilmot_grey/400
     value: "#838891"
     source_anchor: false
-  - name: wilmot/wilmot_grey/500
+  - name: wilmot/wilmot_grey/500_source
     value: "#58595b"
     source_anchor: true
   - name: wilmot/wilmot_grey/600

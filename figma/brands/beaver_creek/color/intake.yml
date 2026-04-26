@@ -88,22 +88,22 @@ family_scales:
   - name: beaver_creek/silver/100
     value: '#eef1f4'
     source_anchor: false
-  - name: beaver_creek/silver/200
+  - name: beaver_creek/silver/200_source
     value: '#dee3e9'
     source_anchor: true
-  - name: beaver_creek/silver/300
+  - name: beaver_creek/silver/300_source
     value: '#b9c7d4'
     source_anchor: true
   - name: beaver_creek/silver/400
     value: '#9cb4c5'
     source_anchor: false
-  - name: beaver_creek/silver/500
+  - name: beaver_creek/silver/500_source
     value: '#80a1b6'
     source_anchor: true
   - name: beaver_creek/silver/600
     value: '#6e8898'
     source_anchor: false
-  - name: beaver_creek/silver/700
+  - name: beaver_creek/silver/700_source
     value: '#5c6f7c'
     source_anchor: true
   - name: beaver_creek/silver/800
@@ -123,16 +123,16 @@ color_proportion_guidance:
       a restrained dark anchor.
     dominant_palette:
     - source_color: Beaver Creek Primary Silver
-      token: beaver_creek/silver/700
+      token: beaver_creek/silver/700_source
     - source_color: Beaver Creek White
       token: universal/white
     supporting_palette:
     - source_color: Beaver Creek Medium Silver
-      token: beaver_creek/silver/500
+      token: beaver_creek/silver/500_source
     - source_color: Beaver Creek Light Silver
-      token: beaver_creek/silver/300
+      token: beaver_creek/silver/300_source
     - source_color: Beaver Creek Light Silver 25% Tint
-      token: beaver_creek/silver/200
+      token: beaver_creek/silver/200_source
     - source_color: Beaver Creek Black
       token: beaver_creek/silver/900
     notes:
@@ -150,7 +150,7 @@ validation:
   - Approved exception: the same silver family feeds semantic `neutral/*`, `brand/*`,
       and `brand_secondary/*` for Beaver Creek.
   contrast_checks:
-  - token: beaver_creek/silver/700
+  - token: beaver_creek/silver/700_source
     foreground: white
     ratio: 5.22:1
     result: pass

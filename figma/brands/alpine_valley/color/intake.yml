@@ -67,7 +67,7 @@ family_scales:
   - name: alpine_valley/alpine/200
     value: '#ecf1f3'
     source_anchor: false
-  - name: alpine_valley/alpine/300
+  - name: alpine_valley/alpine/300_source
     value: '#b0c6ce'
     source_anchor: true
   - name: alpine_valley/alpine/400

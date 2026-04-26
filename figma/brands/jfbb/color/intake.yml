@@ -121,7 +121,7 @@ family_scales:
   - name: jfbb/early_sunrise/300
     value: '#ffbb92'
     source_anchor: false
-  - name: jfbb/early_sunrise/400
+  - name: jfbb/early_sunrise/400_source
     value: '#ff8220'
     source_anchor: true
   - name: jfbb/early_sunrise/500
@@ -162,7 +162,7 @@ family_scales:
   - name: jfbb/last_chair/600
     value: '#142e63'
     source_anchor: false
-  - name: jfbb/last_chair/700
+  - name: jfbb/last_chair/700_source
     value: '#07183a'
     source_anchor: true
   - name: jfbb/last_chair/800
@@ -176,7 +176,7 @@ family_scales:
   source_value: '#f2f9ff'
   source_anchor: 100_source
   tokens:
-  - name: jfbb/snow_day/100
+  - name: jfbb/snow_day/100_source
     value: '#f2f9ff'
     source_anchor: true
   - name: jfbb/snow_day/200
@@ -217,7 +217,7 @@ family_scales:
   - name: jfbb/frost/300
     value: '#6dddff'
     source_anchor: false
-  - name: jfbb/frost/400
+  - name: jfbb/frost/400_source
     value: '#11c4ed'
     source_anchor: true
   - name: jfbb/frost/500
@@ -255,7 +255,7 @@ family_scales:
   - name: jfbb/bluebird/500
     value: '#5590e9'
     source_anchor: false
-  - name: jfbb/bluebird/600
+  - name: jfbb/bluebird/600_source
     value: '#1b66d0'
     source_anchor: true
   - name: jfbb/bluebird/700
@@ -296,7 +296,7 @@ family_scales:
   - name: jfbb/night_ski/800
     value: '#344052'
     source_anchor: false
-  - name: jfbb/night_ski/900
+  - name: jfbb/night_ski/900_source
     value: '#030d1f'
     source_anchor: true
 color_proportion_guidance:
@@ -309,18 +309,18 @@ color_proportion_guidance:
       Frost, Bluebird, and Night Ski are accent-only support colors.
     dominant_palette:
     - source_color: Snow Day
-      token: jfbb/snow_day/100
+      token: jfbb/snow_day/100_source
     - source_color: Last Chair
       token: jfbb/last_chair/900
     - source_color: Early Sunrise
-      token: jfbb/early_sunrise/400
+      token: jfbb/early_sunrise/400_source
     supporting_palette:
     - source_color: Frost
-      token: jfbb/frost/400
+      token: jfbb/frost/400_source
     - source_color: Bluebird
-      token: jfbb/bluebird/600
+      token: jfbb/bluebird/600_source
     - source_color: Night Ski
-      token: jfbb/night_ski/900
+      token: jfbb/night_ski/900_source
     notes:
     - The source says the primary palette should remain the default unless it becomes
       illegible.

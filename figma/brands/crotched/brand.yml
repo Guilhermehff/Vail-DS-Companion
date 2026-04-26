@@ -106,6 +106,12 @@ semantic_overrides:
       - '`variables/assets/logo` is overridden to the string `Crotched` in the semantic theme extension even though the source logo guide also shows `Crotched Mountain` and `CrotchedMTN` lockups.'
     typography:
       override_scopes:
+      - semantic_token: typography/family/heading
+        alias_of: crotched/family/01
+      - semantic_token: typography/family/body
+        alias_of: crotched/family/02
+      - semantic_token: typography/family/action
+        alias_of: crotched/family/02
       - semantic_token: typography/family/heading_safe
         alias_of: crotched/family_safe/01
       - semantic_token: typography/family/body_safe
@@ -113,17 +119,15 @@ semantic_overrides:
       - semantic_token: typography/family/action_safe
         alias_of: crotched/family_safe/01
       inherited_from_base:
-      - typography/family/heading
-      - typography/family/body
-      - typography/family/action
       - typography/weight/heading/base
       - typography/weight/heading/strong
       - typography/weight/body/base
       - typography/weight/body/strong
       - typography/weight/action/base
       notes:
-      - The Vail Resorts Guidelines PDF does not list brand font guidance for Crotched, so the semantic theme extension continues to inherit the shared universal typography base without overrides.
+      - Live Figma is the source of truth for Crotched typography; `Global: Typography` contains `crotched/family/01 = Alfarn` and `crotched/family/02 = Eurostile`.
+      - Live semantic theme aliases Crotched heading to `crotched/family/01` and body/action to `crotched/family/02`.
       - 'Typography size continues to bind directly from published `Global: Typography`.'
       - Brand-safe typography aliases now stage on `crotched/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:
-- Crotched is live in the Foundations file with four raw color families, no brand-specific raw typography families, a semantic theme logo-name override, and Crotched semantic theme extension.
+- Crotched is live in the Foundations file with four raw color families, two raw typography family primitives, a semantic theme logo-name override, and Crotched semantic theme extension.

@@ -54,12 +54,12 @@ Source basis: User-provided Beaver Creek palette guidance describes hierarchy in
 
 - Intent: `Primary Silver and White lead the composition to create an understated luxury mood. Medium and Light Silver support that system, while black remains a restrained dark anchor.`
 - Dominant palette:
-  `Beaver Creek Primary Silver` -> `beaver_creek/silver/700`
+  `Beaver Creek Primary Silver` -> `beaver_creek/silver/700_source`
   `Beaver Creek White` -> `universal/white`
 - Supporting palette:
-  `Beaver Creek Medium Silver` -> `beaver_creek/silver/500`
-  `Beaver Creek Light Silver` -> `beaver_creek/silver/300`
-  `Beaver Creek Light Silver 25% Tint` -> `beaver_creek/silver/200`
+  `Beaver Creek Medium Silver` -> `beaver_creek/silver/500_source`
+  `Beaver Creek Light Silver` -> `beaver_creek/silver/300_source`
+  `Beaver Creek Light Silver 25% Tint` -> `beaver_creek/silver/200_source`
   `Beaver Creek Black` -> `beaver_creek/silver/900`
 - Notes:
   The source describes the palette as minimal, led by three silver tones and supported by a rich black.

@@ -32,6 +32,18 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
 
 ## Role Recipes
 
+## Primitive Recommendations
+
+### Brand Families
+
+- `paoli_peaks/family/01` -> `Rockwell Nova`
+- `paoli_peaks/family/02` -> `Prompt`
+
+### Web Safe Families
+
+- `paoli_peaks/family_safe/01` -> `Roboto Slab`
+- `paoli_peaks/family_safe/02` -> `Open Sans`
+
 ### Role: heading
 
 Proposed family token: `paoli_peaks/family/01`

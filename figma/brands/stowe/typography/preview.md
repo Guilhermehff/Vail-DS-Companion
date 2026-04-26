@@ -66,7 +66,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
 
 Proposed family token: `stowe/family/01`
 
-Safe family token: `stowe/family_safe/02`
+Safe family token: `stowe/family_safe/01`
 
 Proposed weight token: `universal/weight/normal`
 
@@ -104,7 +104,7 @@ Recipe notes:
 
 Proposed family token: `stowe/family/02`
 
-Safe family token: `stowe/family_safe/01`
+Safe family token: `stowe/family_safe/02`
 
 Proposed weight token: `universal/weight/normal`
 
@@ -123,7 +123,7 @@ Recipe notes:
 
 Proposed family token: `stowe/family/02`
 
-Safe family token: `stowe/family_safe/01`
+Safe family token: `stowe/family_safe/02`
 
 Proposed weight token: `universal/weight/light`
 

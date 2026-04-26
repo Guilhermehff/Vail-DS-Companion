@@ -88,7 +88,7 @@ family_scales:
   - name: crested_butte/wild_red/600
     value: "#c04049"
     source_anchor: false
-  - name: crested_butte/wild_red/700
+  - name: crested_butte/wild_red/700_source
     value: "#a5192e"
     source_anchor: true
   - name: crested_butte/wild_red/800
@@ -126,7 +126,7 @@ family_scales:
   - name: crested_butte/beyond_black/800
     value: "#404040"
     source_anchor: false
-  - name: crested_butte/beyond_black/900
+  - name: crested_butte/beyond_black/900_source
     value: "#1a1a1a"
     source_anchor: true
 color_proportion_guidance:
@@ -141,11 +141,11 @@ color_proportion_guidance:
       percentage: 40
       rationale: Widest field in the source strip and the leading open-space carrier.
     - source_color: Crested Butte Wild Red
-      token: crested_butte/wild_red/700
+      token: crested_butte/wild_red/700_source
       percentage: 35
       rationale: Near-equal central field and the main expressive brand color.
     - source_color: Crested Butte Beyond Black
-      token: crested_butte/beyond_black/900
+      token: crested_butte/beyond_black/900_source
       percentage: 25
       rationale: Narrowest field in the strip and the grounding dark neutral.
     notes:

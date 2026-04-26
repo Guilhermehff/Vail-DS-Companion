@@ -101,7 +101,7 @@ family_scales:
   - name: stowe/stowe_red/500
     value: '#d45653'
     source_anchor: false
-  - name: stowe/stowe_red/600
+  - name: stowe/stowe_red/600_source
     value: '#c4272f'
     source_anchor: true
   - name: stowe/stowe_red/700
@@ -130,13 +130,13 @@ family_scales:
   - name: stowe/stowe_blue/400
     value: '#a4b6c4'
     source_anchor: false
-  - name: stowe/stowe_blue/500
+  - name: stowe/stowe_blue/500_source
     value: '#74838e'
     source_anchor: true
   - name: stowe/stowe_blue/600
     value: '#586975'
     source_anchor: false
-  - name: stowe/stowe_blue/700
+  - name: stowe/stowe_blue/700_source
     value: '#384851'
     source_anchor: true
   - name: stowe/stowe_blue/800
@@ -161,11 +161,11 @@ color_proportion_guidance:
       percentage: 50
       rationale: Largest field in the composition and the main whitespace carrier.
     - source_color: Stowe Red
-      token: stowe/stowe_red/600
+      token: stowe/stowe_red/600_source
       percentage: 20
       rationale: Largest non-white block and the clearest brand-identifying color.
     - source_color: Ice Blue
-      token: stowe/stowe_blue/500
+      token: stowe/stowe_blue/500_source
       percentage: 18
       rationale: Wider of the two blue-gray support blocks in the recommended ratio
         strip.

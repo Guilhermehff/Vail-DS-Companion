@@ -32,7 +32,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
 
 - Source role: `body`
   Family: `Prompt`
-  Safe family: `Open Sans`
+  Safe family: `helvetica`
   Style: `Regular`
   Weight label: `Regular`
   Usage scope: `body copy`

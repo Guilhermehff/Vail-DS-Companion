@@ -83,7 +83,7 @@ family_scales:
   - name: whistler_blackcomb/red/500
     value: "#ff0000"
     source_anchor: false
-  - name: whistler_blackcomb/red/600
+  - name: whistler_blackcomb/red/600_source
     value: "#cc0000"
     source_anchor: true
   - name: whistler_blackcomb/red/700
@@ -103,7 +103,7 @@ color_proportion_guidance:
     intent: Red, black, and white should be held in balance so no single one of the three becomes the only field color in a design.
     proportions:
     - source_color: Red
-      token: whistler_blackcomb/red/600
+      token: whistler_blackcomb/red/600_source
       percentage: 33
       rationale: The source calls for an even share across the three brand colors.
     - source_color: Black
@@ -123,7 +123,7 @@ validation:
   - Exact black and white should remain shared through `universal/black` and `universal/white`.
   - No `whistler_blackcomb/neutral/*` raw family is governed in the repo.
   contrast_checks:
-  - token: whistler_blackcomb/red/600
+  - token: whistler_blackcomb/red/600_source
     foreground: white
     ratio: 5.89:1
     result: pass

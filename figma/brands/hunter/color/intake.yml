@@ -112,7 +112,7 @@ family_scales:
   source_value: '#faf9f3 / #808080'
   source_anchor: 100_source / 500_source
   tokens:
-  - name: hunter/hunter_neutral/100
+  - name: hunter/hunter_neutral/100_source
     value: '#faf9f3'
     source_anchor: true
   - name: hunter/hunter_neutral/200
@@ -124,7 +124,7 @@ family_scales:
   - name: hunter/hunter_neutral/400
     value: '#acacaa'
     source_anchor: false
-  - name: hunter/hunter_neutral/500
+  - name: hunter/hunter_neutral/500_source
     value: '#808080'
     source_anchor: true
   - name: hunter/hunter_neutral/600
@@ -144,7 +144,7 @@ family_scales:
   source_value: '#e7f1ff / #222233'
   source_anchor: 100_source / 700_source
   tokens:
-  - name: hunter/mountain_blue/100
+  - name: hunter/mountain_blue/100_source
     value: '#e7f1ff'
     source_anchor: true
   - name: hunter/mountain_blue/200
@@ -162,7 +162,7 @@ family_scales:
   - name: hunter/mountain_blue/600
     value: '#4a5575'
     source_anchor: false
-  - name: hunter/mountain_blue/700
+  - name: hunter/mountain_blue/700_source
     value: '#222233'
     source_anchor: true
   - name: hunter/mountain_blue/800
@@ -188,7 +188,7 @@ family_scales:
   - name: hunter/sunrise_orange/400
     value: '#ff7c60'
     source_anchor: false
-  - name: hunter/sunrise_orange/500
+  - name: hunter/sunrise_orange/500_source
     value: '#ea3410'
     source_anchor: true
   - name: hunter/sunrise_orange/600
@@ -226,7 +226,7 @@ family_scales:
   - name: hunter/forest_green/600
     value: '#527e6d'
     source_anchor: false
-  - name: hunter/forest_green/700
+  - name: hunter/forest_green/700_source
     value: '#2b5d4c'
     source_anchor: true
   - name: hunter/forest_green/800
@@ -249,16 +249,16 @@ color_proportion_guidance:
     - source_color: Mountain Blue
       token: hunter/mountain_blue/900
     - source_color: Sunrise Orange
-      token: hunter/sunrise_orange/500
+      token: hunter/sunrise_orange/500_source
     - source_color: Flurry White
       token: hunter/hunter_neutral/200
     supporting_palette:
     - source_color: Snow Blue
       token: hunter/mountain_blue/200
     - source_color: Forest Green
-      token: hunter/forest_green/700
+      token: hunter/forest_green/700_source
     - source_color: City Grey
-      token: hunter/hunter_neutral/500
+      token: hunter/hunter_neutral/500_source
     notes:
     - The source says the primary colors are used for primary branding pieces, backgrounds,
       type, and other foundational brand moments.
@@ -286,7 +286,7 @@ validation:
     foreground: white
     ratio: 4.93:1
     result: pass
-  - token: hunter/mountain_blue/700
+  - token: hunter/mountain_blue/700_source
     foreground: white
     ratio: 7.36:1
     result: pass

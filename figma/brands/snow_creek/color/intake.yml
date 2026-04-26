@@ -79,7 +79,7 @@ family_scales:
   - name: snow_creek/creek_blue/600
     value: '#3b7688'
     source_anchor: false
-  - name: snow_creek/creek_blue/700
+  - name: snow_creek/creek_blue/700_source
     value: '#00303e'
     source_anchor: true
   - name: snow_creek/creek_blue/800
@@ -105,7 +105,7 @@ family_scales:
   - name: snow_creek/tagline_gold/400
     value: '#e6bf45'
     source_anchor: false
-  - name: snow_creek/tagline_gold/500
+  - name: snow_creek/tagline_gold/500_source
     value: '#dbae27'
     source_anchor: true
   - name: snow_creek/tagline_gold/600
@@ -128,7 +128,7 @@ family_scales:
   - name: snow_creek/snow_white/100
     value: '#fafaf7'
     source_anchor: false
-  - name: snow_creek/snow_white/200
+  - name: snow_creek/snow_white/200_source
     value: '#f5f5f0'
     source_anchor: true
   - name: snow_creek/snow_white/300

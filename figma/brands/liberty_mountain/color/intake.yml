@@ -127,13 +127,13 @@ family_scales:
   - name: liberty_mountain/cool_neutral/300
     value: "#8a99a5"
     source_anchor: false
-  - name: liberty_mountain/cool_neutral/400
+  - name: liberty_mountain/cool_neutral/400_source
     value: "#748693"
     source_anchor: true
-  - name: liberty_mountain/cool_neutral/500
+  - name: liberty_mountain/cool_neutral/500_source
     value: "#3f5364"
     source_anchor: true
-  - name: liberty_mountain/cool_neutral/600
+  - name: liberty_mountain/cool_neutral/600_source
     value: "#3a4959"
     source_anchor: true
   - name: liberty_mountain/cool_neutral/700
@@ -157,13 +157,13 @@ family_scales:
   - name: liberty_mountain/warm_neutral/100
     value: "#f0efed"
     source_anchor: false
-  - name: liberty_mountain/warm_neutral/200
+  - name: liberty_mountain/warm_neutral/200_source
     value: "#ebe7e3"
     source_anchor: true
-  - name: liberty_mountain/warm_neutral/300
+  - name: liberty_mountain/warm_neutral/300_source
     value: "#d7d2cb"
     source_anchor: true
-  - name: liberty_mountain/warm_neutral/400
+  - name: liberty_mountain/warm_neutral/400_source
     value: "#b8b09b"
     source_anchor: true
   - name: liberty_mountain/warm_neutral/500
@@ -198,7 +198,7 @@ family_scales:
   - name: liberty_mountain/shale/400
     value: "#6d9bb0"
     source_anchor: false
-  - name: liberty_mountain/shale/500
+  - name: liberty_mountain/shale/500_source
     value: "#51879f"
     source_anchor: true
   - name: liberty_mountain/shale/600
@@ -230,7 +230,7 @@ family_scales:
   - name: liberty_mountain/stone/400
     value: "#697272"
     source_anchor: false
-  - name: liberty_mountain/stone/500
+  - name: liberty_mountain/stone/500_source
     value: "#4e5758"
     source_anchor: true
   - name: liberty_mountain/stone/600
@@ -262,7 +262,7 @@ family_scales:
   - name: liberty_mountain/sunset/400
     value: "#e99858"
     source_anchor: false
-  - name: liberty_mountain/sunset/500
+  - name: liberty_mountain/sunset/500_source
     value: "#e18431"
     source_anchor: true
   - name: liberty_mountain/sunset/600
@@ -287,7 +287,7 @@ validation:
     foreground: universal/white
     ratio: live_figma_verified
     result: pass
-  - token: liberty_mountain/warm_neutral/300
+  - token: liberty_mountain/warm_neutral/300_source
     foreground: universal/black
     ratio: live_figma_verified
     result: pass

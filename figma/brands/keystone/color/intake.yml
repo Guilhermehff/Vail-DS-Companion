@@ -84,7 +84,7 @@ family_scales:
   - name: keystone/valencia/400
     value: "#ff8272"
     source_anchor: false
-  - name: keystone/valencia/500
+  - name: keystone/valencia/500_source
     value: "#e03c31"
     source_anchor: true
   - name: keystone/valencia/600
@@ -119,7 +119,7 @@ family_scales:
   - name: keystone/curious_blue/500
     value: "#6297de"
     source_anchor: false
-  - name: keystone/curious_blue/600
+  - name: keystone/curious_blue/600_source
     value: "#0066cc"
     source_anchor: true
   - name: keystone/curious_blue/700
@@ -157,7 +157,7 @@ family_scales:
   - name: keystone/cool_grey/700
     value: "#657272"
     source_anchor: false
-  - name: keystone/cool_grey/800
+  - name: keystone/cool_grey/800_source
     value: "#4c5151"
     source_anchor: true
   - name: keystone/cool_grey/900
@@ -174,11 +174,11 @@ validation:
     foreground: white
     ratio: 4.81:1
     result: pass
-  - token: keystone/curious_blue/600
+  - token: keystone/curious_blue/600_source
     foreground: white
     ratio: 5.57:1
     result: pass
-  - token: keystone/cool_grey/800
+  - token: keystone/cool_grey/800_source
     foreground: white
     ratio: 8.07:1
     result: pass

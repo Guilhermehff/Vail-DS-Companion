@@ -11,11 +11,7 @@ preview:
 source_roles: []
 primitive_recommendations:
   reuse_existing:
-    families:
-    - source_family_name: universal/family/01
-      existing_token: universal/family/01
-      reason: The PDF does not list Wildcat Mountain font guidance, so the brand remains on the shared
-        universal family baseline.
+    families: []
     weights:
     - source_weight_label: inherited
       existing_token: universal/weight/*
@@ -25,7 +21,13 @@ primitive_recommendations:
       existing_token: universal/size/*
       reason: 'Typography size continues to publish from the shared Global: Typography ladder.'
   proposed_primitives:
-    families: []
+    families:
+    - token_name: wildcat_mountain/family/01
+      source_family_name: Gutenberg
+      source_style_reference: live Figma source of truth
+      rationale: 'Live Global: Typography contains this Wildcat Mountain brand family primitive.'
+      safe_family_token: wildcat_mountain/family_safe/01
+      safe_family_note: Approved safe-family companion from Vail Resorts Guidelines.pdf.
     weights: []
     safe_families:
     - token_name: wildcat_mountain/family_safe/01
@@ -39,17 +41,42 @@ primitive_recommendations:
       rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the body lane.
   hold_for_review: []
 semantic_recommendations:
-  family_aliases: []
+  family_aliases:
+  - semantic_token: typography/family/heading
+    global_token: wildcat_mountain/family/01
+    safe_semantic_token: typography/family/heading_safe
+    safe_global_token: wildcat_mountain/family_safe/01
+    intended_channels:
+    - web
+    - email
+    - ads
+    notes: Live semantic theme extension aliases heading to the Wildcat Mountain Gutenberg family.
+  - semantic_token: typography/family/body
+    global_token: universal/family/01
+    safe_semantic_token: typography/family/body_safe
+    safe_global_token: wildcat_mountain/family_safe/02
+    intended_channels:
+    - web
+    - email
+    - ads
+    notes: Live semantic theme extension keeps body on the universal family.
+  - semantic_token: typography/family/action
+    global_token: universal/family/01
+    safe_semantic_token: typography/family/action_safe
+    safe_global_token: wildcat_mountain/family_safe/01
+    intended_channels:
+    - web
+    - email
+    - ads
+    notes: Live semantic theme extension keeps action on the universal family.
   weight_aliases: []
   size_aliases: []
 role_recipes: []
 validation:
   extraction_notes:
-  - The PDF does not list brand font guidance for Wildcat Mountain.
+  - Live Figma is the source of truth for the governed Wildcat Mountain brand family primitive.
   governance_notes:
-  - Keep Wildcat Mountain on the shared universal typography baseline until governed source guidance is
-    supplied.
-  - Do not create brand-level raw typography tokens that mirror universal values.
+  - Wildcat Mountain now has a live brand family primitive in Global: Typography.
   - Brand-safe typography aliases now stage on `wildcat_mountain/family_safe/*` from Vail Resorts Guidelines.pdf.
 review_readiness:
   intended_review_channels:
@@ -62,8 +89,8 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Keep the brand on the universal typography baseline until governed PDF guidance exists.
-    source_basis: Vail Resorts Guidelines - Google Sheets PDF.
+    rule: 'Treat live Global: Typography as source of truth for Wildcat Mountain brand family primitives.'
+    source_basis: 'Live Figma Global: Typography.'
 open_questions: []
 safe_source_reference: Vail Resorts Guidelines.pdf
 safe_source_type: pdf

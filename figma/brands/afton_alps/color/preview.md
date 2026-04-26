@@ -93,9 +93,9 @@ Source anchor: `700_source`
 ## Review Notes
 
 - The earlier repo source for Afton blue was incorrect. Live Figma now reflects the corrected source set supplied on 2026-04-21.
-- `St. Croix Blue` now lands at `afton_alps/blue/700`, and the darker `800` and `900` values were rebuilt around that corrected source anchor.
+- `St. Croix Blue` now lands at `afton_alps/blue/700_source`, and the darker `800` and `900` values were rebuilt around that corrected source anchor.
 - `Valley Violet` now lands at `afton_alps/blue/300` inside the live blue family.
-- Live Figma preserves `Meadow Yellow` at `afton_alps/meadow_yellow/400`.
+- Live Figma preserves `Meadow Yellow` at `afton_alps/meadow_yellow/400_source`.
 - Live Figma carries `afton_alps/bluff_gray/*` with Bluff Gray anchored on `bluff_gray/700`.
 - The first semantic pass inherits the shared neutral role set because no branded neutral swatch was supplied.
 - The primary blue semantic lane uses the rebuilt blue family, with the corrected source no longer treated as a `900` anchor.

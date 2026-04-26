@@ -100,7 +100,7 @@ family_scales:
   - name: northstar/burgundy/600
     value: "#a9363f"
     source_anchor: false
-  - name: northstar/burgundy/700
+  - name: northstar/burgundy/700_source
     value: "#7d1c25"
     source_anchor: true
   - name: northstar/burgundy/800
@@ -123,7 +123,7 @@ family_scales:
   - name: northstar/copper/300
     value: "#f2bf58"
     source_anchor: false
-  - name: northstar/copper/400
+  - name: northstar/copper/400_source
     value: "#d7941d"
     source_anchor: true
   - name: northstar/copper/500
@@ -149,7 +149,7 @@ family_scales:
   - name: northstar/graphite/100
     value: "#faf8f7"
     source_anchor: false
-  - name: northstar/graphite/200
+  - name: northstar/graphite/200_source
     value: "#f2f0ef"
     source_anchor: true
   - name: northstar/graphite/300
@@ -161,7 +161,7 @@ family_scales:
   - name: northstar/graphite/500
     value: "#968e87"
     source_anchor: false
-  - name: northstar/graphite/600
+  - name: northstar/graphite/600_source
     value: "#808080"
     source_anchor: true
   - name: northstar/graphite/700
@@ -170,7 +170,7 @@ family_scales:
   - name: northstar/graphite/800
     value: "#403d3b"
     source_anchor: false
-  - name: northstar/graphite/900
+  - name: northstar/graphite/900_source
     value: "#101010"
     source_anchor: true
 validation:
@@ -180,7 +180,7 @@ validation:
   - Northstar's off-white, gray, and near-black are treated as one branded neutral ladder so the semantic neutral system can stay coherent without duplicating isolated one-off swatches.
   - No third expressive semantic lane is promoted; any extra burgundy reuse stays global-only so the semantic brand system remains two-lane.
   contrast_checks:
-  - token: northstar/burgundy/700
+  - token: northstar/burgundy/700_source
     foreground: white
     ratio: 8.89:1
     result: pass

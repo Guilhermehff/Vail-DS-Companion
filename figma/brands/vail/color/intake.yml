@@ -145,7 +145,7 @@ family_scales:
   - name: vail/vintage_blue/500
     value: '#6791d4'
     source_anchor: false
-  - name: vail/vintage_blue/600
+  - name: vail/vintage_blue/600_source
     value: '#3968b1'
     source_anchor: true
   - name: vail/vintage_blue/700
@@ -174,7 +174,7 @@ family_scales:
   - name: vail/dark_blue/400
     value: '#67bbee'
     source_anchor: false
-  - name: vail/dark_blue/500
+  - name: vail/dark_blue/500_source
     value: '#009ada'
     source_anchor: true
   - name: vail/dark_blue/600
@@ -209,7 +209,7 @@ family_scales:
   - name: vail/digital_blue/500
     value: '#4592ef'
     source_anchor: false
-  - name: vail/digital_blue/600
+  - name: vail/digital_blue/600_source
     value: '#006cd1'
     source_anchor: true
   - name: vail/digital_blue/700
@@ -244,7 +244,7 @@ family_scales:
   - name: vail/navy/600
     value: '#5d86a8'
     source_anchor: false
-  - name: vail/navy/700
+  - name: vail/navy/700_source
     value: '#144276'
     source_anchor: true
   - name: vail/navy/800
@@ -264,7 +264,7 @@ family_scales:
   - name: vail/yellow/200
     value: '#ffedd6'
     source_anchor: false
-  - name: vail/yellow/300
+  - name: vail/yellow/300_source
     value: '#ffaf18'
     source_anchor: true
   - name: vail/yellow/400
@@ -308,13 +308,13 @@ color_proportion_guidance:
       ds_mapping: universal/white
     - source_name: Vail Digital Blue
       value: 20%
-      ds_mapping: vail/digital_blue/600
+      ds_mapping: vail/digital_blue/600_source
     - source_name: Vail Navy
       value: 20%
       ds_mapping: vail/navy/800
     - source_name: Vail Yellow
       value: 10%
-      ds_mapping: vail/yellow/300
+      ds_mapping: vail/yellow/300_source
 validation:
   perceptual_consistency_notes:
   - The five Vail families land on different source anchor steps because the official

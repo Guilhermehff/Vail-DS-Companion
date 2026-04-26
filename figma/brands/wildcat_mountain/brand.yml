@@ -105,6 +105,8 @@ semantic_overrides:
       - '`wildcat_tan` is governed as a raw-only family; Wedding Blue is preserved as source provenance only.'
     typography:
       override_scopes:
+      - semantic_token: typography/family/heading
+        alias_of: wildcat_mountain/family/01
       - semantic_token: typography/family/heading_safe
         alias_of: wildcat_mountain/family_safe/01
       - semantic_token: typography/family/body_safe
@@ -112,7 +114,6 @@ semantic_overrides:
       - semantic_token: typography/family/action_safe
         alias_of: wildcat_mountain/family_safe/01
       inherited_from_base:
-      - typography/family/heading
       - typography/family/body
       - typography/family/action
       - typography/weight/heading/base
@@ -121,8 +122,9 @@ semantic_overrides:
       - typography/weight/body/strong
       - typography/weight/action/base
       notes:
-      - The Vail Resorts Guidelines PDF does not list brand font guidance for Wildcat Mountain, so the semantic theme extension continues to inherit the shared universal typography base without overrides.
+      - Live Figma is the source of truth for Wildcat Mountain typography; `Global: Typography` contains `wildcat_mountain/family/01 = Gutenberg`.
+      - Live semantic theme aliases Wildcat Mountain heading to `wildcat_mountain/family/01`; body and action remain inherited from the universal family.
       - 'Typography size continues to bind directly from published `Global: Typography`.'
       - Brand-safe typography aliases now stage on `wildcat_mountain/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:
-- Wildcat Mountain is governed in the repo with three raw color families, no brand-specific raw typography families, and Wildcat Mountain semantic theme extension.
+- Wildcat Mountain is governed in the repo with three raw color families, one raw typography family primitive, and Wildcat Mountain semantic theme extension.

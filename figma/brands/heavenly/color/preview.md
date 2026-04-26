@@ -54,10 +54,10 @@ Source basis: User-provided Heavenly palette guidance defines primary and second
 - Dominant palette:
   `Fresh Powder White` -> `universal/white`
   `Mountain Shadow Black` -> `universal/black`
-  `Snow Flower Red` -> `heavenly/snow_flower_red/600`
+  `Snow Flower Red` -> `heavenly/snow_flower_red/600_source`
 - Supporting palette:
-  `Deep Water Blue` -> `heavenly/deep_water_blue/700`
-  `Shore Blue` -> `heavenly/shore_blue/300`
+  `Deep Water Blue` -> `heavenly/deep_water_blue/700_source`
+  `Shore Blue` -> `heavenly/shore_blue/300_source`
 - Notes:
   The source says Mountain Shadow Black should be used for text and only very sparingly as a high-contrast logo color or minimal separating block.
   The source frames the blues as supporting lake-derived colors rather than primary brand fields.

@@ -43,9 +43,9 @@ Source basis: Approximate ratios inferred from the relative field widths in the 
 - Intent: `Powder White is the dominant canvas. Stowe Red is the primary expressive lane. Ice Blue and Winter Blue share the supporting structural blue-gray system, with Ice Blue carrying more area than Winter Blue.`
 - Proportions:
   `Powder White` -> `universal/white` (`50%`) Largest field in the composition and the main whitespace carrier.
-  `Stowe Red` -> `stowe/stowe_red/600` (`20%`) Largest non-white block and the clearest brand-identifying color.
-  `Ice Blue` -> `stowe/stowe_blue/500` (`18%`) Wider of the two blue-gray support blocks in the recommended ratio strip.
-  `Winter Blue` -> `stowe/stowe_blue/700` (`12%`) Narrowest support block and the darkest contrast lane in the source strip.
+  `Stowe Red` -> `stowe/stowe_red/600_source` (`20%`) Largest non-white block and the clearest brand-identifying color.
+  `Ice Blue` -> `stowe/stowe_blue/500_source` (`18%`) Wider of the two blue-gray support blocks in the recommended ratio strip.
+  `Winter Blue` -> `stowe/stowe_blue/700_source` (`12%`) Narrowest support block and the darkest contrast lane in the source strip.
 - Notes:
   These percentages are approximate documentation guidance inferred from the displayed ratio fields rather than exact published source values.
   Ice Blue and Winter Blue are governed inside one raw family even though the usage page shows them as separate visual shares.

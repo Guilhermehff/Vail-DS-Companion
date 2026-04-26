@@ -127,7 +127,7 @@ family_scales:
   - name: seven_springs/springs_green/200
     value: '#d9fbea'
     source_anchor: false
-  - name: seven_springs/springs_green/300
+  - name: seven_springs/springs_green/300_source
     value: '#89ebad'
     source_anchor: true
   - name: seven_springs/springs_green/400
@@ -136,7 +136,7 @@ family_scales:
   - name: seven_springs/springs_green/500
     value: '#34b87b'
     source_anchor: false
-  - name: seven_springs/springs_green/600
+  - name: seven_springs/springs_green/600_source
     value: '#008d55'
     source_anchor: true
   - name: seven_springs/springs_green/700
@@ -171,7 +171,7 @@ family_scales:
   - name: seven_springs/tupelo/600
     value: '#3f8f74'
     source_anchor: false
-  - name: seven_springs/tupelo/700
+  - name: seven_springs/tupelo/700_source
     value: '#002e1c'
     source_anchor: true
   - name: seven_springs/tupelo/800
@@ -185,7 +185,7 @@ family_scales:
   source_value: '#141418 / #f6fff7'
   source_anchor: 100_source / 900_source
   tokens:
-  - name: seven_springs/springs_neutral/100
+  - name: seven_springs/springs_neutral/100_source
     value: '#f6fff7'
     source_anchor: true
   - name: seven_springs/springs_neutral/200
@@ -209,7 +209,7 @@ family_scales:
   - name: seven_springs/springs_neutral/800
     value: '#323439'
     source_anchor: false
-  - name: seven_springs/springs_neutral/900
+  - name: seven_springs/springs_neutral/900_source
     value: '#141418'
     source_anchor: true
 - family: wildin_yellow
@@ -226,7 +226,7 @@ family_scales:
   - name: seven_springs/wildin_yellow/300
     value: '#fbe16b'
     source_anchor: false
-  - name: seven_springs/wildin_yellow/400
+  - name: seven_springs/wildin_yellow/400_source
     value: '#fbce0a'
     source_anchor: true
   - name: seven_springs/wildin_yellow/500
@@ -274,7 +274,7 @@ validation:
     foreground: white
     ratio: 12.46:1
     result: pass
-  - token: seven_springs/wildin_yellow/400
+  - token: seven_springs/wildin_yellow/400_source
     foreground: black
     ratio: 13.93:1
     result: pass

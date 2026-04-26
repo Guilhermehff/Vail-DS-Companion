@@ -20,13 +20,13 @@ Review state: written in figma. Verify live write state in `figma/brands/crotche
   Provided value: `#3d76ae`
   Usage scope: `sub-brand system`
   Channel restrictions: `not specified in source`
-  Notes: Live Figma carries this as `crotched/blue/500`.
+  Notes: Live Figma carries this as `crotched/blue/500_source`.
 
 - Source color: `Purple`
   Provided value: `#763c70`
   Usage scope: `sub-brand system`
   Channel restrictions: `not specified in source`
-  Notes: Live Figma carries this as `crotched/purple/700`.
+  Notes: Live Figma carries this as `crotched/purple/700_source`.
 
 - Source color: `Black`
   Provided value: `#000000`

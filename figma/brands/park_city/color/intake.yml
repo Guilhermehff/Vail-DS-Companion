@@ -120,7 +120,7 @@ family_scales:
   - name: park_city/park_city_red/600
     value: "#b74b46"
     source_anchor: false
-  - name: park_city/park_city_red/700
+  - name: park_city/park_city_red/700_source
     value: "#971b1f"
     source_anchor: true
   - name: park_city/park_city_red/800
@@ -149,7 +149,7 @@ family_scales:
   - name: park_city/bright_red/500
     value: "#f15058"
     source_anchor: false
-  - name: park_city/bright_red/600
+  - name: park_city/bright_red/600_source
     value: "#db0032"
     source_anchor: true
   - name: park_city/bright_red/700
@@ -172,7 +172,7 @@ family_scales:
   - name: park_city/pale_red/200
     value: "#f8e8f2"
     source_anchor: false
-  - name: park_city/pale_red/300
+  - name: park_city/pale_red/300_source
     value: "#f0d9ea"
     source_anchor: true
   - name: park_city/pale_red/400
@@ -211,7 +211,7 @@ family_scales:
   - name: park_city/park_city_gray/300
     value: "#cacdcf"
     source_anchor: false
-  - name: park_city/park_city_gray/400
+  - name: park_city/park_city_gray/400_source
     value: "#b1b3b6"
     source_anchor: true
   - name: park_city/park_city_gray/500
@@ -223,7 +223,7 @@ family_scales:
   - name: park_city/park_city_gray/700
     value: "#5f6164"
     source_anchor: false
-  - name: park_city/park_city_gray/800
+  - name: park_city/park_city_gray/800_source
     value: "#414042"
     source_anchor: true
   - name: park_city/park_city_gray/900
@@ -237,15 +237,15 @@ color_proportion_guidance:
     intent: Pale Red and Park City Red carry most of the brand field. Bright Red stays accent-sized even when it is fully saturated. Cool Gray, Park City Gray, and White remain supporting neutrals outside the ratio bar.
     proportions:
     - source_color: Pale Red
-      token: park_city/pale_red/300
+      token: park_city/pale_red/300_source
       percentage: 50
       rationale: Largest field in the proportion graphic and the branded wash behind the expressive red bars.
     - source_color: Park City Red
-      token: park_city/park_city_red/700
+      token: park_city/park_city_red/700_source
       percentage: 30
       rationale: Dominant horizontal brand bar in the ratio graphic and the main expressive lane.
     - source_color: Bright Red
-      token: park_city/bright_red/600
+      token: park_city/bright_red/600_source
       percentage: 20
       rationale: Narrowest field in the ratio graphic and explicitly called out as more of an accent color.
     notes:
@@ -259,7 +259,7 @@ validation:
   - Park City keeps `park_city_gray` as the semantic neutral family, but the reviewed ladder now stays genuinely gray while preserving `Cool Gray` at `400` and `Park City Gray` at `800`.
   - Exact white is reused from `universal/white` rather than duplicated under the Park City group.
   contrast_checks:
-  - token: park_city/park_city_gray/800
+  - token: park_city/park_city_gray/800_source
     foreground: white
     ratio: 10.31:1
     result: pass
@@ -267,11 +267,11 @@ validation:
     foreground: white
     ratio: 6.21:1
     result: pass
-  - token: park_city/park_city_red/700
+  - token: park_city/park_city_red/700_source
     foreground: white
     ratio: 8.43:1
     result: pass
-  - token: park_city/bright_red/600
+  - token: park_city/bright_red/600_source
     foreground: white
     ratio: 5.17:1
     result: pass

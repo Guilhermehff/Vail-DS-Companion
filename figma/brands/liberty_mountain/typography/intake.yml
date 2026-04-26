@@ -10,7 +10,7 @@ preview:
   status: written_in_figma
 source_roles:
 - source_role: headline
-  source_family_name: Brown
+  source_family_name: Brown LL
   source_style_name: Brown Regular
   source_weight_label: Regular
   source_usage_scope: Headlines
@@ -22,10 +22,10 @@ source_roles:
   sample_copy: Duis non, commodo luctus!
   notes: The source also lists Brown Light in the Headlines section, so Brown Light remains documented
     as a raw alternate headline treatment.
-  source_safe_family_name: Semplicitapro
+  source_safe_family_name: Semplicita Pro
   source_safe_reference_column: headline_font
 - source_role: headline_alternate
-  source_family_name: Brown
+  source_family_name: Brown LL
   source_style_name: Brown Light
   source_weight_label: Light
   source_usage_scope: Headlines
@@ -37,10 +37,10 @@ source_roles:
   sample_copy: Maecenas diam eget.
   notes: Preserved in documentation as a raw alternate headline treatment rather than a separate semantic
     lane.
-  source_safe_family_name: Semplicitapro
+  source_safe_family_name: Semplicita Pro
   source_safe_reference_column: headline_font
 - source_role: subheadline
-  source_family_name: Brown
+  source_family_name: Brown LL
   source_style_name: Brown Light
   source_weight_label: Light
   source_usage_scope: Sub headline
@@ -50,11 +50,11 @@ source_roles:
   size_rule: 14 to 36 pt
   punctuation_rule: not specified in source
   sample_copy: Donec ullamcorper nulla non metus auctor fringilla.
-  notes: The source lists Sentinel Book as an alternate subheadline family.
-  source_safe_family_name: Semplicitapro
+  notes: Sentinel Book was previously listed as an alternate subheadline family, but it is no longer governed as a live raw family.
+  source_safe_family_name: Semplicita Pro
   source_safe_reference_column: headline_font
 - source_role: body
-  source_family_name: Brown
+  source_family_name: Brown LL
   source_style_name: Brown Light
   source_weight_label: Light
   source_usage_scope: Body copy
@@ -64,22 +64,7 @@ source_roles:
   size_rule: below 14 pt
   punctuation_rule: not specified in source
   sample_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  notes: The source lists Sentinel Book as an alternate body family.
-  source_safe_family_name: Open Sans
-  source_safe_reference_column: body_font
-- source_role: alternate
-  source_family_name: Sentinel
-  source_style_name: Sentinel Book
-  source_weight_label: Book
-  source_usage_scope: Alternate sub headline and body copy
-  text_case: sentence case
-  tracking: not specified in source
-  leading: follows the paired role
-  size_rule: follows the paired role
-  punctuation_rule: not specified in source
-  sample_copy: Nullam id dolor! Nibh ultricies ut id elit.
-  notes: Preserved as a raw alternate family because the current semantic theme typography schema has
-    no dedicated alternate serif lane.
+  notes: Sentinel Book was previously listed as an alternate body family, but it is no longer governed as a live raw family.
   source_safe_family_name: Open Sans
   source_safe_reference_column: body_font
 primitive_recommendations:
@@ -96,23 +81,16 @@ primitive_recommendations:
   proposed_primitives:
     families:
     - token_name: liberty_mountain/family/01
-      source_family_name: Brown
+      source_family_name: Brown LL
       source_style_reference: Brown Regular / Brown Light
-      rationale: Brown is the source-defined primary Liberty Mountain family for print and web materials.
+      rationale: Brown LL is the live source-defined primary Liberty Mountain family for print and web materials.
       safe_family_token: ''
       safe_family_note: Multiple approved role-level safe-family mappings apply to this brand family;
         use the semantic safe aliases and role recipes below.
-    - token_name: liberty_mountain/family/02
-      source_family_name: Sentinel
-      source_style_reference: Sentinel Book
-      rationale: Sentinel is the explicit alternate reading and subhead family in the source, with
-        the Book style called out specifically.
-      safe_family_token: liberty_mountain/family_safe/02
-      safe_family_note: Approved safe-family companion from Vail Resorts Guidelines.pdf.
     weights: []
     safe_families:
     - token_name: liberty_mountain/family_safe/01
-      source_family_name: Semplicitapro
+      source_family_name: Semplicita Pro
       source_role_reference: eyebrow, headline, cta
       rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the eyebrow, headline,
         cta lane.
@@ -131,7 +109,7 @@ semantic_recommendations:
     - web
     - email
     - ads
-    notes: Headings stage on Brown because the source defines Brown as the primary family. Safe mapping
+    notes: Headings stage on Brown because the source defines Brown LL as the primary family. Safe mapping
       is staged from Vail Resorts Guidelines.pdf.
   - semantic_token: typography/family/body
     global_token: liberty_mountain/family/01
@@ -151,8 +129,8 @@ semantic_recommendations:
     - web
     - email
     - ads
-    notes: The source says Brown is the primary font for print and web materials, so the action family
-      also follows Brown in the first pass. Safe mapping is staged from Vail Resorts Guidelines.pdf.
+    notes: The source says Brown LL is the primary font for print and web materials, so the action family
+      also follows Brown LL in the first pass. Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
     global_token: universal/weight/normal
@@ -190,7 +168,7 @@ semantic_recommendations:
     - email
     - ads
     notes: The source does not provide a separate CTA rule, so the first pass keeps action weight aligned
-      to the regular Brown baseline instead of inheriting black.
+      to the regular Brown LL baseline instead of inheriting black.
   size_aliases: []
 role_recipes:
 - role_name: heading
@@ -219,7 +197,7 @@ role_recipes:
   size_rule: 14 to 36 pt
   punctuation_rule: not specified in source
   sample_copy: Donec ullamcorper nulla non metus auctor fringilla.
-  notes: Sentinel Book remains a raw alternate rather than a live semantic family override.
+  notes: 'Sentinel Book was removed from live Global: Typography and is not a governed raw family.'
   safe_family_token: liberty_mountain/family_safe/01
 - role_name: body
   source_role: body
@@ -233,17 +211,16 @@ role_recipes:
   size_rule: below 14 pt
   punctuation_rule: not specified in source
   sample_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  notes: Sentinel Book remains a raw alternate rather than a live semantic family override.
+  notes: 'Sentinel Book was removed from live Global: Typography and is not a governed raw family.'
   safe_family_token: liberty_mountain/family_safe/02
 validation:
   extraction_notes:
-  - The source defines Brown as the primary family and Sentinel Book as an alternate family for subheadline
-    and body work.
+  - 'The source defines Brown LL as the primary family. Sentinel Book was previously documented as an alternate,
+    but it has been removed from live Global: Typography.'
   - The source provides tracking and leading guidance but the current shared semantic theme typography
     schema does not include tracking variables.
   governance_notes:
-  - The live write preserves `liberty_mountain/family/02` as a raw-only family because there is no dedicated
-    alternate serif semantic slot.
+  - 'Live Global: Typography no longer contains `liberty_mountain/family/02`.'
   - The live write overrides `typography/weight/heading/strong` and `typography/weight/action/base` away from the shared black
     default because the source never specifies a heavy or black Liberty Mountain treatment.
   - Brand-safe typography aliases now stage on `liberty_mountain/family_safe/*` from Vail Resorts Guidelines.pdf.
@@ -258,16 +235,15 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Brown should drive heading, body, and action families in the first semantic pass.
-    source_basis: Source typography page states Brown is the primary font for all print and web materials.
-  - subject: Liberty Mountain alternate family containment
+    rule: Brown LL should drive heading, body, and action families in the first semantic pass.
+    source_basis: Source typography page states Brown LL is the primary font for all print and web materials.
+  - subject: Liberty Mountain alternate family removal
     channels:
     - web
     - email
     - ads
-    rule: Sentinel Book remains a raw alternate family until the semantic theme typography schema gains
-      a dedicated alternate lane.
-    source_basis: Source typography page lists Sentinel Book as an alternate family only.
+    rule: 'Do not govern Sentinel Book as a raw family unless it is restored in live Global: Typography.'
+    source_basis: 'Live Figma Global: Typography.'
 open_questions:
 - The source does not define a CTA-specific role recipe, so the first pass stages action on Brown Regular
   instead of inventing a separate CTA treatment.

@@ -87,7 +87,7 @@ family_scales:
   - name: hidden_valley_pa/laurel_blue/400
     value: "#4f93d6"
     source_anchor: false
-  - name: hidden_valley_pa/laurel_blue/500
+  - name: hidden_valley_pa/laurel_blue/500_source
     value: "#00447c"
     source_anchor: true
   - name: hidden_valley_pa/laurel_blue/600
@@ -107,8 +107,8 @@ family_scales:
   source_value: composite_family
   source_anchor: 300_source / 500_source
   notes:
-  - hidden_valley_pa/beige/300 preserves the Light Beige source swatch.
-  - hidden_valley_pa/beige/500 preserves the Dark Beige source swatch.
+  - hidden_valley_pa/beige/300_source preserves the Light Beige source swatch.
+  - hidden_valley_pa/beige/500_source preserves the Dark Beige source swatch.
   tokens:
   - name: hidden_valley_pa/beige/100
     value: "#fbf8f2"
@@ -116,13 +116,13 @@ family_scales:
   - name: hidden_valley_pa/beige/200
     value: "#f2e7d5"
     source_anchor: false
-  - name: hidden_valley_pa/beige/300
+  - name: hidden_valley_pa/beige/300_source
     value: "#e3d4b8"
     source_anchor: true
   - name: hidden_valley_pa/beige/400
     value: "#ad9670"
     source_anchor: false
-  - name: hidden_valley_pa/beige/500
+  - name: hidden_valley_pa/beige/500_source
     value: "#8a724e"
     source_anchor: true
   - name: hidden_valley_pa/beige/600

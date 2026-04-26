@@ -118,14 +118,17 @@ primitive_recommendations:
       source_family_name: Avenir
       source_style_reference: Avenir Medium across subheadline and body copy
       rationale: Avenir is the secondary reading family in the supplied Keystone guidance.
-      safe_family_token: keystone/family_safe/01
+      safe_family_token: keystone/family_safe/02
       safe_family_note: Approved safe-family companion from Vail Resorts Guidelines.pdf.
     safe_families:
     - token_name: keystone/family_safe/01
+      source_family_name: Futura
+      source_role_reference: eyebrow, headline, cta
+      rationale: 'Live Global: Typography source of truth for the Keystone safe display lane.'
+    - token_name: keystone/family_safe/02
       source_family_name: Open Sans
-      source_role_reference: eyebrow, headline, body, cta
-      rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the eyebrow, headline,
-        body, cta lane.
+      source_role_reference: body
+      rationale: 'Live Global: Typography source of truth for the Keystone safe reading lane.'
   hold_for_review: []
 semantic_recommendations:
   family_aliases:
@@ -142,7 +145,7 @@ semantic_recommendations:
   - semantic_token: typography/family/body
     global_token: keystone/family/02
     safe_semantic_token: typography/family/body_safe
-    safe_global_token: keystone/family_safe/01
+    safe_global_token: keystone/family_safe/02
     intended_channels:
     - web
     - email

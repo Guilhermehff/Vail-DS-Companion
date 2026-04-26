@@ -40,7 +40,7 @@ Source basis: The official Whistler Blackcomb guide explicitly calls for an even
 
 - Intent: `Red, black, and white should be held in balance so no single one of the three becomes the only field color in a design.`
 - Proportions:
-  `Red` -> `whistler_blackcomb/red/600` (`33%`) The source calls for an even share across the three brand colors.
+  `Red` -> `whistler_blackcomb/red/600_source` (`33%`) The source calls for an even share across the three brand colors.
   `Black` -> `universal/black` (`33%`) The source calls for an even share across the three brand colors.
   `White` -> `universal/white` (`33%`) The source calls for an even share across the three brand colors.
 - Notes:

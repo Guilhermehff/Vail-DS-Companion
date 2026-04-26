@@ -87,7 +87,7 @@ family_scales:
   - name: attitash/attitash_blue/400
     value: '#6f95d6'
     source_anchor: false
-  - name: attitash/attitash_blue/500
+  - name: attitash/attitash_blue/500_source
     value: '#2a51a3'
     source_anchor: true
   - name: attitash/attitash_blue/600
@@ -119,7 +119,7 @@ family_scales:
   - name: attitash/daybreak/400
     value: '#fccc5b'
     source_anchor: false
-  - name: attitash/daybreak/500
+  - name: attitash/daybreak/500_source
     value: '#ffc629'
     source_anchor: true
   - name: attitash/daybreak/600
@@ -139,13 +139,13 @@ family_scales:
   source_value: composite_family
   source_anchor: 100_source / 100_source / 300_source / 800_source
   tokens:
-  - name: attitash/attitash_neutral/100
+  - name: attitash/attitash_neutral/100_source
     value: '#ffffff'
     source_anchor: true
-  - name: attitash/attitash_neutral/200
+  - name: attitash/attitash_neutral/200_source
     value: '#f2f2f2'
     source_anchor: true
-  - name: attitash/attitash_neutral/300
+  - name: attitash/attitash_neutral/300_source
     value: '#c6c8c8'
     source_anchor: true
   - name: attitash/attitash_neutral/400
@@ -160,7 +160,7 @@ family_scales:
   - name: attitash/attitash_neutral/700
     value: '#565c5f'
     source_anchor: false
-  - name: attitash/attitash_neutral/800
+  - name: attitash/attitash_neutral/800_source
     value: '#3d4347'
     source_anchor: true
   - name: attitash/attitash_neutral/900

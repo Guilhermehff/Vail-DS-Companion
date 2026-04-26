@@ -104,7 +104,7 @@ family_scales:
   - name: breckenridge/navy/600
     value: '#3c77ac'
     source_anchor: false
-  - name: breckenridge/navy/700
+  - name: breckenridge/navy/700_source
     value: '#004c80'
     source_anchor: true
   - name: breckenridge/navy/800
@@ -133,7 +133,7 @@ family_scales:
   - name: breckenridge/red/500
     value: '#fa453f'
     source_anchor: false
-  - name: breckenridge/red/600
+  - name: breckenridge/red/600_source
     value: '#d71920'
     source_anchor: true
   - name: breckenridge/red/700
@@ -171,7 +171,7 @@ family_scales:
   - name: breckenridge/dark_gray/700
     value: '#59594f'
     source_anchor: false
-  - name: breckenridge/dark_gray/800
+  - name: breckenridge/dark_gray/800_source
     value: '#444339'
     source_anchor: true
   - name: breckenridge/dark_gray/900
@@ -191,7 +191,7 @@ color_proportion_guidance:
       percentage: 35
       rationale: Longest bar in the source image and the primary brand color.
     - source_color: Breckenridge Red
-      token: breckenridge/red/600
+      token: breckenridge/red/600_source
       percentage: 30
       rationale: Second-longest bar in the source image and the key secondary expressive
         color.
@@ -200,7 +200,7 @@ color_proportion_guidance:
       percentage: 20
       rationale: Third bar in the source image and the primary open-space carrier.
     - source_color: Breckenridge Dark Gray
-      token: breckenridge/dark_gray/800
+      token: breckenridge/dark_gray/800_source
       percentage: 15
       rationale: Shortest bar in the source image and a supporting neutral rather
         than a leading brand lane.
@@ -218,11 +218,11 @@ validation:
   - White is reused from the universal palette and is not duplicated under the Breckenridge
     brand group.
   contrast_checks:
-  - token: breckenridge/navy/700
+  - token: breckenridge/navy/700_source
     foreground: white
     ratio: 7.13:1
     result: pass
-  - token: breckenridge/red/600
+  - token: breckenridge/red/600_source
     foreground: white
     ratio: 5.19:1
     result: pass

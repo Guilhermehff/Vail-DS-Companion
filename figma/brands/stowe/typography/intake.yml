@@ -119,21 +119,21 @@ primitive_recommendations:
     weights: []
     safe_families:
     - token_name: stowe/family_safe/01
+      source_family_name: Italiana
+      source_role_reference: headline
+      rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the headline lane.
+    - token_name: stowe/family_safe/02
       source_family_name: Raleway
       source_role_reference: eyebrow, body, cta
       rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the eyebrow, body, cta
         lane.
-    - token_name: stowe/family_safe/02
-      source_family_name: Italiana
-      source_role_reference: headline
-      rationale: Approved web safe family from Vail Resorts Guidelines.pdf for the headline lane.
   hold_for_review: []
 semantic_recommendations:
   family_aliases:
   - semantic_token: typography/family/heading
     global_token: stowe/family/01
     safe_semantic_token: typography/family/heading_safe
-    safe_global_token: stowe/family_safe/02
+    safe_global_token: stowe/family_safe/01
     intended_channels:
     - web
     - email
@@ -143,7 +143,7 @@ semantic_recommendations:
   - semantic_token: typography/family/body
     global_token: stowe/family/02
     safe_semantic_token: typography/family/body_safe
-    safe_global_token: stowe/family_safe/01
+    safe_global_token: stowe/family_safe/02
     intended_channels:
     - web
     - email
@@ -153,7 +153,7 @@ semantic_recommendations:
   - semantic_token: typography/family/action
     global_token: stowe/family/01
     safe_semantic_token: typography/family/action_safe
-    safe_global_token: stowe/family_safe/01
+    safe_global_token: stowe/family_safe/02
     intended_channels:
     - web
     - email

@@ -71,14 +71,14 @@ Source basis: The supplied Kirkwood visual-guidelines page states that black, wh
 - Intent: `Foundational neutrals dominate. Orange 021 C stays as the main highlight color. The blue accents should usually arrive through photography or smaller supporting moments rather than as the leading solid field.`
 - Dominant palette:
   `White` -> `universal/white`
-  `Cool Grey 1` -> `kirkwood/cool_gray/200`
-  `Cool Grey 9` -> `kirkwood/cool_gray/700`
+  `Cool Grey 1` -> `kirkwood/cool_gray/200_source`
+  `Cool Grey 9` -> `kirkwood/cool_gray/700_source`
   `Black C` -> `universal/black`
 - Supporting palette:
-  `Orange 021 C` -> `kirkwood/orange/500`
-  `642 C` -> `kirkwood/blue/300`
-  `633 C` -> `kirkwood/blue/600`
-  `648 C` -> `kirkwood/blue/700`
+  `Orange 021 C` -> `kirkwood/orange/500_source`
+  `642 C` -> `kirkwood/blue/300_source`
+  `633 C` -> `kirkwood/blue/600_source`
+  `648 C` -> `kirkwood/blue/700_source`
 - Notes:
   The source explicitly says orange is used as the highlight.
   The source explicitly says the palette blues often occur naturally in outdoor photography.

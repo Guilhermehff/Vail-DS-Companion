@@ -38,7 +38,7 @@ Source anchors: `700_source / 900_source`
 - Scope: `neutral` -> `inherited_base`
   Exact black and white remain inherited from the shared neutral baseline.
 - Scope: `brand` -> `boston_mills/neutral`
-  The live semantic brand lane now resolves through the Boston Mills neutral family, with `boston_mills/neutral/700` as the default expressive source and `neutral/800` on the stronger surfaces.
+  The live semantic brand lane now resolves through the Boston Mills neutral family, with `boston_mills/neutral/700_source` as the default expressive source and `neutral/800` on the stronger surfaces.
 - Scope: `brand_secondary` -> `boston_mills/neutral`
   The live secondary expressive lane follows the same neutral family.
 - Scope: `border/brand` -> `boston_mills/neutral/400`
@@ -50,4 +50,4 @@ Source anchors: `700_source / 900_source`
 ## Review Readiness
 
 - Subject: `Boston Mills / Brandywine neutral ramp shift`
-  Rule: Keep `Snowgun Grey` anchored at `boston_mills/neutral/700`, preserve exact black at `boston_mills/neutral/900`, and use the neutral family for both expressive semantic lanes.
+  Rule: Keep `Snowgun Grey` anchored at `boston_mills/neutral/700_source`, preserve exact black at `boston_mills/neutral/900_source`, and use the neutral family for both expressive semantic lanes.

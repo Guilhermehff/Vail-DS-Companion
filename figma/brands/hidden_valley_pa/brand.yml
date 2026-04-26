@@ -132,7 +132,7 @@ semantic_overrides:
       - typography/weight/heading/strong
       - typography/weight/action/base
       notes:
-      - Hidden Valley PA is live as a Roboto-led semantic system, with `Mrs Eaves XL` preserved as the raw display family used for logo and design applications.
+      - Hidden Valley PA is live as a Roboto-led semantic system, with `Mrs Eave XL Serif OT` preserved as the raw display family used for logo and design applications.
       - The first semantic pass keeps heading, body, and action on `hidden_valley_pa/family/01` because the current shared typography ladder does not have a dedicated ornamental display role.
       - Brand-safe typography aliases now stage on `hidden_valley_pa/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:

@@ -118,7 +118,7 @@ family_scales:
   - name: mount_snow/bluebird_express/500
     value: "#3d86ff"
     source_anchor: false
-  - name: mount_snow/bluebird_express/600
+  - name: mount_snow/bluebird_express/600_source
     value: "#0068ff"
     source_anchor: true
   - name: mount_snow/bluebird_express/700
@@ -147,7 +147,7 @@ family_scales:
   - name: mount_snow/heart_red/400
     value: "#ff604e"
     source_anchor: false
-  - name: mount_snow/heart_red/500
+  - name: mount_snow/heart_red/500_source
     value: "#ff0000"
     source_anchor: true
   - name: mount_snow/heart_red/600
@@ -170,7 +170,7 @@ family_scales:
   - name: mount_snow/whipped_cream/100
     value: "#fffdfa"
     source_anchor: false
-  - name: mount_snow/whipped_cream/200
+  - name: mount_snow/whipped_cream/200_source
     value: "#fbf7f3"
     source_anchor: true
   - name: mount_snow/whipped_cream/300
@@ -211,7 +211,7 @@ family_scales:
   - name: mount_snow/somerset_blue/400
     value: "#56afff"
     source_anchor: false
-  - name: mount_snow/somerset_blue/500
+  - name: mount_snow/somerset_blue/500_source
     value: "#0098ff"
     source_anchor: true
   - name: mount_snow/somerset_blue/600
@@ -240,7 +240,7 @@ family_scales:
   - name: mount_snow/rosy_cheeks/300
     value: "#ff9fe8"
     source_anchor: false
-  - name: mount_snow/rosy_cheeks/400
+  - name: mount_snow/rosy_cheeks/400_source
     value: "#ff79df"
     source_anchor: true
   - name: mount_snow/rosy_cheeks/500

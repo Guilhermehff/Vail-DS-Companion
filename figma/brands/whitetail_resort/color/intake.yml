@@ -75,7 +75,7 @@ family_scales:
   - name: whitetail_resort/two_top_green/600
     value: '#4f9a87'
     source_anchor: false
-  - name: whitetail_resort/two_top_green/700
+  - name: whitetail_resort/two_top_green/700_source
     value: '#233d34'
     source_anchor: true
   - name: whitetail_resort/two_top_green/800
@@ -104,7 +104,7 @@ family_scales:
   - name: whitetail_resort/neutral/400
     value: '#a9aaaf'
     source_anchor: false
-  - name: whitetail_resort/neutral/500
+  - name: whitetail_resort/neutral/500_source
     value: '#7c7d83'
     source_anchor: true
   - name: whitetail_resort/neutral/600

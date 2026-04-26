@@ -91,7 +91,7 @@ family_scales:
   - name: hidden_valley_mo/hv_blue/400
     value: "#42bdd0"
     source_anchor: false
-  - name: hidden_valley_mo/hv_blue/500
+  - name: hidden_valley_mo/hv_blue/500_source
     value: "#0e9fb4"
     source_anchor: true
   - name: hidden_valley_mo/hv_blue/600
@@ -132,7 +132,7 @@ family_scales:
   - name: hidden_valley_mo/tagline_grey/700
     value: "#5c5f56"
     source_anchor: false
-  - name: hidden_valley_mo/tagline_grey/800
+  - name: hidden_valley_mo/tagline_grey/800_source
     value: "#51544a"
     source_anchor: true
   - name: hidden_valley_mo/tagline_grey/900
@@ -152,7 +152,7 @@ validation:
     foreground: white
     ratio: 8.85:1
     result: pass
-  - token: hidden_valley_mo/tagline_grey/800
+  - token: hidden_valley_mo/tagline_grey/800_source
     foreground: white
     ratio: 7.73:1
     result: pass

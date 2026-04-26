@@ -57,8 +57,8 @@ family_scales:
   source_value: "#474e50"
   source_anchor: 700_source
   notes:
-  - boston_mills/neutral/700 preserves the Snowgun Grey source swatch.
-  - boston_mills/neutral/900 preserves the exact shared black source swatch.
+  - boston_mills/neutral/700_source preserves the Snowgun Grey source swatch.
+  - boston_mills/neutral/900_source preserves the exact shared black source swatch.
   tokens:
   - name: boston_mills/neutral/100
     value: "#f5f7f7"
@@ -78,13 +78,13 @@ family_scales:
   - name: boston_mills/neutral/600
     value: "#657379"
     source_anchor: false
-  - name: boston_mills/neutral/700
+  - name: boston_mills/neutral/700_source
     value: "#474e50"
     source_anchor: true
   - name: boston_mills/neutral/800
     value: "#2e3335"
     source_anchor: false
-  - name: boston_mills/neutral/900
+  - name: boston_mills/neutral/900_source
     value: "#000000"
     source_anchor: true
 semantic_recommendations:
@@ -108,12 +108,12 @@ live_figma_write:
   - boston_mills/neutral/*
   notes:
   - The live raw color layer now includes one Boston Mills neutral family in `_Global: Color`.
-  - "`boston_mills/neutral/700` preserves Snowgun Grey and drives the default semantic brand and brand-secondary surfaces."
+  - "`boston_mills/neutral/700_source` preserves Snowgun Grey and drives the default semantic brand and brand-secondary surfaces."
   - "`boston_mills/neutral/800` backs the stronger semantic brand surface states."
   - "`boston_mills/neutral/400` supplies the live semantic brand border lane."
   - "`color/on_surface/brand/*` remains contrast-derived from `universal/white`."
 review_readiness:
   review_rules:
   - subject: Boston Mills / Brandywine neutral ramp shift
-    rule: Keep Snowgun Grey anchored at `boston_mills/neutral/700`, preserve exact black at `boston_mills/neutral/900`, and use the neutral family for both expressive semantic lanes.
+    rule: Keep Snowgun Grey anchored at `boston_mills/neutral/700_source`, preserve exact black at `boston_mills/neutral/900_source`, and use the neutral family for both expressive semantic lanes.
 open_questions: []

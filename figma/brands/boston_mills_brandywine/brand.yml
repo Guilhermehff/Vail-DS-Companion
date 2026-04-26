@@ -110,7 +110,7 @@ semantic_overrides:
       notes:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - The live expressive overrides now resolve through `boston_mills/neutral/*` rather than directly through `universal/black`.
-      - '`boston_mills/neutral/700` is the default semantic source for both expressive brand lanes, `boston_mills/neutral/800` backs stronger surfaces, and `boston_mills/neutral/400` supplies the brand border lane.'
+      - '`boston_mills/neutral/700_source` is the default semantic source for both expressive brand lanes, `boston_mills/neutral/800` backs stronger surfaces, and `boston_mills/neutral/400` supplies the brand border lane.'
       - The raw global layer now includes one Boston Mills neutral family while the shared semantic neutral role set remains inherited from the base collection.
     typography:
       override_scopes:

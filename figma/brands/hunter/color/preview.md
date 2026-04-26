@@ -52,13 +52,13 @@ Source basis: User-provided Hunter brand guidance defines primary versus seconda
 
 - Intent: `Mountain Blue, Sunrise Orange, and Flurry White form the core Hunter palette for primary branding pieces, backgrounds, and type. Snow Blue, Forest Green, and City Grey remain accent colors that highlight or complement the primary palette.`
 - Dominant palette:
-  `Mountain Blue` -> `hunter/mountain_blue/700`
-  `Sunrise Orange` -> `hunter/sunrise_orange/500`
+  `Mountain Blue` -> `hunter/mountain_blue/700_source`
+  `Sunrise Orange` -> `hunter/sunrise_orange/500_source`
   `Flurry White` -> `hunter/hunter_neutral/200`
 - Supporting palette:
-  `Snow Blue` -> `hunter/mountain_blue/100`
-  `Forest Green` -> `hunter/forest_green/700`
-  `City Grey` -> `hunter/hunter_neutral/500`
+  `Snow Blue` -> `hunter/mountain_blue/100_source`
+  `Forest Green` -> `hunter/forest_green/700_source`
+  `City Grey` -> `hunter/hunter_neutral/500_source`
 - Notes:
   The source says the primary colors are used for primary branding pieces, backgrounds, type, and other foundational brand moments.
   The source says the secondary colors should be used as accents to highlight or complement the primary colors in a campaign.

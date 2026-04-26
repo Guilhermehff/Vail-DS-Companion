@@ -19,7 +19,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Notes: The source says headlines are all caps with 0px tracking, leading equal to the point size, and should usually be center justified.
 
 - Source role: `subhead`
-  Family: `Trade Gothic LT Std Condensed No. 20`
+  Family: `Trade Gothic LT Std`
   Safe family: `Futura`
   Style: `Bold Condensed No. 20`
   Weight label: `Bold`

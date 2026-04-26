@@ -52,13 +52,13 @@ Source basis: User-provided JFBB usage page defines primary and secondary palett
 
 - Intent: `Snow Day, Last Chair, and Early Sunrise should carry most brand work. Frost, Bluebird, and Night Ski are accent-only support colors.`
 - Dominant palette:
-  `Snow Day` -> `jfbb/snow_day/100`
-  `Last Chair` -> `jfbb/last_chair/700`
-  `Early Sunrise` -> `jfbb/early_sunrise/400`
+  `Snow Day` -> `jfbb/snow_day/100_source`
+  `Last Chair` -> `jfbb/last_chair/700_source`
+  `Early Sunrise` -> `jfbb/early_sunrise/400_source`
 - Supporting palette:
-  `Frost` -> `jfbb/frost/400`
-  `Bluebird` -> `jfbb/bluebird/600`
-  `Night Ski` -> `jfbb/night_ski/900`
+  `Frost` -> `jfbb/frost/400_source`
+  `Bluebird` -> `jfbb/bluebird/600_source`
+  `Night Ski` -> `jfbb/night_ski/900_source`
 - Notes:
   The source says the primary palette should remain the default unless it becomes illegible.
   Secondary colors are reserved for smaller moments such as CTAs and the crown or snowflake element of the logo.
@@ -177,9 +177,9 @@ Source anchor: `900_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `jfbb/bluebird`
   Bluebird is the cleanest supporting expressive lane and preserves a balanced warm/cool pairing with Early Sunrise.
 - Global-only families: `jfbb/frost`, `jfbb/night_ski`
-- `color/on_surface/neutral/*` -> `jfbb/last_chair/700`
+- `color/on_surface/neutral/*` -> `jfbb/last_chair/700_source`
   Readable neutral copy follows the supplied dark navy rather than the very light Snow Day surface ladder.
-- `color/foreground/default` -> `jfbb/last_chair/700`
+- `color/foreground/default` -> `jfbb/last_chair/700_source`
   Default foreground needs the same brand navy used across the supplied hierarchy sheet.
 - `color/foreground/subtle` -> `jfbb/last_chair/800`
   Subtle neutral foreground keeps a softer navy tone without leaving the brand palette.

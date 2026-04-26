@@ -426,11 +426,13 @@ brand_typography_foundations:
       format: "<group>/weight/<weight_key>"
       notes:
         - weight tokens are raw numeric values and should reuse universal tokens whenever possible.
-        - use universal/weight/black as the shared raw black weight when a source specifies Black without a separate numeric exception.
+        - use universal/weight/black for the 800 raw weight and universal/weight/heavy for the 900 raw weight.
+        - use universal/weight/heavy when a source specifies Heavy or a 900 style without a separate numeric exception.
         - add a brand-specific weight token only if the value or mapping is truly brand-specific and cannot be governed universally.
       examples:
         - universal/weight/medium
         - universal/weight/black
+        - universal/weight/heavy
     size_naming:
       format: "universal/size/<family>/<step_or_slot>"
       notes:

@@ -5,8 +5,8 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
 ## Original Source Roles
 
 - Source role: `headline`
-  Family: `Brown`
-  Safe family: `Semplicitapro`
+  Family: `Brown LL`
+  Safe family: `Semplicita Pro`
   Style: `Brown Regular`
   Weight label: `Regular`
   Usage scope: `Headlines`
@@ -19,8 +19,8 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Notes: The source also lists Brown Light in the Headlines section, so Brown Light remains documented as a raw alternate headline treatment.
 
 - Source role: `headline_alternate`
-  Family: `Brown`
-  Safe family: `Semplicitapro`
+  Family: `Brown LL`
+  Safe family: `Semplicita Pro`
   Style: `Brown Light`
   Weight label: `Light`
   Usage scope: `Headlines`
@@ -33,8 +33,8 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Notes: Preserved in documentation as a raw alternate headline treatment rather than a separate semantic lane.
 
 - Source role: `subheadline`
-  Family: `Brown`
-  Safe family: `Semplicitapro`
+  Family: `Brown LL`
+  Safe family: `Semplicita Pro`
   Style: `Brown Light`
   Weight label: `Light`
   Usage scope: `Sub headline`
@@ -44,10 +44,10 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Size rule: `14 to 36 pt`
   Punctuation: `not specified in source`
   Sample copy: `Donec ullamcorper nulla non metus auctor fringilla.`
-  Notes: The source lists Sentinel Book as an alternate subheadline family.
+  Notes: Sentinel Book was previously listed as an alternate subheadline family, but it is no longer governed as a live raw family.
 
 - Source role: `body`
-  Family: `Brown`
+  Family: `Brown LL`
   Safe family: `Open Sans`
   Style: `Brown Light`
   Weight label: `Light`
@@ -58,21 +58,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Size rule: `below 14 pt`
   Punctuation: `not specified in source`
   Sample copy: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`
-  Notes: The source lists Sentinel Book as an alternate body family.
-
-- Source role: `alternate`
-  Family: `Sentinel`
-  Safe family: `Open Sans`
-  Style: `Sentinel Book`
-  Weight label: `Book`
-  Usage scope: `Alternate sub headline and body copy`
-  Case: `sentence case`
-  Tracking: `not specified in source`
-  Leading: `follows the paired role`
-  Size rule: `follows the paired role`
-  Punctuation: `not specified in source`
-  Sample copy: `Nullam id dolor! Nibh ultricies ut id elit.`
-  Notes: Preserved as a raw alternate family because the current semantic theme typography schema has no dedicated alternate serif lane. The source specifically calls out the Book style.
+  Notes: Sentinel Book was previously listed as an alternate body family, but it is no longer governed as a live raw family.
 
 ## Role Recipes
 
@@ -112,7 +98,7 @@ Recipe notes:
 - Leading: `110 percent minimum / 120 percent maximum`
 - Size rule: `14 to 36 pt`
 - Punctuation: `not specified in source`
-- Notes: Sentinel Book remains a raw alternate rather than a live semantic family override.
+- Notes: Sentinel Book was removed from live Global: Typography and is not a governed raw family.
 
 ### Role: body
 
@@ -131,4 +117,4 @@ Recipe notes:
 - Leading: `110 percent minimum / 120 percent maximum`
 - Size rule: `below 14 pt`
 - Punctuation: `not specified in source`
-- Notes: Sentinel Book remains a raw alternate rather than a live semantic family override.
+- Notes: Sentinel Book was removed from live Global: Typography and is not a governed raw family.

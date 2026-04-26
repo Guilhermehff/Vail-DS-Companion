@@ -117,7 +117,7 @@ family_scales:
   - name: mount_sunapee/sunapee_neutral/600
     value: '#66797f'
     source_anchor: false
-  - name: mount_sunapee/sunapee_neutral/700
+  - name: mount_sunapee/sunapee_neutral/700_source
     value: '#253542'
     source_anchor: true
   - name: mount_sunapee/sunapee_neutral/800
@@ -143,7 +143,7 @@ family_scales:
   - name: mount_sunapee/cold_wax/400
     value: '#60c3ce'
     source_anchor: false
-  - name: mount_sunapee/cold_wax/500
+  - name: mount_sunapee/cold_wax/500_source
     value: '#14b3c1'
     source_anchor: true
   - name: mount_sunapee/cold_wax/600
@@ -169,7 +169,7 @@ family_scales:
   - name: mount_sunapee/golden_hour/200
     value: '#fcf0d4'
     source_anchor: false
-  - name: mount_sunapee/golden_hour/300
+  - name: mount_sunapee/golden_hour/300_source
     value: '#fdb933'
     source_anchor: true
   - name: mount_sunapee/golden_hour/400
@@ -212,12 +212,12 @@ color_proportion_guidance:
       percentage: 25
       rationale: Strongest non-white structural block in the distribution graphic.
     - source_color: Cold Wax
-      token: mount_sunapee/cold_wax/500
+      token: mount_sunapee/cold_wax/500_source
       percentage: 15
       rationale: Most prominent saturated primary brand color after the structural
         white and dark field.
     - source_color: Golden Hour
-      token: mount_sunapee/golden_hour/300
+      token: mount_sunapee/golden_hour/300_source
       percentage: 8
       rationale: Warm accent strip in the guidance graphic.
     - source_color: Snow Gun

@@ -44,7 +44,7 @@ Review state: written_in_figma preview artifact. Verify live write state in `fig
   Sample copy: `Guidelines have not been provided`
 
 - Source role: `display`
-  Family: `Mrs Eaves XL`
+  Family: `Mrs Eave XL Serif OT`
   Safe family: `Roboto Slab`
   Style: `Regular`
   Weight label: `Regular`

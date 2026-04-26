@@ -61,8 +61,8 @@ Source anchor: `500_source`
 
 Source anchor: `light_blue_500_source + dark_blue_900_source`
 
-- laurel_mountain/blue/500 preserves the Light Blue source swatch.
-- laurel_mountain/blue/900 preserves the Dark Blue source swatch.
+- laurel_mountain/blue/500_source preserves the Light Blue source swatch.
+- laurel_mountain/blue/900_source preserves the Dark Blue source swatch.
 - The reviewed ladder redesigns the surrounding steps to keep a smoother blue hue progression than the initial reuse-only merge.
 
 <div>
@@ -80,7 +80,7 @@ Source anchor: `light_blue_500_source + dark_blue_900_source`
 ## Review Notes
 
 - The live reduction keeps one `blue` family for Laurel Mountain and redesigns the ladder after the initial reuse-only merge.
-- The governed source anchors remain exact at `laurel_mountain/blue/500` for Light Blue and `laurel_mountain/blue/900` for Dark Blue.
+- The governed source anchors remain exact at `laurel_mountain/blue/500_source` for Light Blue and `laurel_mountain/blue/900_source` for Dark Blue.
 - The redesigned intermediate steps keep the family on a more consistent blue hue axis across the scale.
 
 ## Live Semantic Mapping

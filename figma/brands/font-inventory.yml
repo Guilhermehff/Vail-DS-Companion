@@ -128,7 +128,7 @@ brands:
   typography_intake_artifact: figma/brands/kirkwood/typography/intake.yml
   fonts:
   - lane: brand
-    family_name: Trade Gothic Condensed No. 20
+    family_name: Trade Gothic LT Std
     token_names:
     - kirkwood/family/01
     source_style_references:
@@ -146,7 +146,7 @@ brands:
     source_style_references:
     - title and small type system
   - lane: brand
-    family_name: Trade Gothic Condensed No. 18
+    family_name: Trade Gothic LT Std
     token_names:
     - kirkwood/family/04
     source_style_references:
@@ -181,11 +181,17 @@ brands:
     source_style_references:
     - Avenir Medium across subheadline and body copy
   - lane: safe
-    family_name: Open Sans
+    family_name: Futura
     token_names:
     - keystone/family_safe/01
     source_style_references:
-    - eyebrow, headline, body, cta
+    - eyebrow, headline, cta
+  - lane: safe
+    family_name: Open Sans
+    token_names:
+    - keystone/family_safe/02
+    source_style_references:
+    - body
 - brand_id: beaver_creek
   display_name: Beaver Creek
   status: active
@@ -285,13 +291,13 @@ brands:
     source_style_references:
     - Bold headline and CTA system plus Light body system
   - lane: brand
-    family_name: Trade Gothic LT Std Condensed No. 20
+    family_name: Trade Gothic LT Std
     token_names:
     - park_city/family/02
     source_style_references:
     - subhead system
   - lane: safe
-    family_name: Josefin-sans
+    family_name: Josefin Sans
     token_names:
     - park_city/family_safe/01
     source_style_references:
@@ -411,8 +417,20 @@ brands:
   status: active
   typography_intake_artifact: figma/brands/crotched/typography/intake.yml
   fonts:
+  - lane: brand
+    family_name: Alfarn
+    token_names:
+    - crotched/family/01
+    source_style_references:
+    - live Figma source of truth
+  - lane: brand
+    family_name: Eurostile
+    token_names:
+    - crotched/family/02
+    source_style_references:
+    - live Figma source of truth
   - lane: safe
-    family_name: Alfarn-2
+    family_name: Alfarn 2
     token_names:
     - crotched/family_safe/01
     source_style_references:
@@ -447,7 +465,7 @@ brands:
     source_style_references:
     - eyebrow, headline, cta
   - lane: safe
-    family_name: Open Sans
+    family_name: helvetica
     token_names:
     - hidden_valley_mo/family_safe/02
     source_style_references:
@@ -457,6 +475,12 @@ brands:
   status: active
   typography_intake_artifact: figma/brands/wildcat_mountain/typography/intake.yml
   fonts:
+  - lane: brand
+    family_name: Gutenberg
+    token_names:
+    - wildcat_mountain/family/01
+    source_style_references:
+    - live Figma source of truth
   - lane: safe
     family_name: Prompt
     token_names:
@@ -555,6 +579,12 @@ brands:
     - paoli_peaks/family/01
     source_style_references:
     - headline and subheadline family
+  - lane: brand
+    family_name: Prompt
+    token_names:
+    - paoli_peaks/family/02
+    source_style_references:
+    - live Figma source of truth
   - lane: safe
     family_name: Roboto Slab
     token_names:
@@ -649,17 +679,17 @@ brands:
     - Raleway Bold, Regular, and Light across subhead, body, and contrasting body
       roles
   - lane: safe
-    family_name: Raleway
+    family_name: Italiana
     token_names:
     - stowe/family_safe/01
     source_style_references:
-    - eyebrow, body, cta
+    - headline
   - lane: safe
-    family_name: Italiana
+    family_name: Raleway
     token_names:
     - stowe/family_safe/02
     source_style_references:
-    - headline
+    - eyebrow, body, cta
 - brand_id: mount_sunapee
   display_name: Mount Sunapee
   status: active
@@ -713,19 +743,13 @@ brands:
   typography_intake_artifact: figma/brands/liberty_mountain/typography/intake.yml
   fonts:
   - lane: brand
-    family_name: Brown
+    family_name: Brown LL
     token_names:
     - liberty_mountain/family/01
     source_style_references:
     - Brown Regular / Brown Light
-  - lane: brand
-    family_name: Sentinel
-    token_names:
-    - liberty_mountain/family/02
-    source_style_references:
-    - Sentinel Book
   - lane: safe
-    family_name: Semplicitapro
+    family_name: Semplicita Pro
     token_names:
     - liberty_mountain/family_safe/01
     source_style_references:
@@ -777,7 +801,7 @@ brands:
     source_style_references:
     - Black and Regular across the functional hierarchy
   - lane: brand
-    family_name: Mrs Eaves XL
+    family_name: Mrs Eave XL Serif OT
     token_names:
     - hidden_valley_pa/family/02
     source_style_references:

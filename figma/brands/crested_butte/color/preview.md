@@ -37,8 +37,8 @@ Source basis: Approximate ratios inferred from the relative widths of the three 
 - Intent: `Powder White slightly leads. Wild Red holds nearly equal weight as the main expressive lane. Beyond Black remains a smaller but still substantial grounding neutral.`
 - Proportions:
   `Crested Butte Powder White` -> `universal/white` (`40%`) Widest field in the source strip and the leading open-space carrier.
-  `Crested Butte Wild Red` -> `crested_butte/wild_red/700` (`35%`) Near-equal central field and the main expressive brand color.
-  `Crested Butte Beyond Black` -> `crested_butte/beyond_black/900` (`25%`) Narrowest field in the strip and the grounding dark neutral.
+  `Crested Butte Wild Red` -> `crested_butte/wild_red/700_source` (`35%`) Near-equal central field and the main expressive brand color.
+  `Crested Butte Beyond Black` -> `crested_butte/beyond_black/900_source` (`25%`) Narrowest field in the strip and the grounding dark neutral.
 - Notes:
   These percentages are approximate documentation guidance inferred from the displayed block widths rather than exact published source values.
 

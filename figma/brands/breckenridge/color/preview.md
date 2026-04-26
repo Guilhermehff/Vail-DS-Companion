@@ -42,10 +42,10 @@ Source basis: Approximate ratios inferred from the relative bar widths in the us
 
 - Intent: `Navy is the dominant brand field, red is the secondary expressive lane, white provides open space, and dark_gray remains a restrained supporting neutral.`
 - Proportions:
-  `Breckenridge Navy` -> `breckenridge/navy/700` (`35%`) Longest bar in the source image and the primary brand color.
-  `Breckenridge Red` -> `breckenridge/red/600` (`30%`) Second-longest bar in the source image and the key secondary expressive color.
+  `Breckenridge Navy` -> `breckenridge/navy/700_source` (`35%`) Longest bar in the source image and the primary brand color.
+  `Breckenridge Red` -> `breckenridge/red/600_source` (`30%`) Second-longest bar in the source image and the key secondary expressive color.
   `Breckenridge White` -> `universal/white` (`20%`) Third bar in the source image and the primary open-space carrier.
-  `Breckenridge Dark Gray` -> `breckenridge/dark_gray/800` (`15%`) Shortest bar in the source image and a supporting neutral rather than a leading brand lane.
+  `Breckenridge Dark Gray` -> `breckenridge/dark_gray/800_source` (`15%`) Shortest bar in the source image and a supporting neutral rather than a leading brand lane.
 - Notes:
   These percentages are documentation guidance inferred from the source artwork, not exact measured source values.
   This guidance informs composition and emphasis, not the governed token ramp values.

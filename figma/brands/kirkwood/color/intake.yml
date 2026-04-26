@@ -118,7 +118,7 @@ family_scales:
   - name: kirkwood/orange/400
     value: '#ff8561'
     source_anchor: false
-  - name: kirkwood/orange/500
+  - name: kirkwood/orange/500_source
     value: '#f15a2b'
     source_anchor: true
   - name: kirkwood/orange/600
@@ -144,7 +144,7 @@ family_scales:
   - name: kirkwood/blue/200
     value: '#dceef7'
     source_anchor: false
-  - name: kirkwood/blue/300
+  - name: kirkwood/blue/300_source
     value: '#d0e2e9'
     source_anchor: true
   - name: kirkwood/blue/400
@@ -153,10 +153,10 @@ family_scales:
   - name: kirkwood/blue/500
     value: '#66abc9'
     source_anchor: false
-  - name: kirkwood/blue/600
+  - name: kirkwood/blue/600_source
     value: '#0f758b'
     source_anchor: true
-  - name: kirkwood/blue/700
+  - name: kirkwood/blue/700_source
     value: '#004c69'
     source_anchor: true
   - name: kirkwood/blue/800
@@ -177,7 +177,7 @@ family_scales:
   - name: kirkwood/cool_gray/100
     value: '#f7f7f7'
     source_anchor: false
-  - name: kirkwood/cool_gray/200
+  - name: kirkwood/cool_gray/200_source
     value: '#f1f1f2'
     source_anchor: true
   - name: kirkwood/cool_gray/300
@@ -192,7 +192,7 @@ family_scales:
   - name: kirkwood/cool_gray/600
     value: '#889296'
     source_anchor: false
-  - name: kirkwood/cool_gray/700
+  - name: kirkwood/cool_gray/700_source
     value: '#6d6e70'
     source_anchor: true
   - name: kirkwood/cool_gray/800
@@ -217,20 +217,20 @@ color_proportion_guidance:
     - source_color: White
       token: universal/white
     - source_color: Cool Grey 1
-      token: kirkwood/cool_gray/200
+      token: kirkwood/cool_gray/200_source
     - source_color: Cool Grey 9
-      token: kirkwood/cool_gray/700
+      token: kirkwood/cool_gray/700_source
     - source_color: Black C
       token: universal/black
     supporting_palette:
     - source_color: Orange 021 C
-      token: kirkwood/orange/500
+      token: kirkwood/orange/500_source
     - source_color: 642 C
-      token: kirkwood/blue/300
+      token: kirkwood/blue/300_source
     - source_color: 633 C
-      token: kirkwood/blue/600
+      token: kirkwood/blue/600_source
     - source_color: 648 C
-      token: kirkwood/blue/700
+      token: kirkwood/blue/700_source
     notes:
     - The source explicitly says orange is used as the highlight.
     - The source explicitly says the palette blues often occur naturally in outdoor
@@ -245,15 +245,15 @@ validation:
     source anchors at `200` for Cool Grey 1 and `700` for Cool Grey 9, while intentionally
     avoiding pure white and pure black at the outer steps.
   contrast_checks:
-  - token: kirkwood/orange/500
+  - token: kirkwood/orange/500_source
     foreground: black
     ratio: 6.24:1
     result: pass
-  - token: kirkwood/blue/700
+  - token: kirkwood/blue/700_source
     foreground: white
     ratio: 9.38:1
     result: pass
-  - token: kirkwood/blue/600
+  - token: kirkwood/blue/600_source
     foreground: white
     ratio: 5.33:1
     result: pass

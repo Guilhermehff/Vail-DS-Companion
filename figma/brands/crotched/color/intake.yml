@@ -116,7 +116,7 @@ family_scales:
   - name: crotched/rocket_fuel/300
     value: '#c8e777'
     source_anchor: false
-  - name: crotched/rocket_fuel/400
+  - name: crotched/rocket_fuel/400_source
     value: '#b2db44'
     source_anchor: true
   - name: crotched/rocket_fuel/500
@@ -157,7 +157,7 @@ family_scales:
   - name: crotched/snow_gun/600
     value: '#60554b'
     source_anchor: false
-  - name: crotched/snow_gun/700
+  - name: crotched/snow_gun/700_source
     value: '#413c37'
     source_anchor: true
   - name: crotched/snow_gun/800
@@ -183,7 +183,7 @@ family_scales:
   - name: crotched/blue/400
     value: '#4f94de'
     source_anchor: false
-  - name: crotched/blue/500
+  - name: crotched/blue/500_source
     value: '#3d76ae'
     source_anchor: true
   - name: crotched/blue/600
@@ -221,7 +221,7 @@ family_scales:
   - name: crotched/purple/600
     value: '#964e8e'
     source_anchor: false
-  - name: crotched/purple/700
+  - name: crotched/purple/700_source
     value: '#763c70'
     source_anchor: true
   - name: crotched/purple/800

@@ -110,7 +110,7 @@ family_scales:
   - name: stevens_pass/stevens_blue/500
     value: '#4f97cf'
     source_anchor: false
-  - name: stevens_pass/stevens_blue/600
+  - name: stevens_pass/stevens_blue/600_source
     value: '#0264a3'
     source_anchor: true
   - name: stevens_pass/stevens_blue/700
@@ -148,7 +148,7 @@ family_scales:
   - name: stevens_pass/secondary_blue/700
     value: '#39578f'
     source_anchor: false
-  - name: stevens_pass/secondary_blue/800
+  - name: stevens_pass/secondary_blue/800_source
     value: '#203f7c'
     source_anchor: true
   - name: stevens_pass/secondary_blue/900
@@ -174,7 +174,7 @@ family_scales:
   - name: stevens_pass/mossy_green/500
     value: '#8b985b'
     source_anchor: false
-  - name: stevens_pass/mossy_green/600
+  - name: stevens_pass/mossy_green/600_source
     value: '#6b7830'
     source_anchor: true
   - name: stevens_pass/mossy_green/700
@@ -200,11 +200,11 @@ validation:
     foreground: white
     ratio: 6.26:1
     result: pass
-  - token: stevens_pass/secondary_blue/800
+  - token: stevens_pass/secondary_blue/800_source
     foreground: white
     ratio: 10.18:1
     result: pass
-  - token: stevens_pass/mossy_green/600
+  - token: stevens_pass/mossy_green/600_source
     foreground: white
     ratio: 4.82:1
     result: pass

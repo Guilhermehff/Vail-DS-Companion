@@ -61,8 +61,8 @@ Source anchor: `500_source`
 
 Source anchors: `300_source / 500_source`
 
-- hidden_valley_pa/beige/300 preserves the Light Beige source swatch.
-- hidden_valley_pa/beige/500 preserves the Dark Beige source swatch.
+- hidden_valley_pa/beige/300_source preserves the Light Beige source swatch.
+- hidden_valley_pa/beige/500_source preserves the Dark Beige source swatch.
 
 <div>
   <span title="100 #fbf8f2" style="display:inline-block;width:32px;height:32px;background:#fbf8f2;border:1px solid #d1d5db;"></span>
