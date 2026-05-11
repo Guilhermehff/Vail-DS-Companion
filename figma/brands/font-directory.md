@@ -1,6 +1,6 @@
 # Font Directory
 
-Updated: 2026-04-01
+Updated: 2026-04-27
 
 | Font | Lane | Brands |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Updated: 2026-04-01
 | Athena | Brand | Stowe |
 | Avenir | Brand | Keystone, Vail |
 | Avenir Next | Brand | Breckenridge, Kirkwood |
-| Brandon Grotesque | Brand | Heavenly |
+| Brandon Grotesque | Brand | Epic, Heavenly |
 | Alfarn | Brand | Crotched |
 | Brown LL | Brand | Liberty Mountain |
 | Buenos Aires | Brand | Attitash |
@@ -32,6 +32,7 @@ Updated: 2026-04-01
 | Mrs Eave XL Serif OT | Brand | Hidden Valley PA |
 | Museo Sans | Brand | Mt. Brighton, Wilmot |
 | Museo Slab | Brand | Mt. Brighton, Wilmot |
+| Montserrat | Brand | Epic |
 | Neutraface Text | Brand | Mount Sunapee |
 | New Order | Brand | Northstar |
 | Niagara | Brand | Laurel Mountain |

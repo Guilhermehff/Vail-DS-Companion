@@ -1,0 +1,494 @@
+date: '2026-04-27'
+brand: epic
+source_reference: User-provided Epic Brand Book color screenshots in chat
+source_type: image
+figma_url: https://www.figma.com/design/4Y5qG5CswdHwA0sdSGHCas/Foundations---Epic?node-id=1-4&p=f&t=Ppo6o9dyXoyzfpkN-11
+status: source_guidance_and_live_figma_ramps
+figma_token_source_of_truth: Foundations - Epic
+design_system_scope: standalone
+figma_collections:
+  color:
+    collection_name: '_Global: Color'
+    collection_id: VariableCollectionId:23:2
+    mode_name: values
+    mode_id: '23:0'
+source_swatches:
+- source_name: Ski Blue
+  provided_value: "#10164c"
+  source_usage_scope: primary_brand_color
+  proportion_guidance: 42%
+  notes: Source says this should be the majority background color and leading typographic color when text is on white.
+- source_name: Ride Orange
+  provided_value: "#ef700c"
+  source_usage_scope: primary_brand_color
+  proportion_guidance: 25%
+  notes: Source says this should be used as a background color in a strong minority of elements and as an accent text color for logos and URLs.
+- source_name: Powder White
+  provided_value: "#ffffff"
+  source_usage_scope: primary_brand_color
+  proportion_guidance: 25%
+  notes: Source says this should be used as a background color in a minority of elements and as leading typographic color when text is on blue.
+- source_name: Sky Blue
+  provided_value: "#99bbd6"
+  source_usage_scope: primary_brand_color
+  proportion_guidance: 8%
+  notes: Source says this should only be used as an accent color and never as a background color.
+- source_name: Promise
+  provided_value: "#3c3a55"
+  source_usage_scope: secondary_brand_color
+- source_name: Spruce
+  provided_value: "#1e545c"
+  source_usage_scope: secondary_brand_color
+- source_name: Open
+  provided_value: "#4a6173"
+  source_usage_scope: secondary_brand_color
+- source_name: Embrace
+  provided_value: "#dadbe7"
+  source_usage_scope: secondary_brand_color
+- source_name: Black
+  provided_value: "#000000"
+  source_usage_scope: secondary_brand_color
+semantic_colors_from_source:
+- source_name: Error
+  provided_value: "#c51e1b"
+- source_name: Warning
+  provided_value: "#f52f28"
+- source_name: Caution
+  provided_value: "#f2612c"
+- source_name: Success
+  provided_value: "#6f9b1c"
+- source_name: Praise
+  provided_value: "#2089ac"
+family_scales:
+- family: neutral
+  collection: '_Global: Color'
+  tokens:
+  - name: neutral/50_source
+    value: "#ffffff"
+    source_anchor: true
+  - name: neutral/100
+    value: "#e0e0e0"
+    source_anchor: false
+  - name: neutral/200
+    value: "#c0c0c0"
+    source_anchor: false
+  - name: neutral/300
+    value: "#a0a0a0"
+    source_anchor: false
+  - name: neutral/400
+    value: "#808080"
+    source_anchor: false
+  - name: neutral/500
+    value: "#606060"
+    source_anchor: false
+  - name: neutral/600
+    value: "#404040"
+    source_anchor: false
+  - name: neutral/700
+    value: "#303030"
+    source_anchor: false
+  - name: neutral/800
+    value: "#202020"
+    source_anchor: false
+  - name: neutral/900_source
+    value: "#000000"
+    source_anchor: true
+- family: ski_blue
+  collection: '_Global: Color'
+  source_name: Ski Blue
+  source_value: "#10164c"
+  source_anchor: 700_source
+  tokens:
+  - name: ski_blue/100
+    value: "#d6d8f6"
+    source_anchor: false
+  - name: ski_blue/200
+    value: "#aeb1ee"
+    source_anchor: false
+  - name: ski_blue/300
+    value: "#898ee6"
+    source_anchor: false
+  - name: ski_blue/400
+    value: "#5f69db"
+    source_anchor: false
+  - name: ski_blue/500
+    value: "#3745c2"
+    source_anchor: false
+  - name: ski_blue/600
+    value: "#222c83"
+    source_anchor: false
+  - name: ski_blue/700_source
+    value: "#10164c"
+    source_anchor: true
+  - name: ski_blue/800
+    value: "#0b103d"
+    source_anchor: false
+  - name: ski_blue/900
+    value: "#060a2d"
+    source_anchor: false
+- family: ride_orange
+  collection: '_Global: Color'
+  source_name: Ride Orange
+  source_value: "#ef700c"
+  source_anchor: 500_source
+  tokens:
+  - name: ride_orange/100
+    value: "#ffe6d2"
+    source_anchor: false
+  - name: ride_orange/200
+    value: "#fec8b9"
+    source_anchor: false
+  - name: ride_orange/300
+    value: "#fea98c"
+    source_anchor: false
+  - name: ride_orange/400
+    value: "#fe884f"
+    source_anchor: false
+  - name: ride_orange/500_source
+    value: "#ef700c"
+    source_anchor: true
+  - name: ride_orange/600
+    value: "#bd5707"
+    source_anchor: false
+  - name: ride_orange/700
+    value: "#8f4004"
+    source_anchor: false
+  - name: ride_orange/800
+    value: "#642b02"
+    source_anchor: false
+  - name: ride_orange/900
+    value: "#391501"
+    source_anchor: false
+- family: sky_blue
+  collection: '_Global: Color'
+  source_name: Sky Blue
+  source_value: "#99bbd6"
+  source_anchor: 300_source
+  tokens:
+  - name: sky_blue/100
+    value: "#dce7f0"
+    source_anchor: false
+  - name: sky_blue/200
+    value: "#bdd1e3"
+    source_anchor: false
+  - name: sky_blue/300_source
+    value: "#99bbd6"
+    source_anchor: true
+  - name: sky_blue/400
+    value: "#7d9fba"
+    source_anchor: false
+  - name: sky_blue/500
+    value: "#668298"
+    source_anchor: false
+  - name: sky_blue/600
+    value: "#4f6678"
+    source_anchor: false
+  - name: sky_blue/700
+    value: "#3b4e5b"
+    source_anchor: false
+  - name: sky_blue/800
+    value: "#27343e"
+    source_anchor: false
+  - name: sky_blue/900
+    value: "#161f25"
+    source_anchor: false
+- family: promise
+  collection: '_Global: Color'
+  source_name: Promise
+  source_value: "#3c3a55"
+  source_anchor: 700_source
+  tokens:
+  - name: promise/100
+    value: "#dfdfe6"
+    source_anchor: false
+  - name: promise/200
+    value: "#c3c2d0"
+    source_anchor: false
+  - name: promise/300
+    value: "#a5a4b9"
+    source_anchor: false
+  - name: promise/400
+    value: "#8b89a4"
+    source_anchor: false
+  - name: promise/500
+    value: "#6e6c8d"
+    source_anchor: false
+  - name: promise/600
+    value: "#545174"
+    source_anchor: false
+  - name: promise/700_source
+    value: "#3c3a55"
+    source_anchor: true
+  - name: promise/800
+    value: "#29283c"
+    source_anchor: false
+  - name: promise/900
+    value: "#191826"
+    source_anchor: false
+- family: spruce
+  collection: '_Global: Color'
+  source_name: Spruce
+  source_value: "#1e545c"
+  source_anchor: 700_source
+  tokens:
+  - name: spruce/100
+    value: "#aaedfa"
+    source_anchor: false
+  - name: spruce/200
+    value: "#5adaed"
+    source_anchor: false
+  - name: spruce/300
+    value: "#4dbdcd"
+    source_anchor: false
+  - name: spruce/400
+    value: "#41a3b1"
+    source_anchor: false
+  - name: spruce/500
+    value: "#358793"
+    source_anchor: false
+  - name: spruce/600
+    value: "#296c76"
+    source_anchor: false
+  - name: spruce/700_source
+    value: "#1e545c"
+    source_anchor: true
+  - name: spruce/800
+    value: "#123a40"
+    source_anchor: false
+  - name: spruce/900
+    value: "#072125"
+    source_anchor: false
+- family: open
+  collection: '_Global: Color'
+  source_name: Open
+  source_value: "#4a6173"
+  source_anchor: 600_source
+  tokens:
+  - name: open/100
+    value: "#d8e4ef"
+    source_anchor: false
+  - name: open/200
+    value: "#b0cae0"
+    source_anchor: false
+  - name: open/300
+    value: "#89b0cf"
+    source_anchor: false
+  - name: open/400
+    value: "#7395af"
+    source_anchor: false
+  - name: open/500
+    value: "#5e7a90"
+    source_anchor: false
+  - name: open/600_source
+    value: "#4a6173"
+    source_anchor: true
+  - name: open/700
+    value: "#374957"
+    source_anchor: false
+  - name: open/800
+    value: "#25323c"
+    source_anchor: false
+  - name: open/900
+    value: "#141d23"
+    source_anchor: false
+- family: embrace
+  collection: '_Global: Color'
+  source_name: Embrace
+  source_value: "#dadbe7"
+  source_anchor: 200_source
+  tokens:
+  - name: embrace/100
+    value: "#eceef6"
+    source_anchor: false
+  - name: embrace/200_source
+    value: "#dadbe7"
+    source_anchor: true
+  - name: embrace/300
+    value: "#b9bcd0"
+    source_anchor: false
+  - name: embrace/400
+    value: "#9599b5"
+    source_anchor: false
+  - name: embrace/500
+    value: "#74789a"
+    source_anchor: false
+  - name: embrace/600
+    value: "#5c607d"
+    source_anchor: false
+  - name: embrace/700
+    value: "#454861"
+    source_anchor: false
+  - name: embrace/800
+    value: "#313345"
+    source_anchor: false
+  - name: embrace/900
+    value: "#1f202e"
+    source_anchor: false
+- family: error
+  collection: '_Global: Color'
+  source_name: Error
+  source_value: "#c51e1b"
+  source_anchor: 700_source
+  tokens:
+  - name: error/100
+    value: "#f9d2d1"
+    source_anchor: false
+  - name: error/200
+    value: "#f3a7a5"
+    source_anchor: false
+  - name: error/300
+    value: "#ea7774"
+    source_anchor: false
+  - name: error/400
+    value: "#e14f4b"
+    source_anchor: false
+  - name: error/500
+    value: "#d93631"
+    source_anchor: false
+  - name: error/600
+    value: "#cc2622"
+    source_anchor: false
+  - name: error/700_source
+    value: "#c51e1b"
+    source_anchor: true
+  - name: error/800
+    value: "#941614"
+    source_anchor: false
+  - name: error/900
+    value: "#66100e"
+    source_anchor: false
+- family: warning
+  collection: '_Global: Color'
+  source_name: Warning
+  source_value: "#f52f28"
+  source_anchor: 600_source
+  tokens:
+  - name: warning/100
+    value: "#fdd9d7"
+    source_anchor: false
+  - name: warning/200
+    value: "#fbb3af"
+    source_anchor: false
+  - name: warning/300
+    value: "#f88680"
+    source_anchor: false
+  - name: warning/400
+    value: "#f65c55"
+    source_anchor: false
+  - name: warning/500
+    value: "#f43e37"
+    source_anchor: false
+  - name: warning/600_source
+    value: "#f52f28"
+    source_anchor: true
+  - name: warning/700
+    value: "#c92620"
+    source_anchor: false
+  - name: warning/800
+    value: "#9d1d19"
+    source_anchor: false
+  - name: warning/900
+    value: "#6e1412"
+    source_anchor: false
+- family: caution
+  collection: '_Global: Color'
+  source_name: Caution
+  source_value: "#f2612c"
+  source_anchor: 600_source
+  tokens:
+  - name: caution/100
+    value: "#ffe1d3"
+    source_anchor: false
+  - name: caution/200
+    value: "#ffc2a7"
+    source_anchor: false
+  - name: caution/300
+    value: "#ffa070"
+    source_anchor: false
+  - name: caution/400
+    value: "#ff7f3d"
+    source_anchor: false
+  - name: caution/500
+    value: "#f46b2f"
+    source_anchor: false
+  - name: caution/600_source
+    value: "#f2612c"
+    source_anchor: true
+  - name: caution/700
+    value: "#c44e23"
+    source_anchor: false
+  - name: caution/800
+    value: "#9a3c1b"
+    source_anchor: false
+  - name: caution/900
+    value: "#6d2a13"
+    source_anchor: false
+- family: success
+  collection: '_Global: Color'
+  source_name: Success
+  source_value: "#6f9b1c"
+  source_anchor: 600_source
+  tokens:
+  - name: success/100
+    value: "#e6efd1"
+    source_anchor: false
+  - name: success/200
+    value: "#cddea3"
+    source_anchor: false
+  - name: success/300
+    value: "#afcb6e"
+    source_anchor: false
+  - name: success/400
+    value: "#93b845"
+    source_anchor: false
+  - name: success/500
+    value: "#7fa62c"
+    source_anchor: false
+  - name: success/600_source
+    value: "#6f9b1c"
+    source_anchor: true
+  - name: success/700
+    value: "#587b16"
+    source_anchor: false
+  - name: success/800
+    value: "#425c10"
+    source_anchor: false
+  - name: success/900
+    value: "#2d3e0b"
+    source_anchor: false
+- family: praise
+  collection: '_Global: Color'
+  source_name: Praise
+  source_value: "#2089ac"
+  source_anchor: 600_source
+  tokens:
+  - name: praise/100
+    value: "#d7ecf3"
+    source_anchor: false
+  - name: praise/200
+    value: "#afd9e7"
+    source_anchor: false
+  - name: praise/300
+    value: "#7fc1d7"
+    source_anchor: false
+  - name: praise/400
+    value: "#4fa9c8"
+    source_anchor: false
+  - name: praise/500
+    value: "#2f96bc"
+    source_anchor: false
+  - name: praise/600_source
+    value: "#2089ac"
+    source_anchor: true
+  - name: praise/700
+    value: "#186c88"
+    source_anchor: false
+  - name: praise/800
+    value: "#125165"
+    source_anchor: false
+  - name: praise/900
+    value: "#0c3744"
+    source_anchor: false
+governance_notes:
+- The live Figma variables in Foundations - Epic are authoritative; this intake captures brand-book source guidance, color proportions, and live global color ramps.
+- Epic color foundations should not be copied into the shared Resorts Foundations file as brand groups or semantic extension overrides by default.

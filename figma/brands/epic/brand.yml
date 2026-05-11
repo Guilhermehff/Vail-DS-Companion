@@ -1,0 +1,55 @@
+version: 1
+updated: '2026-04-27'
+brand_id: epic
+display_name: Epic
+status: active
+owners:
+- design_system_governance
+design_system_scope: standalone
+supported_channels:
+- web
+- app
+- digital_collateral
+figma:
+  design_system_file_name: Foundations - Epic
+  design_system_file_key: 4Y5qG5CswdHwA0sdSGHCas
+  design_system_file_url: https://www.figma.com/design/4Y5qG5CswdHwA0sdSGHCas/Foundations---Epic?node-id=1-4&p=f&t=Ppo6o9dyXoyzfpkN-11
+  source_of_truth: standalone_epic_design_system
+  relationship_to_resorts_design_system: separate_file_not_a_brand_extension
+  global_tokens:
+    status: created_in_figma
+    source_of_truth: Foundations - Epic
+    collection_ids:
+      color_id: VariableCollectionId:23:2
+      typography_id: VariableCollectionId:2047:143
+      dimensions_id: VariableCollectionId:2047:104
+      semantic_theme_id: VariableCollectionId:2047:313
+  semantic_extensions:
+    theme:
+      status: not_applicable
+      reason: Epic is governed as a standalone design system and is not an extension collection in the shared Resorts Foundations file.
+artifacts:
+  color:
+    intake_artifact: figma/brands/epic/color/intake.yml
+    preview_artifact: figma/brands/epic/color/preview.md
+    decision_artifacts:
+    - figma/decisions/2026-04-27-epic-standalone-design-system-governance.md
+  typography:
+    intake_artifact: figma/brands/epic/typography/intake.yml
+    preview_artifact: figma/brands/epic/typography/preview.md
+    decision_artifacts:
+    - figma/decisions/2026-04-27-epic-standalone-design-system-governance.md
+governance:
+  token_model: standalone_global_first
+  shared_resorts_ds_extension: false
+  write_route:
+    default_target_file: Foundations - Epic
+    figma_file_key: 4Y5qG5CswdHwA0sdSGHCas
+    note: Do not write Epic foundations into the shared Foundations - Resorts file unless the user explicitly requests a migration or cross-system mapping.
+  source_notes:
+  - Epic global tokens already exist in the standalone Foundations - Epic Figma file and are the live source of truth.
+  - Repository artifacts for Epic should capture governance, provenance, and source guidance only; they should not mirror the live Figma token inventory unless an audit or export is explicitly requested.
+  - Epic should not be modeled as a Semantic: Theme brand extension of the shared Resorts design system.
+notes:
+- Epic is a standalone design system with its own Foundations file, separate from the shared Resorts DS used by the other governed brands.
+- MCP confirmed the active file as Foundations - Epic on 2026-04-27, and the local Variables API returned the live global collection IDs and token ramps.

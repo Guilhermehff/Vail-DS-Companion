@@ -1,11 +1,29 @@
 version: 1
-updated: '2026-04-01'
+updated: '2026-04-27'
 purpose: generated_brand_font_inventory
 generated_from:
   registry: figma/brands/registry.yml
   extraction_rule: Collect unique family names from each brand typography intake artifact,
     preferring `primitive_recommendations.proposed_primitives.families` and `primitive_recommendations.proposed_primitives.safe_families`.
 brands:
+- brand_id: epic
+  display_name: Epic
+  status: active
+  typography_intake_artifact: figma/brands/epic/typography/intake.yml
+  design_system_scope: standalone
+  fonts:
+  - lane: brand
+    family_name: Brandon Grotesque
+    token_names:
+    - family/01
+    source_style_references:
+    - Brandon Grotesque Black for brand headlines
+  - lane: brand
+    family_name: Montserrat
+    token_names:
+    - family/02
+    source_style_references:
+    - Montserrat Regular, Bold, Italic, Medium, and Semibold across secondary headlines, headings, body, subheads, and legal copy
 - brand_id: vail
   display_name: Vail
   status: active

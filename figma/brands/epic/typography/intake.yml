@@ -1,0 +1,99 @@
+date: '2026-04-27'
+brand: epic
+source_reference: User-provided Epic Brand Book typography screenshots in chat
+source_type: image
+figma_url: https://www.figma.com/design/4Y5qG5CswdHwA0sdSGHCas/Foundations---Epic?node-id=1-4&p=f&t=Ppo6o9dyXoyzfpkN-11
+status: source_guidance_and_live_figma_primitives
+figma_token_source_of_truth: Foundations - Epic
+design_system_scope: standalone
+figma_collections:
+  typography:
+    collection_name: '_Global: Typography'
+    collection_id: VariableCollectionId:2047:143
+    mode_name: values
+    mode_id: '2047:1'
+source_families:
+- source_family_name: Brandon Grotesque
+  source_style_name: Brandon Grotesque Black
+  source_usage_scope: brand_headlines
+  notes: Source identifies Brandon Grotesque Black as the signature headline font and notes it is commercially licensed through Adobe for web applications.
+- source_family_name: Montserrat
+  source_style_names:
+  - Regular
+  - Bold
+  - Italic
+  - Medium
+  - Semibold
+  source_usage_scope: secondary_headlines_headings_body_subheads_legal
+  notes: Source identifies Montserrat as an open-source Google font with high legibility.
+source_roles:
+- source_role: brand_headlines
+  source_family_name: Brandon Grotesque
+  source_weight_label: Black
+  text_case: all_caps
+  tracking: 50
+  notes: Source says brand headlines should be all caps and at least two times the size of body copy.
+- source_role: secondary_headlines_and_headings
+  source_family_name: Montserrat
+  source_weight_label: Bold
+  text_case: sentence_case_or_all_caps
+  tracking: 0
+- source_role: body_copy
+  source_family_name: Montserrat
+  source_weight_label: Regular
+  text_case: sentence_case
+  tracking: 0
+  notes: Source says standard digital body copy should not be smaller than 14 pt.
+- source_role: subheads
+  source_family_name: Montserrat
+  source_weight_label: Bold or Semibold
+  tracking: 0
+  notes: Source says numbers and pricing should match surrounding text styling.
+- source_role: legal_and_disclosures
+  source_family_name: Montserrat
+  source_weight_label: Regular with optional Bold highlights
+  text_case: sentence_case
+  tracking: 0
+  notes: Source says sizing should not be smaller than 11 pt.
+live_figma_primitives:
+  families:
+  - token_name: family/01
+    value: Brandon Grotesque
+    source_role_reference: brand_headlines
+  - token_name: family/02
+    value: Montserrat
+    source_role_reference: secondary_headlines_headings_body_subheads_legal
+  safe_families:
+  - token_name: family_safe/01
+    value: Arial
+  sizes:
+  - token_name: size/100
+    value: 14
+  - token_name: size/200
+    value: 16
+  - token_name: size/300
+    value: 18
+  - token_name: size/400
+    value: 20
+  - token_name: size/500
+    value: 24
+  - token_name: size/600
+    value: 30
+  - token_name: size/700
+    value: 36
+  - token_name: size/800
+    value: 40
+  weights:
+  - token_name: weight/black
+    value: 900
+  - token_name: weight/bold
+    value: 700
+  - token_name: weight/semibold
+    value: 600
+  - token_name: weight/medium
+    value: 500
+  - token_name: weight/normal
+    value: 400
+governance_notes:
+- The live Figma variables in Foundations - Epic are authoritative; this intake captures brand-book source guidance and live global typography primitives.
+- Epic typography foundations should remain scoped to the standalone Epic design system unless a future decision approves a cross-system mapping.

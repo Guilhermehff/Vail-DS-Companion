@@ -1,6 +1,11 @@
 version: 1
-updated: 2026-03-19
+updated: 2026-04-27
 brands:
+  - brand_id: epic
+    display_name: Epic
+    status: active
+    design_system_scope: standalone
+    manifest_path: figma/brands/epic/brand.yml
   - brand_id: vail
     display_name: Vail
     status: active
