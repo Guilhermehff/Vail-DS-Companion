@@ -296,6 +296,7 @@ Decision log requirements:
 
 - Prefer YAML for structured inventories that will be updated repeatedly.
 - Prefer Markdown for audits, decisions, and narrative documentation.
+- When a user asks to create a prompt, after drafting it, suggest adding it to the appropriate folder under `prompts/`.
 - Keep Figma provenance in canonical artifacts such as `figma/brands/<brand>/brand.yml`, intake YAML, and node-specific specs or audits.
 - Brand color intake and preview artifacts must capture approved color proportion guidance when a brand provides it.
 - If a brand does not provide color proportion guidance, state that explicitly in the artifact instead of inferring proportions.
