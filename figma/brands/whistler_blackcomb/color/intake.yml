@@ -157,9 +157,9 @@ semantic_recommendations:
     - color/border/brand_secondary
   global_only_families: []
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Whistler Blackcomb
-    rationale: 'The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.'
+    rationale: 'The live `Semantic: Theme` schema includes `assets/brand`, and each brand extension overrides it to the brand display name string.'
 review_readiness:
   intended_review_channels:
   - web

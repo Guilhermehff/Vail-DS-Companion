@@ -68,7 +68,7 @@ Proposed family token: `park_city/family/01`
 
 Safe family token: `park_city/family_safe/02`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -87,7 +87,7 @@ Proposed family token: `park_city/family/02`
 
 Safe family token: `park_city/family_safe/02`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -106,7 +106,7 @@ Proposed family token: `park_city/family/01`
 
 Safe family token: `park_city/family_safe/03`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `inherited current body ladder`
 
@@ -125,7 +125,7 @@ Proposed family token: `park_city/family/01`
 
 Safe family token: `park_city/family_safe/03`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current action ladder`
 

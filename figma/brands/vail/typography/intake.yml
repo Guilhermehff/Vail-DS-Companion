@@ -87,11 +87,11 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Medium
-      existing_token: universal/weight/medium
+      existing_token: universal/weight/written/medium
       reason: Source explicitly specifies Avenir Medium and the current global medium raw primitive already
         exists at the universal layer.
     - source_weight_label: Black
-      existing_token: universal/weight/black
+      existing_token: universal/weight/written/black
       reason: Black is now governed as a shared universal raw weight and should be reused across brand
         typography reviews unless a later numeric exception is approved.
     sizes:
@@ -186,7 +186,7 @@ role_recipes:
 - role_name: eyebrow
   source_role: Eyebrow | Avenir Black
   proposed_family_token: vail/family/02
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: universal/size/core/400
   size_assumption_status: assumed
   text_case: all_caps
@@ -201,7 +201,7 @@ role_recipes:
 - role_name: headline
   source_role: Headline | Termina Black
   proposed_family_token: vail/family/01
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: universal/size/core/800
   size_assumption_status: assumed
   text_case: all_caps
@@ -216,7 +216,7 @@ role_recipes:
 - role_name: subhead
   source_role: Subhead | Avenir Black
   proposed_family_token: vail/family/02
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: universal/size/core/400
   size_assumption_status: assumed
   text_case: sentence_case
@@ -230,7 +230,7 @@ role_recipes:
 - role_name: body
   source_role: Body Copy | Avenir Medium
   proposed_family_token: vail/family/02
-  proposed_weight_token: universal/weight/medium
+  proposed_weight_token: universal/weight/written/medium
   proposed_size_token: universal/size/core/300
   size_assumption_status: assumed
   text_case: sentence_case
@@ -245,7 +245,7 @@ role_recipes:
 - role_name: cta
   source_role: CTA | Avenir Black
   proposed_family_token: vail/family/02
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: universal/size/core/300
   size_assumption_status: assumed
   text_case: all_caps
@@ -266,7 +266,7 @@ validation:
     after design experimentation produces a better shared baseline.
   - Missing safe family stacks default to universal/family_safe/01 unless a brand guide later specifies
     a different approved safe family.
-  - Black weights should reuse universal/weight/black at the global raw layer unless a later numeric exception
+  - Black weights should reuse universal/weight/written/black at the global raw layer unless a later numeric exception
     is approved.
   - Brand-safe typography aliases now stage on `vail/family_safe/*` from Vail Resorts Guidelines.pdf.
 review_readiness:

@@ -290,10 +290,10 @@ semantic_recommendations:
   - crotched/blue
   - crotched/purple
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Crotched
     rationale: The live semantic color schema stores the governed brand display label
-      in `variables/assets/logo`; the source image shows longer logo lockups, but
+      in `assets/brand`; the source image shows longer logo lockups, but
       the user requested the brand be added as Crotched.
 review_readiness:
   intended_review_channels:

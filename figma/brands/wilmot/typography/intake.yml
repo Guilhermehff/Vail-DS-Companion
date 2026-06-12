@@ -79,10 +79,10 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: Direct match for Museo Slab 700 and Museo Sans 700.
     - source_weight_label: Medium
-      existing_token: universal/weight/medium
+      existing_token: universal/weight/written/medium
       reason: Direct match for Museo Sans 500.
     sizes: []
   proposed_primitives:
@@ -149,33 +149,33 @@ semantic_recommendations:
     notes: Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
   - semantic_token: typography/weight/heading/strong
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/medium
+    global_token: universal/weight/written/medium
   - semantic_token: typography/weight/body/strong
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
   size_aliases: []
 role_recipes:
 - role_name: heading
   source_role: Museo Slab 700
   proposed_family_token: wilmot/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   safe_family_token: wilmot/family_safe/01
 - role_name: body
   source_role: Museo Sans 500
   proposed_family_token: wilmot/family/02
-  proposed_weight_token: universal/weight/medium
+  proposed_weight_token: universal/weight/written/medium
   proposed_size_token: inherited current body ladder
   safe_family_token: wilmot/family_safe/02
 - role_name: action
   source_role: Museo Slab 700
   proposed_family_token: wilmot/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current action ladder
   safe_family_token: wilmot/family_safe/01
 validation:

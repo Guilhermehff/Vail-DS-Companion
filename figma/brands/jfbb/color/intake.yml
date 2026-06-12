@@ -392,7 +392,7 @@ semantic_recommendations:
     source_token: jfbb/last_chair/800
     rationale: Subtle neutral foreground keeps a softer navy tone without leaving
       the brand palette.
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: JFBB
     rationale: The semantic color extension overrides the shared logo string to the
       JFBB brand name.

@@ -82,7 +82,7 @@ Proposed family token: `whistler_blackcomb/family/01`
 
 Safe family token: `whistler_blackcomb/family_safe/02`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -101,7 +101,7 @@ Proposed family token: `whistler_blackcomb/family/01`
 
 Safe family token: `whistler_blackcomb/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -120,7 +120,7 @@ Proposed family token: `whistler_blackcomb/family/01`
 
 Safe family token: `whistler_blackcomb/family_safe/02`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -138,7 +138,7 @@ Proposed family token: `whistler_blackcomb/family/01`
 
 Safe family token: `whistler_blackcomb/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current body ladder`
 
@@ -156,7 +156,7 @@ Proposed family token: `whistler_blackcomb/family/01`
 
 Safe family token: `whistler_blackcomb/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current action ladder`
 

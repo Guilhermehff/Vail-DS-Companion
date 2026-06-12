@@ -167,7 +167,7 @@ semantic_recommendations:
   global_only_families:
   - snow_creek/snow_white
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Snow Creek
 review_readiness:
   review_rules:

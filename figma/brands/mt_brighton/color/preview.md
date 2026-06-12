@@ -78,7 +78,7 @@ Source anchor: `500_source`
 - `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `mt_brighton/brighton_grey`
 - `color/surface/brand/*`, `color/on_surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `mt_brighton/brighton_purple`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `mt_brighton/brighton_purple_alt`
-- `variables/assets/logo` -> `Mt. Brighton`
+- `assets/brand` -> `Mt. Brighton`
   The semantic color extension stores the governed display label.
 
 ## Review Readiness

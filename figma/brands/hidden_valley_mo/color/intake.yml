@@ -186,9 +186,9 @@ semantic_recommendations:
     - color/border/brand_secondary
   global_only_families: []
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Hidden Valley MO
-    rationale: The live semantic color schema stores the governed brand display label in `variables/assets/logo`.
+    rationale: The live semantic color schema stores the governed brand display label in `assets/brand`.
 review_readiness:
   intended_review_channels:
   - web

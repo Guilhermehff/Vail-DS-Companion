@@ -71,19 +71,19 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: Direct match for the headline lane.
     - source_weight_label: Semi Bold
-      existing_token: universal/weight/semibold
+      existing_token: universal/weight/written/semibold
       reason: Direct match for the subhead lane.
     - source_weight_label: Medium
-      existing_token: universal/weight/medium
+      existing_token: universal/weight/written/medium
       reason: Direct match for one allowed body weight.
     - source_weight_label: Regular
-      existing_token: universal/weight/normal
+      existing_token: universal/weight/written/regular
       reason: Direct match for CTA and one allowed body weight.
     - source_weight_label: Light
-      existing_token: universal/weight/light
+      existing_token: universal/weight/written/light
       reason: Direct match for one allowed body weight.
     sizes: []
   proposed_primitives:
@@ -143,21 +143,21 @@ semantic_recommendations:
     notes: CTA is explicitly Gibson Regular. Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
     - ads
     notes: Headline weight is an explicit direct match to bold.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/light
+    global_token: universal/weight/written/light
     intended_channels:
     - web
     - email
     - ads
     notes: User-approved exception. Stevens Pass body base stages on Light rather than Medium or Regular.
   - semantic_token: typography/weight/body/strong
-    global_token: universal/weight/medium
+    global_token: universal/weight/written/medium
     intended_channels:
     - web
     - email
@@ -165,7 +165,7 @@ semantic_recommendations:
     notes: User-approved exception. Stevens Pass stronger body and subhead emphasis stages on Medium rather
       than Semi Bold.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/medium
+    global_token: universal/weight/written/medium
     intended_channels:
     - web
     - email
@@ -176,7 +176,7 @@ role_recipes:
 - role_name: headline
   source_role: Headline | Gibson Bold
   proposed_family_token: stevens_pass/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -190,7 +190,7 @@ role_recipes:
 - role_name: subhead
   source_role: Subhead | Gibson Semi Bold
   proposed_family_token: stevens_pass/family/01
-  proposed_weight_token: universal/weight/medium
+  proposed_weight_token: universal/weight/written/medium
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -205,7 +205,7 @@ role_recipes:
 - role_name: cta
   source_role: CTA | Gibson Regular
   proposed_family_token: stevens_pass/family/01
-  proposed_weight_token: universal/weight/medium
+  proposed_weight_token: universal/weight/written/medium
   proposed_size_token: inherited current action ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -220,7 +220,7 @@ role_recipes:
 - role_name: body
   source_role: Body | Gibson Medium / Regular / Light
   proposed_family_token: stevens_pass/family/01
-  proposed_weight_token: universal/weight/light
+  proposed_weight_token: universal/weight/written/light
   proposed_size_token: inherited current body ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source

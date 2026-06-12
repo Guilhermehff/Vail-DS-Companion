@@ -59,7 +59,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Wilmot
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -103,7 +103,7 @@ semantic_overrides:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - Wilmot is live in the Foundations file with `wilmot_grey` as the structural lane, `wilmot_red` as the primary expressive lane, and `wilmot_rose` as the supporting expressive lane.
       - User-corrected naming pass. The live color and typography extension collection names, the semantic logo string, and the raw global namespace were renamed from `Wilmot Mountain` to `Wilmot`.
-      - '`variables/assets/logo` resolves to the string `Wilmot` in the semantic theme extension.'
+      - '`assets/brand` resolves to the string `Wilmot` in the semantic theme extension.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading
@@ -113,11 +113,11 @@ semantic_overrides:
       - semantic_token: typography/family/action
         alias_of: wilmot/family/01
       - semantic_token: typography/weight/heading/strong
-        alias_of: universal/weight/bold
+        alias_of: universal/weight/written/bold
       - semantic_token: typography/weight/body/strong
-        alias_of: universal/weight/bold
+        alias_of: universal/weight/written/bold
       - semantic_token: typography/weight/action/base
-        alias_of: universal/weight/bold
+        alias_of: universal/weight/written/bold
       - semantic_token: typography/family/heading_safe
         alias_of: wilmot/family_safe/01
       - semantic_token: typography/family/body_safe

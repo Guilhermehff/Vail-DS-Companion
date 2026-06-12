@@ -217,7 +217,7 @@ semantic_recommendations:
   global_only_families:
   - mad_river_mountain/nav_grey
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Mad River Mountain
 review_readiness:
   review_rules:

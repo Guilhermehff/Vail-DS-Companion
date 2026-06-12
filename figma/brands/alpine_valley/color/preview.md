@@ -55,8 +55,8 @@ Source anchor: `300_source`
   Recommended first pass. `alpine/*` is the only non-neutral supplied family, so it is the most stable expressive lane under the current semantic model.
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `alpine_valley/alpine`
   Recommended first pass. The source does not provide a second expressive hue, so the accepted semantic color model allows `brand_secondary/*` to reuse the same raw family as `brand/*`.
-- `variables/assets/logo` -> `Alpine Valley`
-  The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.
+- `assets/brand` -> `Alpine Valley`
+  The live `Semantic: Theme` schema includes `assets/brand`, and each brand extension overrides it to the brand display name string.
 
 ## Review Readiness
 

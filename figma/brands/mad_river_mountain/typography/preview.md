@@ -51,7 +51,7 @@ Proposed family token: `mad_river_mountain/family/01`
 
 Safe family token: `mad_river_mountain/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -64,7 +64,7 @@ Proposed family token: `mad_river_mountain/family/01`
 
 Safe family token: `mad_river_mountain/family_safe/02`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current body ladder`
 
@@ -77,7 +77,7 @@ Proposed family token: `mad_river_mountain/family/01`
 
 Safe family token: `mad_river_mountain/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current action ladder`
 

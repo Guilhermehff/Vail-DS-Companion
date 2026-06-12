@@ -86,8 +86,8 @@ Source anchor: `800_source`
   HV Blue is the signature Hidden Valley MO color and should drive the primary expressive semantic lane.
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `hidden_valley_mo/tagline_grey`
   Tagline Grey is the dark supporting brand color and should drive the secondary expressive lane.
-- `variables/assets/logo` -> `Hidden Valley MO`
-  The live semantic color schema stores the governed brand display label in `variables/assets/logo`.
+- `assets/brand` -> `Hidden Valley MO`
+  The live semantic color schema stores the governed brand display label in `assets/brand`.
 
 ## Review Readiness
 

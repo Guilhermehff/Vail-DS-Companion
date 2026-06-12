@@ -140,7 +140,7 @@ Source anchor: `500_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `liberty_mountain/warm_neutral`
   The live expressive secondary lane now resolves through `warm_neutral`, with default and strong surfaces on `warm_neutral/300` and `warm_neutral/500`.
 - Global-only families: `liberty_mountain/shale`, `liberty_mountain/stone`, `liberty_mountain/sunset`
-- `variables/assets/logo` -> `Liberty Mountain`
+- `assets/brand` -> `Liberty Mountain`
 
 ## Review Readiness
 

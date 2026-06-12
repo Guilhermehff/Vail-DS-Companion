@@ -58,7 +58,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Wildcat Mountain
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse

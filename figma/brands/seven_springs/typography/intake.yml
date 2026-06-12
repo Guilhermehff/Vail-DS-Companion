@@ -74,16 +74,16 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Black
-      existing_token: universal/weight/black
+      existing_token: universal/weight/written/black
       reason: Direct match for the headline treatment.
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: Direct match for the subhead treatment.
     - source_weight_label: Medium
-      existing_token: universal/weight/medium
+      existing_token: universal/weight/written/medium
       reason: Direct match for the body copy treatment.
     - source_weight_label: Heavy
-      existing_token: universal/weight/black
+      existing_token: universal/weight/written/black
       reason: The shared raw typography ladder has no dedicated heavy primitive, so the approved default
         staging path is to map Heavy to the strongest existing raw weight.
     sizes:
@@ -154,14 +154,14 @@ semantic_recommendations:
     notes: CTA stays on Hoss Sharp. Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/black
+    global_token: universal/weight/written/black
     intended_channels:
     - web
     - email
     - ads
     notes: Headlines explicitly use Black.
   - semantic_token: typography/weight/heading/strong
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
@@ -169,14 +169,14 @@ semantic_recommendations:
     notes: Approved live write. Subheads stage through the stronger heading emphasis slot because the
       current semantic theme typography schema has no dedicated subhead role.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/medium
+    global_token: universal/weight/written/medium
     intended_channels:
     - web
     - email
     - ads
     notes: Body copy explicitly uses Medium.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/black
+    global_token: universal/weight/written/black
     intended_channels:
     - web
     - email
@@ -188,7 +188,7 @@ role_recipes:
 - role_name: headline
   source_role: Headline | Hoss Sharp Black
   proposed_family_token: seven_springs/family/01
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -202,7 +202,7 @@ role_recipes:
 - role_name: subhead
   source_role: Subhead | Hoss Sharp Bold
   proposed_family_token: seven_springs/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -217,7 +217,7 @@ role_recipes:
 - role_name: body
   source_role: Body Copy | Hoss Sharp Medium
   proposed_family_token: seven_springs/family/01
-  proposed_weight_token: universal/weight/medium
+  proposed_weight_token: universal/weight/written/medium
   proposed_size_token: inherited current body ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -231,7 +231,7 @@ role_recipes:
 - role_name: cta
   source_role: CTA | Hoss Sharp Heavy
   proposed_family_token: seven_springs/family/01
-  proposed_weight_token: universal/weight/black
+  proposed_weight_token: universal/weight/written/black
   proposed_size_token: inherited current action ladder
   size_assumption_status: deferred_no_new_size
   text_case: not specified in source
@@ -251,7 +251,7 @@ validation:
   governance_notes:
   - The proposed live mapping stays inside the current semantic theme typography schema by using one family
     and weight-driven hierarchy.
-  - '`Heavy` stages on `universal/weight/black` because the shared raw ladder has no dedicated heavy primitive.'
+  - '`Heavy` stages on `universal/weight/written/black` because the shared raw ladder has no dedicated heavy primitive.'
   - User-approved live interpretation. The Seven Springs Bold subhead recipe stages through `typography/weight/heading/strong`
     because the current schema has no dedicated subhead role.
   - Brand-safe typography aliases now stage on `seven_springs/family_safe/*` from Vail Resorts Guidelines.pdf.
@@ -274,7 +274,7 @@ review_readiness:
     - web
     - email
     - ads
-    rule: Stage headline Black and CTA Heavy on `universal/weight/black` in the first pass.
+    rule: Stage headline Black and CTA Heavy on `universal/weight/written/black` in the first pass.
     source_basis: The source explicitly names Black for headlines and Heavy for CTAs, and the shared raw
       ladder currently tops out at Black.
   - subject: Seven Springs body copy treatment

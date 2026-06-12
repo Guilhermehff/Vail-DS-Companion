@@ -1,0 +1,131 @@
+version: 1
+updated: '2026-06-12'
+brand_id: okemo
+display_name: Okemo
+status: active
+owners:
+- design_system_governance
+supported_channels:
+- web
+- email
+- ads
+figma:
+  design_system_file_url: https://www.figma.com/design/70O01X6MWNKMpsLqIke99Q/Foundations%20-%20Resorts?node-id=3710-216
+  global_collections:
+    color_id: VariableCollectionId:23:2
+    typography_id: VariableCollectionId:23:3
+    dimensions_id: VariableCollectionId:23:4
+  semantic_extensions:
+    theme:
+      collection_name: Okemo
+      collection_id: VariableCollectionId:3254:11512
+      parent_collection: 'Semantic: Theme'
+      parent_collection_id: VariableCollectionId:41:135
+artifacts:
+  color:
+    intake_artifact:
+    preview_artifact:
+    decision_artifacts:
+    - figma/decisions/2026-06-12-live-token-schema-alignment.md
+  typography:
+    intake_artifact:
+    preview_artifact:
+    decision_artifacts:
+    - figma/decisions/2026-06-12-live-token-schema-alignment.md
+semantic_overrides:
+  theme:
+    status: active
+    color:
+      raw_families:
+      - okemo/okemo_blue
+      - okemo/egg_blue
+      - okemo/cream
+      source_anchors:
+      - okemo/okemo_blue/500_source
+      - okemo/egg_blue/300_source
+      - okemo/cream/300_source
+      override_scopes:
+      - scope: neutral
+        source_family: okemo/egg_blue
+        targets:
+        - color/surface/neutral/*
+        - color/surface/neutral/*_inverse
+      - scope: brand
+        source_family: okemo/okemo_blue
+        targets:
+        - color/surface/brand/*
+        - color/foreground/brand
+        - color/foreground/brand_inverse
+        - color/border/brand
+        - color/border/brand_inverse
+      - scope: brand_secondary
+        source_family: okemo/okemo_blue
+        targets:
+        - color/surface/brand_secondary/*
+        - color/foreground/brand_secondary
+        - color/foreground/brand_secondary_inverse
+        - color/border/brand_secondary
+        - color/border/brand_secondary_inverse
+      - scope: asset_brand
+        source_value: Okemo
+        targets:
+        - assets/brand
+      - scope: accent_on_surface
+        source_family: okemo/cream
+        targets:
+        - color/on_surface_accent/brand/default
+        - color/on_surface_accent/brand_secondary/default
+      - scope: channel_email
+        targets:
+        - channel/email/components/footer/loom/*
+        - channel/email/components/navbar/loom/*
+        - channel/email/components/pass/*
+      - scope: component_button
+        targets:
+        - components/button/*
+      notes:
+      - This manifest was synced from live Figma because Okemo variables already existed in Foundations - Resorts before repo governance was updated.
+      - Okemo uses `okemo/okemo_blue` as both the primary and secondary expressive lane in the current semantic extension.
+      - Okemo uses `okemo/egg_blue` for neutral surfaces and `okemo/cream` for selected accent-on-surface and button helper roles.
+    typography:
+      raw_families:
+      - okemo/family/01
+      - okemo/family/02
+      - okemo/family_safe/01
+      override_scopes:
+      - semantic_token: typography/family/heading
+        alias_of: okemo/family/01
+      - semantic_token: typography/family/body
+        alias_of: okemo/family/02
+      - semantic_token: typography/family/action
+        alias_of: okemo/family/02
+      - semantic_token: typography/family/subhead
+        alias_of: okemo/family/02
+      - semantic_token: typography/family/heading_safe
+        alias_of: okemo/family_safe/01
+      - semantic_token: typography/family/body_safe
+        alias_of: okemo/family_safe/01
+      - semantic_token: typography/family/action_safe
+        alias_of: okemo/family_safe/01
+      - semantic_token: typography/family/subhead_safe
+        alias_of: okemo/family_safe/01
+      - semantic_token: typography/weight/heading/base
+        value: Compressed Medium
+      - semantic_token: typography/letter_case/action/uppercase
+        value: true
+      - semantic_token: typography/letter_case/action/as_typed
+        value: false
+      - semantic_token: typography/letter_case/heading/uppercase
+        value: false
+      - semantic_token: typography/letter_case/heading/as_typed
+        value: true
+      - semantic_token: typography/letter_case/subhead/uppercase
+        value: false
+      - semantic_token: typography/letter_case/subhead/as_typed
+        value: true
+      notes:
+      - Ads heading size currently stages on the live `profile_400` row through `channel/ads/typography/size/heading/*`.
+      - The heading weight override resolves to the live literal string `Compressed Medium`.
+notes:
+- Okemo is live in the Foundations - Resorts file with three raw color families, three raw typography family primitives, a semantic theme brand selector override, and an Okemo semantic theme extension.
+- Local intake and preview artifacts were not present at the time of repo sync; Figma is the provenance source for this manifest.

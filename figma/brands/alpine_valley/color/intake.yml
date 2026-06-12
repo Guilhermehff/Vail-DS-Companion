@@ -138,9 +138,9 @@ semantic_recommendations:
     - color/border/brand_secondary
   global_only_families: []
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Alpine Valley
-    rationale: 'The live `Semantic: Theme` schema includes `variables/assets/logo`,
+    rationale: 'The live `Semantic: Theme` schema includes `assets/brand`,
       and each brand extension overrides it to the brand display name string.'
 review_readiness:
   intended_review_channels:

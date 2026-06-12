@@ -68,7 +68,7 @@ Proposed family token: `breckenridge/family/01`
 
 Safe family token: `breckenridge/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/800`
 
@@ -87,7 +87,7 @@ Proposed family token: `breckenridge/family/01`
 
 Safe family token: `breckenridge/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/600`
 
@@ -106,7 +106,7 @@ Proposed family token: `breckenridge/family/02`
 
 Safe family token: `breckenridge/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/300`
 
@@ -125,7 +125,7 @@ Proposed family token: `breckenridge/family/01`
 
 Safe family token: `breckenridge/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/300`
 

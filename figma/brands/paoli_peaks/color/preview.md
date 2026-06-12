@@ -87,7 +87,7 @@ Source anchor: `400_source`
 - Scope: `brand_secondary` -> `paoli_peaks/peaks_valley`
   Peak's Valley provides the most reusable supporting accent in the first pass.
 - Global-only families: `paoli_peaks/peaks_peak`
-- `variables/assets/logo` -> `Paoli Peaks`
+- `assets/brand` -> `Paoli Peaks`
 
 ## Review Readiness
 

@@ -68,7 +68,7 @@ Proposed family token: `heavenly/family/01`
 
 Safe family token: `heavenly/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/400`
 
@@ -86,7 +86,7 @@ Proposed family token: `heavenly/family/01`
 
 Safe family token: `heavenly/family_safe/01`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `universal/size/core/800`
 
@@ -104,7 +104,7 @@ Proposed family token: `heavenly/family/02`
 
 Safe family token: `heavenly/family_safe/01`
 
-Proposed weight token: `universal/weight/medium`
+Proposed weight token: `universal/weight/written/medium`
 
 Proposed size token: `universal/size/core/500`
 
@@ -122,7 +122,7 @@ Proposed family token: `heavenly/family/02`
 
 Safe family token: `heavenly/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/300`
 

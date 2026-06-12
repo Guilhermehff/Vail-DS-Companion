@@ -102,7 +102,7 @@ Source anchors: `100_source / 100_source / 300_source / 800_source`
 - `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `attitash/attitash_neutral`
 - `color/surface/brand/*`, `color/on_surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `attitash/attitash_blue`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `attitash/daybreak`
-- `variables/assets/logo` -> `Attitash`
+- `assets/brand` -> `Attitash`
   The semantic color extension stores the governed display label.
 
 ## Review Readiness

@@ -61,7 +61,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Kirkwood
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -104,7 +104,7 @@ semantic_overrides:
       notes:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - Kirkwood's `642 C`, `633 C`, and `648 C` are preserved as source anchors inside the consolidated `blue` family.
-      - '`variables/assets/logo` is overridden to the string `Kirkwood` in the semantic theme extension.'
+      - '`assets/brand` is overridden to the string `Kirkwood` in the semantic theme extension.'
       - Exact white and black stay inherited through the shared role recipes.
     typography:
       override_scopes:
@@ -115,9 +115,9 @@ semantic_overrides:
       - semantic_token: typography/family/action
         alias_of: kirkwood/family/03
       - semantic_token: typography/weight/body/base
-        alias_of: universal/weight/normal
+        alias_of: universal/weight/written/regular
       - semantic_token: typography/weight/action/base
-        alias_of: universal/weight/bold
+        alias_of: universal/weight/written/bold
       - semantic_token: typography/family/heading_safe
         alias_of: kirkwood/family_safe/01
       - semantic_token: typography/family/body_safe

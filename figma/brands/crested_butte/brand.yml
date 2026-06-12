@@ -66,7 +66,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Crested Butte
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -110,7 +110,7 @@ semantic_overrides:
       - '`color/on_surface/*` tokens in the live semantic theme extension are contrast-derived from `universal/black` or `universal/white` and are not hue-tinted.'
       - Wild Red now feeds both expressive role sets in the role-based migration.
       - Beyond Black drives the neutral role set, and no third expressive semantic lane survives this migration.
-      - '`variables/assets/logo` is overridden to the string `Crested Butte` in the semantic theme extension.'
+      - '`assets/brand` is overridden to the string `Crested Butte` in the semantic theme extension.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading
@@ -120,11 +120,11 @@ semantic_overrides:
       - semantic_token: typography/family/action
         alias_of: crested_butte/family/01
       - semantic_token: typography/weight/heading/base
-        alias_of: universal/weight/semibold
+        alias_of: universal/weight/written/semibold
       - semantic_token: typography/weight/body/base
-        alias_of: universal/weight/normal
+        alias_of: universal/weight/written/regular
       - semantic_token: typography/weight/action/base
-        alias_of: universal/weight/semibold
+        alias_of: universal/weight/written/semibold
       - semantic_token: typography/family/heading_safe
         alias_of: crested_butte/family_safe/01
       - semantic_token: typography/family/body_safe
@@ -136,7 +136,7 @@ semantic_overrides:
       - typography/weight/body/strong
       notes:
       - The supplied typography source uses Gibson across all reviewed roles, so a single brand family primitive is sufficient.
-      - '`universal/weight/semibold` is now written in `_Global: Typography` and used by the Crested Butte semantic theme typography override set.'
+      - '`universal/weight/written/semibold` is now written in `_Global: Typography` and used by the Crested Butte semantic theme typography override set.'
       - Brand-safe typography aliases now stage on `crested_butte/family_safe/*` from Vail Resorts Guidelines.pdf.
       - Ads heading size now stages on the 1.125x row in the approved row-order mapping.
 notes:

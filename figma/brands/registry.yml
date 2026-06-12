@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-27
+updated: 2026-06-12
 brands:
   - brand_id: epic
     display_name: Epic
@@ -142,3 +142,7 @@ brands:
     display_name: Wilmot
     status: active
     manifest_path: figma/brands/wilmot/brand.yml
+  - brand_id: okemo
+    display_name: Okemo
+    status: active
+    manifest_path: figma/brands/okemo/brand.yml

@@ -89,7 +89,7 @@ Source anchors: `300_source / 500_source`
 - `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `hidden_valley_pa/beige`
 - `color/surface/brand/*`, `color/on_surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `hidden_valley_pa/laurel_blue`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `hidden_valley_pa/beige`
-- `variables/assets/logo` -> `Hidden Valley PA`
+- `assets/brand` -> `Hidden Valley PA`
   The semantic color extension stores the governed display label.
 
 ## Review Readiness

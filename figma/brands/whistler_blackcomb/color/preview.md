@@ -79,8 +79,8 @@ Source anchor: `600_source`
   Red is the primary Whistler Blackcomb expressive lane.
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `whistler_blackcomb/red`
   The secondary expressive lane reuses the red family because the official palette supplies no second expressive hue.
-- `variables/assets/logo` -> `Whistler Blackcomb`
-  The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.
+- `assets/brand` -> `Whistler Blackcomb`
+  The live `Semantic: Theme` schema includes `assets/brand`, and each brand extension overrides it to the brand display name string.
 
 ## Review Readiness
 

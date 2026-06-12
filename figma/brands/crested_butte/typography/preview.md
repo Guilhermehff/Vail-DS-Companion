@@ -54,7 +54,7 @@ Proposed family token: `crested_butte/family/01`
 
 Safe family token: `crested_butte/family_safe/01`
 
-Proposed weight token: `universal/weight/semibold`
+Proposed weight token: `universal/weight/written/semibold`
 
 Proposed size token: `universal/size/core/800`
 
@@ -73,7 +73,7 @@ Proposed family token: `crested_butte/family/01`
 
 Safe family token: `crested_butte/family_safe/01`
 
-Proposed weight token: `universal/weight/semibold`
+Proposed weight token: `universal/weight/written/semibold`
 
 Proposed size token: `universal/size/core/500`
 
@@ -92,7 +92,7 @@ Proposed family token: `crested_butte/family/01`
 
 Safe family token: `crested_butte/family_safe/02`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/300`
 

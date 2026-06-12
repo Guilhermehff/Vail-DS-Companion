@@ -68,7 +68,7 @@ Proposed family token: `seven_springs/family/01`
 
 Safe family token: `seven_springs/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -87,7 +87,7 @@ Proposed family token: `seven_springs/family/01`
 
 Safe family token: `seven_springs/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -106,7 +106,7 @@ Proposed family token: `seven_springs/family/01`
 
 Safe family token: `seven_springs/family_safe/01`
 
-Proposed weight token: `universal/weight/medium`
+Proposed weight token: `universal/weight/written/medium`
 
 Proposed size token: `inherited current body ladder`
 
@@ -125,7 +125,7 @@ Proposed family token: `seven_springs/family/01`
 
 Safe family token: `seven_springs/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `inherited current action ladder`
 

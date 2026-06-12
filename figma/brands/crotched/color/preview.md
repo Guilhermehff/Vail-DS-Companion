@@ -133,8 +133,8 @@ Source anchor: `700_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `crotched/snow_gun`
   Snow Gun is the dark supporting brand color and should drive the secondary expressive lane.
 - Global-only families: `crotched/blue`, `crotched/purple`
-- `variables/assets/logo` -> `Crotched`
-  The live semantic color schema stores the governed brand display label in `variables/assets/logo`; the source image shows longer logo lockups, but the user requested the brand be added as Crotched.
+- `assets/brand` -> `Crotched`
+  The live semantic color schema stores the governed brand display label in `assets/brand`; the source image shows longer logo lockups, but the user requested the brand be added as Crotched.
 
 ## Review Readiness
 

@@ -58,7 +58,7 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Regular
-      existing_token: universal/weight/normal
+      existing_token: universal/weight/written/regular
       reason: Gibson Regular aligns to the current normal raw weight and does not justify a brand-specific
         weight token.
     sizes:
@@ -90,7 +90,7 @@ primitive_recommendations:
       safe_family_note: Multiple approved role-level safe-family mappings apply to this brand family;
         use the semantic safe aliases and role recipes below.
     weights:
-    - token_name: universal/weight/semibold
+    - token_name: universal/weight/written/semibold
       source_weight_label: Semibold
       proposed_value: '600'
       rationale: Crested Butte introduces a repeated Semibold label that should be governed as a shared
@@ -141,21 +141,21 @@ semantic_recommendations:
       Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/semibold
+    global_token: universal/weight/written/semibold
     intended_channels:
     - web
     - email
     - ads
     notes: Heading emphasis is explicitly Semibold in the source.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
     intended_channels:
     - web
     - email
     - ads
     notes: Body copy maps to Gibson Regular and therefore reuses the shared normal raw weight.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/semibold
+    global_token: universal/weight/written/semibold
     intended_channels:
     - web
     - email
@@ -188,7 +188,7 @@ role_recipes:
 - role_name: headline
   source_role: Headline | Gibson Semibold
   proposed_family_token: crested_butte/family/01
-  proposed_weight_token: universal/weight/semibold
+  proposed_weight_token: universal/weight/written/semibold
   proposed_size_token: universal/size/core/800
   size_assumption_status: assumed
   text_case: lowercase
@@ -202,7 +202,7 @@ role_recipes:
 - role_name: subhead
   source_role: Sub-headline | Gibson Semibold
   proposed_family_token: crested_butte/family/01
-  proposed_weight_token: universal/weight/semibold
+  proposed_weight_token: universal/weight/written/semibold
   proposed_size_token: universal/size/core/500
   size_assumption_status: assumed
   text_case: all_caps
@@ -216,7 +216,7 @@ role_recipes:
 - role_name: body
   source_role: Body | Gibson Regular
   proposed_family_token: crested_butte/family/01
-  proposed_weight_token: universal/weight/normal
+  proposed_weight_token: universal/weight/written/regular
   proposed_size_token: universal/size/core/300
   size_assumption_status: assumed
   text_case: sentence_case
@@ -235,7 +235,7 @@ validation:
   - The source provides strong behavior rules for case, leading, alignment, and color use, but no numeric
     font sizes.
   governance_notes:
-  - '`Semibold` is now governed as the shared raw token `universal/weight/semibold` at the global layer.'
+  - '`Semibold` is now governed as the shared raw token `universal/weight/written/semibold` at the global layer.'
   - The first Crested Butte typography pass does not create a second family token because the source does
     not justify one.
   - Size mappings remain provisional until numeric specs or channel comps provide a stronger baseline.

@@ -83,7 +83,7 @@ Source anchor: `700_source`
   Mountain Green is the approved supporting expressive lane for this pass.
 - Global-only candidate: `mad_river_mountain/nav_grey`
   Governed raw family kept outside the semantic mapping for now.
-- `variables/assets/logo` -> `Mad River Mountain`
+- `assets/brand` -> `Mad River Mountain`
 
 ## Review Readiness
 

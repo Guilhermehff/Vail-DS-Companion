@@ -56,10 +56,10 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: The H1 and H2 examples explicitly use Prompt Bold.
     - source_weight_label: Regular
-      existing_token: universal/weight/normal
+      existing_token: universal/weight/written/regular
       reason: The body example explicitly uses Prompt Regular.
     sizes: []
   proposed_primitives:
@@ -118,21 +118,21 @@ semantic_recommendations:
       Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
     - ads
     notes: Both H1 and H2 examples use Prompt Bold.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
     intended_channels:
     - web
     - email
     - ads
     notes: The body example uses Prompt Regular.
   - semantic_token: typography/weight/body/strong
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
@@ -140,7 +140,7 @@ semantic_recommendations:
     notes: Secondary header and strong body emphasis can stage on the same bold raw weight without introducing
       a separate extra-bold primitive.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
@@ -152,7 +152,7 @@ role_recipes:
 - role_name: primary_header
   source_role: Primary Header (H1) | Prompt Bold
   proposed_family_token: alpine_valley/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: all_caps_in_example
@@ -166,7 +166,7 @@ role_recipes:
 - role_name: secondary_header
   source_role: Secondary Header (H2) | Prompt Bold
   proposed_family_token: alpine_valley/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: all_caps_in_example
@@ -180,7 +180,7 @@ role_recipes:
 - role_name: body
   source_role: Body Copy | Prompt Regular
   proposed_family_token: alpine_valley/family/01
-  proposed_weight_token: universal/weight/normal
+  proposed_weight_token: universal/weight/written/regular
   proposed_size_token: inherited current body ladder
   size_assumption_status: deferred_no_new_size
   text_case: sentence_case
@@ -194,7 +194,7 @@ role_recipes:
 - role_name: action
   source_role: CTA | Prompt Bold
   proposed_family_token: alpine_valley/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current action ladder
   size_assumption_status: approved_follow_up
   text_case: not specified in source

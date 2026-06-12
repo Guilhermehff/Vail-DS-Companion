@@ -60,7 +60,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Stevens Pass
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -105,7 +105,7 @@ semantic_overrides:
       - Exact black and white match the shared universal primitives; no `stevens_pass/neutral/*` raw family is governed in the repo.
       - '`stevens_blue` continues to drive the primary expressive semantic lane.'
       - '`secondary_blue` drives the secondary expressive lane, while `mossy_green` remains a governed raw family outside the current semantic mapping.'
-      - '`variables/assets/logo` is overridden to the string `Stevens Pass` in the semantic theme extension.'
+      - '`assets/brand` is overridden to the string `Stevens Pass` in the semantic theme extension.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading
@@ -115,9 +115,9 @@ semantic_overrides:
       - semantic_token: typography/family/action
         alias_of: stevens_pass/family/01
       - semantic_token: typography/weight/body/base
-        alias_of: universal/weight/light
+        alias_of: universal/weight/written/light
       - semantic_token: typography/weight/action/base
-        alias_of: universal/weight/medium
+        alias_of: universal/weight/written/medium
       - semantic_token: typography/family/heading_safe
         alias_of: stevens_pass/family_safe/01
       - semantic_token: typography/family/body_safe

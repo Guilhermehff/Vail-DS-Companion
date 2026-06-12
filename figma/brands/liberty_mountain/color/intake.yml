@@ -327,7 +327,7 @@ semantic_recommendations:
   - family: liberty_mountain/sunset
     rationale: Preserved as a live raw family outside the current semantic mapping.
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Liberty Mountain
     rationale: The live semantic extension resolves the logo-name string to the brand display name.
 review_readiness:

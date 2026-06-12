@@ -54,7 +54,7 @@ Proposed family token: `alpine_valley/family/01`
 
 Safe family token: `alpine_valley/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -73,7 +73,7 @@ Proposed family token: `alpine_valley/family/01`
 
 Safe family token: `alpine_valley/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -92,7 +92,7 @@ Proposed family token: `alpine_valley/family/01`
 
 Safe family token: `alpine_valley/family_safe/02`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current body ladder`
 
@@ -111,7 +111,7 @@ Proposed family token: `alpine_valley/family/01`
 
 Safe family token: `alpine_valley/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current action ladder`
 

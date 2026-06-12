@@ -88,7 +88,7 @@ Source anchor: `700_source`
 - Scope: `brand_secondary` -> `wildcat_mountain/wildcat_teal`
   Wildcat Teal is the most reusable supporting accent for the second expressive lane.
 - Global-only family: `wildcat_mountain/wildcat_tan`
-- `variables/assets/logo` -> `Wildcat Mountain`
+- `assets/brand` -> `Wildcat Mountain`
 
 ## Review Readiness
 

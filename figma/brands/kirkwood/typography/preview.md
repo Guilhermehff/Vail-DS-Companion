@@ -68,7 +68,7 @@ Proposed family token: `kirkwood/family/03`
 
 Safe family token: `kirkwood/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/400`
 
@@ -87,7 +87,7 @@ Proposed family token: `kirkwood/family/01`
 
 Safe family token: `kirkwood/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/800`
 
@@ -106,7 +106,7 @@ Proposed family token: `kirkwood/family/02`
 
 Safe family token: `kirkwood/family_safe/02`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/300`
 
@@ -125,7 +125,7 @@ Proposed family token: `kirkwood/family/04`
 
 Safe family token: `kirkwood/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/300`
 

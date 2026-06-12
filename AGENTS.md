@@ -80,6 +80,7 @@ Rules:
 - Do not create brand-specific typography families or weights that only mirror the universal baseline when a brand has no established typography guidance.
 - Raw typography family primitives in `Global: Typography` must use neutral numeric slots such as `01`, `02`, `03`, and `04`.
 - Raw typography safe-family primitives in `Global: Typography` must use the parallel `family_safe/<slot>` path with neutral numeric slots such as `01`, `02`, `03`, and `04`.
+- Brand color source anchors may use a `_source` suffix on the numeric scale step when live Figma needs to preserve the exact source-provided swatch inside the 100-900 ramp, for example `okemo/okemo_blue/500_source`.
 - Global tokens do not carry UI meaning.
 
 ### Level 2: Semantic
@@ -98,18 +99,22 @@ Rules:
 - Semantic tokens alias Global tokens.
 - The semantic layer lives in one shared published collection named `Semantic: Theme`.
 - **Extended collections happen at the Semantic level** to support brand differences while keeping one semantic schema.
-- `Semantic: Theme` carries semantic color roles, brand assets, semantic typography family and weight aliases, and only the approved channel-scoped typography size recipe aliases recorded in accepted decisions.
+- `Semantic: Theme` carries semantic color roles, semantic typography family and weight aliases, universal asset selectors, universal component helper tokens, and only the approved channel-scoped semantic exceptions recorded in accepted decisions.
 - Typography size stays out of the semantic layer by default and is published directly from `Global: Typography` unless an accepted decision approves a channel-scoped semantic recipe exception.
 - Brands without established typography guidance must inherit semantic typography family and weight aliases from the shared base without extension overrides.
-- Semantic extensions must not keep redundant overrides. If an extension resolves to the same alias target or the same literal value as the base semantic token, remove the override and inherit from the base instead.
 - Semantic tokens should be structured so they can be mapped into channel meaning cleanly.
-- Active semantic token paths are grouped by foundation family at the top level: `color/*`, `typography/*`, and `variables/*`.
+- Active semantic token paths are grouped by approved top-level families: `color/*`, `typography/*`, `assets/*`, `components/*`, and `channel/*`.
+- `assets/*` is reserved for universal semantic asset selectors.
+- `components/*` is reserved for universal semantic component helper tokens.
+- `channel/*` is reserved for approved channel-scoped semantic exceptions such as Email and Ads.
+- Current approved semantic helper paths include `assets/brand`, `assets/image_corner`, `components/button/*`, `color/on_surface_accent/*`, `typography/family/subhead`, `typography/letter_case/*`, and channel-scoped Email and Ads component or typography helpers.
+- Do not add new top-level semantic families without a recorded governance decision.
 
 Naming note:
 
 - Figma variable names use slash-delimited paths, not dot-delimited names.
 - In `_Global: Color`, `Global: Typography`, and `Global: Dimensions`, the collection already defines the category, so variable names start at the child path (for example `universal/slate/50`, `universal/size/core/100`, `space/4`).
-- In `Semantic: Theme`, active paths are grouped under the top-level families `color`, `typography`, and `variables` (for example `color/surface/neutral/default`, `typography/family/heading`, `variables/assets/logo`).
+- In `Semantic: Theme`, active paths are grouped under the top-level families `color`, `typography`, `assets`, `components`, and `channel` (for example `color/surface/neutral/default`, `typography/family/heading`, `assets/brand`, `components/button/base/radius`, and `channel/email/components/hero/image`).
 
 ### Level 3: Channel
 
@@ -133,12 +138,19 @@ Rules:
 - `Global: Typography` is an approved published global exception.
 - Shared raw size ladders and approved channel-scoped raw size families may be publish-visible from `Global: Typography`.
 - Raw typography family and weight primitives remain hidden from publishing even though the collection is published.
+- Raw universal weight primitives use `universal/weight/written/<key>` for named weights and `universal/weight/numbered/<number>` for numeric weights.
+- Approved Ads raw size primitives use the current live path `universal/size/ad/<role>/profile_<profile>/<slot>`, such as `universal/size/ad/heading/profile_400/500`.
 - Brands without established typography guidance must not receive mirrored raw family or weight primitives in `Global: Typography`.
-- `Semantic: Theme` may carry channel-scoped typography size recipe aliases only when an accepted decision explicitly defines the scope, naming, and downstream use.
+- `Semantic: Theme` may carry channel-scoped typography size recipe aliases only when an accepted decision explicitly defines the scope, naming, and downstream use. Current Ads semantic size recipes live under `channel/ads/typography/size/*`.
 
 ### Exception: Dimensions
 
 Dimensions group all sizing related aspects and remain global first across channels.
+
+Rules:
+
+- `Global: Dimensions` includes the shared `space/*` and `radius/*` primitives.
+- `space/null`, `radius/null`, and `radius/round` are approved non-numeric global dimension primitives because live component helpers need explicit none and fully rounded selectors.
 
 ## Multi brand scope
 
@@ -203,14 +215,12 @@ When creating or updating a Semantic extension collection in the Design System f
    - Set overrides on the base semantic variables with:
      `baseVariable.setValueForMode(extensionModeId, figma.variables.createVariableAlias(sourceVariable))`
    - The override key is the base semantic variable ID, not a duplicate variable name inside a new collection.
-   - Before keeping an override, compare it to the base semantic value for the parent mode. If the extension would resolve to the same alias target or the same literal value as the base token, do not keep the override.
-   - Tokens must never override to themselves. Redundant same-target overrides must be removed so the extension inherits from the base.
+   - Tokens must never override to themselves.
 
 5. Verify through the extension collection object
    - Inspect `extensionCollection.variableOverrides` to confirm which base variables are overridden.
    - Use `await baseVariable.valuesByModeForCollectionAsync(extensionCollection)` to verify the extension-specific alias target.
    - Important: `valuesByModeForCollectionAsync()` expects the collection object, not the collection ID string.
-   - If a recorded override resolves to the same alias target or the same literal value as the base semantic token, remove it before ending the write.
    - Immediately query local variable collections for duplicate brand extension collections in the same semantic category.
    - If more than one extension collection exists for the same brand and parent category, stop and remove the stray duplicate before syncing repo state.
 

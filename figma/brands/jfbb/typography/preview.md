@@ -54,7 +54,7 @@ Proposed family token: `jfbb/family/01`
 
 Safe family token: `jfbb/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `universal/size/core/700`
 
@@ -73,7 +73,7 @@ Proposed family token: `jfbb/family/01`
 
 Safe family token: `jfbb/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/500`
 
@@ -92,7 +92,7 @@ Proposed family token: `jfbb/family/01`
 
 Safe family token: `jfbb/family_safe/02`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `universal/size/core/200`
 

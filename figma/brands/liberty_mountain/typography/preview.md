@@ -68,7 +68,7 @@ Proposed family token: `liberty_mountain/family/01`
 
 Safe family token: `liberty_mountain/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited`
 
@@ -87,7 +87,7 @@ Proposed family token: `liberty_mountain/family/01`
 
 Safe family token: `liberty_mountain/family_safe/01`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `inherited`
 
@@ -106,7 +106,7 @@ Proposed family token: `liberty_mountain/family/01`
 
 Safe family token: `liberty_mountain/family_safe/02`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `inherited`
 

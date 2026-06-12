@@ -181,7 +181,7 @@ semantic_recommendations:
     - color/border/brand_secondary
   global_only_families: []
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Mt. Brighton
     rationale: The semantic color extension stores the governed display label.
 live_figma_write:

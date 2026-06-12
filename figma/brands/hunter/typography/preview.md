@@ -68,7 +68,7 @@ Proposed family token: `hunter/family/01`
 
 Safe family token: `hunter/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -87,7 +87,7 @@ Proposed family token: `hunter/family/01`
 
 Safe family token: `hunter/family_safe/01`
 
-Proposed weight token: `universal/weight/semibold`
+Proposed weight token: `universal/weight/written/semibold`
 
 Proposed size token: `inherited current heading and body ladders`
 
@@ -106,7 +106,7 @@ Proposed family token: `hunter/family/01`
 
 Safe family token: `hunter/family_safe/01`
 
-Proposed weight token: `universal/weight/normal`
+Proposed weight token: `universal/weight/written/regular`
 
 Proposed size token: `inherited current body ladder`
 
@@ -125,7 +125,7 @@ Proposed family token: `hunter/family/01`
 
 Safe family token: `hunter/family_safe/01`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `inherited current body ladder`
 

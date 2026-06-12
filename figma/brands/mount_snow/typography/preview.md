@@ -54,7 +54,7 @@ Proposed family token: `mount_snow/family/01`
 
 Safe family token: `mount_snow/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `universal/size/core/700`
 
@@ -73,7 +73,7 @@ Proposed family token: `mount_snow/family/02`
 
 Safe family token: `mount_snow/family_safe/01`
 
-Proposed weight token: `universal/weight/black`
+Proposed weight token: `universal/weight/written/black`
 
 Proposed size token: `universal/size/core/500`
 
@@ -92,7 +92,7 @@ Proposed family token: `mount_snow/family/02`
 
 Safe family token: `mount_snow/family_safe/02`
 
-Proposed weight token: `universal/weight/medium`
+Proposed weight token: `universal/weight/written/medium`
 
 Proposed size token: `universal/size/core/200`
 

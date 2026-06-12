@@ -58,7 +58,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Crotched
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -103,7 +103,7 @@ semantic_overrides:
       - Exact black and white remain inherited through the shared neutral role recipes because the supplied palette matches `universal/black` and `universal/white`.
       - '`rocket_fuel` drives the primary expressive semantic lane, while `snow_gun` drives the secondary expressive lane.'
       - '`blue` and `purple` are governed global-only raw color families.'
-      - '`variables/assets/logo` is overridden to the string `Crotched` in the semantic theme extension even though the source logo guide also shows `Crotched Mountain` and `CrotchedMTN` lockups.'
+      - '`assets/brand` is overridden to the string `Crotched` in the semantic theme extension even though the source logo guide also shows `Crotched Mountain` and `CrotchedMTN` lockups.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading

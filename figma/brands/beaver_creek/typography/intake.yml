@@ -74,10 +74,10 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: Beaver Creek CTA and subheadline guidance explicitly calls for Bold.
     - source_weight_label: Light
-      existing_token: universal/weight/light
+      existing_token: universal/weight/written/light
       reason: Beaver Creek body and URL guidance explicitly calls for Light.
     sizes:
     - source_size_reference: headline default
@@ -125,7 +125,7 @@ primitive_recommendations:
       safe_family_note: Multiple approved role-level safe-family mappings apply to this brand family;
         use the semantic safe aliases and role recipes below.
     weights:
-    - token_name: universal/weight/thin
+    - token_name: universal/weight/written/thin
       source_weight_label: Thin
       proposed_value: '200'
       rationale: Beaver Creek introduces a repeated Thin display weight that should be preserved as a
@@ -177,21 +177,21 @@ semantic_recommendations:
       is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/thin
+    global_token: universal/weight/written/thin
     intended_channels:
     - web
     - email
     - ads
     notes: Beaver Creek headlines explicitly use Thin.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/light
+    global_token: universal/weight/written/light
     intended_channels:
     - web
     - email
     - ads
     notes: Body copy explicitly uses Light.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
@@ -202,7 +202,7 @@ role_recipes:
 - role_name: headline
   source_role: Headlines | IvyPresto Display Thin
   proposed_family_token: beaver_creek/family/01
-  proposed_weight_token: universal/weight/thin
+  proposed_weight_token: universal/weight/written/thin
   proposed_size_token: universal/size/core/700
   size_assumption_status: assumed
   text_case: not specified in source
@@ -216,7 +216,7 @@ role_recipes:
 - role_name: subhead_or_cta
   source_role: CTA / Subheadlines | Vinila Condensed Bold
   proposed_family_token: beaver_creek/family/03
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: universal/size/core/400
   size_assumption_status: assumed
   text_case: not specified in source
@@ -230,7 +230,7 @@ role_recipes:
 - role_name: body
   source_role: Body Copy | Vinila Light
   proposed_family_token: beaver_creek/family/02
-  proposed_weight_token: universal/weight/light
+  proposed_weight_token: universal/weight/written/light
   proposed_size_token: universal/size/core/200
   size_assumption_status: assumed
   text_case: not specified in source
@@ -244,7 +244,7 @@ role_recipes:
 - role_name: url
   source_role: URL | Vinila Condensed Light
   proposed_family_token: beaver_creek/family/03
-  proposed_weight_token: universal/weight/light
+  proposed_weight_token: universal/weight/written/light
   proposed_size_token: universal/size/core/100
   size_assumption_status: assumed
   text_case: mixed_case
@@ -263,7 +263,7 @@ validation:
   - Beaver Creek uses one condensed family in both Bold and Light, so the URL treatment is preserved as
     a raw recipe rather than creating a new semantic family lane.
   governance_notes:
-  - '`universal/weight/thin` is staged as the one new shared raw weight needed to preserve the Beaver
+  - '`universal/weight/written/thin` is staged as the one new shared raw weight needed to preserve the Beaver
     Creek display system faithfully.'
   - The first Beaver Creek typography pass keeps semantic size aliases inherited from the shared baseline.
   - Brand-safe typography aliases now stage on `beaver_creek/family_safe/*` from Vail Resorts Guidelines.pdf.

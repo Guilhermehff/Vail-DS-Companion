@@ -68,7 +68,7 @@ Proposed family token: `beaver_creek/family/01`
 
 Safe family token: `beaver_creek/family_safe/02`
 
-Proposed weight token: `universal/weight/thin`
+Proposed weight token: `universal/weight/written/thin`
 
 Proposed size token: `universal/size/core/700`
 
@@ -87,7 +87,7 @@ Proposed family token: `beaver_creek/family/03`
 
 Safe family token: `beaver_creek/family_safe/02`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `universal/size/core/400`
 
@@ -106,7 +106,7 @@ Proposed family token: `beaver_creek/family/02`
 
 Safe family token: `beaver_creek/family_safe/01`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `universal/size/core/200`
 
@@ -125,7 +125,7 @@ Proposed family token: `beaver_creek/family/03`
 
 Safe family token: `beaver_creek/family_safe/01`
 
-Proposed weight token: `universal/weight/light`
+Proposed weight token: `universal/weight/written/light`
 
 Proposed size token: `universal/size/core/100`
 

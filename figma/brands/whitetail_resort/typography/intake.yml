@@ -53,7 +53,7 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Regular
-      existing_token: universal/weight/normal
+      existing_token: universal/weight/written/regular
       reason: Andes is documented without a distinct governed weight in the PDF, so the first pass uses
         the shared normal weight token.
     sizes:
@@ -114,33 +114,33 @@ semantic_recommendations:
     notes: Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
   - semantic_token: typography/weight/heading/strong
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
   - semantic_token: typography/weight/body/strong
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/normal
+    global_token: universal/weight/written/regular
   size_aliases: []
 role_recipes:
 - role_name: heading
   source_role: Andes
   proposed_family_token: whitetail_resort/family/01
-  proposed_weight_token: universal/weight/normal
+  proposed_weight_token: universal/weight/written/regular
   proposed_size_token: inherited current heading ladder
   safe_family_token: whitetail_resort/family_safe/01
 - role_name: body
   source_role: Andes
   proposed_family_token: whitetail_resort/family/01
-  proposed_weight_token: universal/weight/normal
+  proposed_weight_token: universal/weight/written/regular
   proposed_size_token: inherited current body ladder
   safe_family_token: whitetail_resort/family_safe/02
 - role_name: action
   source_role: derived from the shared Andes family because the PDF does not define a separate CTA lane
   proposed_family_token: whitetail_resort/family/01
-  proposed_weight_token: universal/weight/normal
+  proposed_weight_token: universal/weight/written/regular
   proposed_size_token: inherited current action ladder
   safe_family_token: whitetail_resort/family_safe/01
 validation:

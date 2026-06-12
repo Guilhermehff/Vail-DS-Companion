@@ -100,7 +100,7 @@ semantic_recommendations:
     rationale: The live secondary expressive lane follows the same Boston Mills neutral family rather than a separate hue family.
   global_only_families: []
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Boston Mills / Brandywine
 live_figma_write:
   semantic_extension_id: VariableCollectionId:205:807

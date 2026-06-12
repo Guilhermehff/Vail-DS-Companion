@@ -60,7 +60,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: JFBB
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -105,7 +105,7 @@ semantic_overrides:
       - Snow Day drives the light neutral surface system, while Last Chair supplies the readable dark neutral roles so the brand keeps the supplied icy-background and navy-type pairing.
       - The reviewed expressive semantic lanes use Early Sunrise as `brand/*` and Bluebird as `brand_secondary/*`.
       - Frost and Night Ski remain governed global-only extra families after the first semantic pass.
-      - '`variables/assets/logo` is overridden to the string `JFBB` in the semantic theme extension.'
+      - '`assets/brand` is overridden to the string `JFBB` in the semantic theme extension.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading
@@ -113,11 +113,11 @@ semantic_overrides:
       - semantic_token: typography/family/body
         alias_of: jfbb/family/01
       - semantic_token: typography/weight/heading/base
-        alias_of: universal/weight/black
+        alias_of: universal/weight/written/black
       - semantic_token: typography/weight/body/base
-        alias_of: universal/weight/normal
+        alias_of: universal/weight/written/regular
       - semantic_token: typography/weight/body/strong
-        alias_of: universal/weight/bold
+        alias_of: universal/weight/written/bold
       - semantic_token: typography/family/heading_safe
         alias_of: jfbb/family_safe/01
       - semantic_token: typography/family/body_safe
@@ -130,7 +130,7 @@ semantic_overrides:
       - typography/weight/action/base
       notes:
       - JFBB uses one raw family, Vista Sans NAR OTCE, across headline, subheadline, and body roles, with weight carrying the hierarchy.
-      - '`Book` stages on `universal/weight/normal` because the shared raw ladder has no separate book primitive.'
+      - '`Book` stages on `universal/weight/written/regular` because the shared raw ladder has no separate book primitive.'
       - 'The source body-leading example is internally inconsistent (`100px difference` / `24px / 124px`), so typography size continues to bind the published shared `Global: Typography` ladder.'
       - Brand-safe typography aliases now stage on `jfbb/family_safe/*` from Vail Resorts Guidelines.pdf.
 notes:

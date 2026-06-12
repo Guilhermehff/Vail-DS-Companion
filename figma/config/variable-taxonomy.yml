@@ -1,5 +1,5 @@
-version: 14
-updated: 2026-04-16
+version: 16
+updated: 2026-06-12
 owner: vail_resorts
 scope:
   purpose: Token naming and structure rules for the Vail Resorts Design System
@@ -68,9 +68,9 @@ token_levels:
       - Brand-specific differences should be expressed only in the brand extension collection for `Semantic: Theme`.
       - A semantic extension should override only the tokens that materially differ from the shared universal baseline.
       - Brands without established typography guidance must inherit semantic typography family and weight aliases from the shared base without extension overrides.
-      - Semantic extensions must not store same-target overrides. If an extension resolves to the same alias target or the same literal value as the base semantic token, it must inherit from the base instead.
-      - Semantic naming must stay channel-agnostic while supporting laddering into channel meaning unless an accepted decision explicitly approves a channel-scoped recipe exception.
+      - Semantic naming must stay channel-agnostic for `color/*` and `typography/*` while supporting approved universal and channel-scoped exception namespaces.
       - Semantic typography at this layer includes family and weight by default. Typography size is published directly from `Global: Typography` unless an accepted decision approves a channel-scoped semantic size recipe.
+      - "`assets/*`, `components/*`, and `channel/*` are approved top-level semantic namespaces and must remain governed, purpose-specific, and limited to approved exception domains."
     ladder_examples:
       - "universal/slate/300 -> color/surface/neutral/default -> background/module/default"
       - "universal/green/700 -> color/surface/brand_secondary/strong -> background/promo/default"
@@ -79,15 +79,18 @@ token_levels:
       - "vail/family/01 -> typography/family/heading -> typography/heading/display"
       - "vail/family/02 -> typography/family/body -> typography/body/default"
       - "universal/family_safe/01 -> typography/family/body_safe -> typography/body/email"
-      - "universal/weight/black -> typography/weight/heading/strong -> typography/heading/display"
+      - "universal/weight/written/black -> typography/weight/heading/strong -> typography/heading/display"
     naming:
       format: "<semantic_role_path>"
       notes:
         - semantic role paths are slash-delimited and stable across channels.
-        - semantic theme groups paths by foundation family at the top level, including `color/*`, `typography/*`, and `variables/*`.
+        - semantic theme groups paths by approved top-level families, including `color/*`, `typography/*`, `assets/*`, `components/*`, and `channel/*`.
         - semantic color uses role groups such as `color/surface`, `color/on_surface`, `color/foreground`, and `color/border`.
         - semantic `color/on_surface/*` tokens are readability-driven and must alias universal neutral primitives chosen by contrast against their paired surface.
         - semantic theme typography keeps role-based paths such as typography/family/heading and typography/weight/heading/base.
+        - "`assets/*` is reserved for universal semantic asset selectors."
+        - "`components/*` is reserved for universal semantic component helper tokens."
+        - "`channel/*` is reserved for approved channel-scoped semantic exceptions such as Email and Ads."
       examples:
         - color/surface/neutral/default
         - color/on_surface/brand/default
@@ -97,6 +100,9 @@ token_levels:
         - typography/family/body_safe
         - typography/weight/body/base
         - typography/weight/heading/strong
+        - assets/brand
+        - components/button/base/radius
+        - channel/email/components/hero/image
 
   channel:
     description: Final meaning and usage per channel file
@@ -138,6 +144,7 @@ exceptions:
       - Use a single global space ladder at the raw level; sizing meaning is assigned later.
       - "`Global: Dimensions` is intentionally published as a library-visible exception to the default `_Global: *` rule."
       - Global dimensions start at 0_5 and do not include 0 or px.
+      - "`space/null`, `radius/null`, and `radius/round` are approved non-numeric primitives for none and fully rounded selectors used by live component helpers."
       - Do not create `Semantic: Dimensions` by default; introduce it only after repeated cross-channel alias roles justify it and record that decision first.
       - If `Semantic: Dimensions` is introduced later, it must remain universal and must not use brand extensions.
       - Responsive spacing variation belongs in channel collections, not in global or semantic dimensions.
@@ -223,11 +230,11 @@ brand_color_foundations:
       - northstar/copper/500
     source_anchor_notation:
       format: "<step>_source"
-      scope: documentation_only
+      scope: live_figma_and_documentation
       notes:
-        - Use this suffix in YAML or Markdown artifacts to mark the exact source-provided brand swatch within the scale.
-        - Keep Figma global variable names on the clean numeric scale only; do not create duplicate raw variables only to label the anchor.
-        - Example: token vail/navy/500 with anchor label 500_source.
+        - Use this suffix in live Figma variable names and YAML or Markdown artifacts to mark the exact source-provided brand swatch within the scale.
+        - Keep only one token for the anchored step; do not create both a clean numeric token and a `_source` duplicate for the same step in the same family.
+        - "Example: `vail/navy/700_source`."
   scale_rules:
     working_space: OKLCH
     required_steps:
@@ -304,7 +311,7 @@ semantic_theme_color_aliases:
     base_collection: "Semantic: Theme"
     base_mode: Default
     brand_extension_format: "<Brand>"
-    brand_extension_rule: The base collection defines shared neutral, expressive, inverse, and asset role sets. Brand extensions override only the neutral, brand, and brand_secondary role groups that materially differ from the shared universal baseline, including their `_inverse` companions, plus `variables/assets/logo` when that base token is present. Do not persist an override when it resolves to the same alias target or the same literal value as the base semantic token. A third brand family stays global-only until another accepted decision promotes it into semantic.
+    brand_extension_rule: The base collection defines shared neutral, expressive, inverse, and asset role sets. Brand extensions override neutral, brand, brand_secondary, asset, component-helper, and channel-scoped semantic exception roles as needed by the live Figma schema. A third brand family stays global-only until another accepted decision promotes it into semantic.
   neutral_role_set:
     surfaces:
       - canvas
@@ -340,7 +347,8 @@ semantic_theme_color_aliases:
     - color/foreground/brand_secondary
     - color/foreground/brand_secondary_inverse
   asset_tokens:
-    - variables/assets/logo
+    - assets/brand
+    - assets/image_corner
   border_tokens:
     - color/border/default
     - color/border/default_inverse
@@ -350,6 +358,33 @@ semantic_theme_color_aliases:
     - color/border/brand_inverse
     - color/border/brand_secondary
     - color/border/brand_secondary_inverse
+  accent_on_surface_tokens:
+    - color/on_surface_accent/brand/default
+    - color/on_surface_accent/brand_secondary/default
+  component_helper_tokens:
+    - components/button/base/radius
+    - components/button/base/border
+    - components/button/base/shadow
+    - components/button/on_neutral/surface
+    - components/button/on_neutral/foreground
+    - components/button/on_neutral/border
+    - components/button/on_primary/surface
+    - components/button/on_primary/foreground
+    - components/button/on_primary/border
+    - components/button/on_secondary/surface
+    - components/button/on_secondary/foreground
+    - components/button/on_secondary/border
+  channel_scoped_exception_tokens:
+    ads:
+      - channel/ads/typography/size/heading/*
+      - channel/ads/typography/size/subhead/*
+      - channel/ads/typography/size/action/*
+      - channel/ads/dimensions/image/padding/*
+    email:
+      - channel/email/components/footer/*
+      - channel/email/components/hero/*
+      - channel/email/components/navbar/*
+      - channel/email/components/pass/*
   examples:
     - color/surface/neutral/default
     - color/surface/neutral/default_inverse
@@ -363,12 +398,16 @@ semantic_theme_color_aliases:
     - color/foreground/brand_inverse
     - color/border/subtle
     - color/border/subtle_inverse
+    - color/on_surface_accent/brand/default
+    - assets/image_corner
+    - components/button/base/radius
+    - channel/ads/typography/size/heading/md
   notes:
     - Semantic theme color is role-based and channel-agnostic; do not encode hover, pressed, or component names in this layer.
     - The `_inverse` suffix is the governed semantic polarity companion naming convention.
     - "`color/on_surface/*` must be verified against the paired semantic surface at write time and resolved to `universal/black` or `universal/white` based on contrast."
     - Brand-specific families used as structural surfaces should override the neutral role set before they are considered for brand or brand_secondary.
-    - "`variables/assets/logo` is a governed string token in the base semantic theme collection and should be overridden in each brand extension to the brand display name."
+    - "`assets/brand` is a governed string token in the base semantic theme collection and should be overridden in each brand extension to the brand display name when a brand-specific semantic extension needs that selector."
     - Channel libraries own usage-first naming such as background/action/default, text/body/default, and border/input/default.
 
 brand_typography_foundations:
@@ -423,32 +462,36 @@ brand_typography_foundations:
         - vail/family_safe/01
         - beaver_creek/family_safe/02
     weight_naming:
-      format: "<group>/weight/<weight_key>"
+      format: "<group>/weight/written/<weight_key> | <group>/weight/numbered/<numeric_weight>"
       notes:
         - weight tokens are raw numeric values and should reuse universal tokens whenever possible.
-        - use universal/weight/black for the 800 raw weight and universal/weight/heavy for the 900 raw weight.
-        - use universal/weight/heavy when a source specifies Heavy or a 900 style without a separate numeric exception.
+        - use `universal/weight/written/*` for named weight primitives.
+        - use `universal/weight/numbered/*` for numeric weight primitives when the number itself is the governed selector.
+        - use `universal/weight/written/black` for the 800 raw weight and `universal/weight/written/heavy` for the 900 raw weight.
+        - use `universal/weight/written/heavy` when a source specifies Heavy or a 900 style without a separate numeric exception.
         - add a brand-specific weight token only if the value or mapping is truly brand-specific and cannot be governed universally.
       examples:
-        - universal/weight/medium
-        - universal/weight/black
-        - universal/weight/heavy
+        - universal/weight/written/medium
+        - universal/weight/written/black
+        - universal/weight/numbered/900
     size_naming:
       format: "universal/size/<family>/<step_or_slot>"
       notes:
         - continue using the shared universal size ladder for general raw sizes as `universal/size/core/<step>`.
         - use additional families under `universal/size/<family>/...` only when an accepted decision explicitly defines the family, downstream use, and publication scope.
-        - the approved Ads family is `universal/size/ad/<scale>/<slot>`.
+        - the approved Ads family is `universal/size/ad/<role>/profile_<profile>/<slot>`.
         - if a source guide only provides relational size rules, preserve the relation in role recipes and map the working assumption to an existing universal size token or to an approved channel-scoped raw size family.
   theme_family_aliases:
     collection_strategy:
       base_collection: "Semantic: Theme"
-      base_mode: values
+      base_mode: Default
       brand_extension_format: "<Brand>"
       brand_extension_rule: The base collection aliases universal families. Each brand extension overrides only the semantic tokens that differ for that brand.
     default_tokens:
       - typography/family/heading
       - typography/family/heading_safe
+      - typography/family/subhead
+      - typography/family/subhead_safe
       - typography/family/body
       - typography/family/body_safe
       - typography/family/action
@@ -460,12 +503,13 @@ brand_typography_foundations:
   theme_weight_aliases:
     collection_strategy:
       base_collection: "Semantic: Theme"
-      base_mode: values
+      base_mode: Default
       brand_extension_format: "<Brand>"
       brand_extension_rule: Keep weight aliases in the base collection unless a brand-specific semantic override is explicitly approved.
     format: "typography/weight/<role>/<emphasis_step>"
     recommended_roles:
       - heading
+      - subhead
       - body
       - action
     default_emphasis_steps:
@@ -481,6 +525,20 @@ brand_typography_foundations:
       - semantic theme weight aliases are role-scoped and meaning-light; they map approved role recipes to universal raw weights.
       - do not force every role to use every emphasis step; create only the steps that are actually needed.
       - do not add safe weight aliases; constrained-channel safety is handled at the family layer.
+  theme_letter_case_aliases:
+    collection_strategy:
+      base_collection: "Semantic: Theme"
+      base_mode: Default
+      brand_extension_format: "<Brand>"
+      brand_extension_rule: Brand extensions may override letter-case booleans when source typography rules require role-specific uppercase or as-typed behavior.
+    format: "typography/letter_case/<role>/<case_behavior>"
+    default_tokens:
+      - typography/letter_case/heading/uppercase
+      - typography/letter_case/heading/as_typed
+      - typography/letter_case/subhead/uppercase
+      - typography/letter_case/subhead/as_typed
+      - typography/letter_case/action/uppercase
+      - typography/letter_case/action/as_typed
   published_global_size_ladder:
     collection_strategy:
       base_collection: "Global: Typography"
@@ -495,35 +553,65 @@ brand_typography_foundations:
       - universal/size/core/600
       - universal/size/core/700
       - universal/size/core/800
-      - universal/size/ad/0_75/01
-      - universal/size/ad/0_75/02
-      - universal/size/ad/0_75/03
-      - universal/size/ad/0_75/04
-      - universal/size/ad/0_75/05
-      - universal/size/ad/0_875/01
-      - universal/size/ad/0_875/02
-      - universal/size/ad/0_875/03
-      - universal/size/ad/0_875/04
-      - universal/size/ad/0_875/05
-      - universal/size/ad/base/01
-      - universal/size/ad/base/02
-      - universal/size/ad/base/03
-      - universal/size/ad/base/04
-      - universal/size/ad/base/05
-      - universal/size/ad/1_125/01
-      - universal/size/ad/1_125/02
-      - universal/size/ad/1_125/03
-      - universal/size/ad/1_125/04
-      - universal/size/ad/1_125/05
-      - universal/size/ad/1_375/01
-      - universal/size/ad/1_375/02
-      - universal/size/ad/1_375/03
-      - universal/size/ad/1_375/04
-      - universal/size/ad/1_375/05
+      - universal/size/ad/heading/profile_100/100
+      - universal/size/ad/heading/profile_100/200
+      - universal/size/ad/heading/profile_100/300
+      - universal/size/ad/heading/profile_100/400
+      - universal/size/ad/heading/profile_100/500
+      - universal/size/ad/heading/profile_100/600
+      - universal/size/ad/heading/profile_200/100
+      - universal/size/ad/heading/profile_200/200
+      - universal/size/ad/heading/profile_200/300
+      - universal/size/ad/heading/profile_200/400
+      - universal/size/ad/heading/profile_200/500
+      - universal/size/ad/heading/profile_200/600
+      - universal/size/ad/heading/profile_300/100
+      - universal/size/ad/heading/profile_300/200
+      - universal/size/ad/heading/profile_300/300
+      - universal/size/ad/heading/profile_300/400
+      - universal/size/ad/heading/profile_300/500
+      - universal/size/ad/heading/profile_300/600
+      - universal/size/ad/heading/profile_400/100
+      - universal/size/ad/heading/profile_400/200
+      - universal/size/ad/heading/profile_400/300
+      - universal/size/ad/heading/profile_400/400
+      - universal/size/ad/heading/profile_400/500
+      - universal/size/ad/heading/profile_400/600
+      - universal/size/ad/heading/profile_500/100
+      - universal/size/ad/heading/profile_500/200
+      - universal/size/ad/heading/profile_500/300
+      - universal/size/ad/heading/profile_500/400
+      - universal/size/ad/heading/profile_500/500
+      - universal/size/ad/heading/profile_500/600
+      - universal/size/ad/subhead/profile_100/100
+      - universal/size/ad/subhead/profile_100/200
+      - universal/size/ad/subhead/profile_200/100
+      - universal/size/ad/subhead/profile_200/200
+      - universal/size/ad/subhead/profile_300/100
+      - universal/size/ad/subhead/profile_300/200
+      - universal/size/ad/subhead/profile_400/100
+      - universal/size/ad/subhead/profile_400/200
+      - universal/size/ad/action/profile_100/100
+      - universal/size/ad/action/profile_100/200
+      - universal/size/ad/action/profile_100/300
+      - universal/size/ad/action/profile_100/400
+      - universal/size/ad/action/profile_200/100
+      - universal/size/ad/action/profile_200/200
+      - universal/size/ad/action/profile_200/300
+      - universal/size/ad/action/profile_200/400
+      - universal/size/ad/action/profile_300/100
+      - universal/size/ad/action/profile_300/200
+      - universal/size/ad/action/profile_300/300
+      - universal/size/ad/action/profile_300/400
+      - universal/size/ad/action/profile_400/100
+      - universal/size/ad/action/profile_400/200
+      - universal/size/ad/action/profile_400/300
+      - universal/size/ad/action/profile_400/400
     notes:
       - published typography sizes stay on the shared universal size ladder unless an accepted decision approves an additional published raw size family.
       - channel text styles bind size directly from `Global: Typography` unless they intentionally consume an approved channel-scoped semantic size recipe.
       - do not create general semantic size aliases in `Semantic: Theme`; only accepted channel-scoped exceptions are allowed.
+      - current Ads semantic size recipes live under `channel/ads/typography/size/<role>/<step>`.
   role_recipe_rules:
     description: Usage-bearing typography specs that later become channel styles
     required_fields:
@@ -583,7 +671,6 @@ review_checks:
   - Flag names that encode temporary migration context.
   - Flag duplicated values with inconsistent semantic names.
   - Flag semantic tokens that resolve to different primitives without using semantic extended collections.
-  - Flag extension manifests that restate inherited base aliases without changing the target primitive.
   - Flag channel tokens created in the DS file instead of the channel file.
   - "Flag global collections that do not use the `_Global: *` pattern unless they are the approved published exceptions `Global: Typography` or `Global: Dimensions`."
   - Flag global collections whose default mode is not named values.
@@ -591,7 +678,7 @@ review_checks:
   - Flag writes performed without confirming the target file.
   - Flag brand-specific duplicates of universal/white or universal/black.
   - Flag brand color families that do not use the standard 100 to 900 scale.
-  - Flag brand color artifacts that omit the documented source anchor step.
+  - Flag brand color artifacts that omit the documented live source anchor step when a `_source` token exists.
   - Flag 900 brand color steps that do not meet the white-contrast requirement.
   - Flag brand color proposals that do not include a preview artifact before write.
   - Flag brand color artifacts that do not preserve the original source swatches in both intake and preview.

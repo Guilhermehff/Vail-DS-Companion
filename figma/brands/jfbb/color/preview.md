@@ -183,7 +183,7 @@ Source anchor: `900_source`
   Default foreground needs the same brand navy used across the supplied hierarchy sheet.
 - `color/foreground/subtle` -> `jfbb/last_chair/800`
   Subtle neutral foreground keeps a softer navy tone without leaving the brand palette.
-- `variables/assets/logo` -> `JFBB`
+- `assets/brand` -> `JFBB`
   The semantic color extension overrides the shared logo string to the JFBB brand name.
 
 ## Review Readiness

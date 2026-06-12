@@ -82,7 +82,7 @@ Source anchor: `500_source`
 - `color/surface/neutral/*`, `color/on_surface/neutral/*`, `color/foreground/default`, `color/foreground/subtle`, `color/border/default`, `color/border/subtle` -> `wilmot/wilmot_grey`
 - `color/surface/brand/*`, `color/on_surface/brand/*`, `color/foreground/brand`, `color/border/brand` -> `wilmot/wilmot_red`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `wilmot/wilmot_rose`
-- `variables/assets/logo` -> `Wilmot`
+- `assets/brand` -> `Wilmot`
   The semantic color extension stores the governed display label.
 
 ## Review Readiness

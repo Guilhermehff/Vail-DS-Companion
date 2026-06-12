@@ -72,10 +72,10 @@ primitive_recommendations:
     families: []
     weights:
     - source_weight_label: Bold
-      existing_token: universal/weight/bold
+      existing_token: universal/weight/written/bold
       reason: Headlines, CTA, and the condensed subhead face all explicitly use bold treatments.
     - source_weight_label: Light
-      existing_token: universal/weight/light
+      existing_token: universal/weight/written/light
       reason: Body copy explicitly uses Light.
     sizes:
     - source_size_reference: headline default
@@ -162,21 +162,21 @@ semantic_recommendations:
       Safe mapping is staged from Vail Resorts Guidelines.pdf.
   weight_aliases:
   - semantic_token: typography/weight/heading/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
     - ads
     notes: Headlines explicitly use Bold.
   - semantic_token: typography/weight/body/base
-    global_token: universal/weight/light
+    global_token: universal/weight/written/light
     intended_channels:
     - web
     - email
     - ads
     notes: Body copy explicitly uses Light.
   - semantic_token: typography/weight/action/base
-    global_token: universal/weight/bold
+    global_token: universal/weight/written/bold
     intended_channels:
     - web
     - email
@@ -187,7 +187,7 @@ role_recipes:
 - role_name: headline
   source_role: Headline | Futura Std Bold
   proposed_family_token: park_city/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: all_caps
@@ -201,7 +201,7 @@ role_recipes:
 - role_name: subhead
   source_role: Subhead | Trade Gothic LT Std Bold Condensed No. 20
   proposed_family_token: park_city/family/02
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current heading ladder
   size_assumption_status: deferred_no_new_size
   text_case: all_caps
@@ -216,7 +216,7 @@ role_recipes:
 - role_name: body
   source_role: Body Copy | Futura Std Light
   proposed_family_token: park_city/family/01
-  proposed_weight_token: universal/weight/light
+  proposed_weight_token: universal/weight/written/light
   proposed_size_token: inherited current body ladder
   size_assumption_status: deferred_no_new_size
   text_case: sentence_case
@@ -230,7 +230,7 @@ role_recipes:
 - role_name: cta
   source_role: CTA | Futura Std Bold
   proposed_family_token: park_city/family/01
-  proposed_weight_token: universal/weight/bold
+  proposed_weight_token: universal/weight/written/bold
   proposed_size_token: inherited current action ladder
   size_assumption_status: deferred_no_new_size
   text_case: all_caps

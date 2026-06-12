@@ -45,7 +45,7 @@ Source anchors: `700_source / 900_source`
   The brand border lane is no longer treated as shared black.
 - Scope: `on_surface/brand/*` -> `universal/white`
   Contrast text remains shared and is not hue-tinted.
-- `variables/assets/logo` -> `Boston Mills / Brandywine`
+- `assets/brand` -> `Boston Mills / Brandywine`
 
 ## Review Readiness
 

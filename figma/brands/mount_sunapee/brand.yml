@@ -61,7 +61,7 @@ semantic_overrides:
       - scope: asset_logo
         source_value: Mount Sunapee
         targets:
-        - variables/assets/logo
+        - assets/brand
       inherited_from_base:
       - color/surface/neutral/*
       - color/surface/neutral/*_inverse
@@ -107,7 +107,7 @@ semantic_overrides:
       - User-approved live write. `sunapee_neutral` absorbs Snow Gun, Verde Slate, and Lake Sunapee into one structural family because the source usage guidance gives the white canvas, the dark Lake block, and the muted support tones more structural weight than a classic gray-neutral system.
       - User-approved live write. `color/surface/brand/default`, `color/surface/brand/strong`, and `color/surface/brand/emphasis` stage on `mount_sunapee/cold_wax/700`, `800`, and `900` so the shared white on-surface contract holds on brand surfaces.
       - User-approved live write. `color/surface/brand_secondary/default`, `color/surface/brand_secondary/strong`, and `color/surface/brand_secondary/emphasis` stage on `mount_sunapee/golden_hour/600`, `700`, and `800` so the supporting expressive lane also holds the shared white on-surface contract.
-      - '`variables/assets/logo` resolves to the string `Mount Sunapee` in the semantic theme extension.'
+      - '`assets/brand` resolves to the string `Mount Sunapee` in the semantic theme extension.'
     typography:
       override_scopes:
       - semantic_token: typography/family/heading
@@ -117,9 +117,9 @@ semantic_overrides:
       - semantic_token: typography/family/action
         alias_of: mount_sunapee/family/01
       - semantic_token: typography/weight/body/base
-        alias_of: universal/weight/light
+        alias_of: universal/weight/written/light
       - semantic_token: typography/weight/body/strong
-        alias_of: universal/weight/normal
+        alias_of: universal/weight/written/regular
       - semantic_token: typography/family/heading_safe
         alias_of: mount_sunapee/family_safe/01
       - semantic_token: typography/family/body_safe
@@ -133,7 +133,7 @@ semantic_overrides:
       notes:
       - Mount Sunapee is live as a Graphik-led typography system with `typography/family/heading` and `typography/family/body` both mapped to `mount_sunapee/family/01`.
       - User-approved live write. `Neutraface Text` is preserved as the raw `mount_sunapee/family/02` primitive because the current semantic theme typography schema has no dedicated subhead family lane.
-      - '`typography/weight/body/base = universal/weight/light` and `typography/weight/body/strong = universal/weight/normal` stage the explicit body hierarchy through the current semantic theme typography ladder, while heading weights inherit from base.'
+      - '`typography/weight/body/base = universal/weight/written/light` and `typography/weight/body/strong = universal/weight/written/regular` stage the explicit body hierarchy through the current semantic theme typography ladder, while heading weights inherit from base.'
       - The source does not define a distinct CTA weight recipe, so `typography/family/action` follows the shared Graphik family while `typography/weight/action/*` remains inherited in the live semantic extension.
       - Brand-safe typography aliases now stage on `mount_sunapee/family_safe/*` from Vail Resorts Guidelines.pdf.
       - Ads heading size now stages on the 1.125x row in the approved row-order mapping.

@@ -110,8 +110,8 @@ Source anchor: `700_source`
   The live secondary expressive lane resolves through `meadow_yellow`.
 - Global-only family: `afton_alps/bluff_gray`
   This family is live in Figma but is not currently part of the live semantic mapping.
-- `variables/assets/logo` -> `Afton Alps`
-  The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension overrides it to the brand display name string.
+- `assets/brand` -> `Afton Alps`
+  The live `Semantic: Theme` schema includes `assets/brand`, and each brand extension overrides it to the brand display name string.
 
 ## Review Readiness
 

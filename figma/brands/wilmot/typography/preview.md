@@ -77,7 +77,7 @@ Proposed family token: `wilmot/family/01`
 
 Safe family token: `wilmot/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current heading ladder`
 
@@ -90,7 +90,7 @@ Proposed family token: `wilmot/family/02`
 
 Safe family token: `wilmot/family_safe/02`
 
-Proposed weight token: `universal/weight/medium`
+Proposed weight token: `universal/weight/written/medium`
 
 Proposed size token: `inherited current body ladder`
 
@@ -103,7 +103,7 @@ Proposed family token: `wilmot/family/01`
 
 Safe family token: `wilmot/family_safe/01`
 
-Proposed weight token: `universal/weight/bold`
+Proposed weight token: `universal/weight/written/bold`
 
 Proposed size token: `inherited current action ladder`
 

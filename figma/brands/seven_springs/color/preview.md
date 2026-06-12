@@ -137,8 +137,8 @@ Source anchor: `400_source`
 - `color/surface/brand_secondary/*`, `color/on_surface/brand_secondary/*`, `color/foreground/brand_secondary`, `color/border/brand_secondary` -> `seven_springs/tupelo`
   Approved live write. Tupelo is the separate dark green family for the `brand_secondary/*` lane.
 - Global-only families: `seven_springs/wildin_yellow/*`
-- `variables/assets/logo` -> `Seven Springs`
-  The live `Semantic: Theme` schema includes `variables/assets/logo`, and each brand extension should override it to the brand display name string.
+- `assets/brand` -> `Seven Springs`
+  The live `Semantic: Theme` schema includes `assets/brand`, and each brand extension should override it to the brand display name string.
 
 ## Review Readiness
 

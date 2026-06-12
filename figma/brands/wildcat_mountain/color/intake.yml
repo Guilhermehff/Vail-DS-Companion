@@ -175,7 +175,7 @@ semantic_recommendations:
   global_only_families:
   - wildcat_mountain/wildcat_tan
   role_exceptions:
-  - target: variables/assets/logo
+  - target: assets/brand
     source_token: Wildcat Mountain
 review_readiness:
   review_rules:

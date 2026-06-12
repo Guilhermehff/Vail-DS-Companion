@@ -80,7 +80,7 @@ Source anchor: `100_source`
 - Scope: `brand_secondary` -> `snow_creek/tagline_gold`
   Tagline Gold drives the supporting expressive lane.
 - Global-only families: `snow_creek/snow_white`
-- `variables/assets/logo` -> `Snow Creek`
+- `assets/brand` -> `Snow Creek`
 
 ## Review Readiness
 
